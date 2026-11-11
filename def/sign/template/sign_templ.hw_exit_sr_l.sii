@@ -1,0 +1,205 @@
+SiiNunit
+{
+sign_template : _nameless.44b.fd10 {
+ template_name: "hw exit sr left"
+ model_name: 1478
+ stand_model_name: ""
+ traffic_rule: null
+ boards: 0
+ items: 10
+ items[0]: _nameless.57f.ae50
+ items[1]: _nameless.585.0000
+ items[2]: _nameless.585.0d10
+ items[3]: _nameless.1.1f9e.b9b0
+ items[4]: _nameless.1.0b34.fff0
+ items[5]: _nameless.57f.b480
+ items[6]: _nameless.57f.ab80
+ items[7]: _nameless.585.0370
+ items[8]: _nameless.fb78.4e60
+ items[9]: _nameless.e5fd.2560
+ dynamic_attributes: 0
+}
+
+sign_template_frame : _nameless.57f.ae50 {
+ frame_path: "/def/sign/frame/green_rounded_alpha_swe.sii"
+ color: 16777215
+ opacity: 1
+ id: 3231055870
+ area_name: ml1
+ area_idx: nil
+ coords_l: &3fda967f
+ coords_r: &404db93a
+ coords_t: &4036147e
+ coords_b: &4006b00a
+ z_order: 1
+}
+
+sign_template_text : _nameless.585.0000 {
+ text: E20
+ font_face: "/font/sign/swe.font"
+ font_size: &3f28f5c3
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3d4ccccd
+ id: 3772252158
+ area_name: ml1
+ area_idx: nil
+ coords_l: &3fda967f
+ coords_r: &404db93a
+ coords_t: &402f38e6
+ coords_b: &400cc482
+ z_order: 2
+}
+
+sign_template_text : _nameless.585.0d10 {
+ text: "G\xc3\x96TEBORG"
+ font_face: "/font/sign/swe.font"
+ font_size: &3f4ccccd
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 3425828862
+ area_name: ml1
+ area_idx: nil
+ coords_l: &3fd5980f
+ coords_r: &40cbd3ee
+ coords_t: &3ffdbdd2
+ coords_b: &3f92aceb
+ z_order: 3
+}
+
+sign_template_image : _nameless.1.1f9e.b9b0 {
+ atlas_path: "/def/sign/atlas/arrow_right_up_swe.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 1078460416
+ area_name: ml1
+ area_idx: nil
+ coords_l: &3f1a0908
+ coords_r: &3f9d8560
+ coords_t: &401bc992
+ coords_b: &3f112944
+ z_order: 4
+}
+
+sign_template_text : _nameless.1.0b34.fff0 {
+ text: "\xc3\x96REBRO"
+ font_face: "/font/sign/swe.font"
+ font_size: &3f4ccccd
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1417543680
+ area_name: ml1
+ area_idx: nil
+ coords_l: &3fd5980f
+ coords_r: &40cbd3ee
+ coords_t: &3f915a46
+ coords_b: &3e992578
+ z_order: 5
+}
+
+sign_template_frame : _nameless.57f.b480 {
+ frame_path: "/def/sign/frame/white_swe.sii"
+ color: 16777215
+ opacity: 1
+ id: 614989824
+ area_name: ml2
+ area_idx: nil
+ coords_l: &3e7683f8
+ coords_r: &40654ede
+ coords_t: &3fb7151c
+ coords_b: &3f165618
+ z_order: 6
+}
+
+sign_template_image : _nameless.57f.ab80 {
+ atlas_path: "/def/sign/atlas/scania_swe.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 2083258367
+ area_name: ml2
+ area_idx: nil
+ coords_l: &3e9e4dba
+ coords_r: &3f727a5c
+ coords_t: &3fa7f66b
+ coords_b: &3f2c9955
+ z_order: 7
+}
+
+sign_template_text : _nameless.585.0370 {
+ text: SCANIA
+ font_face: "/font/sign/swe.font"
+ font_size: &3f333333
+ text_halign: left
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 3808952318
+ area_name: ml2
+ area_idx: nil
+ coords_l: &3f8fc5c4
+ coords_r: &40668576
+ coords_t: &3fb4dd74
+ coords_b: &3f19c920
+ z_order: 8
+}
+
+sign_template_text : _nameless.fb78.4e60 {
+ text: "S\xc3\x96DERT\xc3\x84LJE"
+ font_face: "/font/sign/swe.font"
+ font_size: &3f333333
+ text_halign: left
+ text_valign: center
+ font_color: 16777215
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 412745728
+ area_name: ml2
+ area_idx: nil
+ coords_l: &3e7ca168
+ coords_r: 4
+ coords_t: &40181179
+ coords_b: &3fc3da27
+ z_order: 9
+}
+
+sign_template_image : _nameless.e5fd.2560 {
+ atlas_path: "/def/sign/atlas/arrow_up_shorter_swe.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 2601517055
+ area_name: ml2
+ area_idx: nil
+ coords_l: &40801b26
+ coords_r: &40928f5e
+ coords_t: &401a3b5e
+ coords_b: &3efc938c
+ z_order: 10
+}
+
+}

@@ -1,0 +1,16 @@
+SiiNunit
+{
+accessory_addon_data : painted.scania.s_2016.f_mirror
+{
+	name: "@@mirror_painted@@"
+	price: 2160
+	unlock: 9
+	icon: "truck/scania_2016/accessory/f_mirror/front_mirror_01_p"
+	part_type: factory
+
+	exterior_model: "/vehicle/truck/scania_2016/accessory/f_mirror/front_mirror_01_p.pmd"
+	interior_model: "/vehicle/truck/scania_2016/accessory/f_mirror/front_mirror_01_interior_p.pmd"
+	exterior_model_uk: "/vehicle/truck/scania_2016/accessory/f_mirror/front_mirror_01_uk_p.pmd"
+	interior_model_uk: "/vehicle/truck/scania_2016/accessory/f_mirror/front_mirror_01_interior_uk_p.pmd"
+}
+}

@@ -1,0 +1,19 @@
+SiiNunit
+{
+accessory_addon_data : shape10.daf.xf_euro6.exhaust_r
+{
+	name: "@@exhaust_r_armored_heat_iv@@"
+	price: 5550
+	unlock: 30
+	icon: "exhaust_10"
+	part_type: aftermarket
+
+	exterior_model: "/vehicle/truck/upgrade/exhaust/daf_xf_euro6/exhaust_10_r.pmd"
+
+	suitable_for[]: "shape2.daf.xf_euro6.sideskirt"
+	suitable_for[]: "4x2_chs.daf.xf_euro6.sideskirt"
+	suitable_for[]: "4x2_chb.daf.xf_euro6.sideskirt"
+	suitable_for[]: "4x2_chr.daf.xf_euro6.sideskirt"
+	suitable_for[]: "4x2_pai.daf.xf_euro6.sideskirt"
+}
+}

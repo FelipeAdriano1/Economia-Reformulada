@@ -1,0 +1,181 @@
+SiiNunit
+{
+sign_template : _nameless.857.90f0 {
+ template_name: 2lane_europe_white_double_double_switched
+ model_name: 1706
+ stand_model_name: ""
+ traffic_rule: null
+ boards: 0
+ items: 8
+ items[0]: _nameless.85f.7bb0
+ items[1]: _nameless.85f.8010
+ items[2]: _nameless.857.bd30
+ items[3]: _nameless.857.c930
+ items[4]: _nameless.85f.5950
+ items[5]: _nameless.85f.7e30
+ items[6]: _nameless.1.c329.c4c0
+ items[7]: _nameless.1.c329.b2c0
+ dynamic_attributes: 0
+}
+
+sign_template_image : _nameless.85f.7bb0 {
+ atlas_path: "/def/sign/atlas/arrow_down_hw_fr.sii"
+ image_idx: 0
+ color: 0
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 79298560
+ area_name: ml6
+ area_idx: nil
+ coords_l: &3ff76ac4
+ coords_r: &4048d75c
+ coords_t: &3f8aa960
+ coords_b: &3e9fba21
+ z_order: 1
+ tag: ""
+}
+
+sign_template_image : _nameless.85f.8010 {
+ atlas_path: "/def/sign/atlas/highway_fr.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 3802267646
+ area_name: ml1
+ area_idx: nil
+ coords_l: &3fc8c09f
+ coords_r: &40271c42
+ coords_t: &3fa0c33a
+ coords_b: &3e5a5aa8
+ z_order: 2
+ tag: ""
+}
+
+sign_template_text : _nameless.857.bd30 {
+ text: PARIS
+ font_face: "/font/sign/fr_n.font"
+ font_size: &3f333333
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3dcccccd
+ id: 586547200
+ area_name: ml1
+ area_idx: nil
+ coords_l: &403a94ca
+ coords_r: &40b12610
+ coords_t: &3fb13b14
+ coords_b: &3f2b989c
+ z_order: 3
+ tag: ""
+}
+
+sign_template_text : _nameless.857.c930 {
+ text: NANTES
+ font_face: "/font/sign/fr_n.font"
+ font_size: &3f333333
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3dcccccd
+ id: 1719009279
+ area_name: ml1
+ area_idx: nil
+ coords_l: &403a94ca
+ coords_r: &40b12610
+ coords_t: &3f42b4bf
+ coords_b: &3d520d20
+ z_order: 4
+ tag: ""
+}
+
+sign_template_image : _nameless.85f.5950 {
+ atlas_path: "/def/sign/atlas/arrow_down_hw_fr.sii"
+ image_idx: 0
+ color: 0
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 4265213950
+ area_name: ml9
+ area_idx: nil
+ coords_l: &3e66a7e0
+ coords_r: &3fb718ee
+ coords_t: &3f8a511c
+ coords_b: &3e9e5914
+ z_order: 5
+ tag: ""
+}
+
+sign_template_image : _nameless.85f.7e30 {
+ atlas_path: "/def/sign/atlas/arrow_down_hw_fr.sii"
+ image_idx: 0
+ color: 0
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 1399586816
+ area_name: ml9
+ area_idx: nil
+ coords_l: &40a93bba
+ coords_r: &40cfccb7
+ coords_t: &3f8a511c
+ coords_b: &3e9e5914
+ z_order: 6
+ tag: ""
+}
+
+sign_template_text : _nameless.1.c329.c4c0 {
+ text: BORDEAUX
+ font_face: "/font/sign/fr_n.font"
+ font_size: &3f266666
+ text_halign: right
+ text_valign: bottom
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3d4ccccd
+ id: 4144234494
+ area_name: ml2
+ area_idx: nil
+ coords_l: &3e8576b8
+ coords_r: &404af42f
+ coords_t: &3fa39ce0
+ coords_b: &3edce343
+ z_order: 7
+ tag: ""
+}
+
+sign_template_text : _nameless.1.c329.b2c0 {
+ text: "-NORD"
+ font_face: "/font/sign/fr_i.font"
+ font_size: &3f0ccccd
+ text_halign: left
+ text_valign: bottom
+ font_color: nil
+ font_opacity: 1
+ line_spacing: 0
+ letter_spacing: &3d4ccccd
+ id: 553385984
+ area_name: ml2
+ area_idx: nil
+ coords_l: &404f42f4
+ coords_r: &409e17a1
+ coords_t: &3f9775f8
+ coords_b: &3ecc8b2d
+ z_order: 8
+ tag: ""
+}
+
+}

@@ -1,0 +1,53 @@
+traffic_trailer : traffic.trailer.scs_lowlowd
+{
+trailer_definition: trailer_def.scs.lowloader.single_2_sh.short	
+
+	accessories[]: .scs_lowlowd.chassis
+	accessories[]: .scs_lowlowd.rwheel
+	accessories[]: .scs_lowlowd.rwheel2
+	accessories[]: .scs_lowlowd.paint_job
+	accessories[]: .scs_lowlowd.body
+	
+	sound_move: "/sound/traffic/trailer.soundref"
+	
+	cargo_mass: 20000
+	
+	tags[]: low
+	tags[]: lowloader
+	tags[]: loader
+	tags[]: construct
+	tags[]: long
+	tags[]: cargo 
+
+	cargoes[]: excavator
+	cargoes[]: tractors
+	cargoes[]: digger500
+	
+}
+
+vehicle_accessory: .scs_lowlowd.chassis
+{
+    	data_path: "/def/vehicle/trailer/scs_lowloader/ch_2.sii"
+}
+
+vehicle_wheel_accessory: .scs_lowlowd.rwheel
+{
+	offset: 0
+    	data_path: "/def/vehicle/t_wheel/overweight.sii"
+}
+
+vehicle_wheel_accessory: .scs_lowlowd.rwheel2
+{
+	offset: 2
+    	data_path: "/def/vehicle/t_wheel/overweight.sii"
+}
+
+vehicle_paint_job_accessory: .scs_lowlowd.paint_job
+{
+    	data_path: "/def/vehicle/trailer/scs_lowbed/custom_paint_job/red.sii"
+}
+
+vehicle_accessory: .scs_lowlowd.body
+{
+	data_path: "/def/vehicle/trailer/scs_lowloader/accessory/short.sii"
+}

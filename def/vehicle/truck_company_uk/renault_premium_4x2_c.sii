@@ -1,0 +1,113 @@
+SiiNunit
+{
+vehicle: .company.truck
+{
+	accessories[]: .premium4x2c.data
+	accessories[]: .premium4x2c.chassis
+	accessories[]: .premium4x2c.cabin
+	accessories[]: .premium4x2c.interior
+	accessories[]: .premium4x2c.engine
+	accessories[]: .premium4x2c.transmission
+	accessories[]: .premium4x2c.head_light
+	accessories[]: .premium4x2c.frim
+	accessories[]: .premium4x2c.ftire
+	accessories[]: .premium4x2c.rrim
+	accessories[]: .premium4x2c.rtire
+	accessories[]: .premium4x2c.paint_job
+	accessories[]: .premium4x2c.doorstep
+	accessories[]: .premium4x2c.doorhndl
+	accessories[]: .premium4x2c.mirror
+	accessories[]: .premium4x2c.cab_doorstep
+	accessories[]: .premium4x2c.sunshld
+	accessories[]: .premium4x2c.f_mirror
+	accessories[]: .premium4x2c.s_mirror
+	accessories[]: .premium4x2c.swheel
+	accessories[]: .trlr_cables
+}
+
+vehicle_accessory : .premium4x2c.data {
+	data_path: "/def/vehicle/truck/renault.premium/data.sii"
+}
+vehicle_accessory : .premium4x2c.chassis {
+	data_path: "/def/vehicle/truck/renault.premium/chassis/4x2.sii"
+}
+vehicle_accessory : .premium4x2c.cabin {
+	data_path: "/def/vehicle/truck/renault.premium/cabin/normal.sii"
+}
+vehicle_accessory : .premium4x2c.interior {
+	data_path: "/def/vehicle/truck/renault.premium/interior/standard_uk.sii"
+}
+vehicle_accessory : .premium4x2c.engine {
+	data_path: "/def/vehicle/truck/renault.premium/engine/dxi11_380.sii"
+}
+vehicle_accessory : .premium4x2c.transmission {
+	data_path: "/def/vehicle/truck/renault.premium/transmission/12_speed.sii"
+}
+vehicle_accessory : .premium4x2c.head_light {
+	data_path: "/def/vehicle/truck/renault.premium/head_light/standard.sii"
+}
+vehicle_wheel_accessory : .premium4x2c.frim {
+	offset: 0
+	data_path: "/def/vehicle/f_rim/steel.sii"
+}
+vehicle_wheel_accessory : .premium4x2c.ftire {
+	offset: 0
+	data_path: "/def/vehicle/f_tire/1.sii"
+}
+vehicle_wheel_accessory : .premium4x2c.rrim {
+	offset: 0
+	data_path: "/def/vehicle/r_rim/steel.sii"
+}
+vehicle_wheel_accessory : .premium4x2c.rtire {
+	offset: 0
+	data_path: "/def/vehicle/r_tire/1.sii"
+}
+vehicle_paint_job_accessory : .premium4x2c.paint_job {
+	mask_r_color: (1.0, 0.0, 0.0)
+	mask_g_color: (0.0, 1.0, 0.0)
+	mask_b_color: (0.0, 0.0, 1.0)
+	base_color: (&3eb182aa, &3eb182aa, &3eb182aa)
+	data_path: "/def/vehicle/truck/renault.premium/paint_job/color0.sii"
+}
+vehicle_addon_accessory : .premium4x2c.doorstep {
+	slot_name: 0
+	slot_hookup: 0
+	data_path: "/def/vehicle/truck/renault.premium/accessory/doorstep/shape1.sii"
+}
+vehicle_addon_accessory : .premium4x2c.doorhndl {
+	slot_name: 0
+	slot_hookup: 0
+	data_path: "/def/vehicle/truck/renault.premium/accessory/doorhndl/shape1.sii"
+}
+vehicle_addon_accessory : .premium4x2c.mirror {
+	slot_name: 0
+	slot_hookup: 0
+	data_path: "/def/vehicle/truck/renault.premium/accessory/mirror/shape1.sii"
+}
+vehicle_addon_accessory : .premium4x2c.cab_doorstep {
+	slot_name: 0
+	slot_hookup: 0
+	data_path: "/def/vehicle/truck/renault.premium/accessory/cab_doorstep/shape1.sii"
+}
+vehicle_addon_accessory : .premium4x2c.sunshld {
+	slot_name: 0
+	slot_hookup: 0
+	data_path: "/def/vehicle/truck/renault.premium/accessory/sunshld/shape1.sii"
+}
+vehicle_addon_accessory : .premium4x2c.f_mirror {
+	slot_name: 0
+	slot_hookup: 0
+	data_path: "/def/vehicle/truck/renault.premium/accessory/f_mirror/shape2.sii"
+}
+vehicle_addon_accessory : .premium4x2c.s_mirror {
+	slot_name: 0
+	slot_hookup: 0
+	data_path: "/def/vehicle/truck/renault.premium/accessory/s_mirror/shape1.sii"
+}
+vehicle_addon_accessory : .premium4x2c.swheel {
+	data_path: "/def/vehicle/truck/renault.premium/accessory/steering_w/standard.sii"
+}
+vehicle_addon_accessory : .trlr_cables {
+	data_path: "/def/vehicle/truck/renault.premium/accessory/trlr_cables/stock.sii"
+}
+}

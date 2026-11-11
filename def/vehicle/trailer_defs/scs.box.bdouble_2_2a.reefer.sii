@@ -1,0 +1,26 @@
+SiiNunit
+{
+trailer_def : trailer_def.scs.box.bdouble_2_2a.reefer
+{
+	gross_trailer_weight_limit: 53000
+	chassis_mass: 11720
+	body_mass: 3300
+	length: 22.7
+	axles: 4
+	volume: 137
+	body_type: refrigerated
+	chain_type: b_double
+
+	country_validity[]: denmark
+	country_validity[]: finland
+	country_validity[]: germany
+	country_validity[]: netherlands
+	country_validity[]: norway
+	country_validity[]: portugal
+	country_validity[]: spain
+	country_validity[]: sweden
+
+	mass_ratio[]: 0.33
+	mass_ratio[]: 0.67
+}
+}

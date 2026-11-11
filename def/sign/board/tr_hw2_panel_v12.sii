@@ -1,0 +1,202 @@
+SiiNunit
+{
+sign_board_template : _nameless.832.a8b0 {
+ board_name: "tr hw2 panel v12"
+ width: &40ffae14
+ height: &405f5c29
+ model_name: ""
+ items: 9
+ items[0]: _nameless.7f1.a8f0
+ items[1]: _nameless.7f1.b1f0
+ items[2]: _nameless.843.63f0
+ items[3]: _nameless.843.7390
+ items[4]: _nameless.7f1.bc70
+ items[5]: _nameless.7f1.abf0
+ items[6]: _nameless.7f1.b670
+ items[7]: _nameless.843.5f90
+ items[8]: _nameless.843.7430
+ dynamic_attributes: 0
+}
+
+sign_template_text : _nameless.7f1.a8f0 {
+ text: "Bir yere"
+ font_face: "/font/sign/tr_hw.font"
+ font_size: &3f266666
+ text_halign: center
+ text_valign: center
+ font_color: 0
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 392560640
+ area_name: ""
+ area_idx: nil
+ coords_l: 0
+ coords_r: &40ffae14
+ coords_t: &403690e2
+ coords_b: &40087049
+ z_order: 1
+ tag: ""
+}
+
+sign_template_text : _nameless.7f1.b1f0 {
+ text: "Bir yere"
+ font_face: "/font/sign/tr_hw.font"
+ font_size: &3f266666
+ text_halign: center
+ text_valign: center
+ font_color: 0
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 2198863871
+ area_name: ""
+ area_idx: nil
+ coords_l: 0
+ coords_r: &40ffae14
+ coords_t: &4008ae26
+ coords_b: &3fb51b18
+ z_order: 2
+ tag: ""
+}
+
+sign_template_image : _nameless.843.63f0 {
+ atlas_path: "/def/sign/atlas/arrow_med_down_tr.sii"
+ image_idx: 0
+ color: 0
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 3415474174
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fb3332f
+ coords_r: &4012573a
+ coords_t: &3f5b4260
+ coords_b: &3e87e6b9
+ z_order: 3
+ tag: ""
+}
+
+sign_template_image : _nameless.843.7390 {
+ atlas_path: "/def/sign/atlas/arrow_med_down_tr.sii"
+ image_idx: 0
+ color: 0
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 1508507647
+ area_name: ""
+ area_idx: nil
+ coords_l: &40b44506
+ coords_r: &40d0a3d6
+ coords_t: &3f5b425f
+ coords_b: &3e87e6b8
+ z_order: 4
+ tag: ""
+}
+
+sign_template_text : _nameless.7f1.bc70 {
+ text: "Bir yere"
+ font_face: "/font/sign/tr_hw.font"
+ font_size: &3f266666
+ text_halign: center
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 3625975806
+ area_name: ""
+ area_idx: nil
+ coords_l: 0
+ coords_r: &40ffae14
+ coords_t: &404e3ef5
+ coords_b: &40201e5c
+ z_order: 5
+ tag: ""
+}
+
+sign_template_text : _nameless.7f1.abf0 {
+ text: "Bir yere"
+ font_face: "/font/sign/tr_hw.font"
+ font_size: &3f266666
+ text_halign: center
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1060372480
+ area_name: ""
+ area_idx: nil
+ coords_l: 0
+ coords_r: &40ffae14
+ coords_t: &401fb862
+ coords_b: &3fe32f90
+ z_order: 6
+ tag: ""
+}
+
+sign_template_text : _nameless.7f1.b670 {
+ text: "Bir yere"
+ font_face: "/font/sign/tr_hw.font"
+ font_size: &3f266666
+ text_halign: center
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 3434217470
+ area_name: ""
+ area_idx: nil
+ coords_l: 0
+ coords_r: &40ffae14
+ coords_t: &3fe347d0
+ coords_b: &3f870699
+ z_order: 7
+ tag: ""
+}
+
+sign_template_image : _nameless.843.5f90 {
+ atlas_path: "/def/sign/atlas/cross_orange_angle.sii"
+ image_idx: 0
+ color: nil
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 3582984190
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fade1a3
+ coords_r: &4015a4c6
+ coords_t: &3f83a9a5
+ coords_b: &3e1ce168
+ z_order: 8
+ tag: ""
+}
+
+sign_template_image : _nameless.843.7430 {
+ atlas_path: "/def/sign/atlas/cross_orange_angle.sii"
+ image_idx: 0
+ color: nil
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 1833697279
+ area_name: ""
+ area_idx: nil
+ coords_l: &40b32677
+ coords_r: &40d28071
+ coords_t: &3f83a9a5
+ coords_b: &3e1ce168
+ z_order: 9
+ tag: ""
+}
+
+}

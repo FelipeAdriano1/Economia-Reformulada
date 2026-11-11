@@ -1,0 +1,213 @@
+SiiNunit
+{
+sign_template : _nameless.1.c329.eb00 {
+ template_name: round_full_01_corse_mirror
+ model_name: 1535
+ stand_model_name: ""
+ traffic_rule: null
+ boards: 0
+ items: 10
+ items[0]: _nameless.1.52bc.7800
+ items[1]: _nameless.1.cea6.fcb0
+ items[2]: _nameless.1.c329.ebc0
+ items[3]: _nameless.1.cea6.fd40
+ items[4]: _nameless.1.c32a.0000
+ items[5]: _nameless.1.c329.dcc0
+ items[6]: _nameless.1.c329.d300
+ items[7]: _nameless.1.cea6.ff80
+ items[8]: _nameless.1.c329.f7c0
+ items[9]: _nameless.1.ba7a.2b50
+ dynamic_attributes: 0
+}
+
+sign_template_image : _nameless.1.52bc.7800 {
+ atlas_path: "/def/sign/atlas/round_right_fr.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 917635072
+ area_name: ml2
+ area_idx: nil
+ coords_l: &3fa37bda
+ coords_r: &401bd5dc
+ coords_t: &3fc79436
+ coords_b: &3d0d0240
+ z_order: 1
+ tag: ""
+}
+
+sign_template_frame : _nameless.1.cea6.fcb0 {
+ frame_path: "/def/sign/frame/black_outline_fr.sii"
+ color: 16777215
+ opacity: 1
+ id: 3256221694
+ area_name: ml2
+ area_idx: nil
+ coords_l: &403244e3
+ coords_r: &405d86fc
+ coords_t: &3e99999a
+ coords_b: 0
+ z_order: 2
+ tag: ""
+}
+
+sign_template_text : _nameless.1.c329.ebc0 {
+ text: "100 m"
+ font_face: "/font/sign/fr_i.font"
+ font_size: &3e4ccccd
+ text_halign: center
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 2438201343
+ area_name: ml2
+ area_idx: nil
+ coords_l: &4035beef
+ coords_r: &4058e120
+ coords_t: &3e807728
+ coords_b: &3d32bc0c
+ z_order: 3
+ tag: ""
+}
+
+sign_template_frame : _nameless.1.cea6.fd40 {
+ frame_path: "/def/sign/frame/green_sq_fr.sii"
+ color: 16777215
+ opacity: 1
+ id: 1812594687
+ area_name: ml2
+ area_idx: nil
+ coords_l: &3f2c584b
+ coords_r: &4028e14b
+ coords_t: &4027d0e7
+ coords_b: &4007dbff
+ z_order: 4
+ tag: ""
+}
+
+sign_template_text : _nameless.1.c32a.0000 {
+ text: "PORTO VECCHIO<br>PORTI VECHJU"
+ font_face: "/font/sign/fr_n.font"
+ font_size: &3e800000
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &bd4ccccd
+ letter_spacing: &3cf5c28f
+ id: 3137601534
+ area_name: ml2
+ area_idx: nil
+ coords_l: &3f1a2d0e
+ coords_r: &402d0ddb
+ coords_t: &4027d0e7
+ coords_b: &4007dbff
+ z_order: 5
+ tag: ""
+}
+
+sign_template_text : _nameless.1.c329.dcc0 {
+ text: "SARTENE<br>SARTE"
+ font_face: "/font/sign/fr_b.font"
+ font_size: &3e99999a
+ text_halign: left
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &bd4ccccd
+ letter_spacing: &3ca3d70a
+ id: 1896742911
+ area_name: ml2
+ area_idx: nil
+ coords_l: &3e8b73e0
+ coords_r: &3fc0d892
+ coords_t: &3fcf286c
+ coords_b: &3f6fa3e8
+ z_order: 6
+ tag: ""
+}
+
+sign_template_text : _nameless.1.c329.d300 {
+ text: XXXXX
+ font_face: "/font/sign/fr_i.font"
+ font_size: &3e99999a
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1034158080
+ area_name: ml2
+ area_idx: nil
+ coords_l: &3f1de011
+ coords_r: &402dfa9d
+ coords_t: &400652ae
+ coords_b: &3fccbb8d
+ z_order: 7
+ tag: ""
+}
+
+sign_template_frame : _nameless.1.cea6.ff80 {
+ frame_path: "/def/sign/frame/green_sq_fr.sii"
+ color: 16777215
+ opacity: 1
+ id: 3393716222
+ area_name: ml2
+ area_idx: nil
+ coords_l: &3f2d5524
+ coords_r: &40292081
+ coords_t: &4006f000
+ coords_b: &3fcdf632
+ z_order: 8
+ tag: ""
+}
+
+sign_template_text : _nameless.1.c329.f7c0 {
+ text: "BONIFACIO<br>BUNIFAZIU"
+ font_face: "/font/sign/fr_n.font"
+ font_size: &3e800000
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &bd4ccccd
+ letter_spacing: &3cf5c28f
+ id: 2055208959
+ area_name: ml2
+ area_idx: nil
+ coords_l: &3f15f956
+ coords_r: &402c00ed
+ coords_t: &40078d55
+ coords_b: &3fcf30da
+ z_order: 9
+ tag: ""
+}
+
+sign_template_text : _nameless.1.ba7a.2b50 {
+ text: CONCA
+ font_face: "/font/sign/fr_b.font"
+ font_size: &3e99999a
+ text_halign: right
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 364118016
+ area_name: ml2
+ area_idx: nil
+ coords_l: &4018d0ea
+ coords_r: &40576b72
+ coords_t: &3f7b1504
+ coords_b: &3f26bca0
+ z_order: 10
+ tag: ""
+}
+
+}

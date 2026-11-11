@@ -1,0 +1,184 @@
+SiiNunit
+{
+sign_board_template : _nameless.7a1.f1c0 {
+ board_name: "es board chevron zaragoza v01"
+ width: &40433333
+ height: &3fb5c28f
+ model_name: ""
+ items: 9
+ items[0]: _nameless.7c8.7d10
+ items[1]: _nameless.7b9.a710
+ items[2]: _nameless.7a2.02a0
+ items[3]: _nameless.7a1.ed40
+ items[4]: _nameless.7c8.9ed0
+ items[5]: _nameless.7a1.ee60
+ items[6]: _nameless.7c8.8850
+ items[7]: _nameless.7a1.fe20
+ items[8]: _nameless.7c8.7a10
+ dynamic_attributes: 0
+}
+
+sign_template_text : _nameless.7c8.7d10 {
+ text: Aeropuerto
+ font_face: "/font/sign/es_sr.font"
+ font_size: &3eb33333
+ text_halign: center
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1873805311
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f000000
+ coords_r: &401a1d6d
+ coords_t: &3f1285f3
+ coords_b: &3dcf0950
+ z_order: 2
+ tag: ""
+}
+
+sign_template_image : _nameless.7b9.a710 {
+ atlas_path: "/def/sign/atlas/airport_90_es.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 4004118526
+ area_name: ""
+ area_idx: nil
+ coords_l: &3e343adc
+ coords_r: &3efbf43a
+ coords_t: &3efecb28
+ coords_b: &3e39e8b6
+ z_order: 3
+ tag: ""
+}
+
+sign_template_frame : _nameless.7a2.02a0 {
+ frame_path: "/def/sign/frame/frame_yellow_es.sii"
+ color: 52479
+ opacity: 1
+ id: 1471807487
+ area_name: ""
+ area_idx: nil
+ coords_l: &3dd1be54
+ coords_r: &401a7b96
+ coords_t: &3f12c9bf
+ coords_b: &3dcceaf4
+ z_order: 1
+ tag: ""
+}
+
+sign_template_frame : _nameless.7a1.ed40 {
+ frame_path: "/def/sign/frame/frame_white1_es.sii"
+ color: 9125888
+ opacity: 1
+ id: 24903680
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fbe7668
+ coords_r: &400f1d13
+ coords_t: &3f6e5847
+ coords_b: &3f21d6cf
+ z_order: 4
+ tag: ""
+}
+
+sign_template_text : _nameless.7c8.9ed0 {
+ text: "A-68"
+ font_face: "/font/sign/es_sr.font"
+ font_size: &3e99999a
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1001914368
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fbf43ae
+ coords_r: &400eb670
+ coords_t: &3f714990
+ coords_b: &3f234f74
+ z_order: 5
+ tag: ""
+}
+
+sign_template_frame : _nameless.7a1.ee60 {
+ frame_path: "/def/sign/frame/frame_red_pt.sii"
+ color: 16777215
+ opacity: 1
+ id: 587333632
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f05e293
+ coords_r: &3fb50820
+ coords_t: &3f6dcb09
+ coords_b: &3f21d6cf
+ z_order: 6
+ tag: ""
+}
+
+sign_template_text : _nameless.7c8.8850 {
+ text: "N-125"
+ font_face: "/font/sign/es_sr.font"
+ font_size: &3e99999a
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 2078408703
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f05e294
+ coords_r: &3fb43ada
+ coords_t: &3f714990
+ coords_b: &3f234f73
+ z_order: 7
+ tag: ""
+}
+
+sign_template_frame : _nameless.7a1.fe20 {
+ frame_path: "/def/sign/frame/frame_orange_es.sii"
+ color: 16777215
+ opacity: 1
+ id: 798621696
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f6d8aff
+ coords_r: &3fe8dc56
+ coords_t: &3fa9a122
+ coords_b: &3f81e7c2
+ z_order: 8
+ tag: ""
+}
+
+sign_template_text : _nameless.7c8.7a10 {
+ text: "A-120"
+ font_face: "/font/sign/es_sr.font"
+ font_size: &3e99999a
+ text_halign: center
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 3195535358
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f6d8b00
+ coords_r: &3fe80f10
+ coords_t: &3fa9a122
+ coords_b: &3f82a414
+ z_order: 9
+ tag: ""
+}
+
+}

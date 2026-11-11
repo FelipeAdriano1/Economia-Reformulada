@@ -1,0 +1,364 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+#
+# NOTE: To override a traffic info in your mod, just create a new definition
+# in your definition file (see above) with the same value for 'object' attribute as the one being overridden
+# For each 'object' the LAST LOADED traffic info is used
+#
+
+#################################################
+########### car
+#################################################
+
+country_traffic_info : .country.info.traffic.l_119 {
+	object: traffic.l_119
+	spawn_ratio: 3.0
+}
+country_traffic_info : .country.info.traffic.riva_sedan {
+	object: traffic.riva_sedan
+	spawn_ratio: 0.80
+}
+country_traffic_info : .country.info.traffic.niva {
+	object: traffic.niva
+	spawn_ratio: 3.0
+}
+country_traffic_info : .country.info.traffic.octavia_iii {
+	object: traffic.octavia_iii
+	spawn_ratio: 2.0
+}
+country_traffic_info : .country.info.traffic.scout_fav {
+	object: traffic.scout_fav
+	spawn_ratio: 2.0
+}
+country_traffic_info : .country.info.traffic.superb.combi {
+	object: traffic.superb.combi
+	spawn_ratio: 2.0
+}
+country_traffic_info : .country.info.traffic.megane {
+	object: traffic.megane
+	spawn_ratio: 2.0
+}
+country_traffic_info : .country.info.traffic.clio {
+	object: traffic.clio
+	spawn_ratio: 2.0
+}
+country_traffic_info : .country.info.traffic.captur {
+	object: traffic.captur
+	spawn_ratio: 2.0
+}
+country_traffic_info : .country.info.traffic.jaguar_xf {
+	object: traffic.jaguar_xf
+	spawn_ratio: 0.0
+}
+country_traffic_info : .country.info.traffic.lancer_x {
+	object: traffic.lancer_x
+	spawn_ratio: 0.0
+}
+country_traffic_info : .country.info.traffic.aleko {
+	object: traffic.aleko
+	spawn_ratio: 2.0
+}
+country_traffic_info : .country.info.traffic.ulja_452{
+	object: traffic.ulja_452
+	spawn_ratio: 0.5
+}
+country_traffic_info : .country.info.traffic.lich_4331{
+	object: traffic.lich_4331
+	spawn_ratio: 0.3
+}
+country_traffic_info : .country.info.traffic.granta {
+	object: traffic.granta
+	spawn_ratio: 3.0
+}
+country_traffic_info : .country.info.traffic.duster {
+	object: traffic.duster
+	spawn_ratio: 2.0
+}
+country_traffic_info : .country.info.traffic.a80 {
+	object: traffic.a80
+	spawn_ratio: 1.5
+}
+country_traffic_info : .country.info.traffic.skala {
+	object: traffic.skala
+	spawn_ratio: 0.8
+}
+country_traffic_info : .country.info.traffic.ava_469 {
+	object: traffic.ava_469
+	spawn_ratio: 0.5
+}
+
+country_traffic_info : .country.info.traffic.p_3204 {
+	object: traffic.p_3204
+	spawn_ratio: 0.01
+}
+
+
+country_traffic_info : .country.info.traffic.p_3204.pass {
+	object: traffic.p_3204.pass
+	spawn_ratio: 1.00
+}
+
+
+#################################################
+########### trains
+#################################################
+
+country_traffic_info : .country.info.traffic.m_62 {
+	object: traffic.m_62
+	spawn_ratio: 1.0
+}
+country_traffic_info : .country.info.traffic.m_62_p {
+	object: traffic.m_62_p
+	spawn_ratio: 1.0
+}
+
+country_traffic_info : .country.info.traffic.er2_rus {
+	object: traffic.er2_rus
+	spawn_ratio: 1.0
+}
+
+country_traffic_info : .country.info.traffic.es2_gen {
+	object: traffic.es2_gen
+	spawn_ratio: 1.0
+}
+
+country_traffic_info : .country.info.traffic.es2_mos {
+	object: traffic.es2_mos
+	spawn_ratio: 1.0
+}
+
+country_traffic_info : .country.info.traffic.traxx_rus {
+	object: traffic.traxx_rus
+	spawn_ratio: 1.0
+}
+
+country_traffic_info : .country.info.traffic.boltron {
+	object: traffic.boltron
+	spawn_ratio: 0.00
+}
+
+country_traffic_info : .country.info.traffic.boltron_a {
+	object: traffic.boltron_a
+	spawn_ratio: 0.00
+}
+
+
+
+#################################################
+########### tram
+#################################################
+
+country_traffic_info : .country.info.traffic.t3_loco_ru 
+{
+	object: traffic.t3_loco_ru
+	spawn_ratio: 1.0
+}
+
+
+country_traffic_info : .country.info.traffic.tram_ktm.ru_ya
+{
+	object: traffic.tram_ktm.ru_ya
+	spawn_ratio: 1.0
+}
+
+country_traffic_info : .country.info.traffic.tram_ktm.ru_nn
+{
+	object: traffic.tram_ktm.ru_nn
+	spawn_ratio: 1.0
+}
+
+country_traffic_info : .country.info.traffic.tram_ktm.ru_tu
+{
+	object: traffic.tram_ktm.ru_tu
+	spawn_ratio: 1.0
+}
+country_traffic_info : .country.info.traffic.tram_ktm.ru_sm
+{
+	object: traffic.tram_ktm.ru_sm
+	spawn_ratio: 1.0
+}
+country_traffic_info : .country.info.traffic.tram_ktm.ru_ch
+{
+	object: traffic.tram_ktm.ru_ch
+	spawn_ratio: 1.0
+}
+country_traffic_info : .country.info.traffic.tram_ktm.ru_ko
+{
+	object: traffic.tram_ktm.ru_ko
+	spawn_ratio: 1.0
+}
+
+
+
+country_traffic_info : .country.info.traffic.tram_ktm.adv_ru_ya
+{
+	object: traffic.tram_ktm.adv_ru_ya
+	spawn_ratio: 0.2
+}
+
+country_traffic_info : .country.info.traffic.tram_ktm.adv_ru_nn
+{
+	object: traffic.tram_ktm.adv_ru_nn
+	spawn_ratio: 0.2
+}
+
+country_traffic_info : .country.info.traffic.tram_ktm.adv_ru_tu
+{
+	object: traffic.tram_ktm.adv_ru_tu
+	spawn_ratio: 0.2
+}
+country_traffic_info : .country.info.traffic.tram_ktm.adv_ru_sm
+{
+	object: traffic.tram_ktm.adv_ru_sm
+	spawn_ratio: 0.2
+}
+country_traffic_info : .country.info.traffic.tram_ktm.adv_ru_ch
+{
+	object: traffic.tram_ktm.adv_ru_ch
+	spawn_ratio: 0.2
+}
+country_traffic_info : .country.info.traffic.tram_ktm.adv_ru_ko
+{
+	object: traffic.tram_ktm.adv_ru_ko
+	spawn_ratio: 0.2
+}
+
+
+#################################################
+########### bus
+#################################################
+
+country_traffic_info : .country.info.traffic.p_3204.ru
+{
+	object: traffic.p_3204.ru
+	spawn_ratio: 1.0
+}
+
+country_traffic_info : .country.info.traffic.oldbus_wg_e
+{
+	object: traffic.oldbus_wg_e
+	spawn_ratio: 1.0
+}
+country_traffic_info : .country.info.traffic.oldbus_wg_f
+{
+	object: traffic.oldbus_wg_f
+	spawn_ratio: 1.0
+}
+country_traffic_info : .country.info.traffic.oldbus_wg_m
+{
+	object: traffic.oldbus_wg_m
+	spawn_ratio: 1.0
+}
+country_traffic_info : .country.info.traffic.oldbus_mos_e
+{
+	object: traffic.oldbus_mos_e
+	spawn_ratio: 1.0
+}
+country_traffic_info : .country.info.traffic.oldbus_mos_f
+{
+	object: traffic.oldbus_mos_f
+	spawn_ratio: 1.0
+}
+country_traffic_info : .country.info.traffic.oldbus_mos_m
+{
+	object: traffic.oldbus_mos_m
+	spawn_ratio: 1.0
+}
+country_traffic_info : .country.info.traffic.oldbus_wb_e
+{
+	object: traffic.oldbus_wb_e
+	spawn_ratio: 1.0
+}
+country_traffic_info : .country.info.traffic.oldbus_wb_f
+{
+	object: traffic.oldbus_wb_f
+	spawn_ratio: 1.0
+}
+country_traffic_info : .country.info.traffic.oldbus_wb_m
+{
+	object: traffic.oldbus_wb_m
+	spawn_ratio: 1.0
+}
+country_traffic_info : .country.info.traffic.oldbus_wr_e
+{
+	object: traffic.oldbus_wr_e
+	spawn_ratio: 1.0
+}
+country_traffic_info : .country.info.traffic.oldbus_wr_f
+{
+	object: traffic.oldbus_wr_f
+	spawn_ratio: 1.0
+}
+country_traffic_info : .country.info.traffic.oldbus_wr_m
+{
+	object: traffic.oldbus_wr_m
+	spawn_ratio: 1.0
+}
+country_traffic_info : .country.info.traffic.minibus
+{
+	object: traffic.minibus
+	spawn_ratio: 1.0
+}
+#################################################
+########### police
+#################################################
+
+country_traffic_info : .country.info.traffic.focus_2009.pol_ru 
+{
+	object: traffic.focus_2009.pol_ru
+	spawn_ratio: 1.0
+}
+
+
+country_traffic_info : .country.info.traffic.ava_469.pol_ru_cus
+{
+	object: traffic.ava_469.pol_ru_cus
+	spawn_ratio: 1.0
+}
+
+
+########## Fire Departement
+
+country_traffic_info : .country.info.traffic.fd_ru
+{
+	object: traffic.dagger.ru
+	spawn_ratio: 1.0
+}
+
+########## Ambulance
+
+country_traffic_info : .country.info.traffic.crafter.ru
+{
+	object: traffic.crafter.ru
+	spawn_ratio: 1.0
+}
+########## Train cars
+
+country_traffic_info : .country.info.train_car.cargo.coal_g
+{
+	object: train_car.cargo.coal_g
+	spawn_ratio: 1.0
+}
+country_traffic_info : .country.info.train_car.cargo.coal_b
+{
+	object: train_car.cargo.coal_b
+	spawn_ratio: 1.0
+}
+country_traffic_info : .country.info.train_car.cargo.bulk_g
+{
+	object: train_car.cargo.bulk_g
+	spawn_ratio: 1.0
+}
+country_traffic_info : .country.info.train_car.cargo.bulk_b
+{
+	object: train_car.cargo.bulk_b
+	spawn_ratio: 1.0
+}
+}

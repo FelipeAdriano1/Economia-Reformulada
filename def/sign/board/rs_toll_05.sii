@@ -1,0 +1,236 @@
+SiiNunit
+{
+sign_board_template : _nameless.f8b.7a70 {
+ board_name: "rs toll 05"
+ width: &40a3d70a
+ height: &4000a3d7
+ model_name: blkw_14061
+ items: 11
+ items[0]: _nameless.f86.4a70
+ items[1]: _nameless.f86.67b0
+ items[2]: _nameless.f86.5070
+ items[3]: _nameless.f86.5730
+ items[4]: _nameless.f6a.d780
+ items[5]: _nameless.f8b.7050
+ items[6]: _nameless.f6a.d960
+ items[7]: _nameless.f8b.7b90
+ items[8]: _nameless.f6a.b3e0
+ items[9]: _nameless.4.7598.07d0
+ items[10]: _nameless.4.7598.0110
+ dynamic_attributes: 0
+}
+
+sign_template_text : _nameless.f86.4a70 {
+ text: "Manual toll collection"
+ font_face: "/font/sign/blk_n.font"
+ font_size: &3ecccccd
+ text_halign: left
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1682702335
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fa0d570
+ coords_r: &409a43a0
+ coords_t: &3f0cc2e4
+ coords_b: &3e01afc8
+ z_order: 1
+ tag: ""
+}
+
+sign_template_text : _nameless.f86.67b0 {
+ text: "Electronic toll collection"
+ font_face: "/font/sign/blk_n.font"
+ font_size: &3ecccccd
+ text_halign: left
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 2834169855
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fa0d570
+ coords_r: &409dd44d
+ coords_t: &3fc2acdc
+ coords_b: &3f8c8165
+ z_order: 2
+ tag: ""
+}
+
+sign_template_text : _nameless.f86.5070 {
+ text: "\xd0\x95\xd0\xbb\xd0\xb5\xd0\xba\xd1\x82\xd1\x80\xd0\xbe\xd0\xbd\xd1\x81\xd0\xba\xd0\xb0 \xd0\xbd\xd0\xb0\xd0\xbf\xd0\xbb\xd0\xb0\xd1\x82\xd0\xb0"
+ font_face: "/font/sign/blk_n.font"
+ font_size: &3ecccccd
+ text_halign: left
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &bc23d70a
+ id: 3436445694
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fa0d570
+ coords_r: &408e7d96
+ coords_t: &3fee924d
+ coords_b: &3fb866d4
+ z_order: 3
+ tag: ""
+}
+
+sign_template_text : _nameless.f86.5730 {
+ text: "\xd0\xa0\xd1\x83\xd1\x87\xd0\xbd\xd0\xb0 \xd0\xbd\xd0\xb0\xd0\xbf\xd0\xbb\xd0\xb0\xd1\x82\xd0\xb0"
+ font_face: "/font/sign/blk_n.font"
+ font_size: &3ecccccd
+ text_halign: left
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &bd23d70a
+ letter_spacing: &bc23d70a
+ id: 873988096
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fa0d570
+ coords_r: &409a43a0
+ coords_t: &3f64805f
+ coords_b: &3ef8235a
+ z_order: 4
+ tag: ""
+}
+
+sign_template_image : _nameless.f6a.d780 {
+ atlas_path: "/def/sign/atlas/arrow_diagram_hor_tail_hu.sii"
+ image_idx: 0
+ color: 0
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 206307328
+ area_name: ""
+ area_idx: nil
+ coords_l: &3dd89d80
+ coords_r: 5
+ coords_t: &3f8b0096
+ coords_b: &3f6aa1a4
+ z_order: 5
+ tag: ""
+}
+
+sign_template_frame : _nameless.f8b.7050 {
+ frame_path: "/def/sign/frame/frame_white_hu.sii"
+ color: 3321850
+ opacity: 1
+ id: 1158152192
+ area_name: ""
+ area_idx: nil
+ coords_l: &3e66d242
+ coords_r: &3f9460cc
+ coords_t: &3fe3e9e7
+ coords_b: &3f99f2e0
+ z_order: 6
+ tag: ""
+}
+
+sign_template_image : _nameless.f6a.d960 {
+ atlas_path: "/def/sign/atlas/toll_enp_rs.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 2222325759
+ area_name: ""
+ area_idx: nil
+ coords_l: &3ea1fe16
+ coords_r: &3f898d5e
+ coords_t: &3fe09357
+ coords_b: &3f9d01d8
+ z_order: 7
+ tag: ""
+}
+
+sign_template_frame : _nameless.f8b.7b90 {
+ frame_path: "/def/sign/frame/frame_white_hu.sii"
+ color: 3321850
+ opacity: 1
+ id: 917766144
+ area_name: ""
+ area_idx: nil
+ coords_l: &3e66d242
+ coords_r: &3f9460cc
+ coords_t: &3f4e6c32
+ coords_b: &3e69f890
+ z_order: 8
+ tag: ""
+}
+
+sign_template_image : _nameless.f6a.b3e0 {
+ atlas_path: "/def/sign/atlas/toll_manual_rs.sii"
+ image_idx: 0
+ color: 0
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 3293970430
+ area_name: ""
+ area_idx: nil
+ coords_l: &3ef5391a
+ coords_r: &3f67d99b
+ coords_t: &3f3b13b2
+ coords_b: &3e9bad48
+ z_order: 9
+ tag: ""
+}
+
+sign_template_text : _nameless.4.7598.07d0 {
+ text: "<font xscale=0.9>\xc3\x9cDV\xc3\x96Z\xc3\x96LJ\xc3\x9cK MAGYARORSZ\xc3\x81GON<br> <br>WELCOME TO HUNGARY</font>"
+ font_face: "/font/sign/hu_n.font"
+ font_size: &3ed1eb85
+ text_halign: center
+ text_valign: center
+ font_color: 0
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 3270901758
+ area_name: ""
+ area_idx: nil
+ coords_l: &3dbbb8e0
+ coords_r: &40a10692
+ coords_t: &3ff7cb7d
+ coords_b: &3d9d89d0
+ z_order: 10
+ tag: ""
+}
+
+sign_template_text : _nameless.4.7598.0110 {
+ text: "<font xscale=1.1>\xd0\x94\xd0\x9e\xd0\x91\xd0\xa0\xd0\x9e \xd0\x9d\xd0\x90\xd0\x9c \xd0\x94\xd0\x9e\xd0\xa8\xd0\x9b\xd0\x98 \xd0\xa3 \xd0\x9c\xd0\x90\xd0\x82\xd0\x90\xd0\xa0\xd0\xa1\xd0\x9a\xd0\xa3</font>"
+ font_face: "/font/sign/blk_s.font"
+ font_size: &3ed1eb85
+ text_halign: center
+ text_valign: center
+ font_color: 0
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 3485466622
+ area_name: ""
+ area_idx: nil
+ coords_l: &3dbbb8e0
+ coords_r: &40a10692
+ coords_t: &3ff7cb7d
+ coords_b: &3d9d89d0
+ z_order: 11
+ tag: ""
+}
+
+}

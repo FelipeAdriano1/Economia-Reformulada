@@ -1,0 +1,3 @@
+Um mod que reformula as opções e empréstimo existentes do jogo original.
+
+Esse mod trabalha com juros mais pesados e prazos maiores para pagamento da dívida.

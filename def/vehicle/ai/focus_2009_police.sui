@@ -1,0 +1,70 @@
+traffic_vehicle : traffic.focus_2009.pol_hu
+{
+	accessories[]: .focus_2009.police.chassis
+	accessories[]: .focus_2009.police.fwheel
+	accessories[]: .focus_2009.police.rwheel
+
+	max_speed: 160
+
+	vehicle_mass: 1800
+
+	sound_move[]: "/sound/traffic/car_diesel_2.soundref"
+
+
+	spawn_ratio: 0
+
+@include "drivers_generic_police.sui"
+}
+
+vehicle_accessory: .focus_2009.police.chassis
+{
+	data_path: "/def/vehicle/ai/focus_2009/chassis_hu.sii"
+}
+
+vehicle_wheel_accessory: .focus_2009.police.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_16in_3.sii"
+}
+
+vehicle_wheel_accessory: .focus_2009.police.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_16in_3.sii"
+}
+
+traffic_vehicle : traffic.focus_2009.pol_ru
+{
+	accessories[]: .focus_2009.pol_ru.chassis
+	accessories[]: .focus_2009.pol_ru.fwheel
+	accessories[]: .focus_2009.pol_ru.rwheel
+
+	max_speed: 160
+
+	vehicle_mass: 1800
+
+	sound_move[]: "/sound/traffic/car_diesel_2.soundref"
+
+	prefer_variant: true
+
+	spawn_ratio: 0
+
+@include "drivers_generic_police.sui"
+}
+
+vehicle_accessory: .focus_2009.pol_ru.chassis
+{
+	data_path: "/def/vehicle/ai/focus_2009/chassis_ru.sii"
+}
+
+vehicle_wheel_accessory: .focus_2009.pol_ru.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_16in_3.sii"
+}
+
+vehicle_wheel_accessory: .focus_2009.pol_ru.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_16in_3.sii"
+}

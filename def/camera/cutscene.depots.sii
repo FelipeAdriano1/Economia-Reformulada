@@ -1,0 +1,453 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+# NOTE: PLEASE DON'T CHANGE CUTSCENE NAMES !!!!
+
+
+
+cutscene_data: cutscene.rail_ter_1
+{
+    objects_path: "/map/scenes/prefab/railway_terminal_01_de.sbd"
+}
+
+cutscene_data: cutscene.con_pl_01
+{
+    objects_path: "/map/scenes/prefab/container_plaza_01_de.sbd"
+}
+
+cutscene_data: cutscene.wind_f_01
+{
+    objects_path: "/map/scenes/prefab/wind_factory_01_de.sbd"
+}
+
+cutscene_data: cutscene.chem_fac_01
+{
+    objects_path: "/map/scenes/prefab/chemical_factory_01_blkw.sbd"
+}
+
+cutscene_data: cutscene.con_pl_01_r
+{
+    objects_path: "/map/scenes/prefab/container_plaza_01_ibe_red.sbd"
+}
+
+cutscene_data: cutscene.con_pl_01_g
+{
+    objects_path: "/map/scenes/prefab/container_plaza_01_ibe_green.sbd"
+}
+
+cutscene_data: cutscene.con_pl_01_b
+{
+    objects_path: "/map/scenes/prefab/container_plaza_01_ibe_blue.sbd"
+}
+
+cutscene_data: cutscene.con_pl_01_y
+{
+    objects_path: "/map/scenes/prefab/container_plaza_01_ibe_yellow.sbd"
+}
+
+cutscene_data: cutscene.sw_01
+{
+	name: "steel_works_crane_coil"
+
+	objects_path: "/map/scenes/prefab/steel_works_factory_01_at_coil.sbd"
+}
+
+cutscene_data: cutscene.sw_02
+{
+	name: "steel_works_crane_stick"
+
+	objects_path: "/map/scenes/prefab/steel_works_factory_01_at_stick.sbd"
+}
+
+cutscene_data: cutscene.sw_03
+{
+	name: "steel_works_crane_plate"
+
+	objects_path: "/map/scenes/prefab/steel_works_factory_01_at_plate.sbd"
+}
+
+cutscene_data: cutscene.stw_01
+{
+	name: "steel_works_factory_01_at"
+
+	objects_path: "/map/scenes/prefab/steel_works_factory_01_at.sbd"
+}
+
+
+cutscene_data: cutscene.sw_nt
+{
+	name: "steel_works_crane_night"
+
+	objects_path: "/map/scenes/prefab/steel_works_factory_01_at_night.sbd"
+}
+
+cutscene_data: cutscene.farm_pigs
+{
+	name: "farm_animal_pigs"
+
+	objects_path: "/map/scenes/prefab/farm_animal_01_at_pigs.sbd"
+}
+
+cutscene_data: cutscene.farm_cows
+{
+	name: "farm_animal_cows"
+
+	objects_path: "/map/scenes/prefab/farm_family_01_at_cows.sbd"
+}
+
+cutscene_data: cutscene.wood_log
+{
+    objects_path: "/map/scenes/prefab/wood_logging_rus.sbd"
+}
+
+cutscene_data: cutscene.farm_cows_1
+{
+	name: "farm_animal_cows_01"
+
+	objects_path: "/map/scenes/prefab/farm_animal_01_at_cows.sbd"
+}
+
+cutscene_data: cutscene.dep_01_at
+{
+	name: "deposit_01_at_scene"
+
+	objects_path: "/map/scenes/prefab/deposit_01_at.sbd"
+}
+
+cutscene_data: cutscene.c_pts_fct_01
+{
+	name: "car_parts_factory_01_de_01"
+
+	objects_path: "/map/scenes/prefab/car_parts_factory_01_de_props_01.sbd"
+}
+
+cutscene_data: cutscene.cmnt_wrk_01
+{
+	name: "cement_works_01_de_01"
+
+	objects_path: "/map/scenes/prefab/cement_works_01_de_props_01.sbd"
+}
+
+cutscene_data: cutscene.fr_air_crg1
+{
+    objects_path: "/map/scenes/prefab/frankfurt_airport_cargo_01_de.sbd"
+}
+cutscene_data: cutscene.const_bs_01
+{
+    objects_path: "/map/scenes/prefab/construction_site_basement_01_de.sbd"
+}
+cutscene_data: cutscene.const_bs_01a
+{
+#night
+    objects_path: "/map/scenes/prefab/construction_site_basement_01a_de.sbd"
+}
+cutscene_data: cutscene.rivr_pt_blkw
+{
+    objects_path: "/map/scenes/prefab/river_port_01_blkw.sbd"
+}
+
+cutscene_data: cutscene.rivr_pt_01a
+{
+    objects_path: "/map/scenes/prefab/river_port_01a_blkw.sbd"
+}
+
+cutscene_data: cutscene.rivr_pt_01b
+{
+    objects_path: "/map/scenes/prefab/river_port_01b_blkw.sbd"
+#night
+}
+
+cutscene_data: cutscene.raf_01_it
+{
+    objects_path: "/map/scenes/prefab/rafinery_01_it.sbd"
+}
+
+cutscene_data: cutscene.sup_01_v1_de
+{
+    objects_path: "/map/scenes/prefab/supermarket_small_01_at_v1_de.sbd"
+}
+
+cutscene_data: cutscene.sup_01_v1_gr
+{
+    objects_path: "/map/scenes/prefab/supermarket_small_01_at_v1_gr.sbd"
+}
+
+cutscene_data: cutscene.sup_01_v1_hr
+{
+    objects_path: "/map/scenes/prefab/supermarket_small_01_at_v1_hr.sbd"
+}
+
+cutscene_data: cutscene.sup_01_v1_me
+{
+    objects_path: "/map/scenes/prefab/supermarket_small_01_at_v1_me.sbd"
+}
+
+cutscene_data: cutscene.sup_01_v2_de
+{
+    objects_path: "/map/scenes/prefab/supermarket_small_01_at_v2_de.sbd"
+}
+
+cutscene_data: cutscene.sup_01_v2_gr
+{
+    objects_path: "/map/scenes/prefab/supermarket_small_01_at_v2_gr.sbd"
+}
+
+cutscene_data: cutscene.sup_01_v2_hr
+{
+    objects_path: "/map/scenes/prefab/supermarket_small_01_at_v2_hr.sbd"
+}
+
+cutscene_data: cutscene.sup_01_v2_me
+{
+    objects_path: "/map/scenes/prefab/supermarket_small_01_at_v2_me.sbd"
+}
+
+cutscene_data: cutscene.sup_01_v2_lu
+{
+    objects_path: "/map/scenes/prefab/supermarket_small_01_at_v2_lux.sbd"
+}
+
+cutscene_data: cutscene.sup_01_v1_lu
+{
+    objects_path: "/map/scenes/prefab/supermarket_small_01_at_v1_lux.sbd"
+}
+
+
+cutscene_data: cutscene.log_02_ibe
+{
+    objects_path: "/map/scenes/prefab/logistic_02_ibe.sbd"
+}
+
+cutscene_data: cutscene.mar_pl_blkw1
+{
+    objects_path: "/map/scenes/prefab/marina_plaza_01_blkw_no_building.sbd"
+}
+
+cutscene_data: cutscene.mar_pl_blkw2
+{
+    objects_path: "/map/scenes/prefab/marina_plaza_01_blkw_building.sbd"
+}
+
+cutscene_data: cutscene.lgt_alf_blkw
+{
+    objects_path: "/map/scenes/prefab/light_factory_aluminium_01_blkw.sbd"
+}
+
+cutscene_data: cutscene.mar_log_01
+{
+    objects_path: "/map/scenes/prefab/marina_logistic_01_blkw.sbd"
+}
+
+cutscene_data: cutscene.mar_pl_blkw
+{
+    objects_path: "/map/scenes/prefab/marina_plaza_01_blkw.sbd"
+}
+
+cutscene_data: cutscene.rail_ter1
+{
+		objects_path: "/map/scenes/prefab/railway_terminal_01_blkw.sbd"
+}
+
+cutscene_data: cutscene.gar_sc1
+{
+		objects_path: "/map/scenes/prefab/garage_sc.sbd"
+}
+
+cutscene_data: cutscene.lig_fac_at_1
+{
+		objects_path: "/map/scenes/prefab/light_factory_01_at_1.sbd"
+}
+
+cutscene_data: cutscene.lig_fac_at_2
+{
+		objects_path: "/map/scenes/prefab/light_factory_01_at_2.sbd"
+}
+
+cutscene_data: cutscene.log_01_ru
+{
+		objects_path: "/map/scenes/prefab/logistic_01_rus.sbd"
+}
+
+cutscene_data: cutscene.car_fac_1_de
+{
+		objects_path: "/map/scenes/prefab/car_factory_01_de.sbd"
+}
+
+cutscene_data: cutscene.cons_01_blke
+{
+		objects_path: "/map/scenes/prefab/construction_01_blke.sbd"
+}
+
+cutscene_data: cutscene.air_cg_01_fr
+{
+		objects_path: "/map/scenes/prefab/airport_cargo_01_fr.sbd"
+}
+
+cutscene_data: cutscene.oil_str_balt
+{
+		objects_path: "/map/scenes/prefab/oil_storage_balt.sbd"
+}
+
+cutscene_data: cutscene.log_03_balt
+{
+		objects_path: "/map/scenes/prefab/logistic_03_balt.sbd"
+}
+
+cutscene_data: cutscene.sup_01_blke
+{
+		objects_path: "/map/scenes/prefab/supermarket_01_blke.sbd"
+}
+
+cutscene_data: cutscene.mach_01_at
+{
+		objects_path: "/map/scenes/prefab/heavy_machinery_service_01_at.sbd"
+}
+
+cutscene_data: cutscene.scrap_01_at
+{
+		objects_path: "/map/scenes/prefab/scrapyard_01_at.sbd"
+}
+
+cutscene_data: cutscene.ship_blke
+{
+		objects_path: "/map/scenes/prefab/shipyard_blke.sbd"
+}
+
+cutscene_data: cutscene.cn_fac_balt
+{
+		objects_path: "/map/scenes/prefab/concrete_factory_balt.sbd"
+}
+
+cutscene_data: cutscene.deal_daf_1
+{
+		objects_path: "/map/scenes/prefab/dealer_daf1.sbd"
+}
+
+cutscene_data: cutscene.deal_daf_2
+{
+		objects_path: "/map/scenes/prefab/dealer_daf2.sbd"
+}
+
+cutscene_data: cutscene.deal_daf_3
+{
+		objects_path: "/map/scenes/prefab/dealer_daf3.sbd"
+}
+
+cutscene_data: cutscene.deal_daf_4
+{
+		objects_path: "/map/scenes/prefab/dealer_daf4.sbd"
+}
+
+cutscene_data: cutscene.gar_ex_1
+{
+	name: "garage_expensive_1 - scene"
+
+	objects_path: "/map/scenes/prefab/garage_expensive_1.sbd"
+}
+
+cutscene_data: cutscene.gar_ex_2
+{
+	name: "garage_expensive_2 - scene"
+
+	objects_path: "/map/scenes/prefab/garage_expensive_2.sbd"
+}
+
+cutscene_data: cutscene.gar_ex_3
+{
+	name: "garage_expensive_3 - scene"
+
+	objects_path: "/map/scenes/prefab/garage_expensive_3.sbd"
+}
+
+cutscene_data: cutscene.gar_ex_4
+{
+	name: "garage_expensive_4 - scene"
+
+	objects_path: "/map/scenes/prefab/garage_expensive_4.sbd"
+}
+
+cutscene_data: cutscene.gar_ex_5
+{
+	name: "garage_expensive_5 - scene"
+
+	objects_path: "/map/scenes/prefab/garage_expensive_5.sbd"
+}
+
+cutscene_data: cutscene.gar_1
+{
+	name: "garage_1 - scene"
+
+	objects_path: "/map/scenes/prefab/garage_1.sbd"
+}
+
+cutscene_data: cutscene.gar_2
+{
+	name: "garage_2 - scene"
+
+	objects_path: "/map/scenes/prefab/garage_2.sbd"
+}
+
+cutscene_data: cutscene.gar_3
+{
+	name: "garage_3 - scene"
+
+	objects_path: "/map/scenes/prefab/garage_3.sbd"
+}
+
+cutscene_data: cutscene.gar_4
+{
+	name: "garage_4 - scene"
+
+	objects_path: "/map/scenes/prefab/garage_4.sbd"
+}
+
+cutscene_data: cutscene.gar_5
+{
+	name: "garage_5 - scene"
+
+	objects_path: "/map/scenes/prefab/garage_5.sbd"
+}
+
+cutscene_data: cutscene.gar_po_1
+{
+	name: "garage_poor_1 - scene"
+
+	objects_path: "/map/scenes/prefab/garage_poor_1.sbd"
+}
+
+cutscene_data: cutscene.gar_po_2
+{
+	name: "garage_poor_2 - scene"
+
+	objects_path: "/map/scenes/prefab/garage_poor_2.sbd"
+}
+
+cutscene_data: cutscene.gar_po_3
+{
+	name: "garage_poor_3 - scene"
+
+	objects_path: "/map/scenes/prefab/garage_poor_3.sbd"
+}
+
+cutscene_data: cutscene.gar_po_4
+{
+	name: "garage_poor_4 - scene"
+
+	objects_path: "/map/scenes/prefab/garage_poor_4.sbd"
+}
+
+cutscene_data: cutscene.gar_po_5
+{
+	name: "garage_poor_5 - scene"
+
+	objects_path: "/map/scenes/prefab/garage_poor_5.sbd"
+}
+
+}

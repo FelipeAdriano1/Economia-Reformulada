@@ -1,0 +1,352 @@
+SiiNunit
+{
+sign_board_template : _nameless.2.19b6.0f10 {
+ board_name: "si koseze 09"
+ width: 5
+ height: &40533333
+ model_name: blkw_1402z
+ items: 17
+ items[0]: _nameless.2.22af.3860
+ items[1]: _nameless.2.22af.5660
+ items[2]: _nameless.2.19f4.9a80
+ items[3]: _nameless.2.22af.4820
+ items[4]: _nameless.2.19b6.0c40
+ items[5]: _nameless.2.22af.5de0
+ items[6]: _nameless.2.19f4.b2e0
+ items[7]: _nameless.2.22af.45e0
+ items[8]: _nameless.2.22af.3920
+ items[9]: _nameless.2.19b5.f140
+ items[10]: _nameless.2.19f4.b420
+ items[11]: _nameless.2.19f4.b4c0
+ items[12]: _nameless.2.19f4.9b20
+ items[13]: _nameless.2.19f4.bc40
+ items[14]: _nameless.2.19f4.9bc0
+ items[15]: _nameless.2.19f4.bce0
+ items[16]: _nameless.2.19b6.0340
+ dynamic_attributes: 0
+}
+
+sign_template_text : _nameless.2.22af.3860 {
+ text: "Beljak/Villach"
+ font_face: "/font/sign/blk_n.font"
+ font_size: &3f19999a
+ text_halign: center
+ text_valign: center
+ font_color: 16777215
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3ca3d70a
+ id: 2805071871
+ area_name: ""
+ area_idx: nil
+ coords_l: 0
+ coords_r: 5
+ coords_t: &40313e60
+ coords_b: &4007ab00
+ z_order: 1
+ tag: ""
+}
+
+sign_template_text : _nameless.2.22af.5660 {
+ text: A2
+ font_face: "/font/sign/blk_s.font"
+ font_size: &3ecccccd
+ text_halign: center
+ text_valign: center
+ font_color: 16777215
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3d23d70a
+ id: 717357056
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fe527c6
+ coords_r: &4019a717
+ coords_t: &404c1020
+ coords_b: &402de638
+ z_order: 2
+ tag: ""
+}
+
+sign_template_image : _nameless.2.19f4.9a80 {
+ atlas_path: "/def/sign/atlas/routehex1_rs.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 3996909566
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fe31863
+ coords_r: &401b0adb
+ coords_t: &404a052f
+ coords_b: &4031210a
+ z_order: 3
+ tag: ""
+}
+
+sign_template_text : _nameless.2.22af.4820 {
+ text: "E<sub scale=0.5> </sub>61"
+ font_face: "/font/sign/blk_s.font"
+ font_size: &3ee66666
+ text_halign: center
+ text_valign: center
+ font_color: 16777215
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3ca3d70a
+ id: 485228544
+ area_name: ""
+ area_idx: nil
+ coords_l: &4025bfc5
+ coords_r: &404b113e
+ coords_t: &404b113e
+ coords_b: &402e36c2
+ z_order: 4
+ tag: ""
+}
+
+sign_template_frame : _nameless.2.19b6.0c40 {
+ frame_path: "/def/sign/frame/trans2_hr.sii"
+ color: 16777215
+ opacity: 1
+ id: 2774532095
+ area_name: ""
+ area_idx: nil
+ coords_l: &40239255
+ coords_r: &404d3eac
+ coords_t: &404b0387
+ coords_b: &40300cb9
+ z_order: 5
+ tag: ""
+}
+
+sign_template_text : _nameless.2.22af.5de0 {
+ text: "Celovec/"
+ font_face: "/font/sign/blk_n.font"
+ font_size: &3f19999a
+ text_halign: center
+ text_valign: center
+ font_color: 16777215
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3ca3d70a
+ id: 3470262270
+ area_name: ""
+ area_idx: nil
+ coords_l: 0
+ coords_r: 5
+ coords_t: &40105207
+ coords_b: &3fcd7d49
+ z_order: 6
+ tag: ""
+}
+
+sign_template_image : _nameless.2.19f4.b2e0 {
+ atlas_path: "/def/sign/atlas/border_blank_de.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 2295988223
+ area_name: ""
+ area_idx: nil
+ coords_l: &406cb521
+ coords_r: &408b7522
+ coords_t: &4011abd6
+ coords_b: &3fceed69
+ z_order: 7
+ tag: ""
+}
+
+sign_template_text : _nameless.2.22af.45e0 {
+ text: A
+ font_face: "/font/sign/blk_s.font"
+ font_size: &3f000000
+ text_halign: center
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 3136946174
+ area_name: ""
+ area_idx: nil
+ coords_l: &406cb521
+ coords_r: &408b7522
+ coords_t: &40102702
+ coords_b: &3fce2abd
+ z_order: 8
+ tag: ""
+}
+
+sign_template_text : _nameless.2.22af.3920 {
+ text: Klagenfurt
+ font_face: "/font/sign/blk_n.font"
+ font_size: &3f19999a
+ text_halign: center
+ text_valign: center
+ font_color: 16777215
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 2047606783
+ area_name: ""
+ area_idx: nil
+ coords_l: 0
+ coords_r: 5
+ coords_t: &3fdff16c
+ coords_b: &3f8ccaa8
+ z_order: 9
+ tag: ""
+}
+
+sign_template_frame : _nameless.2.19b5.f140 {
+ frame_path: "/def/sign/frame/frame_white_hu.sii"
+ color: 0
+ opacity: 1
+ id: 3136159742
+ area_name: ""
+ area_idx: nil
+ coords_l: &3ede20e0
+ coords_r: &40921df2
+ coords_t: &3f8880a8
+ coords_b: &3f0878c9
+ z_order: 10
+ tag: ""
+}
+
+sign_template_image : _nameless.2.19f4.b420 {
+ atlas_path: "/def/sign/atlas/arrow_down_lane_rs.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 695205888
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f191b5e
+ coords_r: &3f8f385b
+ coords_t: &3edc4980
+ coords_b: &3daa0990
+ z_order: 12
+ tag: ""
+}
+
+sign_template_image : _nameless.2.19f4.b4c0 {
+ atlas_path: "/def/sign/atlas/arrow_down_lane_rs.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 962068480
+ area_name: ""
+ area_idx: nil
+ coords_l: &40778851
+ coords_r: &408c6ed4
+ coords_t: &3edc4980
+ coords_b: &3daa0990
+ z_order: 13
+ tag: ""
+}
+
+sign_template_image : _nameless.2.19f4.9b20 {
+ atlas_path: "/def/sign/atlas/arrow_diagram_hor_tail_hu.sii"
+ image_idx: 0
+ color: 0
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 4225761278
+ area_name: ""
+ area_idx: nil
+ coords_l: &3ee056e0
+ coords_r: &40932dc6
+ coords_t: &3f96c8ce
+ coords_b: &3f682439
+ z_order: 14
+ tag: ""
+}
+
+sign_template_image : _nameless.2.19f4.bc40 {
+ atlas_path: "/def/sign/atlas/arrow_diagram_hor_tail_hu.sii"
+ image_idx: 0
+ color: 0
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 2855927807
+ area_name: ""
+ area_idx: nil
+ coords_l: &3ee056e0
+ coords_r: &40932dc6
+ coords_t: &3f30bc20
+ coords_b: &3ed69d7a
+ z_order: 15
+ tag: ""
+}
+
+sign_template_image : _nameless.2.19f4.9bc0 {
+ atlas_path: "/def/sign/atlas/arrow_diagram_vert_tail_hu.sii"
+ image_idx: 0
+ color: 0
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 3745120254
+ area_name: ""
+ area_idx: nil
+ coords_l: &3ea48ec3
+ coords_r: &3f1824c4
+ coords_t: &3f8897f9
+ coords_b: &3f06c8d2
+ z_order: 16
+ tag: ""
+}
+
+sign_template_image : _nameless.2.19f4.bce0 {
+ atlas_path: "/def/sign/atlas/arrow_diagram_vert_tail_hu.sii"
+ image_idx: 0
+ color: 0
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 4008443902
+ area_name: ""
+ area_idx: nil
+ coords_l: &408e1086
+ coords_r: &4096cc32
+ coords_t: &3f8897f9
+ coords_b: &3f06c8d2
+ z_order: 17
+ tag: ""
+}
+
+sign_template_frame : _nameless.2.19b6.0340 {
+ frame_path: "/def/sign/frame/frame_white_hu.sii"
+ color: 16777215
+ opacity: &3dcccccd
+ id: 1856765951
+ area_name: ""
+ area_idx: nil
+ coords_l: &3ede20e0
+ coords_r: &40921df2
+ coords_t: &3f8880a8
+ coords_b: &3f0878c9
+ z_order: 11
+ tag: ""
+}
+
+}

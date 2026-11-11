@@ -1,0 +1,72 @@
+SiiNunit
+{
+sign_template : _nameless.466.d2c0 {
+ template_name: "esbjerg port 02"
+ model_name: 1388
+ stand_model_name: ""
+ traffic_rule: null
+ boards: 0
+ items: 3
+ items[0]: _nameless.58e.b8b0
+ items[1]: _nameless.58e.ac50
+ items[2]: _nameless.58b.7eb0
+ dynamic_attributes: 0
+}
+
+sign_template_image : _nameless.58e.b8b0 {
+ atlas_path: "/def/sign/atlas/arrow_horizontal_dk.sii"
+ image_idx: 0
+ color: 255
+ opacity: 1
+ hflip: true
+ vflip: false
+ image_overridable: false
+ id: 2274230271
+ area_name: ml2
+ area_idx: nil
+ coords_l: &3e19999a
+ coords_r: &3f1eb852
+ coords_t: &3f170a3d
+ coords_b: &3df5c28f
+ z_order: 1
+}
+
+sign_template_image : _nameless.58e.ac50 {
+ atlas_path: "/def/sign/atlas/port_1_dk.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 1969487871
+ area_name: ml2
+ area_idx: nil
+ coords_l: &3f333336
+ coords_r: &3f95c291
+ coords_t: &3f170a3d
+ coords_b: &3df5c28f
+ z_order: 2
+}
+
+sign_template_text : _nameless.58b.7eb0 {
+ text: England
+ font_face: "/font/sign/dk.font"
+ font_size: &3f000000
+ text_halign: left
+ text_valign: center
+ font_color: 255
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 3189899262
+ area_name: ml2
+ area_idx: nil
+ coords_l: &3fab4d58
+ coords_r: &408c6438
+ coords_t: &3f27c2ff
+ coords_b: 0
+ z_order: 3
+}
+
+}

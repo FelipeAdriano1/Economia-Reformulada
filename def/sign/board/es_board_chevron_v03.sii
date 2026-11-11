@@ -1,0 +1,120 @@
+SiiNunit
+{
+sign_board_template : _nameless.7a1.3b80 {
+ board_name: "es board chevron v03"
+ width: &40433333
+ height: &3fb5c28f
+ model_name: ""
+ items: 5
+ items[0]: _nameless.7af.e920
+ items[1]: _nameless.7af.f160
+ items[2]: _nameless.7b8.8790
+ items[3]: _nameless.7af.fe20
+ items[4]: _nameless.7af.f0a0
+ dynamic_attributes: 0
+}
+
+sign_template_text : _nameless.7af.e920 {
+ text: XXXXXXXX
+ font_face: "/font/sign/es_hw.font"
+ font_size: &3f000000
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 3380084734
+ area_name: ""
+ area_idx: nil
+ coords_l: &3dccccc0
+ coords_r: &4023c516
+ coords_t: &3fb5c28f
+ coords_b: &3f357abd
+ z_order: 1
+ tag: ""
+}
+
+sign_template_text : _nameless.7af.f160 {
+ text: XXXXXXXX
+ font_face: "/font/sign/es_hw.font"
+ font_size: &3f000000
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 3422814206
+ area_name: ""
+ area_idx: nil
+ coords_l: &3dccccc0
+ coords_r: &4023c515
+ coords_t: &3f357abd
+ coords_b: 0
+ z_order: 2
+ tag: ""
+}
+
+sign_template_image : _nameless.7b8.8790 {
+ atlas_path: "/def/sign/atlas/exit_es.sii"
+ image_idx: 0
+ color: nil
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 2574516223
+ area_name: ""
+ area_idx: nil
+ coords_l: &3e7210cc
+ coords_r: &3f4ff2aa
+ coords_t: &3f747f60
+ coords_b: &3eed60f2
+ z_order: 3
+ tag: ""
+}
+
+sign_template_text : _nameless.7af.fe20 {
+ text: XXXXX
+ font_face: "/font/sign/es_hw.font"
+ font_size: &3f000000
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 4189323262
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f5d1b58
+ coords_r: &4023c515
+ coords_t: &3f88542a
+ coords_b: &3eb65b2e
+ z_order: 4
+ tag: ""
+}
+
+sign_template_text : _nameless.7af.f0a0 {
+ text: XXXXXXXX
+ font_face: "/font/sign/es_hw.font"
+ font_size: &3f000000
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 333053952
+ area_name: ""
+ area_idx: nil
+ coords_l: &3dccccc0
+ coords_r: &4023c516
+ coords_t: &3f87ae16
+ coords_b: &3eb2a396
+ z_order: 5
+ tag: ""
+}
+
+}

@@ -1,0 +1,180 @@
+SiiNunit
+{
+sign_board_template : _nameless.805.4970 {
+ board_name: "pt chevron white v01"
+ width: &40433333
+ height: &3fb5c28f
+ model_name: ""
+ items: 8
+ items[0]: _nameless.809.4ca0
+ items[1]: _nameless.809.4d60
+ items[2]: _nameless.809.4e20
+ items[3]: _nameless.809.6560
+ items[4]: _nameless.801.d290
+ items[5]: _nameless.801.b670
+ items[6]: _nameless.801.c2f0
+ items[7]: _nameless.801.b170
+ dynamic_attributes: 0
+}
+
+sign_template_text : _nameless.809.4ca0 {
+ text: XXXXXXXX
+ font_face: "/font/sign/pt_nr.font"
+ font_size: &3ee66666
+ text_halign: center
+ text_valign: top
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 482869248
+ area_name: ""
+ area_idx: nil
+ coords_l: &3d1f7700
+ coords_r: &4021a648
+ coords_t: &3f150023
+ coords_b: &3ddd46a8
+ z_order: 1
+ tag: ""
+}
+
+sign_template_text : _nameless.809.4d60 {
+ text: XXXXXXX
+ font_face: "/font/sign/pt_nr.font"
+ font_size: &3f000000
+ text_halign: center
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 822083584
+ area_name: ""
+ area_idx: nil
+ coords_l: &3d1f7700
+ coords_r: &4021a648
+ coords_t: &3f843da8
+ coords_b: &3f0fe16b
+ z_order: 2
+ tag: ""
+}
+
+sign_template_text : _nameless.809.4e20 {
+ text: XXXXXXX
+ font_face: "/font/sign/pt.font"
+ font_size: &3f000000
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1293680640
+ area_name: ""
+ area_idx: nil
+ coords_l: &3d1f7700
+ coords_r: &4021a648
+ coords_t: &3f4c2e5d
+ coords_b: &3ea728f0
+ z_order: 3
+ tag: ""
+}
+
+sign_template_text : _nameless.809.6560 {
+ text: XXXXXXX
+ font_face: "/font/sign/pt.font"
+ font_size: &3f000000
+ text_halign: center
+ text_valign: center
+ font_color: 0
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 2116419583
+ area_name: ""
+ area_idx: nil
+ coords_l: &3d1f7700
+ coords_r: &4021a648
+ coords_t: &3f4d9a0c
+ coords_b: &3eaa004e
+ z_order: 4
+ tag: ""
+}
+
+sign_template_image : _nameless.801.d290 {
+ atlas_path: "/def/sign/atlas/shopping_zone_pt.sii"
+ image_idx: 0
+ color: nil
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 3432513534
+ area_name: ""
+ area_idx: nil
+ coords_l: &3e25399d
+ coords_r: &3eff532a
+ coords_t: &3f3c06dd
+ coords_b: &3ecb575e
+ z_order: 5
+ tag: ""
+}
+
+sign_template_image : _nameless.801.b670 {
+ atlas_path: "/def/sign/atlas/seaport_es.sii"
+ image_idx: 0
+ color: nil
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 1817575423
+ area_name: ""
+ area_idx: nil
+ coords_l: &3e13a7de
+ coords_r: &3f00f800
+ coords_t: &3f36fc58
+ coords_b: &3eb5dca0
+ z_order: 6
+ tag: ""
+}
+
+sign_template_image : _nameless.801.c2f0 {
+ atlas_path: "/def/sign/atlas/industry_es.sii"
+ image_idx: 0
+ color: nil
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 3691905022
+ area_name: ""
+ area_idx: nil
+ coords_l: &3ded0ba0
+ coords_r: &3f0826b7
+ coords_t: &3f40e62c
+ coords_b: &3eacc1d4
+ z_order: 7
+ tag: ""
+}
+
+sign_template_image : _nameless.801.b170 {
+ atlas_path: "/def/sign/atlas/seaport_v2_pt.sii"
+ image_idx: 0
+ color: nil
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 3746430974
+ area_name: ""
+ area_idx: nil
+ coords_l: &3dfc6b6a
+ coords_r: &3eec4ec4
+ coords_t: &3f36c0ea
+ coords_b: &3ec04de9
+ z_order: 8
+ tag: ""
+}
+
+}

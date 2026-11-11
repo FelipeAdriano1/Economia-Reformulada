@@ -1,0 +1,15 @@
+SiiNunit
+{
+accessory_addon_data : nrm_covered.scania.r_2016.f_light_top
+{
+	name: "@@f_light_top_no_lamps@@"
+	price: 120
+	unlock: 0
+	icon: "truck/scania_2016/accessory/f_light_top/nrm_covered"
+	part_type: factory
+
+	exterior_model: "/vehicle/truck/scania_2016/accessory/f_light_top/nrm_covered.pmd"
+
+	suitable_for[]: "normal.scania.r_2016.cabin"
+}
+}

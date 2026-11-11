@@ -1,0 +1,164 @@
+SiiNunit
+{
+sign_board_template : _nameless.7eb.b5d0 {
+ board_name: "es board calahorra 10"
+ width: &40433333
+ height: &3fb5c28f
+ model_name: ""
+ items: 8
+ items[0]: _nameless.7eb.b660
+ items[1]: _nameless.827.d910
+ items[2]: _nameless.827.ebd0
+ items[3]: _nameless.827.dcd0
+ items[4]: _nameless.7eb.c080
+ items[5]: _nameless.827.cad0
+ items[6]: _nameless.7eb.cf20
+ items[7]: _nameless.7eb.c3e0
+ dynamic_attributes: 0
+}
+
+sign_template_frame : _nameless.7eb.b660 {
+ frame_path: "/def/sign/frame/frame_white1_es.sii"
+ color: 5930240
+ opacity: 1
+ id: 1182007296
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f6640bc
+ coords_r: &3fde875c
+ coords_t: &3fa875b3
+ coords_b: &3f8679cd
+ z_order: 1
+ tag: ""
+}
+
+sign_template_text : _nameless.827.d910 {
+ text: "A-337"
+ font_face: "/font/sign/es_sr.font"
+ font_size: &3e99999a
+ text_halign: center
+ text_valign: center
+ font_color: 16777215
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &bca3d70a
+ id: 1593835519
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f400002
+ coords_r: &3ff1a7b9
+ coords_t: &3fabafd7
+ coords_b: &3f83f677
+ z_order: 2
+ tag: ""
+}
+
+sign_template_text : _nameless.827.ebd0 {
+ text: "LA CALAHORRA"
+ font_face: "/font/sign/es_sr.font"
+ font_size: &3eb33333
+ text_halign: center
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1201405952
+ area_name: ""
+ area_idx: nil
+ coords_l: &3d481780
+ coords_r: &402e2932
+ coords_t: &3f8b8d20
+ coords_b: &3f20dd48
+ z_order: 3
+ tag: ""
+}
+
+sign_template_text : _nameless.827.dcd0 {
+ text: "CHER\xc3\x8dN"
+ font_face: "/font/sign/es_sr.font"
+ font_size: &3eb33333
+ text_halign: center
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1039138816
+ area_name: ""
+ area_idx: nil
+ coords_l: &3e396120
+ coords_r: &401d3dca
+ coords_t: &3ee1ed66
+ coords_b: &3cc89028
+ z_order: 4
+ tag: ""
+}
+
+sign_template_frame : _nameless.7eb.c080 {
+ frame_path: "/def/sign/frame/frame_white1_es.sii"
+ color: 12900
+ opacity: 1
+ id: 438697984
+ area_name: ""
+ area_idx: nil
+ coords_l: &3e7a1d80
+ coords_r: &40193206
+ coords_t: &3f31742d
+ coords_b: &3ed6cdfb
+ z_order: 5
+ tag: ""
+}
+
+sign_template_text : _nameless.827.cad0 {
+ text: "Pto. de la Ragua"
+ font_face: "/font/sign/es_sr.font"
+ font_size: &3e99999a
+ text_halign: center
+ text_valign: center
+ font_color: 16777215
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 82575360
+ area_name: ""
+ area_idx: nil
+ coords_l: &3df149b0
+ coords_r: &40214990
+ coords_t: &3f37e875
+ coords_b: &3ed0eb6a
+ z_order: 7
+ tag: ""
+}
+
+sign_template_frame : _nameless.7eb.cf20 {
+ frame_path: "/def/sign/frame/frame_white1_es.sii"
+ color: 5930240
+ opacity: 0
+ id: 1847984127
+ area_name: ""
+ area_idx: nil
+ coords_l: &3e7a1d80
+ coords_r: &40193206
+ coords_t: &3f31742d
+ coords_b: &3ed6cdfb
+ z_order: 6
+ tag: ""
+}
+
+sign_template_frame : _nameless.7eb.c3e0 {
+ frame_path: "/def/sign/frame/frame_white1_es.sii"
+ color: 52479
+ opacity: 0
+ id: 290455552
+ area_name: ""
+ area_idx: nil
+ coords_l: &3e7a1d80
+ coords_r: &40193206
+ coords_t: &3f31742d
+ coords_b: &3ed6cdfb
+ z_order: 8
+ tag: ""
+}
+
+}

@@ -1,0 +1,44 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+
+@include "ai/bombardier_traxx_locomotive.sui"
+@include "ai/bombardier_traxx_locomotive_rus.sui"
+@include "ai/bombardier_traxx_locomotive_de.sui"
+@include "ai/train_ice_locomotive.sui"
+@include "ai/train_regiode_locomotive.sui"
+@include "ai/train_db143_locomotive.sui"
+@include "ai/train_es2_locomotive.sui"
+@include "ai/train_er2_locomotive.sui"
+@include "ai/train_boltron.sui"
+@include "ai/train_frt_locomotive.sui"
+@include "ai/train_e_405_locomotive.sui"
+@include "ai/train_sidero_locomotive.sui"
+@include "ai/train_cls252_locomotive.sui"
+
+# DLC_BALKAN_E
+
+
+@include "ai/train_cc47e_locomotive.sui"
+@include "ai/train_bdz_locomotive.sui"
+
+@include "ai/train_vltr_locomotive.sui"
+@include "ai/train_te68e_locomotive.sui"
+
+
+#Polar Circle
+@include "ai/train_rc_locomotive.sui"
+@include "ai/train_copenhagen_locomotive.sui"
+@include "ai/train_dutch_double_locomotive.sui"
+
+@include "ai/train_ice3neo_loco.sui"
+@include "ai/train_boltron_dual_mode.sui"
+
+}

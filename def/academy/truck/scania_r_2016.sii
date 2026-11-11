@@ -1,0 +1,493 @@
+SiiNunit
+{
+vehicle : scania.academy.r.2016 {
+ engine_wear: 0.000000
+ transmission_wear: 0.000000
+ cabin_wear: 0.000000
+ engine_wear_unfixable: 0.000000
+ transmission_wear_unfixable: 0.000000
+ cabin_wear_unfixable: 0.000000
+ fuel_relative: 0.000000
+ rheostat_factor: 0.750000
+ user_mirror_rot: 7
+ user_mirror_rot[0]: (1.000000; 0.000000, 0.000000, 0.000000)
+ user_mirror_rot[1]: (1.000000; 0.000000, 0.000000, 0.000000)
+ user_mirror_rot[2]: (1.000000; 0.000000, 0.000000, 0.000000)
+ user_mirror_rot[3]: (1.000000; 0.000000, 0.000000, 0.000000)
+ user_mirror_rot[4]: (1.000000; 0.000000, 0.000000, 0.000000)
+ user_mirror_rot[5]: (1.000000; 0.000000, 0.000000, 0.000000)
+ user_mirror_rot[6]: (1.000000; 0.000000, 0.000000, 0.000000)
+ user_head_offset: (0.000000, 0.000000, 0.000000)
+ user_fov: 0.000000
+ user_wheel_up_down: 0.000000
+ user_wheel_front_back: 0.000000
+ user_mouse_left_right_default: 0.000000
+ user_mouse_up_down_default: 0.000000
+ accessories: 52
+ accessories[0]: _nameless.6.5b8b.e7e0
+ accessories[1]: _nameless.6.5b8b.e820
+ accessories[2]: _nameless.6.5b8b.ee60
+ accessories[3]: _nameless.6.5b8c.63e0
+ accessories[4]: _nameless.3.ea07.e050
+ accessories[5]: _nameless.3.ea07.c110
+ accessories[6]: _nameless.3.ea07.e0f0
+ accessories[7]: _nameless.3.ea07.c1b0
+ accessories[8]: _nameless.3.ea07.e190
+ accessories[9]: _nameless.6.5b89.c840
+ accessories[10]: _nameless.6.5b89.cba0
+ accessories[11]: _nameless.4.8979.9d00
+ accessories[12]: _nameless.3.ea07.c570
+ accessories[13]: _nameless.6.5b89.da40
+ accessories[14]: _nameless.3.ea07.c610
+ accessories[15]: _nameless.6.5b89.c8a0
+ accessories[16]: _nameless.6.5b89.c360
+ accessories[17]: _nameless.6.5b8c.6820
+ accessories[18]: _nameless.3.ea07.f6d0
+ accessories[19]: _nameless.3.ea07.f270
+ accessories[20]: _nameless.6.5b8c.6fa0
+ accessories[21]: _nameless.3.ea07.eeb0
+ accessories[22]: _nameless.3.ea07.f130
+ accessories[23]: _nameless.3.ea07.eff0
+ accessories[24]: _nameless.3.ea08.03f0
+ accessories[25]: _nameless.3.ea07.f450
+ accessories[26]: _nameless.3.ea08.0cb0
+ accessories[27]: _nameless.3.ea07.f4f0
+ accessories[28]: _nameless.3.ea07.f3b0
+ accessories[29]: _nameless.3.ea08.0b70
+ accessories[30]: _nameless.3.ea08.0030
+ accessories[31]: _nameless.3.ea07.eb90
+ accessories[32]: _nameless.3.ea07.ee10
+ accessories[33]: _nameless.3.ea07.f590
+ accessories[34]: _nameless.3.ea07.f630
+ accessories[35]: _nameless.3.ea07.fd10
+ accessories[36]: _nameless.6.5b89.cc00
+ accessories[37]: _nameless.3.ea07.f770
+ accessories[38]: _nameless.6.5b89.cc60
+ accessories[39]: _nameless.3.ea07.fbd0
+ accessories[40]: _nameless.3.ea07.ef50
+ accessories[41]: _nameless.3.ea07.fa90
+ accessories[42]: _nameless.3.ea08.05d0
+ accessories[43]: _nameless.3.ea07.f090
+ accessories[44]: _nameless.3.ea08.0490
+ accessories[45]: _nameless.3.ea07.f1d0
+ accessories[46]: _nameless.3.ea07.f810
+ accessories[47]: _nameless.3.ea07.f310
+ accessories[48]: _nameless.6.5b89.efa0
+ accessories[49]: _nameless.6.5b8c.68a0
+ accessories[50]: _nameless.3.ea07.f8b0
+ accessories[51]: _nameless.3.ea07.f950
+ odometer: 0
+ odometer_float_part: 0.000000
+ integrity_odometer: 0
+ integrity_odometer_float_part: 0.000000
+ trip_fuel_l: 0
+ trip_fuel: 0.000000
+ trip_recuperation_kwh: 0
+ trip_recuperation: 0.000000
+ trip_distance_km: 0
+ trip_distance: 0.000000
+ trip_time_min: 0
+ trip_time: 0.000000
+ license_plate: ""
+ chassis_wear: 0.000000
+ chassis_wear_unfixable: 0.000000
+ wheels_wear: 2
+ wheels_wear[0]: 0.000000
+ wheels_wear[1]: 0.000000
+ wheels_wear_unfixable: 2
+ wheels_wear_unfixable[0]: 0.000000
+ wheels_wear_unfixable[1]: 0.000000
+ sliding_axle_offset: 0.000000
+}
+
+vehicle_accessory : _nameless.6.5b8b.e7e0 {
+ data_path: "/def/vehicle/truck/scania.r_2016/data.sii"
+ refund: 0
+}
+
+vehicle_accessory : _nameless.6.5b8b.e820 {
+ data_path: "/def/vehicle/truck/scania.r_2016/chassis/4x2.sii"
+ refund: 0
+}
+
+vehicle_accessory : _nameless.6.5b8b.ee60 {
+ data_path: "/def/vehicle/truck/scania.r_2016/cabin/highline.sii"
+ refund: 0
+}
+
+vehicle_accessory : _nameless.6.5b8c.63e0 {
+ data_path: "/def/vehicle/truck/scania.r_2016/head_light/led.sii"
+ refund: 0
+}
+
+vehicle_addon_accessory : _nameless.3.ea07.e050 {
+ slot_name: 0
+ slot_hookup: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/truck/scania.r_2016/accessory/doorstep/shape1.sii"
+ refund: 0
+}
+
+vehicle_addon_accessory : _nameless.3.ea07.c110 {
+ slot_name: 0
+ slot_hookup: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/truck/scania.r_2016/accessory/f_badge/stock.sii"
+ refund: 0
+}
+
+vehicle_addon_accessory : _nameless.3.ea07.e0f0 {
+ slot_name: 0
+ slot_hookup: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/truck/scania.r_2016/accessory/f_inlay_chs/stock.sii"
+ refund: 0
+}
+
+vehicle_addon_accessory : _nameless.3.ea07.c1b0 {
+ slot_name: 0
+ slot_hookup: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/truck/scania.r_2016/accessory/f_light_bmp/modern.sii"
+ refund: 0
+}
+
+vehicle_addon_accessory : _nameless.3.ea07.e190 {
+ slot_name: 0
+ slot_hookup: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/truck/scania.r_2016/accessory/f_wnd_frame/stock.sii"
+ refund: 0
+}
+
+vehicle_wheel_accessory : _nameless.6.5b89.c840 {
+ offset: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/f_nuts/front_nuts_01_steel.sii"
+ refund: 0
+}
+
+vehicle_wheel_accessory : _nameless.6.5b89.cba0 {
+ offset: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/f_tire/1.sii"
+ refund: 0
+}
+
+vehicle_paint_job_accessory : _nameless.4.8979.9d00 {
+ mask_r_color: (1.000000, 0.000000, 0.000000)
+ mask_g_color: (0.000000, 1.000000, 0.000000)
+ mask_b_color: (0.000000, 0.000000, 1.000000)
+ flake_color: (1.000000, 0.947307, 0.846873)
+ flip_color: (0.036889, 0.034340, 0.029557)
+ base_color: (0.514918, 0.491021, 0.462077)
+ data_path: "/def/vehicle/truck/scania.r_2016/paint_job/color4m.sii"
+ refund: 0
+}
+
+vehicle_addon_accessory : _nameless.3.ea07.c570 {
+ slot_name: 0
+ slot_hookup: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/truck/scania.r_2016/accessory/r_chs_cover/stock_4x2.sii"
+ refund: 0
+}
+
+vehicle_wheel_accessory : _nameless.6.5b89.da40 {
+ offset: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/r_disc/rear_disc_01.sii"
+ refund: 0
+}
+
+vehicle_addon_accessory : _nameless.3.ea07.c610 {
+ slot_name: 0
+ slot_hookup: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/truck/scania.r_2016/accessory/r_light/led.sii"
+ refund: 0
+}
+
+vehicle_wheel_accessory : _nameless.6.5b89.c8a0 {
+ offset: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/r_nuts/rear_nuts_01_steel.sii"
+ refund: 0
+}
+
+vehicle_wheel_accessory : _nameless.6.5b89.c360 {
+ offset: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/r_tire/1.sii"
+ refund: 0
+}
+
+vehicle_accessory : _nameless.6.5b8c.6820 {
+ data_path: "/def/vehicle/truck/scania.r_2016/interior/cab_r_high_smartdash_light.sii"
+ refund: 0
+}
+
+vehicle_addon_accessory : _nameless.3.ea07.f6d0 {
+ slot_name: 0
+ slot_hookup: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/truck/scania.r_2016/accessory/steering_w/standard.sii"
+ refund: 0
+}
+
+vehicle_addon_accessory : _nameless.3.ea07.f270 {
+ slot_name: 0
+ slot_hookup: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/truck/scania.r_2016/accessory/c_badge/super.sii"
+ refund: 0
+}
+
+vehicle_accessory : _nameless.6.5b8c.6fa0 {
+ data_path: "/def/vehicle/truck/scania.r_2016/transmission/g33cm_r.sii"
+ refund: 0
+}
+
+vehicle_addon_accessory : _nameless.3.ea07.eeb0 {
+ slot_name: 0
+ slot_hookup: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/truck/scania.r_2016/accessory/f_intk_b_cab/steelgray.sii"
+ refund: 0
+}
+
+vehicle_addon_accessory : _nameless.3.ea07.f130 {
+ slot_name: 0
+ slot_hookup: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/truck/scania.r_2016/accessory/f_intk_b_chs/steelgray.sii"
+ refund: 0
+}
+
+vehicle_addon_accessory : _nameless.3.ea07.eff0 {
+ slot_name: 0
+ slot_hookup: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/truck/scania.r_2016/accessory/f_inlay_cab/stock_super.sii"
+ refund: 0
+}
+
+vehicle_addon_accessory : _nameless.3.ea08.03f0 {
+ slot_name: 0
+ slot_hookup: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/truck/scania.r_2016/accessory/f_equip/super_mid_gray.sii"
+ refund: 0
+}
+
+vehicle_addon_accessory : _nameless.3.ea07.f450 {
+ slot_name: 0
+ slot_hookup: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/truck/scania.r_2016/accessory/f_intake_cab/spacegray.sii"
+ refund: 0
+}
+
+vehicle_addon_accessory : _nameless.3.ea08.0cb0 {
+ slot_name: 0
+ slot_hookup: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/truck/scania.r_2016/accessory/f_intake_chs/spacegray.sii"
+ refund: 0
+}
+
+vehicle_addon_accessory : _nameless.3.ea07.f4f0 {
+ slot_name: 0
+ slot_hookup: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/truck/scania.r_2016/accessory/f_logo/standard.sii"
+ refund: 0
+}
+
+vehicle_addon_accessory : _nameless.3.ea07.f3b0 {
+ slot_name: 0
+ slot_hookup: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/truck/scania.r_2016/accessory/f_light_mid/intake.sii"
+ refund: 0
+}
+
+vehicle_addon_accessory : _nameless.3.ea08.0b70 {
+ slot_name: 0
+ slot_hookup: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/truck/scania.r_2016/accessory/sunshld/stock.sii"
+ refund: 0
+}
+
+vehicle_addon_accessory : _nameless.3.ea08.0030 {
+ slot_name: 0
+ slot_hookup: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/truck/scania.r_2016/accessory/f_mirror/stock.sii"
+ refund: 0
+}
+
+vehicle_addon_accessory : _nameless.3.ea07.eb90 {
+ slot_name: 0
+ slot_hookup: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/truck/scania.r_2016/accessory/f_light_top/modern_blk.sii"
+ refund: 0
+}
+
+vehicle_addon_accessory : _nameless.3.ea07.ee10 {
+ slot_name: 0
+ slot_hookup: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/truck/scania.r_2016/accessory/mirror/stock.sii"
+ refund: 0
+}
+
+vehicle_addon_accessory : _nameless.3.ea07.f590 {
+ slot_name: 0
+ slot_hookup: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/truck/scania.r_2016/accessory/s_mirror/stock.sii"
+ refund: 0
+}
+
+vehicle_addon_accessory : _nameless.3.ea07.f630 {
+ slot_name: 0
+ slot_hookup: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/truck/scania.r_2016/accessory/s_panel/stock.sii"
+ refund: 0
+}
+
+vehicle_addon_accessory : _nameless.3.ea07.fd10 {
+ slot_name: 0
+ slot_hookup: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/truck/scania.r_2016/accessory/doorhndl/stock_blk.sii"
+ refund: 0
+}
+
+vehicle_wheel_accessory : _nameless.6.5b89.cc00 {
+ offset: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/f_hub/front_hub_03.sii"
+ refund: 0
+}
+
+vehicle_addon_accessory : _nameless.3.ea07.f770 {
+ slot_name: 0
+ slot_hookup: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/truck/scania.r_2016/accessory/tank/4x2_1070.sii"
+ refund: 0
+}
+
+vehicle_wheel_accessory : _nameless.6.5b89.cc60 {
+ offset: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/r_hub/rear_hub_02.sii"
+ refund: 0
+}
+
+vehicle_addon_accessory : _nameless.3.ea07.fbd0 {
+ slot_name: 0
+ slot_hookup: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/truck/scania.r_2016/accessory/r_fender/4x2_blk.sii"
+ refund: 0
+}
+
+vehicle_addon_accessory : _nameless.3.ea07.ef50 {
+ slot_name: 0
+ slot_hookup: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/truck/scania.r_2016/accessory/r_fendr_top/low_4x2_blk.sii"
+ refund: 0
+}
+
+vehicle_addon_accessory : _nameless.3.ea07.fa90 {
+ slot_name: 0
+ slot_hookup: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/truck/scania.r_2016/accessory/r_mudflap/shape1.sii"
+ refund: 0
+}
+
+vehicle_addon_accessory : _nameless.3.ea08.05d0 {
+ slot_name: 0
+ slot_hookup: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/truck/scania.r_2016/accessory/r_bumper/duty_blk.sii"
+ refund: 0
+}
+
+vehicle_addon_accessory : _nameless.3.ea07.f090 {
+ slot_name: 0
+ slot_hookup: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/truck/scania.r_2016/accessory/f_light_chs/shape1_blk.sii"
+ refund: 0
+}
+
+vehicle_addon_accessory : _nameless.3.ea08.0490 {
+ slot_name: 0
+ slot_hookup: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/truck/scania.r_2016/accessory/f_bumper/hgh_40mm_blk.sii"
+ refund: 0
+}
+
+vehicle_addon_accessory : _nameless.3.ea07.f1d0 {
+ slot_name: 0
+ slot_hookup: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/truck/scania.r_2016/accessory/f_fendr_chs/plastic.sii"
+ refund: 0
+}
+
+vehicle_addon_accessory : _nameless.3.ea07.f810 {
+ slot_name: 0
+ slot_hookup: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/truck/scania.r_2016/accessory/f_fender/hgh_blk_sensor_2.sii"
+ refund: 0
+}
+
+vehicle_addon_accessory : _nameless.3.ea07.f310 {
+ slot_name: 0
+ slot_hookup: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/truck/scania.r_2016/accessory/sideskirt/4x2_bl.sii"
+ refund: 0
+}
+
+vehicle_wheel_accessory : _nameless.6.5b89.efa0 {
+ offset: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/f_disc/front_disc_07.sii"
+ refund: 0
+}
+
+vehicle_accessory : _nameless.6.5b8c.68a0 {
+ data_path: "/def/vehicle/truck/scania.r_2016/engine/dc13_500s.sii"
+ refund: 0
+}
+
+vehicle_addon_accessory : _nameless.3.ea07.f8b0 {
+ slot_name: 0
+ slot_hookup: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/truck/scania.r_2016/badge/r500.sii"
+ refund: 0
+}
+
+vehicle_addon_accessory : _nameless.3.ea07.f950 {
+ slot_name: 0
+ slot_hookup: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ data_path: "/def/vehicle/truck/scania.r_2016/accessory/trlr_cables/stock.sii"
+ refund: 0
+}
+
+}

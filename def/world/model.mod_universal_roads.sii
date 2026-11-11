@@ -1,0 +1,76 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+
+
+model_def : model.un_crbend2m
+{
+	model_desc: "/model2/props/road/un_curb_island_end_2m.pmd"
+	name: "un curb island end 2m"
+	category: "model"
+}
+
+model_def : model.un_crbend4m
+{
+	model_desc: "/model2/props/road/un_curb_island_end_4m.pmd"
+	name: "un curb island end 4m"
+	category: "model"
+}
+
+model_def : model.un_brg_00
+{
+	model_desc: "/model2/props/road/un_cross_1-1_x_0-1_in_0-1_out_special_bridge.pmd"
+	name: "un cross 1-1 x 0-1 in 0-1 out special bridge"
+	category: "model"
+}
+
+model_def : model.un_crbrndisl
+{
+	model_desc: "/model2/props/road/un_curb_roundabout_island.pmd"
+	name: "un curb roundabout island"
+	category: "model"
+
+	static_lod_path[]: "/model2/props/road/un_curb_roundabout_island_lod1.pmd"
+	static_lod_name[]: "LOD from 80m"
+
+	dynamic_lod_desc[]: "/model2/props/road/un_curb_roundabout_island_lod1.pmd"
+	dynamic_lod_dist[]: 80
+	drop_sun_shadows: 1
+}
+
+model_def : model.un_rndcnt11
+{
+	model_desc: "/model2/props/road/un_roundabout_center_11m.pmd"
+	name: "un round center 11m (for 40m roundabout prefab)"
+	category: "model"
+}
+
+model_def : model.un_rndcnt14
+{
+	model_desc: "/model2/props/road/un_roundabout_center_14m.pmd"
+	name: "un round center 14m (for 50m roundabout prefab)"
+	category: "model"
+}
+
+model_def : model.un_rndcnt17
+{
+	model_desc: "/model2/props/road/un_roundabout_center_17m.pmd"
+	name: "un round center 17m (for 55m roundabout prefab)"
+	category: "model"
+}
+
+model_def : model.un_rndcnt20
+{
+	model_desc: "/model2/props/road/un_roundabout_center_20m.pmd"
+	name: "un round center 20m (for 70m roundabout prefab)"
+	category: "model"
+}
+
+}

@@ -1,0 +1,117 @@
+SiiNunit
+{
+sign_template : _nameless.861.79d0 {
+ template_name: "bridge 02_osl"
+ model_name: 1412
+ stand_model_name: ""
+ traffic_rule: null
+ boards: 0
+ items: 5
+ items[0]: _nameless.861.6950
+ items[1]: _nameless.865.96c0
+ items[2]: _nameless.865.7960
+ items[3]: _nameless.861.7fd0
+ items[4]: _nameless.865.8e00
+ dynamic_attributes: 0
+}
+
+sign_template_text : _nameless.861.6950 {
+ text: Drammen
+ font_face: "/font/sign/no.font"
+ font_size: &3f000000
+ text_halign: left
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1334444032
+ area_name: ml1
+ area_idx: nil
+ coords_l: &3f6ccccc
+ coords_r: &403970c1
+ coords_t: &3f000000
+ coords_b: &3e28c68e
+ z_order: 1
+ tag: ""
+}
+
+sign_template_image : _nameless.865.96c0 {
+ atlas_path: "/def/sign/atlas/arrow_exit_short_no.sii"
+ image_idx: 0
+ color: 0
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 3434086398
+ area_name: ml1
+ area_idx: nil
+ coords_l: &40200000
+ coords_r: &40347ae2
+ coords_t: &3f666666
+ coords_b: &3ef0a3c9
+ z_order: 2
+ tag: ""
+}
+
+sign_template_image : _nameless.865.7960 {
+ atlas_path: "/def/sign/atlas/route_frame_2_brk_no.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: true
+ id: 2280259583
+ area_name: ml1
+ area_idx: nil
+ coords_l: &3e26c16e
+ coords_r: &3f5bbbbc
+ coords_t: &3f04fa50
+ coords_b: &3e181542
+ z_order: 3
+ tag: ""
+}
+
+sign_template_text : _nameless.861.7fd0 {
+ text: "E 18"
+ font_face: "/font/sign/no.font"
+ font_size: &3eb33333
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 4256694270
+ area_name: ml1
+ area_idx: nil
+ coords_l: &3e2c5242
+ coords_r: &3f5e47c4
+ coords_t: &3ef49f4a
+ coords_b: &3e416c18
+ z_order: 4
+ tag: ""
+}
+
+sign_template_image : _nameless.865.8e00 {
+ atlas_path: "/def/sign/atlas/cross_orange.sii"
+ image_idx: 0
+ color: nil
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 2844000255
+ area_name: ml1
+ area_idx: nil
+ coords_l: &401d3b33
+ coords_r: &40373faf
+ coords_t: &3f606d3a
+ coords_b: &3f05f92c
+ z_order: 5
+ tag: ""
+}
+
+}

@@ -1,0 +1,634 @@
+SiiNunit
+{
+sign_board_template : _nameless.783.84d0 {
+ board_name: "lv board straight right blue v01"
+ width: &402ccccd
+ height: 3
+ model_name: ""
+ items: 32
+ items[0]: _nameless.778.4930
+ items[1]: _nameless.783.8dd0
+ items[2]: _nameless.783.9c70
+ items[3]: _nameless.778.64f0
+ items[4]: _nameless.778.4ff0
+ items[5]: _nameless.778.56b0
+ items[6]: _nameless.778.6d30
+ items[7]: _nameless.783.9e20
+ items[8]: _nameless.778.5770
+ items[9]: _nameless.778.5830
+ items[10]: _nameless.778.58f0
+ items[11]: _nameless.783.7bd0
+ items[12]: _nameless.778.5d70
+ items[13]: _nameless.783.9b50
+ items[14]: _nameless.778.65b0
+ items[15]: _nameless.783.87a0
+ items[16]: _nameless.778.68b0
+ items[17]: _nameless.783.9400
+ items[18]: _nameless.778.6a30
+ items[19]: _nameless.779.9ee0
+ items[20]: _nameless.779.96c0
+ items[21]: _nameless.783.8170
+ items[22]: _nameless.778.6bb0
+ items[23]: _nameless.779.9760
+ items[24]: _nameless.783.7ea0
+ items[25]: _nameless.779.8180
+ items[26]: _nameless.783.8200
+ items[27]: _nameless.779.a660
+ items[28]: _nameless.778.6df0
+ items[29]: _nameless.783.8b90
+ items[30]: _nameless.778.8e30
+ items[31]: _nameless.783.8050
+ dynamic_attributes: 0
+}
+
+sign_template_text : _nameless.778.4930 {
+ text: XXXXXX
+ font_face: "/font/sign/lv_n.font"
+ font_size: &3eb33333
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 3915382782
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f905198
+ coords_r: &402982c0
+ coords_t: &402bb9b0
+ coords_b: &400df73e
+ z_order: 11
+ tag: ""
+}
+
+sign_template_frame : _nameless.783.8dd0 {
+ frame_path: "/def/sign/frame/blue_rounded_lv.sii"
+ color: 16777215
+ opacity: 1
+ id: 3862298622
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f8e8fc5
+ coords_r: &3fca1add
+ coords_t: &3f9856cf
+ coords_b: &3f69011e
+ z_order: 12
+ tag: ""
+}
+
+sign_template_frame : _nameless.783.9c70 {
+ frame_path: "/def/sign/frame/green_rounded_lv.sii"
+ color: 16777215
+ opacity: 1
+ id: 4113825790
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f1a8712
+ coords_r: &3f88cea1
+ coords_t: &40252129
+ coords_b: &40133609
+ z_order: 13
+ tag: ""
+}
+
+sign_template_text : _nameless.778.64f0 {
+ text: "E 00"
+ font_face: "/font/sign/lv_n.font"
+ font_size: &3e800000
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3c23d70a
+ id: 563609600
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f1d588a
+ coords_r: &3f876589
+ coords_t: &402326ca
+ coords_b: &401548ea
+ z_order: 14
+ tag: ""
+}
+
+sign_template_text : _nameless.778.4ff0 {
+ text: XXXXXX
+ font_face: "/font/sign/lv_n.font"
+ font_size: &3eb33333
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1191575552
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f905198
+ coords_r: &402982c0
+ coords_t: &4032a2ea
+ coords_b: &401c83bc
+ z_order: 15
+ tag: ""
+}
+
+sign_template_text : _nameless.778.56b0 {
+ text: XXXXXX
+ font_face: "/font/sign/lv_n.font"
+ font_size: &3eb33333
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1708654591
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f905198
+ coords_r: &402982c0
+ coords_t: &401c571e
+ coords_b: &400637f0
+ z_order: 16
+ tag: ""
+}
+
+sign_template_text : _nameless.778.6d30 {
+ text: XXXm
+ font_face: "/font/sign/lv_n.font"
+ font_size: &3e800000
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3ca3d70a
+ id: 795607040
+ area_name: ""
+ area_idx: nil
+ coords_l: &3e0f1608
+ coords_r: &3f923aca
+ coords_t: &3efc5290
+ coords_b: &3e8ed33a
+ z_order: 17
+ tag: ""
+}
+
+sign_template_frame : _nameless.783.9e20 {
+ frame_path: "/def/sign/frame/red_rounded_lv.sii"
+ color: 16777215
+ opacity: 1
+ id: 1719009279
+ area_name: ""
+ area_idx: nil
+ coords_l: &3d4cccc0
+ coords_r: &3f03e2fa
+ coords_t: &40252129
+ coords_b: &40133609
+ z_order: 18
+ tag: ""
+}
+
+sign_template_text : _nameless.778.5770 {
+ text: "A 0"
+ font_face: "/font/sign/lv_n.font"
+ font_size: &3e800000
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3c23d70a
+ id: 1952317439
+ area_name: ""
+ area_idx: nil
+ coords_l: &3d79e420
+ coords_r: &3f0110ca
+ coords_t: &402326ca
+ coords_b: &401548ea
+ z_order: 19
+ tag: ""
+}
+
+sign_template_text : _nameless.778.5830 {
+ text: XXXXXX
+ font_face: "/font/sign/lv_n.font"
+ font_size: &3eb33333
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 507117568
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f8f3bb5
+ coords_r: &4029975c
+ coords_t: &3ff8790a
+ coords_b: &3fcc3aac
+ z_order: 20
+ tag: ""
+}
+
+sign_template_text : _nameless.778.58f0 {
+ text: XXXXXX
+ font_face: "/font/sign/lv_n.font"
+ font_size: &3eb33333
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 682491904
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f8f3bb5
+ coords_r: &4029975c
+ coords_t: &3fcbe16f
+ coords_b: &3f9fa313
+ z_order: 21
+ tag: ""
+}
+
+sign_template_frame : _nameless.783.7bd0 {
+ frame_path: "/def/sign/frame/green_rounded_lv.sii"
+ color: 16777215
+ opacity: 1
+ id: 1615069183
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fd195dd
+ coords_r: &4006907d
+ coords_t: &3f9856cf
+ coords_b: &3f69011e
+ z_order: 22
+ tag: ""
+}
+
+sign_template_text : _nameless.778.5d70 {
+ text: "E 00"
+ font_face: "/font/sign/lv_n.font"
+ font_size: &3e800000
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3c23d70a
+ id: 1871708159
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fd2fe99
+ coords_r: &4005dbf1
+ coords_t: &3f946212
+ coords_b: &3f714ca2
+ z_order: 23
+ tag: ""
+}
+
+sign_template_frame : _nameless.783.9b50 {
+ frame_path: "/def/sign/frame/red_rounded_lv.sii"
+ color: 16777215
+ opacity: 1
+ id: 1860698111
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f8e8fc5
+ coords_r: &3fca1add
+ coords_t: &3f9856cf
+ coords_b: &3f69011e
+ z_order: 24
+ tag: ""
+}
+
+sign_template_text : _nameless.778.65b0 {
+ text: "A 0"
+ font_face: "/font/sign/lv_n.font"
+ font_size: &3e800000
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3c23d70a
+ id: 2064515071
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f8ff881
+ coords_r: &3fc8b1c5
+ coords_t: &3f946212
+ coords_b: &3f714ca2
+ z_order: 25
+ tag: ""
+}
+
+sign_template_frame : _nameless.783.87a0 {
+ frame_path: "/def/sign/frame/green_rounded_lv.sii"
+ color: 16777215
+ opacity: 0
+ id: 41025536
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fd195dd
+ coords_r: &4006907d
+ coords_t: &3f5c32bc
+ coords_b: &3f14863c
+ z_order: 26
+ tag: ""
+}
+
+sign_template_text : _nameless.778.68b0 {
+ text: "E 00"
+ font_face: "/font/sign/lv_n.font"
+ font_size: &3e800000
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: &3c23d70a
+ id: 2309750783
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fd2fe99
+ coords_r: &4005dbf1
+ coords_t: &3f544942
+ coords_b: &3f1cd1c0
+ z_order: 27
+ tag: ""
+}
+
+sign_template_frame : _nameless.783.9400 {
+ frame_path: "/def/sign/frame/green_rounded_lv.sii"
+ color: 16777215
+ opacity: 0
+ id: 3106406398
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f8e8f95
+ coords_r: &3fca1ab1
+ coords_t: &3f5c32bc
+ coords_b: &3f14863c
+ z_order: 28
+ tag: ""
+}
+
+sign_template_text : _nameless.778.6a30 {
+ text: "E 00"
+ font_face: "/font/sign/lv_n.font"
+ font_size: &3e800000
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: &3c23d70a
+ id: 52035584
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f8ff881
+ coords_r: &3fc8b1c9
+ coords_t: &3f544942
+ coords_b: &3f1cd1c0
+ z_order: 29
+ tag: ""
+}
+
+sign_template_image : _nameless.779.9ee0 {
+ atlas_path: "/def/sign/atlas/cross_orange.sii"
+ image_idx: 0
+ color: nil
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 3241279486
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f15da16
+ coords_r: &3f766227
+ coords_t: &3fa2a254
+ coords_b: &3f5c1d56
+ z_order: 31
+ tag: ""
+}
+
+sign_template_image : _nameless.779.96c0 {
+ atlas_path: "/def/sign/atlas/arrow_up_right_lv.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 426115072
+ area_name: ""
+ area_idx: nil
+ coords_l: &3e10f370
+ coords_r: &3f7d7b14
+ coords_t: &400e4765
+ coords_b: &3f06a124
+ z_order: 30
+ tag: ""
+}
+
+sign_template_frame : _nameless.783.8170 {
+ frame_path: "/def/sign/frame/blue_rounded_lv.sii"
+ color: 16777215
+ opacity: 0
+ id: 2055077887
+ area_name: ""
+ area_idx: nil
+ coords_l: &3d4cccc0
+ coords_r: &3f03e2fa
+ coords_t: &40252129
+ coords_b: &40133609
+ z_order: 10
+ tag: ""
+}
+
+sign_template_text : _nameless.778.6bb0 {
+ text: XXXXXX
+ font_face: "/font/sign/lv_n.font"
+ font_size: &3eb33333
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1928462335
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f1d1158
+ coords_r: &402982c0
+ coords_t: &402bb9b0
+ coords_b: &400df73e
+ z_order: 9
+ tag: ""
+}
+
+sign_template_image : _nameless.779.9760 {
+ atlas_path: "/def/sign/atlas/cross_orange.sii"
+ image_idx: 0
+ color: nil
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 3030646782
+ area_name: ""
+ area_idx: nil
+ coords_l: &3debaa88
+ coords_r: &3efbfac4
+ coords_t: &3fe54549
+ coords_b: &3fb0b1a1
+ z_order: 32
+ tag: ""
+}
+
+sign_template_frame : _nameless.783.7ea0 {
+ frame_path: "/def/sign/frame/white_rounded_lv.sii"
+ color: 16777215
+ opacity: 0
+ id: 4282646526
+ area_name: ""
+ area_idx: nil
+ coords_l: &3dee7550
+ coords_r: &3efa5c12
+ coords_t: &402b68b9
+ coords_b: &401390e1
+ z_order: 7
+ tag: ""
+}
+
+sign_template_image : _nameless.779.8180 {
+ atlas_path: "/def/sign/atlas/airport_lv.sii"
+ image_idx: 0
+ color: 0
+ opacity: 0
+ hflip: true
+ vflip: false
+ image_overridable: false
+ id: 484573184
+ area_name: ""
+ area_idx: nil
+ coords_l: &3e046168
+ coords_r: &3ef462e6
+ coords_t: &402a8f6b
+ coords_b: &40144924
+ z_order: 8
+ tag: ""
+}
+
+sign_template_frame : _nameless.783.8200 {
+ frame_path: "/def/sign/frame/white_rounded_lv.sii"
+ color: 16777215
+ opacity: 0
+ id: 3514302462
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f8ee757
+ coords_r: &3fbe9705
+ coords_t: &3f9fc736
+ coords_b: &3f602f0c
+ z_order: 5
+ tag: ""
+}
+
+sign_template_image : _nameless.779.a660 {
+ atlas_path: "/def/sign/atlas/airport_lv.sii"
+ image_idx: 0
+ color: 0
+ opacity: 0
+ hflip: true
+ vflip: false
+ image_overridable: false
+ id: 1560805375
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f908c2f
+ coords_r: &3fbd18bb
+ coords_t: &3f9e149a
+ coords_b: &3f631018
+ z_order: 6
+ tag: ""
+}
+
+sign_template_text : _nameless.778.6df0 {
+ text: XXXXXX
+ font_face: "/font/sign/lv_n.font"
+ font_size: &3eb33333
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 3668180990
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f8f3bb5
+ coords_r: &4029975c
+ coords_t: &3f9f14a1
+ coords_b: &3f65ac8a
+ z_order: 4
+ tag: ""
+}
+
+sign_template_frame : _nameless.783.8b90 {
+ frame_path: "/def/sign/frame/green_rounded_lv.sii"
+ color: 16777215
+ opacity: 0
+ id: 886571008
+ area_name: ""
+ area_idx: nil
+ coords_l: &40096ec5
+ coords_r: &40273453
+ coords_t: &3f9856cf
+ coords_b: &3f69011e
+ z_order: 2
+ tag: ""
+}
+
+sign_template_text : _nameless.778.8e30 {
+ text: "E 00"
+ font_face: "/font/sign/lv_n.font"
+ font_size: &3e800000
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: &3c23d70a
+ id: 3662675966
+ area_name: ""
+ area_idx: nil
+ coords_l: &400a2323
+ coords_r: &40267fc7
+ coords_t: &3f946212
+ coords_b: &3f714ca2
+ z_order: 3
+ tag: ""
+}
+
+sign_template_frame : _nameless.783.8050 {
+ frame_path: "/def/sign/frame/red_rounded_lv.sii"
+ color: 16777215
+ opacity: 0
+ id: 3432906750
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fd195e0
+ coords_r: &4006907c
+ coords_t: &3f9856cf
+ coords_b: &3f69011e
+ z_order: 1
+ tag: ""
+}
+
+}

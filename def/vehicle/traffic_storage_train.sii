@@ -1,0 +1,29 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+@include "ai/bombardier_traxx_locomotive_diesel.sui"
+@include "ai/bombardier_traxx_locomotive_diesel_n.sui"
+@include "ai/bombardier_traxx_locomotive_diesel_de.sui"
+
+@include "ai/locomotive_m_62.sui"
+@include "ai/locomotive_m_62_passenger.sui"
+
+
+@include "ai/train_g16_locomotive.sui"
+@include "ai/train_cme3_locomotive.sui"
+@include "ai/train_e_405_diesel_locomotive.sui"
+@include "ai/train_czloko_effishunter_1000.sui"
+@include "ai/train_boltron_dual_mode_dw2.sui"
+
+# DLC_BALKAN_E
+
+@include "ai/train_gc65d_locomotive.sui"
+ 
+}

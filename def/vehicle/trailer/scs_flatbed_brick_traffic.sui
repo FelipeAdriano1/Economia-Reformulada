@@ -1,0 +1,122 @@
+traffic_trailer : traffic.trailer.scs_brick_r
+{
+	accessories[]: .scs_brick_r.chassis
+	accessories[]: .scs_brick_r.rwheel
+	accessories[]: .scs_brick_r.rwheel2
+	accessories[]: .scs_brick_r.rwheel3
+	accessories[]: .scs_brick_r.body
+	accessories[]: .scs_brick_r.paint_job
+
+	sound_move: "/sound/traffic/trailer.soundref"
+	
+	cargo_mass: 20000
+
+	tags[]: low
+	tags[]: flatbed
+	tags[]: brick
+	tags[]: medium
+	tags[]: cargo
+	tags[]: construct
+
+	cargoes[]: fertilizer
+	cargoes[]: bricks
+	cargoes[]: outdr_flr_tl
+	cargoes[]: plant_substr
+	trailer_definition: trailer_def.scs.flatbed.single_3.brick
+
+
+	variant[]: traffic.trailer.flat_bed
+}
+
+vehicle_accessory: .scs_brick_r.chassis
+{
+    	data_path: "/def/vehicle/trailer/scs_brick/red.sii"
+}
+
+vehicle_wheel_accessory: .scs_brick_r.rwheel
+{
+	offset: 0
+    	data_path: "/def/vehicle/t_wheel/single_385_55_steel.sii"
+}
+
+vehicle_wheel_accessory: .scs_brick_r.rwheel2
+{
+	offset: 2
+    	data_path: "/def/vehicle/t_wheel/single_385_55_steel.sii"
+}
+
+vehicle_wheel_accessory: .scs_brick_r.rwheel3
+{
+	offset: 4
+    	data_path: "/def/vehicle/t_wheel/single_385_55_steel.sii"
+}
+vehicle_accessory: .scs_brick_r.body
+{
+    	data_path: "/def/vehicle/trailer/scs_brick/accessory/body.sii"
+}
+vehicle_paint_job_accessory: .scs_brick_r.paint_job
+{
+    	data_path: "/def/vehicle/trailer/scs_brick/custom_paint_job/red.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_trailer : traffic.trailer.flat_bed
+{
+	accessories[]: .flat_bed_t.tubes.tchassis
+	accessories[]: .flat_bed_t.tubes.trwheel0
+	accessories[]: .flat_bed_t.tubes.trwheel1
+	accessories[]: .flat_bed_t.tubes.trwheel2
+	accessories[]: .flat_bed_t.tubes.body
+	accessories[]: .flat_bed_t.tubes.paint_job
+
+	sound_move: "/sound/traffic/trailer.soundref"
+	
+	cargo_mass: 20000
+
+	tags[]: low
+	tags[]: flatbed
+	tags[]: tubes
+	tags[]: construct
+	tags[]: medium
+	tags[]: cargo
+
+	cargoes[]: lumber
+	cargoes[]: sq_tub
+	cargoes[]: wooden_beams
+	cargoes[]: vent_tube
+	cargoes[]: re_bars
+	trailer_definition: trailer_def.scs.flatbed.single_3.flatbed_w
+
+}
+
+vehicle_accessory: .flat_bed_t.tubes.tchassis
+{
+    	data_path: "/def/vehicle/trailer/scs_flatbed/flatbed.sii"
+}
+
+vehicle_wheel_accessory: .flat_bed_t.tubes.trwheel0
+{
+	offset: 0
+    	data_path: "/def/vehicle/t_wheel/single_385_55_steel.sii"
+}
+
+vehicle_wheel_accessory: .flat_bed_t.tubes.trwheel1
+{
+	offset: 2
+    	data_path: "/def/vehicle/t_wheel/single_385_55_steel.sii"
+}
+
+vehicle_wheel_accessory: .flat_bed_t.tubes.trwheel2
+{
+	offset: 4
+    	data_path: "/def/vehicle/t_wheel/single_385_55_steel.sii"
+}
+vehicle_accessory: .flat_bed_t.tubes.body
+{
+    	data_path: "/def/vehicle/trailer/scs_flatbed/accessory/body.sii"
+}
+vehicle_paint_job_accessory: .flat_bed_t.tubes.paint_job
+{
+    	data_path: "/def/vehicle/trailer/scs_flatbed/custom_paint_job/blue.sii"
+}

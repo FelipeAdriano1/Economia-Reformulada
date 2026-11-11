@@ -1,0 +1,21 @@
+SiiNunit
+{
+trailer_def : trailer_def.scs.flatbed.hct_3_2s_4.container
+{
+	gross_trailer_weight_limit: 90000
+	chassis_mass: 13050
+	body_mass: 400
+	length: 28.6
+	axles: 9
+	volume: 160
+	body_type: container
+	chain_type: hct
+
+	country_validity[]: finland
+	country_validity[]: sweden
+
+	mass_ratio[]: 0.45
+	mass_ratio[]: 0.1
+	mass_ratio[]: 0.45
+}
+}

@@ -1,0 +1,622 @@
+###########################
+##
+##  boltron - default
+##
+###########################
+
+traffic_vehicle : traffic.boltron
+{
+	accessories[]: .boltron.chassis
+	accessories[]: .boltron.fwheel
+	accessories[]: .boltron.rwheel
+
+	variant[]: traffic.boltron_a
+
+	max_speed: 120
+
+	vehicle_mass: 83000
+	engine_power: 3720
+
+	trailer_chains[]: "train_cargo 6-10"
+
+	sound_move[]: "/sound/traffic/train_electric_1.soundref"
+	sound_gears: 1
+
+	displacement_limit: 0.0
+
+	spawn_ratio: 1
+
+	tags[]: cargo
+
+}
+
+vehicle_accessory: .boltron.chassis
+{
+	data_path: "/def/vehicle/ai/train_boltron/chassis.sii"
+}
+
+vehicle_wheel_accessory: .boltron.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .boltron.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+###########################
+##
+##  boltron - alt
+##
+###########################
+
+traffic_vehicle : traffic.boltron_a
+{
+	accessories[]: .boltron_a.chassis
+	accessories[]: .boltron_a.fwheel
+	accessories[]: .boltron_a.rwheel
+
+	max_speed: 120
+
+	vehicle_mass: 83000
+	engine_power: 3720
+
+	trailer_chains[]: "train_cargo 6-10"
+
+	sound_move[]: "/sound/traffic/train_electric_1.soundref"
+	sound_gears: 1
+
+	displacement_limit: 0.0
+
+	spawn_ratio: 1
+
+	tags[]: cargo
+
+}
+
+vehicle_accessory: .boltron_a.chassis
+{
+	data_path: "/def/vehicle/ai/train_boltron/chassis_a.sii"
+}
+
+vehicle_wheel_accessory: .boltron_a.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .boltron_a.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+traffic_vehicle : traffic.boltron.passenger
+{
+	accessories[]: .boltron.passenger.chassis
+	accessories[]: .boltron.passenger.fwheel
+	accessories[]: .boltron.passenger.rwheel
+
+	variant[]: traffic.boltron_a.passenger
+
+	max_speed: 120
+
+	vehicle_mass: 83000
+	engine_power: 3720
+
+	trailer_chains[]: "train_car.w_passenger 6-10"
+
+	sound_move[]: "/sound/traffic/train_electric_1.soundref"
+	sound_gears: 1
+
+	displacement_limit: 0.0
+
+	spawn_ratio: 1
+
+	tags[]: passenger
+}
+
+vehicle_accessory: .boltron.passenger.chassis
+{
+	data_path: "/def/vehicle/ai/train_boltron/chassis.sii"
+}
+
+vehicle_wheel_accessory: .boltron.passenger.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .boltron.passenger.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+traffic_vehicle : traffic.boltron_a.passenger
+{
+	accessories[]: .boltron_a.passenger.chassis
+	accessories[]: .boltron_a.passenger.fwheel
+	accessories[]: .boltron_a.passenger.rwheel
+
+	max_speed: 120
+
+	vehicle_mass: 83000
+	engine_power: 3720
+
+	trailer_chains[]: "train_car.w_passenger 6-10"
+
+	sound_move[]: "/sound/traffic/train_electric_1.soundref"
+	sound_gears: 1
+
+	displacement_limit: 0.0
+
+	spawn_ratio: 1
+
+	tags[]: passenger
+
+}
+
+vehicle_accessory: .boltron_a.passenger.chassis
+{
+	data_path: "/def/vehicle/ai/train_boltron/chassis_a.sii"
+}
+
+vehicle_wheel_accessory: .boltron_a.passenger.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .boltron_a.passenger.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+
+###########################
+##
+##  boltron - at
+##
+###########################
+
+traffic_vehicle : traffic.boltron.at
+{
+	accessories[]: .boltron.at.chassis
+	accessories[]: .boltron.at.fwheel
+	accessories[]: .boltron.at.rwheel
+
+	max_speed: 120
+
+	vehicle_mass: 83000
+	engine_power: 3720
+
+	trailer_chains[]: "train_cargo 6-10"
+
+	sound_move[]: "/sound/traffic/train_electric_1.soundref"
+	sound_gears: 1
+
+	displacement_limit: 0.0
+
+	spawn_ratio: 0
+
+	tags[]: cargo
+
+}
+
+vehicle_accessory: .boltron.at.chassis
+{
+	data_path: "/def/vehicle/ai/train_boltron/chassis_at.sii"
+}
+
+vehicle_wheel_accessory: .boltron.at.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .boltron.at.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+
+###########################
+##
+##  boltron - ch
+##
+###########################
+
+traffic_vehicle : traffic.boltron.ch
+{
+	accessories[]: .boltron.ch.chassis
+	accessories[]: .boltron.ch.fwheel
+	accessories[]: .boltron.ch.rwheel
+
+	max_speed: 120
+
+	vehicle_mass: 83000
+	engine_power: 3720
+
+	trailer_chains[]: "train_cargo 6-10"
+
+	sound_move[]: "/sound/traffic/train_electric_1.soundref"
+	sound_gears: 1
+
+	displacement_limit: 0.0
+
+	variant[]: traffic.boltron.ch.passenger
+
+	spawn_ratio: 0
+
+	tags[]: cargo
+}
+
+vehicle_accessory: .boltron.ch.chassis
+{
+	data_path: "/def/vehicle/ai/train_boltron/chassis_ch.sii"
+}
+
+vehicle_wheel_accessory: .boltron.ch.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .boltron.ch.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+traffic_vehicle : traffic.boltron.ch.passenger
+{
+	accessories[]: .boltron.ch.passenger.chassis
+	accessories[]: .boltron.ch.passenger.fwheel
+	accessories[]: .boltron.ch.passenger.rwheel
+
+	max_speed: 120
+
+	vehicle_mass: 83000
+	engine_power: 3720
+
+	trailer_chains[]: "train_car.w_passenger 6-10"
+
+	sound_move[]: "/sound/traffic/train_electric_1.soundref"
+	sound_gears: 1
+
+	displacement_limit: 0.0
+
+	spawn_ratio: 0
+
+	tags[]: passenger
+}
+
+vehicle_accessory: .boltron.ch.passenger.chassis
+{
+	data_path: "/def/vehicle/ai/train_boltron/chassis_ch.sii"
+}
+
+vehicle_wheel_accessory: .boltron.ch.passenger.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .boltron.ch.passenger.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+########################### Polar Circle - Denmark ###########################
+
+traffic_vehicle : traffic.boltron_dk
+{
+	accessories[]: .boltron_dk.chassis
+	accessories[]: .boltron_dk.fwheel
+	accessories[]: .boltron_dk.rwheel
+
+	max_speed: 120
+
+	vehicle_mass: 83000
+	engine_power: 3720
+
+	trailer_chains[]: "train_car.regiode.dk_car 1-3 | train_car.regiode.dk_last"
+
+	sound_move[]: "/sound/traffic/train_electric_1.soundref"
+	sound_gears: 1
+
+	displacement_limit: 0.0
+
+	spawn_ratio: 0.0
+
+	tags[]: passenger
+
+}
+
+vehicle_accessory: .boltron_dk.chassis
+{
+	data_path: "/def/vehicle/ai/train_boltron/chassis_at.sii"
+}
+
+vehicle_wheel_accessory: .boltron_dk.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .boltron_dk.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+########################### Polar Circle - Norway ###########################
+
+traffic_vehicle : traffic.boltron_no
+{
+	accessories[]: .boltron_no.chassis
+	accessories[]: .boltron_no.fwheel
+	accessories[]: .boltron_no.rwheel
+
+	max_speed: 120
+
+	vehicle_mass: 83000
+	engine_power: 3720
+
+	trailer_chains[]: "train_car.ab7.no 3-5"
+
+	sound_move[]: "/sound/traffic/train_electric_1.soundref"
+	sound_gears: 1
+
+	displacement_limit: 0.0
+
+	spawn_ratio: 0.0
+
+	tags[]: passenger
+
+}
+
+vehicle_accessory: .boltron_no.chassis
+{
+	data_path: "/def/vehicle/ai/train_boltron/chassis_no.sii"
+}
+
+vehicle_wheel_accessory: .boltron_no.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .boltron_no.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+########################### Polar Circle - Finland ###########################
+
+traffic_vehicle : traffic.boltron_fi
+{
+	accessories[]: .boltron_fi.chassis
+	accessories[]: .boltron_fi.fwheel
+	accessories[]: .boltron_fi.rwheel
+
+	max_speed: 120
+
+	vehicle_mass: 83000
+	engine_power: 3720
+
+	trailer_chains[]: "train_car.ab7.fi 3-5"
+
+	sound_move[]: "/sound/traffic/train_electric_1.soundref"
+	sound_gears: 1
+
+	displacement_limit: 0.0
+
+	spawn_ratio: 0.0
+
+	tags[]: passenger
+
+}
+
+vehicle_accessory: .boltron_fi.chassis
+{
+	data_path: "/def/vehicle/ai/train_boltron/chassis_fi.sii"
+}
+
+vehicle_wheel_accessory: .boltron_fi.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .boltron_fi.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+########################### Euro Truck - SCS Cargo ###########################
+
+traffic_vehicle : traffic.boltron.scs
+{
+	accessories[]: .boltron.scs.chassis
+	accessories[]: .boltron.scs.fwheel
+	accessories[]: .boltron.scs.rwheel
+
+	max_speed: 120
+
+	vehicle_mass: 83000
+	engine_power: 3720
+
+	trailer_chains[]: "train_cargo 2-4 | train_cargo 2-4 | train_cargo 2-4"
+
+	sound_move[]: "/sound/traffic/train_electric_1.soundref"
+	sound_gears: 1
+
+	displacement_limit: 0.0
+
+	spawn_ratio: 1
+
+	tags[]: cargo
+
+}
+
+vehicle_accessory: .boltron.scs.chassis
+{
+	data_path: "/def/vehicle/ai/train_boltron/chassis_scs.sii"
+}
+
+vehicle_wheel_accessory: .boltron.scs.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .boltron.scs.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+
+
+########################### Benelux - NETHERLANDS ###########################
+
+traffic_vehicle : traffic.boltron.nl
+{
+	accessories[]: .boltron.nl.chassis
+	accessories[]: .boltron.nl.fwheel
+	accessories[]: .boltron.nl.rwheel
+
+	max_speed: 120
+
+	vehicle_mass: 83000
+	engine_power: 3720
+
+	trailer_chains[]: "train_car.wa_passenger.nl 5"
+
+	sound_move[]: "/sound/traffic/train_electric_1.soundref"
+	sound_gears: 1
+
+	displacement_limit: 0.0
+
+	spawn_ratio: 0.0
+
+	tags[]: passenger
+
+}
+
+vehicle_accessory: .boltron.nl.chassis
+{
+	data_path: "/def/vehicle/ai/train_boltron/chassis_nl.sii"
+}
+
+vehicle_wheel_accessory: .boltron.nl.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .boltron.nl.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+########################### Benelux - BELGIUM ###########################
+
+traffic_vehicle : traffic.boltron.be
+{
+	accessories[]: .boltron.be.chassis
+	accessories[]: .boltron.be.fwheel
+	accessories[]: .boltron.be.rwheel
+
+	max_speed: 120
+
+	vehicle_mass: 83000
+	engine_power: 3720
+
+	trailer_chains[]: "train_car.regiode.be_car 3 | train_car.regiode.be_last"
+
+	sound_move[]: "/sound/traffic/train_electric_1.soundref"
+	sound_gears: 1
+
+	displacement_limit: 0.0
+
+	spawn_ratio: 0.0
+
+	tags[]: passenger
+
+}
+
+vehicle_accessory: .boltron.be.chassis
+{
+	data_path: "/def/vehicle/ai/train_boltron/chassis_be.sii"
+}
+
+vehicle_wheel_accessory: .boltron.be.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .boltron.be.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+########################### Benelux - LUXEMBOURG ###########################
+
+traffic_vehicle : traffic.boltron.lu
+{
+	accessories[]: .boltron.lu.chassis
+	accessories[]: .boltron.lu.fwheel
+	accessories[]: .boltron.lu.rwheel
+
+	max_speed: 120
+
+	vehicle_mass: 83000
+	engine_power: 3720
+
+	trailer_chains[]: "train_car.regiode.lu_car 3 | train_car.regiode.lu_last"
+
+	sound_move[]: "/sound/traffic/train_electric_1.soundref"
+	sound_gears: 1
+
+	displacement_limit: 0.0
+
+	spawn_ratio: 0.0
+
+	tags[]: passenger
+
+}
+
+vehicle_accessory: .boltron.lu.chassis
+{
+	data_path: "/def/vehicle/ai/train_boltron/chassis_lu.sii"
+}
+
+vehicle_wheel_accessory: .boltron.lu.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .boltron.lu.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+
+
+

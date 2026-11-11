@@ -1,0 +1,10 @@
+SiiNunit
+{
+accessory_addon_data : mid_nofog.scania.s_2016.f_bumper
+{
+
+	exterior_model: "/vehicle/truck/scania_2016/accessory/f_bumper/mid_blk_nofog.pmd"
+
+	defaults[]: "/def/vehicle/truck/scania.s_2016/accessory/f_fender/stock_blk.sii"
+}
+}

@@ -1,0 +1,112 @@
+SiiNunit
+{
+sign_template : _nameless.e5b9.7300 {
+ template_name: "green arrow left"
+ model_name: 1447
+ stand_model_name: ""
+ traffic_rule: null
+ boards: 0
+ items: 5
+ items[0]: _nameless.5a8.6640
+ items[1]: _nameless.5a8.6e20
+ items[2]: _nameless.5b1.b140
+ items[3]: _nameless.5a8.80b0
+ items[4]: _nameless.5b1.bda0
+ dynamic_attributes: 0
+}
+
+sign_template_image : _nameless.5a8.6640 {
+ atlas_path: "/def/sign/atlas/sr_hw_turn_right_swe.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: true
+ vflip: false
+ image_overridable: false
+ id: 930611200
+ area_name: ml4
+ area_idx: nil
+ coords_l: 0
+ coords_r: &3ee147b2
+ coords_t: &3ee147ae
+ coords_b: 0
+ z_order: 1
+}
+
+sign_template_image : _nameless.5a8.6e20 {
+ atlas_path: "/def/sign/atlas/route_frame_trans1_swe.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: true
+ id: 395575296
+ area_name: ml4
+ area_idx: nil
+ coords_l: &3f754c92
+ coords_r: &3fc99102
+ coords_t: &3ee147ae
+ coords_b: &3bd4e180
+ z_order: 2
+}
+
+sign_template_text : _nameless.5b1.b140 {
+ text: E6
+ font_face: "/font/sign/swe.font"
+ font_size: &3ecccccd
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3cf5c28f
+ id: 270270464
+ area_name: ml4
+ area_idx: nil
+ coords_l: &3f7c8672
+ coords_r: &3fc627a0
+ coords_t: &3ed28b51
+ coords_b: &3d05f7c0
+ z_order: 3
+}
+
+sign_template_image : _nameless.5a8.80b0 {
+ atlas_path: "/def/sign/atlas/route_frame_trans2_swe.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: true
+ id: 2943352830
+ area_name: ml4
+ area_idx: nil
+ coords_l: &3fc6b603
+ coords_r: &4020a3d7
+ coords_t: &3ee12077
+ coords_b: 0
+ z_order: 4
+}
+
+sign_template_text : _nameless.5b1.bda0 {
+ text: E20
+ font_face: "/font/sign/swe.font"
+ font_size: &3ecccccd
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3cf5c28f
+ id: 3856269310
+ area_name: ml4
+ area_idx: nil
+ coords_l: &3fc9bfdb
+ coords_r: &401eb4bc
+ coords_t: &3ed28b51
+ coords_b: &3d05f7c0
+ z_order: 5
+}
+
+}

@@ -1,0 +1,93 @@
+SiiNunit
+{
+sign_template : _nameless.44c.2650 {
+ template_name: "rnbd blue plus white"
+ model_name: 1491
+ stand_model_name: ""
+ traffic_rule: null
+ boards: 0
+ items: 4
+ items[0]: _nameless.583.6f30
+ items[1]: _nameless.58b.c010
+ items[2]: _nameless.58b.c6d0
+ items[3]: _nameless.583.67a0
+ dynamic_attributes: 0
+}
+
+sign_template_text : _nameless.583.6f30 {
+ text: CENTRUM
+ font_face: "/font/sign/swe.font"
+ font_size: &3eb33333
+ text_halign: left
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 3303538686
+ area_name: ml5
+ area_idx: nil
+ coords_l: &3dcccccd
+ coords_r: &40170a3d
+ coords_t: &3ee147ae
+ coords_b: 0
+ z_order: 1
+}
+
+sign_template_image : _nameless.58b.c010 {
+ atlas_path: "/def/sign/atlas/arrow_cross_left_swe.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: true
+ vflip: false
+ image_overridable: false
+ id: 112328704
+ area_name: ml5
+ area_idx: nil
+ coords_l: &40047ae1
+ coords_r: &4020a3d7
+ coords_t: &3ee147ae
+ coords_b: 0
+ z_order: 2
+}
+
+sign_template_image : _nameless.58b.c6d0 {
+ atlas_path: "/def/sign/atlas/small_road_turn_right_swe.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 1345847296
+ area_name: ml4
+ area_idx: nil
+ coords_l: &40047ae1
+ coords_r: &4020a3d7
+ coords_t: &3ee147ae
+ coords_b: 0
+ z_order: 3
+}
+
+sign_template_text : _nameless.583.67a0 {
+ text: KALMAR
+ font_face: "/font/sign/swe.font"
+ font_size: &3eb33333
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 935985152
+ area_name: ml4
+ area_idx: nil
+ coords_l: &3dcccccd
+ coords_r: &40170a3d
+ coords_t: &3ee147ae
+ coords_b: 0
+ z_order: 4
+}
+
+}

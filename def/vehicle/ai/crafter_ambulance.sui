@@ -1,0 +1,968 @@
+# XXXXXXXXXXXXXXXXXXX cz XXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.crafter.cz
+{
+	accessories[]: .crafter.cz.chassis
+	accessories[]: .crafter.cz.fwheel
+	accessories[]: .crafter.cz.rwheel
+
+	max_speed: 100
+
+	vehicle_mass: 3500
+
+	sound_move[]: "/sound/traffic/car_diesel_2.soundref"
+
+
+	color[]: (1, 1, 1) #white
+
+	spawn_ratio: 0
+
+@include "drivers_generic_police.sui"
+}
+
+vehicle_accessory: .crafter.cz.chassis
+{
+	data_path: "/def/vehicle/ai/crafter/cz.sii"
+}
+
+vehicle_wheel_accessory: .crafter.cz.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_front.sii"
+}
+
+vehicle_wheel_accessory: .crafter.cz.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_rear.sii"
+}
+
+# XXXXXXXXXXXXXXXXXXX d XXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.crafter.de
+{
+	accessories[]: .crafter.de.chassis
+	accessories[]: .crafter.de.fwheel
+	accessories[]: .crafter.de.rwheel
+
+	max_speed: 100
+
+	vehicle_mass: 3500
+
+	sound_move[]: "/sound/traffic/car_diesel_2.soundref"
+
+	color[]: (1, 1, 1) #white
+
+	spawn_ratio: 0
+
+@include "drivers_generic_police.sui"
+}
+
+vehicle_accessory: .crafter.de.chassis
+{
+	data_path: "/def/vehicle/ai/crafter/de.sii"
+}
+
+vehicle_wheel_accessory: .crafter.de.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_front.sii"
+}
+
+vehicle_wheel_accessory: .crafter.de.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_rear.sii"
+}
+
+# XXXXXXXXXXXXXXXXXXX sk XXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.crafter.sk
+{
+	accessories[]: .crafter.sk.chassis
+	accessories[]: .crafter.sk.fwheel
+	accessories[]: .crafter.sk.rwheel
+
+	max_speed: 100
+
+	vehicle_mass: 3500
+
+	sound_move[]: "/sound/traffic/car_diesel_2.soundref"
+
+
+	color[]: (1, 1, 1) #white
+
+	spawn_ratio: 0
+
+@include "drivers_generic_police.sui"
+}
+
+vehicle_accessory: .crafter.sk.chassis
+{
+	data_path: "/def/vehicle/ai/crafter/sk.sii"
+}
+
+vehicle_wheel_accessory: .crafter.sk.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_front.sii"
+}
+
+vehicle_wheel_accessory: .crafter.sk.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_rear.sii"
+}
+
+# XXXXXXXXXXXXXXXXXXX ru XXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.crafter.ru
+{
+	accessories[]: .crafter.ru.chassis
+	accessories[]: .crafter.ru.fwheel
+	accessories[]: .crafter.ru.rwheel
+
+	max_speed: 100
+
+	vehicle_mass: 3500
+
+	sound_move[]: "/sound/traffic/car_diesel_2.soundref"
+
+
+	color[]: (1, 1, 1) #white
+
+	prefer_variant: true
+
+	spawn_ratio: 0
+
+@include "drivers_generic_police.sui"
+}
+
+vehicle_accessory: .crafter.ru.chassis
+{
+	data_path: "/def/vehicle/ai/crafter/ru.sii"
+}
+
+vehicle_wheel_accessory: .crafter.ru.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_front.sii"
+}
+
+vehicle_wheel_accessory: .crafter.ru.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_rear.sii"
+}
+
+# XXXXXXXXXXXXXXXXXXX lit XXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.crafter.lit
+{
+	accessories[]: .crafter.lit.chassis
+	accessories[]: .crafter.lit.fwheel
+	accessories[]: .crafter.lit.rwheel
+
+	max_speed: 100
+
+	vehicle_mass: 3500
+
+	sound_move[]: "/sound/traffic/car_diesel_2.soundref"
+
+
+	color[]: (1, 1, 1) #white
+
+	spawn_ratio: 0
+
+@include "drivers_generic_police.sui"
+}
+
+vehicle_accessory: .crafter.lit.chassis
+{
+	data_path: "/def/vehicle/ai/crafter/lit.sii"
+}
+
+vehicle_wheel_accessory: .crafter.lit.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_front.sii"
+}
+
+vehicle_wheel_accessory: .crafter.lit.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_rear.sii"
+}
+
+# XXXXXXXXXXXXXXXXXXX viln XXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.crafter.viln
+{
+	accessories[]: .crafter.viln.chassis
+	accessories[]: .crafter.viln.fwheel
+	accessories[]: .crafter.viln.rwheel
+
+	max_speed: 100
+
+	vehicle_mass: 3500
+
+	sound_move[]: "/sound/traffic/car_diesel_2.soundref"
+
+
+	color[]: (1, 1, 1) #white
+
+	spawn_condition[]: .traffic.crafter.viln.vilnius.condition.city
+
+@include "drivers_generic_police.sui"
+}
+
+traffic_spawn_condition: .traffic.crafter.viln.vilnius.condition.city
+{
+	# spawn only near city with name equal to traffic vehicle name suffix
+	type: city
+    str_param[]: "vilnius"
+}
+
+vehicle_accessory: .crafter.viln.chassis
+{
+	data_path: "/def/vehicle/ai/crafter/lit_viln.sii"
+}
+
+vehicle_wheel_accessory: .crafter.viln.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_front.sii"
+}
+
+vehicle_wheel_accessory: .crafter.viln.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_rear.sii"
+}
+
+# XXXXXXXXXXXXXXXXXXX FIN XXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.crafter.fin
+{
+	accessories[]: .crafter.fin.chassis
+	accessories[]: .crafter.fin.fwheel
+	accessories[]: .crafter.fin.rwheel
+
+	max_speed: 100
+
+	vehicle_mass: 3500
+
+	sound_move[]: "/sound/traffic/car_diesel_2.soundref"
+
+
+	color[]: (1, 1, 1) #white
+
+	spawn_ratio: 0
+
+@include "drivers_generic_police.sui"
+}
+
+vehicle_accessory: .crafter.fin.chassis
+{
+	data_path: "/def/vehicle/ai/crafter/fin.sii"
+}
+
+vehicle_wheel_accessory: .crafter.fin.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_front.sii"
+}
+
+vehicle_wheel_accessory: .crafter.fin.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_rear.sii"
+}
+
+# XXXXXXXXXXXXXXXXXXX HELL XXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.crafter.fin_hel
+{
+	accessories[]: .crafter.hell.chassis
+	accessories[]: .crafter.hell.fwheel
+	accessories[]: .crafter.hell.rwheel
+
+	max_speed: 100
+
+	vehicle_mass: 3500
+
+	sound_move[]: "/sound/traffic/car_diesel_2.soundref"
+
+
+	color[]: (1, 1, 1) #white
+
+	spawn_condition[]: .traffic.crafter.hell.helsinki.condition.city
+
+@include "drivers_generic_police.sui"
+}
+
+traffic_spawn_condition: .traffic.crafter.hell.helsinki.condition.city
+{
+	# spawn only near city with name equal to traffic vehicle name suffix
+	type: city
+    str_param[]: "helsinki"
+}
+
+vehicle_accessory: .crafter.hell.chassis
+{
+	data_path: "/def/vehicle/ai/crafter/fin_hel.sii"
+}
+
+vehicle_wheel_accessory: .crafter.hell.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_front.sii"
+}
+
+vehicle_wheel_accessory: .crafter.hell.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_rear.sii"
+}
+
+# XXXXXXXXXXXXXXXXXXX EST XXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.crafter.est
+{
+	accessories[]: .crafter.est.chassis
+	accessories[]: .crafter.est.fwheel
+	accessories[]: .crafter.est.rwheel
+
+	max_speed: 100
+
+	vehicle_mass: 3500
+
+	sound_move[]: "/sound/traffic/car_diesel_2.soundref"
+
+
+	color[]: (1, 1, 1) #white
+
+	spawn_ratio: 0
+
+@include "drivers_generic_police.sui"
+}
+
+vehicle_accessory: .crafter.est.chassis
+{
+	data_path: "/def/vehicle/ai/crafter/est.sii"
+}
+
+vehicle_wheel_accessory: .crafter.est.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_front.sii"
+}
+
+vehicle_wheel_accessory: .crafter.est.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_rear.sii"
+}
+
+# XXXXXXXXXXXXXXXXXXX tall XXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.crafter.est_tall
+{
+	accessories[]: .crafter.tall.chassis
+	accessories[]: .crafter.tall.fwheel
+	accessories[]: .crafter.tall.rwheel
+
+	max_speed: 100
+
+	vehicle_mass: 3500
+
+	sound_move[]: "/sound/traffic/car_diesel_2.soundref"
+
+
+	color[]: (1, 1, 1) #white
+
+	spawn_condition[]: .traffic.crafter.tall.tallinn.condition.city
+
+@include "drivers_generic_police.sui"
+}
+
+traffic_spawn_condition: .traffic.crafter.tall.tallinn.condition.city
+{
+	# spawn only near city with name equal to traffic vehicle name suffix
+	type: city
+    str_param[]: "tallinn"
+}
+
+vehicle_accessory: .crafter.tall.chassis
+{
+	data_path: "/def/vehicle/ai/crafter/est_tall.sii"
+}
+
+vehicle_wheel_accessory: .crafter.tall.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_front.sii"
+}
+
+vehicle_wheel_accessory: .crafter.tall.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_rear.sii"
+}
+
+# XXXXXXXXXXXXXXXXXXX LAT XXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.crafter.lat
+{
+	accessories[]: .crafter.lat.chassis
+	accessories[]: .crafter.lat.fwheel
+	accessories[]: .crafter.lat.rwheel
+
+	max_speed: 100
+
+	vehicle_mass: 3500
+
+	sound_move[]: "/sound/traffic/car_diesel_2.soundref"
+
+
+	color[]: (1, 1, 1) #white
+
+	spawn_ratio: 0
+
+@include "drivers_generic_police.sui"
+}
+
+vehicle_accessory: .crafter.lat.chassis
+{
+	data_path: "/def/vehicle/ai/crafter/lat.sii"
+}
+
+vehicle_wheel_accessory: .crafter.lat.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_front.sii"
+}
+
+vehicle_wheel_accessory: .crafter.lat.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_rear.sii"
+}
+
+
+# XXXXXXXXXXXXXXXXXXX Portugal XXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.crafter.pt
+{
+	accessories[]: .crafter.pt.chassis
+	accessories[]: .crafter.pt.fwheel
+	accessories[]: .crafter.pt.rwheel
+
+	max_speed: 100
+
+	vehicle_mass: 3500
+
+	sound_move[]: "/sound/traffic/car_diesel_2.soundref"
+
+
+	color[]: (1, 1, 1) #white
+
+	spawn_ratio: 0
+
+@include "drivers_generic_police.sui"
+}
+
+vehicle_accessory: .crafter.pt.chassis
+{
+	data_path: "/def/vehicle/ai/crafter/pt.sii"
+}
+
+vehicle_wheel_accessory: .crafter.pt.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_front.sii"
+}
+
+vehicle_wheel_accessory: .crafter.pt.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_rear.sii"
+}
+
+# XXXXXXXXXXXXXXXXXXX Spain XXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.crafter.es
+{
+	accessories[]: .crafter.es.chassis
+	accessories[]: .crafter.es.fwheel
+	accessories[]: .crafter.es.rwheel
+
+	max_speed: 100
+
+	vehicle_mass: 3500
+
+	sound_move[]: "/sound/traffic/car_diesel_2.soundref"
+
+
+	color[]: (1, 1, 1) #white
+
+	spawn_ratio: 0
+
+@include "drivers_generic_police.sui"
+}
+
+vehicle_accessory: .crafter.es.chassis
+{
+	data_path: "/def/vehicle/ai/crafter/es.sii"
+}
+
+vehicle_wheel_accessory: .crafter.es.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_front.sii"
+}
+
+vehicle_wheel_accessory: .crafter.es.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_rear.sii"
+}
+
+# XXXXXXXXXXXXXXXXXXX at XXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.crafter.at
+{
+	accessories[]: .crafter.at.chassis
+	accessories[]: .crafter.at.fwheel
+	accessories[]: .crafter.at.rwheel
+
+	max_speed: 100
+
+	vehicle_mass: 3500
+
+	sound_move[]: "/sound/traffic/car_diesel_2.soundref"
+
+
+	color[]: (1, 1, 1) #white
+
+	spawn_ratio: 0
+
+@include "drivers_generic_police.sui"
+}
+
+vehicle_accessory: .crafter.at.chassis
+{
+	data_path: "/def/vehicle/ai/crafter/at.sii"
+}
+
+vehicle_wheel_accessory: .crafter.at.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_front.sii"
+}
+
+vehicle_wheel_accessory: .crafter.at.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_rear.sii"
+}
+
+
+
+# XXXXXXXXXXXXXXXXXXX sl XXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.crafter.sl
+{
+	accessories[]: .crafter.sl.chassis
+	accessories[]: .crafter.sl.fwheel
+	accessories[]: .crafter.sl.rwheel
+
+	max_speed: 100
+
+	vehicle_mass: 3500
+
+	sound_move[]: "/sound/traffic/car_diesel_2.soundref"
+
+
+	color[]: (1, 1, 1) #white
+
+	spawn_ratio: 0
+
+@include "drivers_generic_police.sui"
+}
+
+vehicle_accessory: .crafter.sl.chassis
+{
+	data_path: "/def/vehicle/ai/crafter/sl.sii"
+}
+
+vehicle_wheel_accessory: .crafter.sl.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_front.sii"
+}
+
+vehicle_wheel_accessory: .crafter.sl.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_rear.sii"
+}
+# XXXXXXXXXXXXXXXXXXX hr XXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.crafter.hr
+{
+	accessories[]: .crafter.hr.chassis
+	accessories[]: .crafter.hr.fwheel
+	accessories[]: .crafter.hr.rwheel
+
+	max_speed: 100
+
+	vehicle_mass: 3500
+
+	sound_move[]: "/sound/traffic/car_diesel_2.soundref"
+
+
+	color[]: (1, 1, 1) #white
+
+	spawn_ratio: 0
+
+@include "drivers_generic_police.sui"
+}
+
+vehicle_accessory: .crafter.hr.chassis
+{
+	data_path: "/def/vehicle/ai/crafter/hr.sii"
+}
+
+vehicle_wheel_accessory: .crafter.hr.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_front.sii"
+}
+
+vehicle_wheel_accessory: .crafter.hr.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_rear.sii"
+}
+
+# XXXXXXXXXXXXXXXXXXX Germany XXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.crafter.de_de
+{
+	accessories[]: .crafter.de_de.chassis
+	accessories[]: .crafter.de_de.fwheel
+	accessories[]: .crafter.de_de.rwheel
+
+	max_speed: 100
+
+	vehicle_mass: 3500
+
+	sound_move[]: "/sound/traffic/car_diesel_2.soundref"
+
+	color[]: (1, 1, 1) #white
+
+	spawn_ratio: 0
+
+@include "drivers_generic_police.sui"
+}
+
+vehicle_accessory: .crafter.de_de.chassis
+{
+	data_path: "/def/vehicle/ai/crafter/de_de.sii"
+}
+
+vehicle_wheel_accessory: .crafter.de_de.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_front.sii"
+}
+
+vehicle_wheel_accessory: .crafter.de_de.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_rear.sii"
+}
+
+
+# XXXXXXXXXXXXXXXXXXX ch XXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.crafter.ch
+{
+	accessories[]: .crafter.ch.chassis
+	accessories[]: .crafter.ch.fwheel
+	accessories[]: .crafter.ch.rwheel
+
+	max_speed: 100
+
+	vehicle_mass: 3500
+
+	sound_move[]: "/sound/traffic/car_diesel_2.soundref"
+
+
+	color[]: (1, 1, 1) #white
+
+	spawn_ratio: 0
+
+@include "drivers_generic_police.sui"
+}
+
+vehicle_accessory: .crafter.ch.chassis
+{
+	data_path: "/def/vehicle/ai/crafter/ch.sii"
+}
+
+vehicle_wheel_accessory: .crafter.ch.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_front.sii"
+}
+
+vehicle_wheel_accessory: .crafter.ch.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_rear.sii"
+}
+
+
+
+
+###################################### DENMARK ######################################
+
+
+traffic_vehicle : traffic.crafter.dk
+{
+	accessories[]: .crafter.dk.chassis
+	accessories[]: .crafter.dk.fwheel
+	accessories[]: .crafter.dk.rwheel
+
+	max_speed: 100
+
+	vehicle_mass: 3500
+
+	sound_move[]: "/sound/traffic/car_diesel_2.soundref"
+
+
+	color[]: (1, 1, 1) #white
+
+	spawn_ratio: 0
+
+@include "drivers_generic_police.sui"
+}
+
+vehicle_accessory: .crafter.dk.chassis
+{
+	data_path: "/def/vehicle/ai/crafter/dk.sii"
+}
+
+vehicle_wheel_accessory: .crafter.dk.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_front.sii"
+}
+
+vehicle_wheel_accessory: .crafter.dk.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_rear.sii"
+}
+
+
+###################################### NORWAY ######################################
+
+
+traffic_vehicle : traffic.crafter.no
+{
+	accessories[]: .crafter.no.chassis
+	accessories[]: .crafter.no.fwheel
+	accessories[]: .crafter.no.rwheel
+
+	max_speed: 100
+
+	vehicle_mass: 3500
+
+	sound_move[]: "/sound/traffic/car_diesel_2.soundref"
+
+
+	color[]: (1, 1, 1) #white
+
+	spawn_ratio: 0
+
+@include "drivers_generic_police.sui"
+}
+
+vehicle_accessory: .crafter.no.chassis
+{
+	data_path: "/def/vehicle/ai/crafter/no.sii"
+}
+
+vehicle_wheel_accessory: .crafter.no.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_front.sii"
+}
+
+vehicle_wheel_accessory: .crafter.no.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_rear.sii"
+}
+
+###################################### SWEDEN ######################################
+
+
+traffic_vehicle : traffic.crafter.se
+{
+	accessories[]: .crafter.se.chassis
+	accessories[]: .crafter.se.fwheel
+	accessories[]: .crafter.se.rwheel
+
+	max_speed: 100
+
+	vehicle_mass: 3500
+
+	sound_move[]: "/sound/traffic/car_diesel_2.soundref"
+
+
+	color[]: (1, 1, 1) #white
+
+	spawn_ratio: 0
+
+@include "drivers_generic_police.sui"
+}
+
+vehicle_accessory: .crafter.se.chassis
+{
+	data_path: "/def/vehicle/ai/crafter/se.sii"
+}
+
+vehicle_wheel_accessory: .crafter.se.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_front.sii"
+}
+
+vehicle_wheel_accessory: .crafter.se.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_rear.sii"
+}
+
+
+###################################### Belgium ######################################
+
+
+traffic_vehicle : traffic.crafter.be
+{
+	accessories[]: .crafter.be.chassis
+	accessories[]: .crafter.be.fwheel
+	accessories[]: .crafter.be.rwheel
+
+	max_speed: 100
+
+	vehicle_mass: 3500
+
+	sound_move[]: "/sound/traffic/car_diesel_2.soundref"
+
+
+	color[]: (1, 1, 1) #white
+
+	spawn_ratio: 0
+
+@include "drivers_generic_police.sui"
+}
+
+vehicle_accessory: .crafter.be.chassis
+{
+	data_path: "/def/vehicle/ai/crafter/be.sii"
+}
+
+vehicle_wheel_accessory: .crafter.be.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_front.sii"
+}
+
+vehicle_wheel_accessory: .crafter.be.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_rear.sii"
+}
+
+###################################### Netherlands ######################################
+
+traffic_vehicle : traffic.crafter.nl
+{
+	accessories[]: .crafter.nl.chassis
+	accessories[]: .crafter.nl.fwheel
+	accessories[]: .crafter.nl.rwheel
+
+	max_speed: 100
+
+	vehicle_mass: 3500
+
+	sound_move[]: "/sound/traffic/car_diesel_2.soundref"
+
+
+	color[]: (1, 1, 1) #white
+
+	spawn_ratio: 0
+
+@include "drivers_generic_police.sui"
+}
+
+vehicle_accessory: .crafter.nl.chassis
+{
+	data_path: "/def/vehicle/ai/crafter/nl.sii"
+}
+
+vehicle_wheel_accessory: .crafter.nl.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_front.sii"
+}
+
+vehicle_wheel_accessory: .crafter.nl.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_rear.sii"
+}
+
+###################################### Iceland ######################################
+
+traffic_vehicle : traffic.crafter.is
+{
+	accessories[]: .crafter.is.chassis
+	accessories[]: .crafter.is.fwheel
+	accessories[]: .crafter.is.rwheel
+
+	max_speed: 100
+
+	vehicle_mass: 3500
+
+	sound_move[]: "/sound/traffic/car_diesel_2.soundref"
+
+
+	color[]: (1, 1, 1) #white
+
+	spawn_ratio: 0
+
+@include "drivers_generic_police.sui"
+}
+
+vehicle_accessory: .crafter.is.chassis
+{
+	data_path: "/def/vehicle/ai/crafter/is.sii"
+}
+
+vehicle_wheel_accessory: .crafter.is.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_front.sii"
+}
+
+vehicle_wheel_accessory: .crafter.is.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/crafter_rear.sii"
+}

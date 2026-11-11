@@ -1,0 +1,34 @@
+SiiNunit
+{
+sign_board_template : _nameless.e48.1e20 {
+ board_name: "gas fi gasmer diesel"
+ width: &3fc00000
+ height: &3f2b851f
+ model_name: ""
+ items: 1
+ items[0]: _nameless.e3b.1b10
+ dynamic_attributes: 0
+}
+
+sign_template_text : _nameless.e3b.1b10 {
+ text: "@@fp_fi_diesel@@"
+ font_face: "/font/sign/gas_karnivore_lite.font"
+ font_size: &3e99999a
+ text_halign: center
+ text_valign: center
+ font_color: 200
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &bca3d70a
+ id: 763232256
+ area_name: ""
+ area_idx: nil
+ coords_l: &3e72fba4
+ coords_r: &3f9f4738
+ coords_t: &3f14b115
+ coords_b: &3cfe8dc0
+ z_order: 1
+ tag: ""
+}
+
+}

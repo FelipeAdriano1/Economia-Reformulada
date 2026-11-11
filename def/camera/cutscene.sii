@@ -1,0 +1,2180 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+# NOTE: PLEASE DON'T CHANGE CUTSCENE NAMES !!!!
+
+cutscene_data: cutscene.game_intro
+{
+	cinematic_camera_path: "/def/camera/city_start/city_start.sii"
+
+	actions_path: "/def/camera/city_start/actions.sii"
+
+	looped: true
+}
+
+cutscene_data: cutscene.first_truck
+{
+	cinematic_camera_path: "/def/camera/garage_poor/garage_poor.sii"
+
+	actions_path: "/def/camera/garage_poor/actions.sii"
+}
+
+cutscene_data: cutscene.buy_garage
+{
+	cinematic_camera_path: "/def/camera/first_garage/first_garage.sii"
+
+	actions_path: "/def/camera/first_garage/actions.sii"
+}
+
+cutscene_data: cutscene.upg_garage1
+{
+	cinematic_camera_path: "/def/camera/garage/garage.sii"
+
+	actions_path: "/def/camera/garage/actions.sii"
+}
+
+cutscene_data: cutscene.upg_garage2
+{
+	cinematic_camera_path: "/def/camera/garage_upgrade/garage_upgrade2.sii"
+
+	actions_path: "/def/camera/garage_upgrade/actions.sii"
+}
+
+cutscene_data: cutscene.buy_truck
+{
+	cinematic_camera_path: "/def/camera/purchase_truck/purchase_truck.sii"
+
+	actions_path: "/def/camera/purchase_truck/actions.sii"
+}
+
+cutscene_data: cutscene.garage_intro
+{
+	cinematic_camera_path: "/def/camera/intro_garage/intro_garage.sii"
+
+	actions_path: "/def/camera/intro_garage/actions.sii"
+
+	looped: true
+}
+
+cutscene_data: cutscene.acc_cone_lay
+{
+    objects_path: "/map/scenes/accident_rare_layer_cone.sbd"
+}
+
+cutscene_data: cutscene.acc_stop_li3
+{
+    objects_path: "/map/scenes/accident_stop_lights_3.sbd"
+}
+
+cutscene_data: cutscene.acc_stop_li1
+{
+    objects_path: "/map/scenes/accident_stop_lights_1.sbd"
+}
+
+cutscene_data: cutscene.acc_stop_li2
+{
+    objects_path: "/map/scenes/accident_stop_lights_2.sbd"
+}
+
+cutscene_data: cutscene.acc_in_1a
+{
+    objects_path: "/map/scenes/acc_in_1a.sbd"
+}
+
+cutscene_data: cutscene.acc_in_1b
+{
+    objects_path: "/map/scenes/acc_in_1b.sbd"
+}
+
+cutscene_data: cutscene.acc_spec_1
+{
+    objects_path: "/map/scenes/acc_spec_1.sbd"
+}
+
+cutscene_data: cutscene.acc_spec_2
+{
+    objects_path: "/map/scenes/acc_spec_2.sbd"
+}
+
+cutscene_data: cutscene.acc_spec_3
+{
+    objects_path: "/map/scenes/acc_spec_3.sbd"
+}
+
+cutscene_data: cutscene.acc_spec_4
+{
+    objects_path: "/map/scenes/acc_spec_4.sbd"
+}
+
+cutscene_data: cutscene.acc_spec_5
+{
+    objects_path: "/map/scenes/acc_spec_5.sbd"
+}
+
+cutscene_data: cutscene.acc_spec_6
+{
+    objects_path: "/map/scenes/acc_spec_6.sbd"
+}
+
+cutscene_data: cutscene.acc_ger_1
+{
+    objects_path: "/map/scenes/acc_ger_1.sbd"
+}
+
+cutscene_data: cutscene.acc_ger_2
+{
+    objects_path: "/map/scenes/acc_ger_2.sbd"
+}
+
+cutscene_data: cutscene.acc_ger_3
+{
+    objects_path: "/map/scenes/acc_ger_3.sbd"
+}
+
+cutscene_data: cutscene.acc_rare_1
+{
+    objects_path: "/map/scenes/acc_rare_1.sbd"
+}
+
+cutscene_data: cutscene.acc_rare_2
+{
+    objects_path: "/map/scenes/acc_rare_2.sbd"
+}
+
+cutscene_data: cutscene.acc_rare_3
+{
+    objects_path: "/map/scenes/acc_rare_3.sbd"
+}
+
+cutscene_data: cutscene.acc_rare_4
+{
+    objects_path: "/map/scenes/acc_rare_4.sbd"
+}
+
+cutscene_data: cutscene.acc_cou_1
+{
+    objects_path: "/map/scenes/acc_cou_1.sbd"
+}
+
+cutscene_data: cutscene.acc_cou_2
+{
+    objects_path: "/map/scenes/acc_cou_2.sbd"
+}
+
+cutscene_data: cutscene.acc_cou_3
+{
+    objects_path: "/map/scenes/acc_cou_3.sbd"
+}
+
+cutscene_data: cutscene.acc_cou_b1
+{
+    objects_path: "/map/scenes/acc_cou_b1.sbd"
+}
+
+cutscene_data: cutscene.acc_cou_b2
+{
+    objects_path: "/map/scenes/acc_cou_b2.sbd"
+}
+
+cutscene_data: cutscene.acc_cou_b3
+{
+    objects_path: "/map/scenes/acc_cou_b3.sbd"
+}
+
+cutscene_data: cutscene.acc_cou_pf
+{
+    objects_path: "/map/scenes/acc_cou_pf.sbd"
+}
+
+cutscene_data: cutscene.acc_cou_pb
+{
+    objects_path: "/map/scenes/acc_cou_pb.sbd"
+}
+
+cutscene_data: cutscene.acc_cou_af
+{
+    objects_path: "/map/scenes/acc_cou_af.sbd"
+}
+
+cutscene_data: cutscene.acc_cou_ab
+{
+    objects_path: "/map/scenes/acc_cou_ab.sbd"
+}
+
+
+
+cutscene_data: cutscene.acc_coul_1
+{
+    objects_path: "/map/scenes/acc_coul_1.sbd"
+}
+
+cutscene_data: cutscene.acc_coul_2
+{
+    objects_path: "/map/scenes/acc_coul_2.sbd"
+}
+
+cutscene_data: cutscene.acc_coul_3
+{
+    objects_path: "/map/scenes/acc_coul_3.sbd"
+}
+
+cutscene_data: cutscene.acc_coul_b1
+{
+    objects_path: "/map/scenes/acc_coul_b1.sbd"
+}
+
+cutscene_data: cutscene.acc_coul_b2
+{
+    objects_path: "/map/scenes/acc_coul_b2.sbd"
+}
+
+cutscene_data: cutscene.acc_coul_b3
+{
+    objects_path: "/map/scenes/acc_coul_b3.sbd"
+}
+
+cutscene_data: cutscene.acc_coul_pf
+{
+    objects_path: "/map/scenes/acc_coul_pf.sbd"
+}
+
+cutscene_data: cutscene.acc_coul_pb
+{
+    objects_path: "/map/scenes/acc_coul_pb.sbd"
+}
+
+
+
+
+cutscene_data: cutscene.acc_mid_1
+{
+    objects_path: "/map/scenes/acc_mid_1.sbd"
+}
+
+cutscene_data: cutscene.acc_mid_2
+{
+    objects_path: "/map/scenes/acc_mid_2.sbd"
+}
+
+cutscene_data: cutscene.acc_mid_3
+{
+    objects_path: "/map/scenes/acc_mid_3.sbd"
+}
+
+cutscene_data: cutscene.acc_tri
+{
+    objects_path: "/map/scenes/accident_warning_triangle.sbd"
+}
+
+cutscene_data: cutscene.acc_tri_l
+{
+    objects_path: "/map/scenes/accident_warning_triangle_lh.sbd"
+}
+
+cutscene_data: cutscene.acc_uni_1
+{
+    objects_path: "/map/scenes/acc_uni_1.sbd"
+}
+
+cutscene_data: cutscene.acc_uni_2
+{
+    objects_path: "/map/scenes/acc_uni_2.sbd"
+}
+
+cutscene_data: cutscene.acc_uni_3
+{
+    objects_path: "/map/scenes/acc_uni_3.sbd"
+}
+
+cutscene_data: cutscene.acc_uni_4
+{
+    objects_path: "/map/scenes/acc_uni_4.sbd"
+}
+
+cutscene_data: cutscene.acc_uni_5
+{
+    objects_path: "/map/scenes/acc_uni_5.sbd"
+}
+
+cutscene_data: cutscene.acc_uni_6
+{
+    objects_path: "/map/scenes/acc_uni_6.sbd"
+}
+
+cutscene_data: cutscene.acc_uni_1_l
+{
+    objects_path: "/map/scenes/acc_uni_1_l.sbd"
+}
+
+cutscene_data: cutscene.acc_uni_2_l
+{
+    objects_path: "/map/scenes/acc_uni_2_l.sbd"
+}
+
+cutscene_data: cutscene.acc_uni_3_l
+{
+    objects_path: "/map/scenes/acc_uni_3_l.sbd"
+}
+
+cutscene_data: cutscene.acc_uni_4_l
+{
+    objects_path: "/map/scenes/acc_uni_4_l.sbd"
+}
+
+cutscene_data: cutscene.acc_uni_5_l
+{
+    objects_path: "/map/scenes/acc_uni_5_l.sbd"
+}
+
+cutscene_data: cutscene.acc_uni_6_l
+{
+    objects_path: "/map/scenes/acc_uni_6_l.sbd"
+}
+
+cutscene_data: cutscene.acc_stop_lii
+{
+    objects_path: "/map/scenes/accident_stop_lights_in.sbd"
+}
+
+
+
+
+cutscene_data: cutscene.rw_uni_1
+{
+    objects_path: "/map/scenes/rw_uni_1.sbd"
+}
+
+cutscene_data: cutscene.rw_uni_2
+{
+    objects_path: "/map/scenes/rw_uni_2.sbd"
+}
+
+cutscene_data: cutscene.rw_uni_3
+{
+    objects_path: "/map/scenes/rw_uni_3.sbd"
+}
+
+cutscene_data: cutscene.rw_uni_4
+{
+    objects_path: "/map/scenes/rw_uni_4.sbd"
+}
+
+cutscene_data: cutscene.rw_uni_5
+{
+    objects_path: "/map/scenes/rw_uni_5.sbd"
+}
+
+cutscene_data: cutscene.rw_uni_6
+{
+    objects_path: "/map/scenes/rw_uni_6.sbd"
+}
+
+cutscene_data: cutscene.rw_uni_7
+{
+    objects_path: "/map/scenes/rw_uni_7.sbd"
+}
+
+cutscene_data: cutscene.rw_uni_8
+{
+    objects_path: "/map/scenes/rw_uni_8.sbd"
+}
+
+cutscene_data: cutscene.rw_uni_9
+{
+    objects_path: "/map/scenes/rw_uni_9.sbd"
+}
+
+
+
+
+
+cutscene_data: cutscene.rw_uni_1_l
+{
+    objects_path: "/map/scenes/rw_uni_1_l.sbd"
+}
+
+cutscene_data: cutscene.rw_uni_2_l
+{
+    objects_path: "/map/scenes/rw_uni_2_l.sbd"
+}
+
+cutscene_data: cutscene.rw_uni_3_l
+{
+    objects_path: "/map/scenes/rw_uni_3_l.sbd"
+}
+
+cutscene_data: cutscene.rw_uni_4_l
+{
+    objects_path: "/map/scenes/rw_uni_4_l.sbd"
+}
+
+cutscene_data: cutscene.rw_uni_5_l
+{
+    objects_path: "/map/scenes/rw_uni_5_l.sbd"
+}
+
+cutscene_data: cutscene.rw_uni_6_l
+{
+    objects_path: "/map/scenes/rw_uni_6_l.sbd"
+}
+
+cutscene_data: cutscene.rw_uni_7_l
+{
+    objects_path: "/map/scenes/rw_uni_7_l.sbd"
+}
+
+cutscene_data: cutscene.rw_uni_8_l
+{
+    objects_path: "/map/scenes/rw_uni_8_l.sbd"
+}
+
+cutscene_data: cutscene.rw_uni_9_l
+{
+    objects_path: "/map/scenes/rw_uni_9_l.sbd"
+}
+
+
+
+
+
+cutscene_data: cutscene.rw_sta_1
+{
+    objects_path: "/map/scenes/roadwork_start_1.sbd"
+}
+
+cutscene_data: cutscene.rw_end_1
+{
+    objects_path: "/map/scenes/roadwork_end_1.sbd"
+}
+
+
+cutscene_data: cutscene.rw_end_1_l
+{
+    objects_path: "/map/scenes/roadwork_end_lh_1.sbd"
+}
+
+cutscene_data: cutscene.rw_end_2_l
+{
+    objects_path: "/map/scenes/roadwork_end_lh_2.sbd"
+}
+
+
+
+cutscene_data: cutscene.rw_sta_1_l
+{
+    objects_path: "/map/scenes/roadwork_start_lh_1.sbd"
+}
+cutscene_data: cutscene.rw_sta_2_l
+{
+    objects_path: "/map/scenes/roadwork_start_lh_2.sbd"
+}
+cutscene_data: cutscene.rw_sta_3_l
+{
+    objects_path: "/map/scenes/roadwork_start_lh_3.sbd"
+}
+
+
+
+cutscene_data: cutscene.rw_mid_1
+{
+    objects_path: "/map/scenes/roadwork_mid_1.sbd"
+}
+
+cutscene_data: cutscene.rw_in_1
+{
+    objects_path: "/map/scenes/rw_in_1.sbd"
+}
+
+cutscene_data: cutscene.rw_in_2
+{
+    objects_path: "/map/scenes/rw_in_2.sbd"
+}
+
+cutscene_data: cutscene.rw_in_3
+{
+    objects_path: "/map/scenes/rw_in_3.sbd"
+}
+
+cutscene_data: cutscene.rw_in_4
+{
+    objects_path: "/map/scenes/rw_in_4.sbd"
+}
+
+cutscene_data: cutscene.rw_in_5
+{
+    objects_path: "/map/scenes/rw_in_5.sbd"
+}
+
+cutscene_data: cutscene.rw_in_6
+{
+    objects_path: "/map/scenes/rw_in_6.sbd"
+}
+
+cutscene_data: cutscene.rw_in_7
+{
+    objects_path: "/map/scenes/rw_in_7.sbd"
+}
+
+cutscene_data: cutscene.rw_in_8
+{
+    objects_path: "/map/scenes/rw_in_8.sbd"
+}
+
+cutscene_data: cutscene.rw_in_9
+{
+    objects_path: "/map/scenes/rw_in_9.sbd"
+}
+
+cutscene_data: cutscene.rw_out_1
+{
+    objects_path: "/map/scenes/rw_out_1.sbd"
+}
+
+cutscene_data: cutscene.rw_out_2
+{
+    objects_path: "/map/scenes/rw_out_2.sbd"
+}
+
+cutscene_data: cutscene.rw_out_3
+{
+    objects_path: "/map/scenes/rw_out_3.sbd"
+}
+
+cutscene_data: cutscene.rw_out_4
+{
+    objects_path: "/map/scenes/rw_out_4.sbd"
+}
+
+cutscene_data: cutscene.rw_out_5
+{
+    objects_path: "/map/scenes/rw_out_5.sbd"
+}
+
+cutscene_data: cutscene.rw_out_6
+{
+    objects_path: "/map/scenes/rw_out_6.sbd"
+}
+
+cutscene_data: cutscene.rw_out_7
+{
+    objects_path: "/map/scenes/rw_out_7.sbd"
+}
+
+cutscene_data: cutscene.rw_out_8
+{
+    objects_path: "/map/scenes/rw_out_8.sbd"
+}
+
+cutscene_data: cutscene.rw_out_9
+{
+    objects_path: "/map/scenes/rw_out_9.sbd"
+}
+
+cutscene_data: cutscene.rw_end_in_1
+{
+    objects_path: "/map/scenes/roadwork_end_in_1.sbd"
+}
+
+cutscene_data: cutscene.rw_sta_in_1
+{
+    objects_path: "/map/scenes/roadwork_start_in_1.sbd"
+}
+
+cutscene_data: cutscene.rw_mid_in_1
+{
+    objects_path: "/map/scenes/roadwork_mid_in_1.sbd"
+}
+
+cutscene_data: cutscene.rw_end_2
+{
+    objects_path: "/map/scenes/roadwork_end_2.sbd"
+}
+
+cutscene_data: cutscene.rw_sta_2
+{
+    objects_path: "/map/scenes/roadwork_start_2.sbd"
+}
+
+cutscene_data: cutscene.rw_mid_2
+{
+    objects_path: "/map/scenes/roadwork_mid_2.sbd"
+}
+
+cutscene_data: cutscene.rw_sta_3
+{
+    objects_path: "/map/scenes/roadwork_start_3.sbd"
+}
+
+cutscene_data: cutscene.rw_mid_3
+{
+    objects_path: "/map/scenes/roadwork_mid_3.sbd"
+}
+
+cutscene_data: cutscene.rw_end_in_2
+{
+    objects_path: "/map/scenes/roadwork_end_in_2.sbd"
+}
+
+cutscene_data: cutscene.rw_sta_in_2
+{
+    objects_path: "/map/scenes/roadwork_start_in_2.sbd"
+}
+
+cutscene_data: cutscene.rw_mid_in_2
+{
+    objects_path: "/map/scenes/roadwork_mid_in_2.sbd"
+}
+
+
+cutscene_data: cutscene.rw_sta_in_3
+{
+    objects_path: "/map/scenes/roadwork_start_in_3.sbd"
+}
+
+cutscene_data: cutscene.rw_mid_in_3
+{
+    objects_path: "/map/scenes/roadwork_mid_in_3.sbd"
+}
+
+
+
+
+cutscene_data: cutscene.rw_end_out_1
+{
+    objects_path: "/map/scenes/roadwork_end_out_1.sbd"
+}
+
+cutscene_data: cutscene.rw_sta_out_1
+{
+    objects_path: "/map/scenes/roadwork_start_out_1.sbd"
+}
+
+cutscene_data: cutscene.rw_end_out_2
+{
+    objects_path: "/map/scenes/roadwork_end_out_2.sbd"
+}
+
+cutscene_data: cutscene.rw_sta_out_2
+{
+    objects_path: "/map/scenes/roadwork_start_out_2.sbd"
+}
+
+
+cutscene_data: cutscene.rw_sta_out_3
+{
+    objects_path: "/map/scenes/roadwork_start_out_3.sbd"
+}
+
+
+
+
+
+cutscene_data: cutscene.rw_lng_1
+{
+    objects_path: "/map/scenes/rw_lng_1.sbd"
+}
+
+
+
+cutscene_data: cutscene.rw_count_0
+{
+    objects_path: "/map/scenes/rw_count_0.sbd"
+}
+
+cutscene_data: cutscene.rw_count_1
+{
+    objects_path: "/map/scenes/rw_count_1.sbd"
+}
+
+cutscene_data: cutscene.rw_count_2
+{
+    objects_path: "/map/scenes/rw_count_2.sbd"
+}
+
+cutscene_data: cutscene.rw_count_3
+{
+    objects_path: "/map/scenes/rw_count_3.sbd"
+}
+
+cutscene_data: cutscene.rw_count_4
+{
+    objects_path: "/map/scenes/rw_count_4.sbd"
+}
+
+cutscene_data: cutscene.rw_count_5
+{
+    objects_path: "/map/scenes/rw_count_5.sbd"
+}
+
+cutscene_data: cutscene.rw_count_6
+{
+    objects_path: "/map/scenes/rw_count_6.sbd"
+}
+
+cutscene_data: cutscene.rw_count_7
+{
+    objects_path: "/map/scenes/rw_count_7.sbd"
+}
+
+cutscene_data: cutscene.rw_count_8
+{
+    objects_path: "/map/scenes/rw_count_8.sbd"
+}
+
+cutscene_data: cutscene.rw_count_9
+{
+    objects_path: "/map/scenes/rw_count_9.sbd"
+}
+
+cutscene_data: cutscene.rw_count_e
+{
+    objects_path: "/map/scenes/rw_count_e.sbd"
+}
+
+cutscene_data: cutscene.rw_count_m
+{
+    objects_path: "/map/scenes/rw_count_m.sbd"
+}
+
+cutscene_data: cutscene.rw_count_s
+{
+    objects_path: "/map/scenes/rw_count_s.sbd"
+}
+
+
+
+
+
+
+
+cutscene_data: cutscene.sn_rw
+{
+    objects_path: "/map/scenes/sign_roadwork.sbd"
+}
+
+cutscene_data: cutscene.sn_sp_30
+{
+    objects_path: "/map/scenes/sign_speed_30.sbd"
+}
+
+cutscene_data: cutscene.sn_sp_50
+{
+    objects_path: "/map/scenes/sign_speed_50.sbd"
+}
+
+cutscene_data: cutscene.sn_sp_70
+{
+    objects_path: "/map/scenes/sign_speed_70.sbd"
+}
+
+cutscene_data: cutscene.sn_sp_0
+{
+    objects_path: "/map/scenes/sign_speed_0.sbd"
+}
+
+cutscene_data: cutscene.sn_in_rw
+{
+    objects_path: "/map/scenes/sign_in_roadwork.sbd"
+}
+
+cutscene_data: cutscene.sn_in_sp_50
+{
+    objects_path: "/map/scenes/sign_in_speed_50.sbd"
+}
+
+cutscene_data: cutscene.sn_in_sp_70
+{
+    objects_path: "/map/scenes/sign_in_speed_70.sbd"
+}
+
+cutscene_data: cutscene.sn_in_sp_0
+{
+    objects_path: "/map/scenes/sign_in_speed_0.sbd"
+}
+
+
+
+cutscene_data: cutscene.pol_cou_1
+{
+    objects_path: "/map/scenes/pol_cou_1.sbd"
+}
+
+cutscene_data: cutscene.pol_cou_2
+{
+    objects_path: "/map/scenes/pol_cou_2.sbd"
+}
+
+
+cutscene_data: cutscene.pol_coul_1
+{
+    objects_path: "/map/scenes/pol_coul_1.sbd"
+}
+
+cutscene_data: cutscene.pol_coul_2
+{
+    objects_path: "/map/scenes/pol_coul_2.sbd"
+}
+
+
+cutscene_data: cutscene.pol_uni_1
+{
+    objects_path: "/map/scenes/police_uni_1.sbd"
+}
+
+cutscene_data: cutscene.pol_uni_2
+{
+    objects_path: "/map/scenes/police_uni_2.sbd"
+}
+
+cutscene_data: cutscene.pol_uni_3
+{
+    objects_path: "/map/scenes/police_uni_3.sbd"
+}
+
+cutscene_data: cutscene.pol_uni_4
+{
+    objects_path: "/map/scenes/police_uni_4.sbd"
+}
+
+cutscene_data: cutscene.pol_uni_5
+{
+    objects_path: "/map/scenes/police_uni_5.sbd"
+}
+
+cutscene_data: cutscene.pol_uni_1_l
+{
+    objects_path: "/map/scenes/police_uni_lh_1.sbd"
+}
+
+cutscene_data: cutscene.pol_uni_2_l
+{
+    objects_path: "/map/scenes/police_uni_lh_2.sbd"
+}
+
+cutscene_data: cutscene.pol_uni_3_l
+{
+    objects_path: "/map/scenes/police_uni_lh_3.sbd"
+}
+
+cutscene_data: cutscene.pol_uni_4_l
+{
+    objects_path: "/map/scenes/police_uni_lh_4.sbd"
+}
+
+cutscene_data: cutscene.pol_uni_5_l
+{
+    objects_path: "/map/scenes/police_uni_lh_5.sbd"
+}
+
+cutscene_data: cutscene.pol_uni_r
+{
+    objects_path: "/map/scenes/police_uni_r.sbd"
+}
+
+cutscene_data: cutscene.pol_uni_r_l
+{
+    objects_path: "/map/scenes/police_uni_lh_r.sbd"
+}
+
+cutscene_data: cutscene.rand_1
+{
+    objects_path: "/map/scenes/random_1.sbd"
+}
+
+cutscene_data: cutscene.rand_2
+{
+    objects_path: "/map/scenes/random_2.sbd"
+}
+
+cutscene_data: cutscene.nat_d_1
+{
+    objects_path: "/map/scenes/decal_dark_1.sbd"
+}
+
+cutscene_data: cutscene.nat_l_1
+{
+    objects_path: "/map/scenes/decal_light_1.sbd"
+}
+
+cutscene_data: cutscene.nat_l_2
+{
+    objects_path: "/map/scenes/decal_light_2.sbd"
+}
+
+cutscene_data: cutscene.nat_l_3
+{
+    objects_path: "/map/scenes/decal_light_3.sbd"
+}
+
+cutscene_data: cutscene.nat_l_4
+{
+    objects_path: "/map/scenes/decal_light_4.sbd"
+}
+
+cutscene_data: cutscene.nat_l_5
+{
+    objects_path: "/map/scenes/decal_light_5.sbd"
+}
+
+cutscene_data: cutscene.nat_l_6
+{
+    objects_path: "/map/scenes/decal_light_1.sbd"
+}
+
+cutscene_data: cutscene.nat_l_7
+{
+    objects_path: "/map/scenes/decal_light_7.sbd"
+}
+
+cutscene_data: cutscene.nat_l_8
+{
+    objects_path: "/map/scenes/decal_light_8.sbd"
+}
+
+cutscene_data: cutscene.nat_l_9
+{
+    objects_path: "/map/scenes/decal_light_9.sbd"
+}
+
+cutscene_data: cutscene.nat_l_10
+{
+    objects_path: "/map/scenes/decal_light_10.sbd"
+}
+
+cutscene_data: cutscene.nat_u_1
+{
+    objects_path: "/map/scenes/decal_uni_1.sbd"
+}
+
+cutscene_data: cutscene.nat_u_2
+{
+    objects_path: "/map/scenes/decal_uni_2.sbd"
+}
+
+cutscene_data: cutscene.nat_u_3
+{
+    objects_path: "/map/scenes/decal_uni_3.sbd"
+}
+
+cutscene_data: cutscene.nat_u_4
+{
+    objects_path: "/map/scenes/decal_uni_4.sbd"
+}
+
+cutscene_data: cutscene.nat_u_5
+{
+    objects_path: "/map/scenes/decal_uni_5.sbd"
+}
+
+cutscene_data: cutscene.nat_u_6
+{
+    objects_path: "/map/scenes/decal_uni_6.sbd"
+}
+
+cutscene_data: cutscene.nat_u_7
+{
+    objects_path: "/map/scenes/decal_uni_7.sbd"
+}
+
+cutscene_data: cutscene.nat_u_8
+{
+    objects_path: "/map/scenes/decal_uni_8.sbd"
+}
+
+cutscene_data: cutscene.nat_u_9
+{
+    objects_path: "/map/scenes/decal_uni_9.sbd"
+}
+
+cutscene_data: cutscene.nat_u_10
+{
+    objects_path: "/map/scenes/decal_uni_10.sbd"
+}
+
+cutscene_data: cutscene.nat_u_11
+{
+    objects_path: "/map/scenes/decal_uni_11.sbd"
+}
+
+cutscene_data: cutscene.nat_u_12
+{
+    objects_path: "/map/scenes/decal_uni_12.sbd"
+}
+
+cutscene_data: cutscene.nat_u_13
+{
+    objects_path: "/map/scenes/decal_uni_13.sbd"
+}
+
+cutscene_data: cutscene.nat_u_14
+{
+    objects_path: "/map/scenes/decal_uni_14.sbd"
+}
+
+cutscene_data: cutscene.nat_u_15
+{
+    objects_path: "/map/scenes/decal_uni_15.sbd"
+}
+
+cutscene_data: cutscene.nat_u_16
+{
+    objects_path: "/map/scenes/decal_uni_16.sbd"
+}
+
+cutscene_data: cutscene.nat_u_17
+{
+    objects_path: "/map/scenes/decal_uni_17.sbd"
+}
+
+cutscene_data: cutscene.nat_u_18
+{
+    objects_path: "/map/scenes/decal_uni_18.sbd"
+}
+
+cutscene_data: cutscene.nat_u_19
+{
+    objects_path: "/map/scenes/decal_uni_19.sbd"
+}
+
+cutscene_data: cutscene.nat_bl_1
+{
+    objects_path: "/map/scenes/decal_build_l_1.sbd"
+}
+
+cutscene_data: cutscene.nat_bl_2
+{
+    objects_path: "/map/scenes/decal_build_l_2.sbd"
+}
+
+cutscene_data: cutscene.nat_b_1
+{
+    objects_path: "/map/scenes/decal_build_1.sbd"
+}
+
+cutscene_data: cutscene.nat_b_2
+{
+    objects_path: "/map/scenes/decal_build_2.sbd"
+}
+
+cutscene_data: cutscene.nat_b_3
+{
+    objects_path: "/map/scenes/decal_build_3.sbd"
+}
+
+cutscene_data: cutscene.nat_b_4
+{
+    objects_path: "/map/scenes/decal_build_4.sbd"
+}
+
+cutscene_data: cutscene.nat_b_5
+{
+    objects_path: "/map/scenes/decal_build_5.sbd"
+}
+
+cutscene_data: cutscene.nat_b_6
+{
+    objects_path: "/map/scenes/decal_build_6.sbd"
+}
+
+cutscene_data: cutscene.nat_b_7
+{
+    objects_path: "/map/scenes/decal_build_7.sbd"
+}
+
+
+
+
+
+
+
+
+cutscene_data: cutscene.c_plat_1
+{
+    objects_path: "/map/scenes/city_platform_1.sbd"
+}
+
+cutscene_data: cutscene.c_garb_1
+{
+    objects_path: "/map/scenes/city_garbage_1.sbd"
+}
+
+cutscene_data: cutscene.c_delv_1
+{
+    objects_path: "/map/scenes/city_delivery_1.sbd"
+}
+
+cutscene_data: cutscene.c_trip_1
+{
+    objects_path: "/map/scenes/city_tripod_1.sbd"
+}
+
+cutscene_data: cutscene.c_trip_2
+{
+    objects_path: "/map/scenes/city_tripod_2.sbd"
+}
+
+
+
+
+cutscene_data: cutscene.shop_1
+{
+    objects_path: "/map/scenes/shop_1.sbd"
+}
+cutscene_data: cutscene.shop_2
+{
+    objects_path: "/map/scenes/shop_2.sbd"
+}
+cutscene_data: cutscene.shop_3
+{
+    objects_path: "/map/scenes/shop_3.sbd"
+}
+cutscene_data: cutscene.shop_4
+{
+    objects_path: "/map/scenes/shop_4.sbd"
+}
+
+cutscene_data: cutscene.shop_1_l
+{
+    objects_path: "/map/scenes/shop_lh_1.sbd"
+}
+cutscene_data: cutscene.shop_2_l
+{
+    objects_path: "/map/scenes/shop_lh_2.sbd"
+}
+cutscene_data: cutscene.shop_3_l
+{
+    objects_path: "/map/scenes/shop_lh_3.sbd"
+}
+cutscene_data: cutscene.shop_4_l
+{
+    objects_path: "/map/scenes/shop_lh_4.sbd"
+}
+
+
+cutscene_data: cutscene.sd_2_80
+{
+    objects_path: "/map/scenes/s_de_2_80.sbd"
+}
+cutscene_data: cutscene.sd_2_100
+{
+    objects_path: "/map/scenes/s_de_2_100.sbd"
+}
+cutscene_data: cutscene.sd_2_80_l
+{
+    objects_path: "/map/scenes/s_de_2_80_l.sbd"
+}
+cutscene_data: cutscene.sd_2_100_l
+{
+    objects_path: "/map/scenes/s_de_2_100_l.sbd"
+}
+cutscene_data: cutscene.sd_3_80
+{
+    objects_path: "/map/scenes/s_de_3_80.sbd"
+}
+cutscene_data: cutscene.sd_3_100
+{
+    objects_path: "/map/scenes/s_de_3_100.sbd"
+}
+cutscene_data: cutscene.sd_3_80_l
+{
+    objects_path: "/map/scenes/s_de_3_80_l.sbd"
+}
+cutscene_data: cutscene.sd_3_100_l
+{
+    objects_path: "/map/scenes/s_de_3_100_l.sbd"
+}
+cutscene_data: cutscene.sdi_2_80
+{
+    objects_path: "/map/scenes/s_de_in_2_80.sbd"
+}
+cutscene_data: cutscene.sdi_2_100
+{
+    objects_path: "/map/scenes/s_de_in_2_100.sbd"
+}
+cutscene_data: cutscene.sdi_2_80_l
+{
+    objects_path: "/map/scenes/s_de_in_2_80_l.sbd"
+}
+cutscene_data: cutscene.sdi_2_100_l
+{
+    objects_path: "/map/scenes/s_de_in_2_100_l.sbd"
+}
+cutscene_data: cutscene.sdi_3_80
+{
+    objects_path: "/map/scenes/s_de_in_3_80.sbd"
+}
+cutscene_data: cutscene.sdi_3_100
+{
+    objects_path: "/map/scenes/s_de_in_3_100.sbd"
+}
+cutscene_data: cutscene.sdi_3_80_l
+{
+    objects_path: "/map/scenes/s_de_in_3_80_l.sbd"
+}
+cutscene_data: cutscene.sdi_3_100_l
+{
+    objects_path: "/map/scenes/s_de_in_3_100_l.sbd"
+}
+
+
+cutscene_data: cutscene.sf_0
+{
+    objects_path: "/map/scenes/s_fr_0.sbd"
+}
+cutscene_data: cutscene.sf_110
+{
+    objects_path: "/map/scenes/s_fr_110.sbd"
+}
+cutscene_data: cutscene.sf_m
+{
+    objects_path: "/map/scenes/s_fr_m.sbd"
+}
+cutscene_data: cutscene.sf_m_90
+{
+    objects_path: "/map/scenes/s_fr_m_90.sbd"
+}
+cutscene_data: cutscene.sfi_m
+{
+    objects_path: "/map/scenes/s_fr_in_m.sbd"
+}
+cutscene_data: cutscene.sf_r
+{
+    objects_path: "/map/scenes/s_fr_rw.sbd"
+}
+cutscene_data: cutscene.sfi_r
+{
+    objects_path: "/map/scenes/s_fr_in_rw.sbd"
+}
+
+
+cutscene_data: cutscene.sfo_0
+{
+    objects_path: "/map/scenes/s_fr_out_0.sbd"
+}
+cutscene_data: cutscene.sfo_110
+{
+    objects_path: "/map/scenes/s_fr_out_110.sbd"
+}
+cutscene_data: cutscene.sfo_m
+{
+    objects_path: "/map/scenes/s_fr_out_m.sbd"
+}
+cutscene_data: cutscene.sfo_90
+{
+    objects_path: "/map/scenes/s_fr_out_90.sbd"
+}
+cutscene_data: cutscene.sfo_r
+{
+    objects_path: "/map/scenes/s_fr_out_rw.sbd"
+}
+
+cutscene_data: cutscene.sf_mr
+{
+    objects_path: "/map/scenes/s_fr_mr.sbd"
+}
+cutscene_data: cutscene.sfo_mr
+{
+    objects_path: "/map/scenes/s_fr_out_mr.sbd"
+}
+cutscene_data: cutscene.sf_mr_90
+{
+    objects_path: "/map/scenes/s_fr_mr_90.sbd"
+}
+cutscene_data: cutscene.sfi_mr
+{
+    objects_path: "/map/scenes/s_fr_in_mr.sbd"
+}
+
+
+
+
+cutscene_data: cutscene.si_0
+{
+    objects_path: "/map/scenes/s_it_0.sbd"
+}
+cutscene_data: cutscene.si_50
+{
+    objects_path: "/map/scenes/s_it_50.sbd"
+}
+cutscene_data: cutscene.si_70
+{
+    objects_path: "/map/scenes/s_it_70.sbd"
+}
+cutscene_data: cutscene.sii_0
+{
+    objects_path: "/map/scenes/s_it_in_0.sbd"
+}
+cutscene_data: cutscene.sii_50
+{
+    objects_path: "/map/scenes/s_it_in_50.sbd"
+}
+cutscene_data: cutscene.sii_70
+{
+    objects_path: "/map/scenes/s_it_in_70.sbd"
+}
+cutscene_data: cutscene.sii_m2
+{
+    objects_path: "/map/scenes/s_it_in_m2.sbd"
+}
+cutscene_data: cutscene.sii_m2r
+{
+    objects_path: "/map/scenes/s_it_in_m2r.sbd"
+}
+cutscene_data: cutscene.sii_m3
+{
+    objects_path: "/map/scenes/s_it_in_m3.sbd"
+}
+cutscene_data: cutscene.sii_m3r
+{
+    objects_path: "/map/scenes/s_it_in_m3r.sbd"
+}
+cutscene_data: cutscene.sii_r
+{
+    objects_path: "/map/scenes/s_it_in_rw.sbd"
+}
+cutscene_data: cutscene.si_m2
+{
+    objects_path: "/map/scenes/s_it_m2.sbd"
+}
+cutscene_data: cutscene.si_m2r
+{
+    objects_path: "/map/scenes/s_it_m2r.sbd"
+}
+cutscene_data: cutscene.si_m3
+{
+    objects_path: "/map/scenes/s_it_m3.sbd"
+}
+cutscene_data: cutscene.si_m3r
+{
+    objects_path: "/map/scenes/s_it_m3r.sbd"
+}
+cutscene_data: cutscene.sio_0
+{
+    objects_path: "/map/scenes/s_it_out_0.sbd"
+}
+cutscene_data: cutscene.sio_50
+{
+    objects_path: "/map/scenes/s_it_out_50.sbd"
+}
+cutscene_data: cutscene.sio_70
+{
+    objects_path: "/map/scenes/s_it_out_70.sbd"
+}
+cutscene_data: cutscene.sio_m2
+{
+    objects_path: "/map/scenes/s_it_out_m2.sbd"
+}
+cutscene_data: cutscene.sio_m2r
+{
+    objects_path: "/map/scenes/s_it_out_m2r.sbd"
+}
+cutscene_data: cutscene.sio_m3
+{
+    objects_path: "/map/scenes/s_it_out_m3.sbd"
+}
+cutscene_data: cutscene.sio_m3r
+{
+    objects_path: "/map/scenes/s_it_out_m3r.sbd"
+}
+cutscene_data: cutscene.sio_r
+{
+    objects_path: "/map/scenes/s_it_out_rw.sbd"
+}
+cutscene_data: cutscene.si_r
+{
+    objects_path: "/map/scenes/s_it_rw.sbd"
+}
+
+cutscene_data: cutscene.sd_r
+{
+    objects_path: "/map/scenes/s_de_rw.sbd"
+}
+cutscene_data: cutscene.sdi_r
+{
+    objects_path: "/map/scenes/s_de_in_rw.sbd"
+}
+
+cutscene_data: cutscene.sci_m
+{
+    objects_path: "/map/scenes/s_cz_in_m.sbd"
+}
+
+cutscene_data: cutscene.sci_mr
+{
+    objects_path: "/map/scenes/s_cz_in_mr.sbd"
+}
+
+cutscene_data: cutscene.sci_r
+{
+    objects_path: "/map/scenes/s_cz_in_rw.sbd"
+}
+
+cutscene_data: cutscene.sc_m
+{
+    objects_path: "/map/scenes/s_cz_m.sbd"
+}
+
+cutscene_data: cutscene.sco_m
+{
+    objects_path: "/map/scenes/s_cz_out_m.sbd"
+}
+
+cutscene_data: cutscene.sc_mr
+{
+    objects_path: "/map/scenes/s_cz_mr.sbd"
+}
+
+cutscene_data: cutscene.sco_mr
+{
+    objects_path: "/map/scenes/s_cz_out_mr.sbd"
+}
+
+cutscene_data: cutscene.sc_r
+{
+    objects_path: "/map/scenes/s_cz_rw.sbd"
+}
+
+cutscene_data: cutscene.sco_r
+{
+    objects_path: "/map/scenes/s_cz_out_rw.sbd"
+}
+
+cutscene_data: cutscene.ssi_m
+{
+    objects_path: "/map/scenes/s_sk_in_m.sbd"
+}
+
+cutscene_data: cutscene.ssi_mr
+{
+    objects_path: "/map/scenes/s_sk_in_mr.sbd"
+}
+
+cutscene_data: cutscene.ssi_r
+{
+    objects_path: "/map/scenes/s_sk_in_rw.sbd"
+}
+
+cutscene_data: cutscene.ss_m
+{
+    objects_path: "/map/scenes/s_sk_m.sbd"
+}
+
+cutscene_data: cutscene.sso_m
+{
+    objects_path: "/map/scenes/s_sk_out_m.sbd"
+}
+
+cutscene_data: cutscene.ss_mr
+{
+    objects_path: "/map/scenes/s_sk_mr.sbd"
+}
+
+cutscene_data: cutscene.sso_mr
+{
+    objects_path: "/map/scenes/s_sk_out_mr.sbd"
+}
+
+cutscene_data: cutscene.ss_r
+{
+    objects_path: "/map/scenes/s_sk_rw.sbd"
+}
+
+cutscene_data: cutscene.sso_r
+{
+    objects_path: "/map/scenes/s_sk_out_rw.sbd"
+}
+
+cutscene_data: cutscene.r_t_1
+{
+    objects_path: "/map/scenes/random_tire_01.sbd"
+}
+
+cutscene_data: cutscene.r_t_2
+{
+    objects_path: "/map/scenes/random_tire_02.sbd"
+}
+
+cutscene_data: cutscene.r_t_3
+{
+    objects_path: "/map/scenes/random_tire_03.sbd"
+}
+
+cutscene_data: cutscene.r_t_4
+{
+    objects_path: "/map/scenes/random_tire_04.sbd"
+}
+
+cutscene_data: cutscene.r_tl_1
+{
+    objects_path: "/map/scenes/random_tire_lh_01.sbd"
+}
+
+cutscene_data: cutscene.r_tl_2
+{
+    objects_path: "/map/scenes/random_tire_lh_02.sbd"
+}
+
+cutscene_data: cutscene.r_tl_3
+{
+    objects_path: "/map/scenes/random_tire_lh_03.sbd"
+}
+
+cutscene_data: cutscene.r_tl_4
+{
+    objects_path: "/map/scenes/random_tire_lh_04.sbd"
+}
+
+cutscene_data: cutscene.r_tr_1
+{
+    objects_path: "/map/scenes/random_trash_01.sbd"
+}
+
+cutscene_data: cutscene.r_tr_2
+{
+    objects_path: "/map/scenes/random_trash_02.sbd"
+}
+
+cutscene_data: cutscene.r_tr_3
+{
+    objects_path: "/map/scenes/random_trash_03.sbd"
+}
+
+cutscene_data: cutscene.r_tr_4
+{
+    objects_path: "/map/scenes/random_trash_04.sbd"
+}
+
+cutscene_data: cutscene.r_tr_5
+{
+    objects_path: "/map/scenes/random_trash_05.sbd"
+}
+
+cutscene_data: cutscene.r_tri_1
+{
+    objects_path: "/map/scenes/random_trash_in_01.sbd"
+}
+
+cutscene_data: cutscene.r_tri_2
+{
+    objects_path: "/map/scenes/random_trash_in_02.sbd"
+}
+
+cutscene_data: cutscene.r_tri_3
+{
+    objects_path: "/map/scenes/random_trash_in_03.sbd"
+}
+
+cutscene_data: cutscene.r_tri_4
+{
+    objects_path: "/map/scenes/random_trash_in_04.sbd"
+}
+
+cutscene_data: cutscene.r_tri_5
+{
+    objects_path: "/map/scenes/random_trash_in_05.sbd"
+}
+
+cutscene_data: cutscene.r_trl_1
+{
+    objects_path: "/map/scenes/random_trash_lh_01.sbd"
+}
+
+cutscene_data: cutscene.r_trl_2
+{
+    objects_path: "/map/scenes/random_trash_lh_02.sbd"
+}
+
+cutscene_data: cutscene.r_trl_3
+{
+    objects_path: "/map/scenes/random_trash_lh_03.sbd"
+}
+
+cutscene_data: cutscene.r_trl_4
+{
+    objects_path: "/map/scenes/random_trash_lh_04.sbd"
+}
+
+cutscene_data: cutscene.r_trl_5
+{
+    objects_path: "/map/scenes/random_trash_lh_05.sbd"
+}
+
+cutscene_data: cutscene.r_tril_1
+{
+    objects_path: "/map/scenes/random_trash_in_lh_01.sbd"
+}
+
+cutscene_data: cutscene.r_tril_2
+{
+    objects_path: "/map/scenes/random_trash_in_lh_02.sbd"
+}
+
+cutscene_data: cutscene.r_tril_3
+{
+    objects_path: "/map/scenes/random_trash_in_lh_03.sbd"
+}
+
+cutscene_data: cutscene.r_tril_4
+{
+    objects_path: "/map/scenes/random_trash_in_lh_04.sbd"
+}
+
+cutscene_data: cutscene.r_tril_5
+{
+    objects_path: "/map/scenes/random_trash_in_lh_05.sbd"
+}
+
+cutscene_data: cutscene.r_br_1
+{
+    objects_path: "/map/scenes/random_branch_01.sbd"
+}
+
+cutscene_data: cutscene.r_br_2
+{
+    objects_path: "/map/scenes/random_branch_02.sbd"
+}
+
+cutscene_data: cutscene.r_br_3
+{
+    objects_path: "/map/scenes/random_branch_03.sbd"
+}
+
+cutscene_data: cutscene.r_brl_1
+{
+    objects_path: "/map/scenes/random_branch_lh_01.sbd"
+}
+
+cutscene_data: cutscene.r_brl_2
+{
+    objects_path: "/map/scenes/random_branch_lh_02.sbd"
+}
+
+cutscene_data: cutscene.r_brl_3
+{
+    objects_path: "/map/scenes/random_branch_lh_03.sbd"
+}
+
+cutscene_data: cutscene.r_c_1
+{
+    objects_path: "/map/scenes/random_cones_01.sbd"
+}
+
+cutscene_data: cutscene.r_c_2
+{
+    objects_path: "/map/scenes/random_cones_02.sbd"
+}
+
+cutscene_data: cutscene.r_c_3
+{
+    objects_path: "/map/scenes/random_cones_03.sbd"
+}
+
+cutscene_data: cutscene.r_cl_1
+{
+    objects_path: "/map/scenes/random_cones_lh_01.sbd"
+}
+
+cutscene_data: cutscene.r_cl_2
+{
+    objects_path: "/map/scenes/random_cones_lh_02.sbd"
+}
+
+cutscene_data: cutscene.r_cl_3
+{
+    objects_path: "/map/scenes/random_cones_lh_03.sbd"
+}
+
+cutscene_data: cutscene.r_ba_1
+{
+    objects_path: "/map/scenes/random_barrier_01.sbd"
+}
+
+cutscene_data: cutscene.r_ba_2
+{
+    objects_path: "/map/scenes/random_barrier_02.sbd"
+}
+
+cutscene_data: cutscene.r_ba_3
+{
+    objects_path: "/map/scenes/random_barrier_03.sbd"
+}
+
+cutscene_data: cutscene.r_bal_1
+{
+    objects_path: "/map/scenes/random_barrier_lh_01.sbd"
+}
+
+cutscene_data: cutscene.r_bal_2
+{
+    objects_path: "/map/scenes/random_barrier_lh_02.sbd"
+}
+
+cutscene_data: cutscene.r_bal_3
+{
+    objects_path: "/map/scenes/random_barrier_lh_03.sbd"
+}
+
+cutscene_data: cutscene.r_bl_1
+{
+    objects_path: "/map/scenes/random_barrier_long_01.sbd"
+}
+
+cutscene_data: cutscene.r_bl_2
+{
+    objects_path: "/map/scenes/random_barrier_long_02.sbd"
+}
+
+cutscene_data: cutscene.r_bl_3
+{
+    objects_path: "/map/scenes/random_barrier_long_03.sbd"
+}
+
+cutscene_data: cutscene.r_bll_1
+{
+    objects_path: "/map/scenes/random_barrier_long_lh_01.sbd"
+}
+
+cutscene_data: cutscene.r_bll_2
+{
+    objects_path: "/map/scenes/random_barrier_long_lh_02.sbd"
+}
+
+cutscene_data: cutscene.r_bll_3
+{
+    objects_path: "/map/scenes/random_barrier_long_lh_03.sbd"
+}
+
+
+
+cutscene_data: cutscene.syi_sp_90
+{
+    objects_path: "/map/scenes/syi_sp_90.sbd"
+}
+cutscene_data: cutscene.syi_rw
+{
+    objects_path: "/map/scenes/syi_rw.sbd"
+}
+cutscene_data: cutscene.syi_sp_60
+{
+    objects_path: "/map/scenes/syi_sp_60.sbd"
+}
+cutscene_data: cutscene.syi_sp_30
+{
+    objects_path: "/map/scenes/syi_sp_30.sbd"
+}
+cutscene_data: cutscene.sy_sp_90
+{
+    objects_path: "/map/scenes/sy_sp_90.sbd"
+}
+cutscene_data: cutscene.sy_rw
+{
+    objects_path: "/map/scenes/sy_rw.sbd"
+}
+cutscene_data: cutscene.sy_sp_60
+{
+    objects_path: "/map/scenes/sy_sp_60.sbd"
+}
+cutscene_data: cutscene.sy_sp_30
+{
+    objects_path: "/map/scenes/sy_sp_30.sbd"
+}
+cutscene_data: cutscene.syo_sp_90
+{
+    objects_path: "/map/scenes/syo_sp_90.sbd"
+}
+cutscene_data: cutscene.syo_rw
+{
+    objects_path: "/map/scenes/syo_rw.sbd"
+}
+cutscene_data: cutscene.syo_sp_60
+{
+    objects_path: "/map/scenes/syo_sp_60.sbd"
+}
+cutscene_data: cutscene.syo_sp_30
+{
+    objects_path: "/map/scenes/syo_sp_30.sbd"
+}
+
+
+
+
+
+cutscene_data: cutscene.swi_sp_90
+{
+    objects_path: "/map/scenes/swi_sp_90.sbd"
+}
+cutscene_data: cutscene.swi_rw
+{
+    objects_path: "/map/scenes/swi_rw.sbd"
+}
+cutscene_data: cutscene.swi_sp_50
+{
+    objects_path: "/map/scenes/swi_sp_50.sbd"
+}
+cutscene_data: cutscene.swi_sp_0
+{
+    objects_path: "/map/scenes/swi_sp_0.sbd"
+}
+cutscene_data: cutscene.swi_sp_30
+{
+    objects_path: "/map/scenes/swi_sp_30.sbd"
+}
+cutscene_data: cutscene.sw_sp_90
+{
+    objects_path: "/map/scenes/sw_sp_90.sbd"
+}
+cutscene_data: cutscene.sw_rw
+{
+    objects_path: "/map/scenes/sw_rw.sbd"
+}
+cutscene_data: cutscene.sw_sp_50
+{
+    objects_path: "/map/scenes/sw_sp_50.sbd"
+}
+cutscene_data: cutscene.sw_sp_0
+{
+    objects_path: "/map/scenes/sw_sp_0.sbd"
+}
+cutscene_data: cutscene.sw_sp_30
+{
+    objects_path: "/map/scenes/sw_sp_30.sbd"
+}
+cutscene_data: cutscene.swo_sp_90
+{
+    objects_path: "/map/scenes/swo_sp_90.sbd"
+}
+cutscene_data: cutscene.swo_rw
+{
+    objects_path: "/map/scenes/swo_rw.sbd"
+}
+cutscene_data: cutscene.swo_sp_50
+{
+    objects_path: "/map/scenes/swo_sp_50.sbd"
+}
+cutscene_data: cutscene.swo_sp_0
+{
+    objects_path: "/map/scenes/swo_sp_0.sbd"
+}
+cutscene_data: cutscene.swo_sp_30
+{
+    objects_path: "/map/scenes/swo_sp_30.sbd"
+}
+
+cutscene_data: cutscene.s_acc_p
+{
+    objects_path: "/map/scenes/s_acc_p.sbd"
+}
+
+cutscene_data: cutscene.s_acc_v
+{
+    objects_path: "/map/scenes/s_acc_v.sbd"
+}
+
+cutscene_data: cutscene.jet
+{
+    objects_path: "/map/scenes/jet_flyover.sbd"
+}
+
+cutscene_data: cutscene.acc_c_e1
+{
+    objects_path: "/map/scenes/acc_c_e1.sbd"
+}
+
+cutscene_data: cutscene.acc_c_m1
+{
+    objects_path: "/map/scenes/acc_c_m1.sbd"
+}
+
+cutscene_data: cutscene.acc_c_s1
+{
+    objects_path: "/map/scenes/acc_c_s1.sbd"
+}
+
+cutscene_data: cutscene.acc_c_c1
+{
+    objects_path: "/map/scenes/acc_c_c1.sbd"
+}
+
+cutscene_data: cutscene.acc_bt_e
+{
+    objects_path: "/map/scenes/acc_bt_e.sbd"
+}
+
+cutscene_data: cutscene.acc_bt_m
+{
+    objects_path: "/map/scenes/acc_bt_m.sbd"
+}
+
+cutscene_data: cutscene.acc_cs_0
+{
+    objects_path: "/map/scenes/acc_cs_0.sbd"
+}
+
+cutscene_data: cutscene.acc_cs_1
+{
+    objects_path: "/map/scenes/acc_cs_1.sbd"
+}
+
+cutscene_data: cutscene.acc_cs_2
+{
+    objects_path: "/map/scenes/acc_cs_2.sbd"
+}
+
+cutscene_data: cutscene.acc_cs_3
+{
+    objects_path: "/map/scenes/acc_cs_3.sbd"
+}
+
+cutscene_data: cutscene.acc_cs_4
+{
+    objects_path: "/map/scenes/acc_cs_4.sbd"
+}
+
+cutscene_data: cutscene.acc_cs_5
+{
+    objects_path: "/map/scenes/acc_cs_5.sbd"
+}
+
+cutscene_data: cutscene.acc_cs_6
+{
+    objects_path: "/map/scenes/acc_cs_6.sbd"
+}
+
+cutscene_data: cutscene.acc_cs_7
+{
+    objects_path: "/map/scenes/acc_cs_7.sbd"
+}
+
+
+cutscene_data: cutscene.acc_cs_s
+{
+    objects_path: "/map/scenes/acc_cs_s.sbd"
+}
+
+cutscene_data: cutscene.acc_cr_e
+{
+    objects_path: "/map/scenes/acc_cr_e.sbd"
+}
+
+cutscene_data: cutscene.acc_cr_s
+{
+    objects_path: "/map/scenes/acc_cr_s.sbd"
+}
+
+cutscene_data: cutscene.test
+{
+    objects_path: "/map/scenes/test.sbd"
+}
+
+cutscene_data: cutscene.customs_1
+{
+    objects_path: "/map/scenes/border/customs_1.sbd"
+}
+
+###Prefab_Scenes###
+
+cutscene_data: cutscene.dt_weight
+{
+	name: "drive_thru_weight_station"
+
+	objects_path: "/map/scenes/prefab/drive_thru_weight_station.sbd"
+}
+
+cutscene_data: cutscene.rus_0j00r
+{
+	name: "[prefab] border_truck_check_rus"
+
+	objects_path: "/map/scenes/prefab/border_truck_check_rus.sbd"
+}
+
+cutscene_data: cutscene.rus_0j00l
+{
+	name: "[prefab] border_xray_rus"
+
+	objects_path: "/map/scenes/prefab/border_xray_rus.sbd"
+}
+
+cutscene_data: cutscene.rus_2x000
+{
+	name: "[prefab] border_luhamaa_truck_check_ru_rus"
+
+	objects_path: "/map/scenes/prefab/border_luhamaa_truck_check_ru_rus.sbd"
+}
+
+cutscene_data: cutscene.brd_cont0
+{
+	name: "Border_deep_control 0"
+
+	objects_path: "/map/scenes/border/border_static_control_0.sbd"
+}
+
+cutscene_data: cutscene.brd_cont1
+{
+	name: "Border_deep_control 1"
+
+	objects_path: "/map/scenes/border/border_static_control_1.sbd"
+}
+
+cutscene_data: cutscene.smallcrowd2
+{
+	name: "Small crowd, three pedestrians, two woman, black man (26DC)"
+    objects_path: "/map/scenes/special/smallcrowd2.sbd"
+}
+
+cutscene_data: cutscene.or1wrk3n
+{
+	name: "Worker reflexive vest, white race, older, note (15DC)"
+    objects_path: "/map/scenes/special/or1wrk3n.sbd"
+}
+
+cutscene_data: cutscene.wombl1
+{
+	name: "One woman, standing, blonde (12DC)"
+    objects_path: "/map/scenes/special/wombl1.sbd"
+}
+
+cutscene_data: cutscene.selfstman1
+{
+	name: "selfie-man with stick (14DC)"
+    objects_path: "/map/scenes/special/selfstman1.sbd"
+}
+
+cutscene_data: cutscene.repoman1
+{
+	name: "reporter with notes and cameraman (25DC)"
+    objects_path: "/map/scenes/special/repoman1.sbd"
+}
+
+cutscene_data: cutscene.parcarop3
+{
+	name: "Ford Smax with Open Door, co-pilot door, random color (17DC)"
+    objects_path: "/map/scenes/special/parcarop3.sbd"
+}
+cutscene_data: cutscene.tvcar
+{
+	name: "Parked TV CAR (15DC)"
+    objects_path: "/map/scenes/special/tvcar.sbd"
+
+}
+cutscene_data: cutscene.transites6
+{
+	name: "Parked Escort Transit - Open Left Side (15DC)"
+    objects_path: "/map/scenes/special/transites6.sbd"
+
+}
+cutscene_data: cutscene.smallcrowd3
+{
+	name: "Crowd of four pedestrians, race man, black idle man, white crossed hands man, brunette standing (30DC)"
+    objects_path: "/map/scenes/special/smallcrowd3.sbd"
+}
+
+cutscene_data: cutscene.wavewrk1
+{
+	name: "Worker in a reflexive vest, hand above head, doing something (10DC)"
+    objects_path: "/map/scenes/special/wavewrk1.sbd"
+}
+
+cutscene_data: cutscene.parkedcar8
+{
+	name: "Parked Car - Cream Volkswagen (12DC)"
+    objects_path: "/map/scenes/special/parkedcar8.sbd"
+}
+
+cutscene_data: cutscene.transitrd
+{
+	name: "Parked Transit Red (15DC)"
+    objects_path: "/map/scenes/special/transitrd.sbd"
+
+}
+cutscene_data: cutscene.selfmman1
+{
+	name: "selfie-man with mobile (14DC)"
+    objects_path: "/map/scenes/special/selfmman1.sbd"
+}
+
+
+##Balkan West
+cutscene_data: cutscene.br_blkw_01
+{
+    objects_path: "/map/scenes/prefab/border_hw2_01_hr_blkw_triggers.sbd"
+}
+
+##Balkan West
+cutscene_data: cutscene.br_blkw_02
+{
+    objects_path: "/map/scenes/prefab/border_hw2_01_ba_blkw_triggers.sbd"
+}
+
+cutscene_data: cutscene.cons_2_blkw
+{
+    objects_path: "/map/scenes/prefab/construction_site_02_blkw.sbd"
+}
+
+cutscene_data: cutscene.cons_2_blkw2
+{
+    objects_path: "/map/scenes/prefab/construction_site_02_blkw_02.sbd"
+}
+
+cutscene_data: cutscene.cons_2_blkw3
+{
+    objects_path: "/map/scenes/prefab/construction_site_02_blkw_03.sbd"
+}
+
+cutscene_data: cutscene.con_2_blkw3a
+{
+    objects_path: "/map/scenes/prefab/construction_site_02_blkw_03a.sbd"
+#night
+}
+
+cutscene_data: cutscene.saw_balt
+{
+    objects_path: "/map/scenes/prefab/sawmill_balt.sbd"
+}
+
+cutscene_data: cutscene.steel_blke
+{
+    objects_path: "/map/scenes/prefab/steel_works_factory_blke.sbd"
+}
+
+cutscene_data: cutscene.bui_mat_balt
+{
+    objects_path: "/map/scenes/prefab/building_mat_store_balt.sbd"
+}
+
+cutscene_data: cutscene.bui_mat_rus
+{
+    objects_path: "/map/scenes/prefab/building_mat_store_rus.sbd"
+}
+
+cutscene_data: cutscene.ste_fac_01
+{
+    objects_path: "/map/scenes/prefab/steel_works_factory_01_it.sbd"
+}
+
+cutscene_data: cutscene.sol_ibe
+{
+    objects_path: "/map/scenes/prefab/solar_plant_ibe.sbd"
+}
+
+cutscene_data: cutscene.saw_01_fr
+{
+    objects_path: "/map/scenes/prefab/sawmill_01_fr.sbd"
+}
+
+cutscene_data: cutscene.pap_balt
+{
+    objects_path: "/map/scenes/prefab/paper_factory_balt.sbd"
+}
+cutscene_data: cutscene.mat_st_blkw
+{
+    objects_path: "/map/scenes/prefab/building_mat_store_local_rus_blkw.sbd"
+}
+}
+

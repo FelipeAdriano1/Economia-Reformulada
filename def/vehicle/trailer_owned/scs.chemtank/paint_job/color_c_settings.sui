@@ -1,0 +1,8 @@
+	name: "@@pj_white@@"
+	price: 2600
+	unlock: 5
+	base_color: (0.356400, 0.356400, 0.356400)
+	icon: "paintjob_trailer/white"
+	mask_g_color: (0.913099, 0.913099, 0.913099)
+	mask_r_color: (0.356400, 0.356400, 0.356400)
+	part_type: "aftermarket"

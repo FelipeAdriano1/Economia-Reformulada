@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_rim_data : 2_red.fhub
+{
+	name: "@@fhub_elite_rider_red_edition_daf@@"
+	price: 780
+	unlock: 18
+	icon: "hub/front_hub_02_red"
+	part_type: aftermarket
+
+	model: "/vehicle/truck/upgrade/wheel/hub/front_hub_02_red.pmd"
+	# daf
+}
+}

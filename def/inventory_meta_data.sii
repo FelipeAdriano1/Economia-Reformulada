@@ -1,0 +1,1283 @@
+SiiNunit
+{
+inventory_item_meta_data : .inventory.item.1
+{
+	steam_inventory_id: 1
+	name: "Heart of Paris"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.2
+{
+	steam_inventory_id: 2
+	name: "Czech Republic - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.3
+{
+	steam_inventory_id: 3
+	name: "UK - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.4
+{
+	steam_inventory_id: 4
+	name: "Germany - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.5
+{
+	steam_inventory_id: 5
+	name: "Poland - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.6
+{
+	steam_inventory_id: 6
+	name: "Hungary - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.7
+{
+	steam_inventory_id: 7
+	name: "Italy - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.8
+{
+	steam_inventory_id: 8
+	name: "Austria - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.9
+{
+	steam_inventory_id: 9
+	name: "Netherlands - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.10
+{
+	steam_inventory_id: 10
+	name: "Belgium - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.11
+{
+	steam_inventory_id: 11
+	name: "Denmark - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.12
+{
+	steam_inventory_id: 12
+	name: "Sweden - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.13
+{
+	steam_inventory_id: 13
+	name: "Slovakia - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.14
+{
+	steam_inventory_id: 14
+	name: "France - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.15
+{
+	steam_inventory_id: 15
+	name: "France - Gold Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.16
+{
+	steam_inventory_id: 16
+	name: "Switzerland - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.17
+{
+	steam_inventory_id: 17
+	name: "Norway - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.18
+{
+	steam_inventory_id: 18
+	name: "Luxembourg - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.20
+{
+	steam_inventory_id: 20
+	name: "Xmas Ball"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.21
+{
+	steam_inventory_id: 21
+	name: "Plush Bear"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.22
+{
+	steam_inventory_id: 22
+	name: "Magic Time"
+	type: "@@desktop_background@@"
+}
+
+inventory_item_meta_data : .inventory.item.23
+{
+	steam_inventory_id: 23
+	name: "Polar Beast"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.24
+{
+	steam_inventory_id: 24
+	name: "Snowman Trucker"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.25
+{
+	steam_inventory_id: 25
+	name: "Crystal Dimension"
+	type: "@@item_paint_job@@"
+}
+
+inventory_item_meta_data : .inventory.item.26
+{
+	steam_inventory_id: 26
+	name: "On top of the world"
+	type: "@@desktop_background@@"
+}
+
+inventory_item_meta_data : .inventory.item.27
+{
+	steam_inventory_id: 27
+	name: "Viking Warrior"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.28
+{
+	steam_inventory_id: 28
+	name: "Northern Lights"
+	type: "@@desktop_background@@"
+}
+
+inventory_item_meta_data : .inventory.item.29
+{
+	steam_inventory_id: 29
+	name: "Sweden - Gold Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.30
+{
+	steam_inventory_id: 30
+	name: "Sweden - Three Crowns Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.31
+{
+	steam_inventory_id: 31
+	name: "Slipstream"
+	type: "@@item_paint_job@@"
+}
+
+inventory_item_meta_data : .inventory.item.32
+{
+	steam_inventory_id: 32
+	name: "Pace Pete"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.33
+{
+	steam_inventory_id: 33
+	name: "Goodyear - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.34
+{
+	steam_inventory_id: 34
+	name: "Krone - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.35
+{
+	steam_inventory_id: 35
+	name: "ETRC - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.36
+{
+	steam_inventory_id: 36
+	name: "Brandenburg Gate"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.37
+{
+	steam_inventory_id: 37
+	name: "Germany - Gold Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.38
+{
+	steam_inventory_id: 38
+	name: "Under the Bridge"
+	type: "@@desktop_background@@"
+}
+
+inventory_item_meta_data : .inventory.item.39
+{
+	steam_inventory_id: 39
+	name: "Golden Stag"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.40
+{
+	steam_inventory_id: 40
+	name: "Shepherd Bobblehead"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.41
+{
+	steam_inventory_id: 41
+	name: "Gingerbread House"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.42
+{
+	steam_inventory_id: 42
+	name: "Starlight Burst (Truck)"
+	type: "@@item_paint_job@@"
+}
+
+inventory_item_meta_data : .inventory.item.43
+{
+	steam_inventory_id: 43
+	name: "Starlight Burst (Trailer)"
+	type: "@@item_paint_job@@"
+}
+
+inventory_item_meta_data : .inventory.item.44
+{
+	steam_inventory_id: 44
+	name: "Xmas Tree"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.45
+{
+	steam_inventory_id: 45
+	name: "Timber Tree"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.46
+{
+	steam_inventory_id: 46
+	name: "Craftsman Tree"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.47
+{
+	steam_inventory_id: 47
+	name: "Silver Tree"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.48
+{
+	steam_inventory_id: 48
+	name: "Golden Tree"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.49
+{
+	steam_inventory_id: 49
+	name: "Magical Spiral"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.50
+{
+	steam_inventory_id: 50
+	name: "First Class"
+	type: "@@desktop_background@@"
+}
+
+inventory_item_meta_data : .inventory.item.51
+{
+	steam_inventory_id: 51
+	name: "Platinum Tree"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.52
+{
+	steam_inventory_id: 52
+	name: "Festive Tree"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.53
+{
+	steam_inventory_id: 53
+	name: "Epic Tree"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.54
+{
+	steam_inventory_id: 54
+	name: "Legendary Tree"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.55
+{
+	steam_inventory_id: 55
+	name: "ETRC Mug"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.56
+{
+	steam_inventory_id: 56
+	name: "ETRC Cap"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.57
+{
+	steam_inventory_id: 57
+	name: "Adam Lacko Buggyra Model 1:50"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.58
+{
+	steam_inventory_id: 58
+	name: "Jochen Hahn Iveco Model 1:50"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.59
+{
+	steam_inventory_id: 59
+	name: "Norbert Kiss Mercedes Model 1:50"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.60
+{
+	steam_inventory_id: 60
+	name: "Pit Stop"
+	type: "@@item_paint_job@@"
+}
+
+inventory_item_meta_data : .inventory.item.61
+{
+	steam_inventory_id: 61
+	name: "Goodyear Blimp"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.62
+{
+	steam_inventory_id: 62
+	name: "Boxing Gloves"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.63
+{
+	steam_inventory_id: 63
+	name: "Winning Dice"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.64
+{
+	steam_inventory_id: 64
+	name: "Christmas Sock"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.65
+{
+	steam_inventory_id: 65
+	name: "Under Wraps"
+	type: "@@item_paint_job@@"
+}
+
+inventory_item_meta_data : .inventory.item.66
+{
+	steam_inventory_id: 66
+	name: "Crystal Chill"
+	type: "@@item_paint_job@@"
+}
+
+inventory_item_meta_data : .inventory.item.67
+{
+	steam_inventory_id: 67
+	name: "Spot the Holly"
+	type: "@@item_paint_job@@"
+}
+
+inventory_item_meta_data : .inventory.item.68
+{
+	steam_inventory_id: 68
+	name: "Autumn Star"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.69
+{
+	steam_inventory_id: 69
+	name: "Twinkle Star"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.70
+{
+	steam_inventory_id: 70
+	name: "Frosty Star"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.71
+{
+	steam_inventory_id: 71
+	name: "Winter Star"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.72
+{
+	steam_inventory_id: 72
+	name: "Christmas Star"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.73
+{
+	steam_inventory_id: 73
+	name: "Wishing Star"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.74
+{
+	steam_inventory_id: 74
+	name: "Diamond Star"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.75
+{
+	steam_inventory_id: 75
+	name: "Grand Star"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.76
+{
+	steam_inventory_id: 76
+	name: "Home Trucker Insignia"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.77
+{
+	steam_inventory_id: 77
+	name: "Terra Constructor"
+	type: "@@item_paint_job@@"
+}
+
+inventory_item_meta_data : .inventory.item.78
+{
+	steam_inventory_id: 78
+	name: "Plush Terra Road Roller"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.79
+{
+	steam_inventory_id: 79
+	name: "Winter Blast"
+	type: "@@item_paint_job@@"
+}
+
+inventory_item_meta_data : .inventory.item.80
+{
+	steam_inventory_id: 80
+	name: "Winter Bauble"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.81
+{
+	steam_inventory_id: 81
+	name: "Festive Mug"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.82
+{
+	steam_inventory_id: 82
+	name: "Wise Heart Pillow"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.83
+{
+	steam_inventory_id: 83
+	name: "Snow Chill Blanket"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.84
+{
+	steam_inventory_id: 84
+	name: "Winter Blast Gift"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.85
+{
+	steam_inventory_id: 85
+	name: "Wise Owl Offering"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.86
+{
+	steam_inventory_id: 86
+	name: "Hope Trucker Insignia"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.87
+{
+	steam_inventory_id: 87
+	name: "Iberian Hunt"
+	type: "@@item_paint_job@@"
+}
+
+inventory_item_meta_data : .inventory.item.88
+{
+	steam_inventory_id: 88
+	name: "Plush Iberian Lynx"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.89
+{
+	steam_inventory_id: 89
+	name: "Iberian Mask Bobblehead"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.90
+{
+	steam_inventory_id: 90
+	name: "Best Community Ever (Truck)"
+	type: "@@item_paint_job@@"
+}
+
+inventory_item_meta_data : .inventory.item.91
+{
+	steam_inventory_id: 91
+	name: "Best Community Ever (Trailer)"
+	type: "@@item_paint_job@@"
+}
+
+inventory_item_meta_data : .inventory.item.92
+{
+	steam_inventory_id: 92
+	name: "Thrustmaster T248 Mini Wheel"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.93
+{
+	steam_inventory_id: 93
+	name: "Thrustmaster T248 Mini Pedals"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.94
+{
+	steam_inventory_id: 94
+	name: "Decorative Cab Lights"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.95
+{
+	steam_inventory_id: 95
+	name: "The Nutcracker's Guard"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.96
+{
+	steam_inventory_id: 96
+	name: "Push N Go Race Car"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.97
+{
+	steam_inventory_id: 97
+	name: "Beech Rocking Horse"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.98
+{
+	steam_inventory_id: 98
+	name: "Willy Wind Up Mouse"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.99
+{
+	steam_inventory_id: 99
+	name: "Old Oak Steam Train"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.100
+{
+	steam_inventory_id: 100
+	name: "Yesteryear Teddy Bear"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.101
+{
+	steam_inventory_id: 101
+	name: "Clicky the Robot"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.103
+{
+	steam_inventory_id: 103
+	name: "Driving the Future"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.104
+{
+	steam_inventory_id: 104
+	name: "Krone Lunch Box"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.105
+{
+	steam_inventory_id: 105
+	name: "Hannover City Mug"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.106
+{
+	steam_inventory_id: 106
+	name: "10th Anniversary (Truck)"
+	type: "@@item_paint_job@@"
+}
+
+inventory_item_meta_data : .inventory.item.107
+{
+	steam_inventory_id: 107
+	name: "10th Anniversary (Trailer)"
+	type: "@@item_paint_job@@"
+}
+
+inventory_item_meta_data : .inventory.item.108
+{
+	steam_inventory_id: 108
+	name: "Swinging Bat"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.109
+{
+	steam_inventory_id: 109
+	name: "Pumpkin Head"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.110
+{
+	steam_inventory_id: 110
+	name: "Lines of Reflection (Truck)"
+	type: "@@item_paint_job@@"
+}
+
+inventory_item_meta_data : .inventory.item.111
+{
+	steam_inventory_id: 111
+	name: "Love Pillow"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.112
+{
+	steam_inventory_id: 112
+	name: "Peace Dove"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.113
+{
+	steam_inventory_id: 113
+	name: "Candle of Hope"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.114
+{
+	steam_inventory_id: 114
+	name: "Care Blanket"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.115
+{
+	steam_inventory_id: 115
+	name: "Lines of Reflection (Trailer)"
+	type: "@@item_paint_job@@"
+}
+
+inventory_item_meta_data : .inventory.item.116
+{
+	steam_inventory_id: 116
+	name: "Trucker Cupid"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.117
+{
+	steam_inventory_id: 117
+	name: "Box of Chocolate"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.118
+{
+	steam_inventory_id: 118
+	name: "Nature's Embrace (Truck)"
+	type: "@@item_paint_job@@"
+}
+
+inventory_item_meta_data : .inventory.item.119
+{
+	steam_inventory_id: 119
+	name: "Nature's Embrace (Trailer)"
+	type: "@@item_paint_job@@"
+}
+
+inventory_item_meta_data : .inventory.item.120
+{
+	steam_inventory_id: 120
+	name: "Dalmatian Pelican"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.121
+{
+	steam_inventory_id: 121
+	name: "Hermann's Tortoise"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.122
+{
+	steam_inventory_id: 122
+	name: "Spooky Spider"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.123
+{
+	steam_inventory_id: 123
+	name: "Count Catula Plush"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.124
+{
+	steam_inventory_id: 124
+	name: "Winterland"
+	type: "@@item_paint_job@@"
+}
+
+inventory_item_meta_data : .inventory.item.125
+{
+	steam_inventory_id: 125
+	name: "Christmas Sweater"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.126
+{
+	steam_inventory_id: 126
+	name: "Festive Chocolates"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.127
+{
+	steam_inventory_id: 127
+	name: "Golden North Star"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.128
+{
+	steam_inventory_id: 128
+	name: "Rudolph's Sleigh"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.129
+{
+	steam_inventory_id: 129
+	name: "Winterland Christmas Tree"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.130
+{
+	steam_inventory_id: 130
+	name: "Winged Heart"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.131
+{
+	steam_inventory_id: 131
+	name: "Trucker's Rose"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.132
+{
+	steam_inventory_id: 132
+	name: "Saint Bernard"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.133
+{
+	steam_inventory_id: 133
+	name: "Matterhorn"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.134
+{
+	steam_inventory_id: 134
+	name: "Switzerland - Gold Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.135
+{
+	steam_inventory_id: 135
+	name: "Estonia - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.136
+{
+	steam_inventory_id: 136
+	name: "Finland - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.137
+{
+	steam_inventory_id: 137
+	name: "Latvia - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.138
+{
+	steam_inventory_id: 138
+	name: "Lithuania - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.139
+{
+	steam_inventory_id: 139
+	name: "Russia - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.140
+{
+	steam_inventory_id: 140
+	name: "Bulgaria - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.141
+{
+	steam_inventory_id: 141
+	name: "Romania - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.142
+{
+	steam_inventory_id: 142
+	name: "Turkey - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.143
+{
+	steam_inventory_id: 143
+	name: "Portugal - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.144
+{
+	steam_inventory_id: 144
+	name: "Spain - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.145
+{
+	steam_inventory_id: 145
+	name: "Albania - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.146
+{
+	steam_inventory_id: 146
+	name: "Bosnia and Herzegovina - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.147
+{
+	steam_inventory_id: 147
+	name: "Croatia - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.148
+{
+	steam_inventory_id: 148
+	name: "Kosovo - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.149
+{
+	steam_inventory_id: 149
+	name: "Montenegro - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.150
+{
+	steam_inventory_id: 150
+	name: "North Macedonia - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.151
+{
+	steam_inventory_id: 151
+	name: "Serbia - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.152
+{
+	steam_inventory_id: 152
+	name: "Slovenia - Pennant"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.153
+{
+	steam_inventory_id: 153
+	name: "Booing Ghost"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.154
+{
+	steam_inventory_id: 154
+	name: "Grumpy Ghost"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.155
+{
+	steam_inventory_id: 155
+	name: "Midnight Dolphin"
+	type: "@@item_paint_job@@"
+}
+
+inventory_item_meta_data : .inventory.item.156
+{
+	steam_inventory_id: 156
+	name: "Little Owl"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.157
+{
+	steam_inventory_id: 157
+	name: "Donkey"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.158
+{
+	steam_inventory_id: 158
+	name: "Decorative Cab Lights Assortment"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.159
+{
+	steam_inventory_id: 159
+	name: "Christmas Hat and Mittens"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.160
+{
+	steam_inventory_id: 160
+	name: "Marigold's Chocolates"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.161
+{
+	steam_inventory_id: 161
+	name: "Festive Gingerbread Stamps"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.162
+{
+	steam_inventory_id: 162
+	name: "White Deer"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.163
+{
+	steam_inventory_id: 163
+	name: "Christmas Bells"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.164
+{
+	steam_inventory_id: 164
+	name: "Neon Heart"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.165
+{
+	steam_inventory_id: 165
+	name: "Cupid's Dice"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.166
+{
+	steam_inventory_id: 166
+	name: "Witch's Compass"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.167
+{
+	steam_inventory_id: 167
+	name: "Black Cat"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.168
+{
+	steam_inventory_id: 168
+	name: "Spooky Horn"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.169
+{
+	steam_inventory_id: 169
+	name: "Northern Tides"
+	type: "@@item_paint_job@@"
+}
+
+inventory_item_meta_data : .inventory.item.170
+{
+	steam_inventory_id: 170
+	name: "Viking Helmet"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.171
+{
+	steam_inventory_id: 171
+	name: "Wolf"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.172
+{
+	steam_inventory_id: 172
+	name: "Winter Woollies"
+	type: "@@item_paint_job@@"
+}
+
+inventory_item_meta_data : .inventory.item.173
+{
+	steam_inventory_id: 173
+	name: "Cable Car"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.174
+{
+	steam_inventory_id: 174
+	name: "Snowman Cup"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.175
+{
+	steam_inventory_id: 175
+	name: "Gnome"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.176
+{
+	steam_inventory_id: 176
+	name: "Wooden Reindeer"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.177
+{
+	steam_inventory_id: 177
+	name: "Christmas Socks"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.178
+{
+	steam_inventory_id: 178
+	name: "Hearts Blanket"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.179
+{
+	steam_inventory_id: 179
+	name: "Cupid's Cap"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.180
+{
+	steam_inventory_id: 180
+	name: "Wisp Lantern"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.181
+{
+	steam_inventory_id: 181
+	name: "Key to Brackenreach"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.182
+{
+	steam_inventory_id: 182
+	name: "Ember Grimoire"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.183
+{
+	steam_inventory_id: 183
+	name: "Fire and Ice"
+	type: "@@item_paint_job@@"
+}
+
+inventory_item_meta_data : .inventory.item.184
+{
+	steam_inventory_id: 184
+	name: "Tröll"
+	type: "@@cabin_accessory@@"
+}
+
+inventory_item_meta_data : .inventory.item.185
+{
+	steam_inventory_id: 185
+	name: "Atlantic Puffin"
+	type: "@@cabin_accessory@@"
+}
+}

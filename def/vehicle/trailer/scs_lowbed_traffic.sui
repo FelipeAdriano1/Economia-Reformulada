@@ -1,0 +1,137 @@
+traffic_trailer : traffic.trailer.scs_lowbed
+{
+	trailer_definition: trailer_def.scs.lowbed.single_3.short
+
+	accessories[]: .scs_lowbed.chassis
+	accessories[]: .scs_lowbed.rwheel
+	accessories[]: .scs_lowbed.rwheel2
+	accessories[]: .scs_lowbed.rwheel3
+	accessories[]: .scs_lowbed.paint_job
+	accessories[]: .scs_lowbed.body
+	
+	sound_move: "/sound/traffic/trailer.soundref"
+
+	cargo_mass: 20000
+	
+	tags[]: low
+	tags[]: lowboy
+	tags[]: loader
+	tags[]: construct
+	tags[]: long
+	tags[]: cargo
+
+	cargoes[]: excavator
+	cargoes[]: tractors
+	cargoes[]: digger1000
+	cargoes[]: digger500
+	
+	
+	variant[]: traffic.trailer.scs_lowbed_5
+
+}
+
+vehicle_accessory: .scs_lowbed.chassis
+{
+    	data_path: "/def/vehicle/trailer/scs_lowbed/ch_3.sii"
+}
+
+vehicle_wheel_accessory: .scs_lowbed.rwheel
+{
+	offset: 0
+    	data_path: "/def/vehicle/t_wheel/overweight.sii"
+}
+
+vehicle_wheel_accessory: .scs_lowbed.rwheel2
+{
+	offset: 2
+    	data_path: "/def/vehicle/t_wheel/overweight.sii"
+}
+
+vehicle_wheel_accessory: .scs_lowbed.rwheel3
+{
+	offset: 4
+    	data_path: "/def/vehicle/t_wheel/overweight.sii"
+}
+
+vehicle_paint_job_accessory: .scs_lowbed.paint_job
+{
+    	data_path: "/def/vehicle/trailer/scs_lowbed/custom_paint_job/red.sii"
+}
+
+vehicle_accessory: .scs_lowbed.body
+{
+    	data_path: "/def/vehicle/trailer/scs_lowbed/accessory/short.sii"
+}
+
+#xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+#xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+traffic_trailer : traffic.trailer.scs_lowbed_5
+{
+	trailer_definition: trailer_def.scs.lowbed.single_4_sh.short
+
+	accessories[]: .scs_lowbed_5.chassis
+	accessories[]: .scs_lowbed_5.rwheel
+	accessories[]: .scs_lowbed_5.rwheel2
+	accessories[]: .scs_lowbed_5.rwheel3
+	accessories[]: .scs_lowbed_5.rwheel4
+	accessories[]: .scs_lowbed_5.paint_job
+	accessories[]: .scs_lowbed_5.body
+	
+	sound_move: "/sound/traffic/trailer.soundref"
+
+	cargo_mass: 20000
+	
+	tags[]: low
+	tags[]: lowboy
+	tags[]: excavator
+	tags[]: construct
+	tags[]: long
+	tags[]: cargo 
+
+	cargoes[]: excavator
+	cargoes[]: tractors
+	cargoes[]: digger1000
+	cargoes[]: digger500
+
+
+}
+
+vehicle_accessory: .scs_lowbed_5.chassis
+{
+    	data_path: "/def/vehicle/trailer/scs_lowbed/ch_4.sii"
+}
+
+vehicle_wheel_accessory: .scs_lowbed_5.rwheel
+{
+	offset: 0
+    	data_path: "/def/vehicle/t_wheel/overweight.sii"
+}
+
+vehicle_wheel_accessory: .scs_lowbed_5.rwheel2
+{
+	offset: 2
+    	data_path: "/def/vehicle/t_wheel/overweight.sii"
+}
+
+vehicle_wheel_accessory: .scs_lowbed_5.rwheel3
+{
+	offset: 4
+    	data_path: "/def/vehicle/t_wheel/overweight.sii"
+}
+
+vehicle_wheel_accessory: .scs_lowbed_5.rwheel4
+{
+	offset: 6
+    	data_path: "/def/vehicle/t_wheel/overweight.sii"
+}
+
+vehicle_paint_job_accessory: .scs_lowbed_5.paint_job
+{
+    	data_path: "/def/vehicle/trailer/scs_lowbed/custom_paint_job/blue.sii"
+}
+
+vehicle_accessory: .scs_lowbed_5.body
+{
+    	data_path: "/def/vehicle/trailer/scs_lowbed/accessory/short.sii"
+}

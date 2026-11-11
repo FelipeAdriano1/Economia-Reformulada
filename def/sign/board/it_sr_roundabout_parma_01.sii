@@ -1,0 +1,638 @@
+SiiNunit
+{
+sign_board_template : _nameless.8c8.2820 {
+ board_name: "it sr roundabout parma 01"
+ width: &40a3851f
+ height: &40328f5c
+ model_name: ""
+ items: 31
+ items[0]: _nameless.3db.e650
+ items[1]: _nameless.8c8.1fb0
+ items[2]: _nameless.62c.8fd0
+ items[3]: _nameless.62c.8850
+ items[4]: _nameless.3db.e790
+ items[5]: _nameless.62c.86d0
+ items[6]: _nameless.62c.7890
+ items[7]: _nameless.3db.e970
+ items[8]: _nameless.62c.7290
+ items[9]: _nameless.8c8.1e90
+ items[10]: _nameless.8c8.3e10
+ items[11]: _nameless.62c.8790
+ items[12]: _nameless.3db.ea10
+ items[13]: _nameless.8c8.3cf0
+ items[14]: _nameless.62c.8010
+ items[15]: _nameless.62c.8490
+ items[16]: _nameless.3db.eb50
+ items[17]: _nameless.62c.92d0
+ items[18]: _nameless.62c.7350
+ items[19]: _nameless.8c8.31b0
+ items[20]: _nameless.62c.9390
+ items[21]: _nameless.215.2980
+ items[22]: _nameless.8c8.32d0
+ items[23]: _nameless.62c.9450
+ items[24]: _nameless.62c.7410
+ items[25]: _nameless.103.f930
+ items[26]: _nameless.62c.7ad0
+ items[27]: _nameless.62c.95d0
+ items[28]: _nameless.8cb.15f0
+ items[29]: _nameless.8ca.fa70
+ items[30]: _nameless.8cb.1af0
+ dynamic_attributes: 0
+}
+
+sign_template_image : _nameless.3db.e650 {
+ atlas_path: "/def/sign/atlas/arrow_roundabout_up_left_right_it.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 4149477374
+ area_name: ""
+ area_idx: nil
+ coords_l: &3ff9377c
+ coords_r: &404ca05f
+ coords_t: &3fc6acbe
+ coords_b: &3e9a8dfc
+ z_order: 4
+ tag: ""
+}
+
+sign_template_frame : _nameless.8c8.1fb0 {
+ frame_path: "/def/sign/frame/green_frame_it.sii"
+ color: 16777215
+ opacity: 0
+ id: 3307995134
+ area_name: ""
+ area_idx: nil
+ coords_l: &3e55dbc6
+ coords_r: &3ff16a6f
+ coords_t: &3fa3d3be
+ coords_b: &3ea85a42
+ z_order: 5
+ tag: ""
+}
+
+sign_template_text : _nameless.62c.8fd0 {
+ text: MILANO
+ font_face: "/font/sign/it_s.font"
+ font_size: &3e99999a
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: &bccccccd
+ id: 1800404991
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f382a32
+ coords_r: &3ff4cb6b
+ coords_t: &3f982086
+ coords_b: &3f46c23b
+ z_order: 6
+ tag: ""
+}
+
+sign_template_text : _nameless.62c.8850 {
+ text: BOLOGNA
+ font_face: "/font/sign/it_s.font"
+ font_size: &3e99999a
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: &bccccccd
+ id: 332005376
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f382a32
+ coords_r: &3ff4cb6b
+ coords_t: &3f45ad2a
+ coords_b: &3eb85cb0
+ z_order: 7
+ tag: ""
+}
+
+sign_template_image : _nameless.3db.e790 {
+ atlas_path: "/def/sign/atlas/highway_it.sii"
+ image_idx: 0
+ color: nil
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: true
+ id: 1725038591
+ area_name: ""
+ area_idx: nil
+ coords_l: &3e9704b0
+ coords_r: &3f2b498b
+ coords_t: &3f743562
+ coords_b: &3f146e2e
+ z_order: 8
+ tag: ""
+}
+
+sign_template_text : _nameless.62c.86d0 {
+ text: "PARMA est"
+ font_face: "/font/sign/it_s.font"
+ font_size: &3ea66666
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: &bccccccd
+ id: 2728787967
+ area_name: ""
+ area_idx: nil
+ coords_l: &3e92b540
+ coords_r: &3ff04c62
+ coords_t: &3f9aafe0
+ coords_b: &3f4be0ee
+ z_order: 9
+ tag: ""
+}
+
+sign_template_text : _nameless.62c.7890 {
+ text: LIVORNO
+ font_face: "/font/sign/it_n.font"
+ font_size: &3ea66666
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 3725066238
+ area_name: ""
+ area_idx: nil
+ coords_l: &3e92b540
+ coords_r: &3ff04c62
+ coords_t: &3f474b3e
+ coords_b: &3ebb98e0
+ z_order: 10
+ tag: ""
+}
+
+sign_template_image : _nameless.3db.e970 {
+ atlas_path: "/def/sign/atlas/city_center_it.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: true
+ id: 1361838080
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fbfef81
+ coords_r: &3fec36ae
+ coords_t: &3f8f1d3b
+ coords_b: &3f459cc2
+ z_order: 3
+ tag: ""
+}
+
+sign_template_text : _nameless.62c.7290 {
+ text: PARMA
+ font_face: "/font/sign/it_n.font"
+ font_size: &3ea66666
+ text_halign: left
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1326055424
+ area_name: ""
+ area_idx: nil
+ coords_l: &3e8041c0
+ coords_r: &3fc4ce5e
+ coords_t: &3f93205e
+ coords_b: &3f30bd0a
+ z_order: 2
+ tag: ""
+}
+
+sign_template_frame : _nameless.8c8.1e90 {
+ frame_path: "/def/sign/frame/white_sq_fr.sii"
+ color: 16777215
+ opacity: 1
+ id: 1306656768
+ area_name: ""
+ area_idx: nil
+ coords_l: &3e3b13b0
+ coords_r: &3ff25cf3
+ coords_t: &3f94ec53
+ coords_b: &3f3d89da
+ z_order: 1
+ tag: ""
+}
+
+sign_template_frame : _nameless.8c8.3e10 {
+ frame_path: "/def/sign/frame/white_sq_fr.sii"
+ color: 16777215
+ opacity: 0
+ id: 1448083455
+ area_name: ""
+ area_idx: nil
+ coords_l: &404f883b
+ coords_r: &409e82bb
+ coords_t: &3f94ec53
+ coords_b: &3f3d89da
+ z_order: 11
+ tag: ""
+}
+
+sign_template_text : _nameless.62c.8790 {
+ text: "PONTE TARO"
+ font_face: "/font/sign/it_s.font"
+ font_size: &3e800000
+ text_halign: left
+ text_valign: center
+ font_color: 0
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 718798848
+ area_name: ""
+ area_idx: nil
+ coords_l: &4053df37
+ coords_r: &40931f17
+ coords_t: &3f90fc0f
+ coords_b: &3f30bd0a
+ z_order: 12
+ tag: ""
+}
+
+sign_template_image : _nameless.3db.ea10 {
+ atlas_path: "/def/sign/atlas/industrial_it.sii"
+ image_idx: 0
+ color: nil
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: true
+ id: 2450522111
+ area_name: ""
+ area_idx: nil
+ coords_l: &4091e75f
+ coords_r: &409cf929
+ coords_t: &3f8f1d3b
+ coords_b: &3f459cc2
+ z_order: 13
+ tag: ""
+}
+
+sign_template_frame : _nameless.8c8.3cf0 {
+ frame_path: "/def/sign/frame/green_frame_it.sii"
+ color: 16777215
+ opacity: 1
+ id: 2329149439
+ area_name: ""
+ area_idx: nil
+ coords_l: &405134bd
+ coords_r: &409e4619
+ coords_t: &3fa3d3be
+ coords_b: &3ea85a42
+ z_order: 14
+ tag: ""
+}
+
+sign_template_text : _nameless.62c.8010 {
+ text: MILANO
+ font_face: "/font/sign/it_s.font"
+ font_size: &3e99999a
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &bccccccd
+ id: 4272160766
+ area_name: ""
+ area_idx: nil
+ coords_l: &4071e18d
+ coords_r: &409f1e59
+ coords_t: &3f982086
+ coords_b: &3f46c23b
+ z_order: 15
+ tag: ""
+}
+
+sign_template_text : _nameless.62c.8490 {
+ text: BOLOGNA
+ font_face: "/font/sign/it_s.font"
+ font_size: &3e99999a
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &bccccccd
+ id: 1287127040
+ area_name: ""
+ area_idx: nil
+ coords_l: &4071e18d
+ coords_r: &409f1e59
+ coords_t: &3f45ad2a
+ coords_b: &3eb85cb0
+ z_order: 16
+ tag: ""
+}
+
+sign_template_image : _nameless.3db.eb50 {
+ atlas_path: "/def/sign/atlas/highway_it.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: true
+ id: 2589589503
+ area_name: ""
+ area_idx: nil
+ coords_l: &4056b795
+ coords_r: &406ea963
+ coords_t: &3f743562
+ coords_b: &3f146e2e
+ z_order: 17
+ tag: ""
+}
+
+sign_template_text : _nameless.62c.92d0 {
+ text: "PARMA est"
+ font_face: "/font/sign/it_s.font"
+ font_size: &3ea66666
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: &bccccccd
+ id: 3972136958
+ area_name: ""
+ area_idx: nil
+ coords_l: &40562da7
+ coords_r: &409dfe97
+ coords_t: &3f9aafe0
+ coords_b: &3f4be0ee
+ z_order: 18
+ tag: ""
+}
+
+sign_template_text : _nameless.62c.7350 {
+ text: LIVORNO
+ font_face: "/font/sign/it_n.font"
+ font_size: &3ea66666
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 452853760
+ area_name: ""
+ area_idx: nil
+ coords_l: &40562da7
+ coords_r: &409dfe97
+ coords_t: &3f474b3e
+ coords_b: &3ebb98e0
+ z_order: 19
+ tag: ""
+}
+
+sign_template_frame : _nameless.8c8.31b0 {
+ frame_path: "/def/sign/frame/white_sq_fr.sii"
+ color: 16777215
+ opacity: 1
+ id: 3861512190
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fa21dec
+ coords_r: &4075fb42
+ coords_t: &4015fb48
+ coords_b: &3feca6ff
+ z_order: 20
+ tag: ""
+}
+
+sign_template_text : _nameless.62c.9390 {
+ text: "PONTE TARO"
+ font_face: "/font/sign/it_n.font"
+ font_size: &3e99999a
+ text_halign: left
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 3773169662
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fab9585
+ coords_r: &405d5db8
+ coords_t: &4012bb78
+ coords_b: &3fecd967
+ z_order: 21
+ tag: ""
+}
+
+sign_template_image : _nameless.215.2980 {
+ atlas_path: "/def/sign/atlas/industrial_it.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: true
+ id: 3819044862
+ area_name: ""
+ area_idx: nil
+ coords_l: &4058db2e
+ coords_r: &40713b14
+ coords_t: &401282c3
+ coords_b: &3ff43d43
+ z_order: 22
+ tag: ""
+}
+
+sign_template_frame : _nameless.8c8.32d0 {
+ frame_path: "/def/sign/frame/green_frame_it.sii"
+ color: 16777215
+ opacity: 0
+ id: 3439591422
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fab13b4
+ coords_r: &406e2763
+ coords_t: &4028f41c
+ coords_b: &3fd82b0c
+ z_order: 23
+ tag: ""
+}
+
+sign_template_text : _nameless.62c.9450 {
+ text: MILANO
+ font_face: "/font/sign/it_n.font"
+ font_size: &3ea66666
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1560674303
+ area_name: ""
+ area_idx: nil
+ coords_l: &3ff6f65c
+ coords_r: &406d6a58
+ coords_t: &40231a80
+ coords_b: &4008bacc
+ z_order: 24
+ tag: ""
+}
+
+sign_template_text : _nameless.62c.7410 {
+ text: BOLOGNA
+ font_face: "/font/sign/it_n.font"
+ font_size: &3ea66666
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 3857055742
+ area_name: ""
+ area_idx: nil
+ coords_l: &3ff6f65c
+ coords_r: &406d6a58
+ coords_t: &40087588
+ coords_b: &3fdc2ba8
+ z_order: 25
+ tag: ""
+}
+
+sign_template_image : _nameless.103.f930 {
+ atlas_path: "/def/sign/atlas/highway_it.sii"
+ image_idx: 0
+ color: nil
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: true
+ id: 3362914302
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fbccb5f
+ coords_r: &3fecaefc
+ coords_t: &4014bb6d
+ coords_b: &3ff99340
+ z_order: 26
+ tag: ""
+}
+
+sign_template_text : _nameless.62c.7ad0 {
+ text: "PARMA est"
+ font_face: "/font/sign/it_n.font"
+ font_size: &3ea66666
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 2981756926
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fbbb786
+ coords_r: &406b7ed4
+ coords_t: &4024622c
+ coords_b: &400a0279
+ z_order: 27
+ tag: ""
+}
+
+sign_template_text : _nameless.62c.95d0 {
+ text: LIVORNO
+ font_face: "/font/sign/it_n.font"
+ font_size: &3ea66666
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 2851864575
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fbbb786
+ coords_r: &406908ac
+ coords_t: &4008dd0d
+ coords_b: &3fdcfab4
+ z_order: 28
+ tag: ""
+}
+
+sign_template_image : _nameless.8cb.15f0 {
+ atlas_path: "/def/sign/atlas/cross_orange.sii"
+ image_idx: 0
+ color: nil
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 2561802239
+ area_name: ""
+ area_idx: nil
+ coords_l: &40329bf6
+ coords_r: &404d70a4
+ coords_t: &3f923724
+ coords_b: &3f391b92
+ z_order: 29
+ tag: ""
+}
+
+sign_template_image : _nameless.8ca.fa70 {
+ atlas_path: "/def/sign/atlas/cross_orange.sii"
+ image_idx: 0
+ color: nil
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 3710517246
+ area_name: ""
+ area_idx: nil
+ coords_l: &3ff5dbca
+ coords_r: &4015c293
+ coords_t: &3f923724
+ coords_b: &3f391b92
+ z_order: 30
+ tag: ""
+}
+
+sign_template_image : _nameless.8cb.1af0 {
+ atlas_path: "/def/sign/atlas/cross_orange.sii"
+ image_idx: 0
+ color: nil
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 3860594686
+ area_name: ""
+ area_idx: nil
+ coords_l: &401716d9
+ coords_r: &4031eb87
+ coords_t: &3fcbd0be
+ coords_b: &3f962764
+ z_order: 31
+ tag: ""
+}
+
+}

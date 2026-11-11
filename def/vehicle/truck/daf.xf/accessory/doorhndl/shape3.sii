@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_data : shape3.daf.xf.doorhndl
+{
+	name: "@@doorhndl_chromed@@"
+	price: 2100
+	unlock: 10
+	icon: "doorhandle_03_daf_xf"
+
+	exterior_model: "/vehicle/truck/upgrade/doorhandle/daf_xf/doorhandle_03.pmd"
+}
+}

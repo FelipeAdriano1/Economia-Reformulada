@@ -1,0 +1,395 @@
+SiiNunit
+{
+sign_template : _nameless.858.00b0 {
+ template_name: 3lane_hw_europe_wh_3x0_peage
+ model_name: 1736
+ stand_model_name: ""
+ traffic_rule: null
+ boards: 0
+ items: 19
+ items[0]: _nameless.85f.9ff0
+ items[1]: _nameless.858.09b0
+ items[2]: _nameless.865.0ee0
+ items[3]: _nameless.865.1480
+ items[4]: _nameless.865.1000
+ items[5]: _nameless.857.f870
+ items[6]: _nameless.858.0b30
+ items[7]: _nameless.857.fc30
+ items[8]: _nameless.85f.a8b0
+ items[9]: _nameless.858.0bf0
+ items[10]: _nameless.85f.8f10
+ items[11]: _nameless.85f.8a10
+ items[12]: _nameless.85f.9370
+ items[13]: _nameless.857.eeb0
+ items[14]: _nameless.857.ef70
+ items[15]: _nameless.85f.90f0
+ items[16]: _nameless.865.1d80
+ items[17]: _nameless.858.02f0
+ items[18]: _nameless.857.f3f0
+ dynamic_attributes: 0
+}
+
+sign_template_image : _nameless.85f.9ff0 {
+ atlas_path: "/def/sign/atlas/highway_fr.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 236847104
+ area_name: ml6
+ area_idx: nil
+ coords_l: &3e845514
+ coords_r: &3f9a5266
+ coords_t: &3f9a6f13
+ coords_b: &3e84c7c1
+ z_order: 1
+ tag: ""
+}
+
+sign_template_text : _nameless.858.09b0 {
+ text: "REIMS<br>LYON"
+ font_face: "/font/sign/fr_n.font"
+ font_size: &3f19999a
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: 0
+ letter_spacing: &3dcccccd
+ id: 3394240510
+ area_name: ml6
+ area_idx: nil
+ coords_l: &3fb33336
+ coords_r: &40a05c9a
+ coords_t: &3fb1bcb6
+ coords_b: &3d89d8a0
+ z_order: 2
+ tag: ""
+}
+
+sign_template_frame : _nameless.865.0ee0 {
+ frame_path: "/def/sign/frame/red_sq_fr.sii"
+ color: 16777215
+ opacity: 1
+ id: 2289958911
+ area_name: ml5
+ area_idx: nil
+ coords_l: &3f1cbc3c
+ coords_r: &3fe41950
+ coords_t: &3f91b44b
+ coords_b: &3f146c27
+ z_order: 3
+ tag: ""
+}
+
+sign_template_frame : _nameless.865.1480 {
+ frame_path: "/def/sign/frame/green_sq_fr.sii"
+ color: 16777215
+ opacity: 1
+ id: 3819962366
+ area_name: ml5
+ area_idx: nil
+ coords_l: 0
+ coords_r: &3f95dc55
+ coords_t: &3f0d429e
+ coords_b: 0
+ z_order: 4
+ tag: ""
+}
+
+sign_template_frame : _nameless.865.1000 {
+ frame_path: "/def/sign/frame/green_sq_fr.sii"
+ color: 16777215
+ opacity: 1
+ id: 1561722879
+ area_name: ml5
+ area_idx: nil
+ coords_l: &3f9e9e8d
+ coords_r: &401a3d71
+ coords_t: &3f0d429e
+ coords_b: 0
+ z_order: 5
+ tag: ""
+}
+
+sign_template_text : _nameless.857.f870 {
+ text: "A<sub> </sub>10"
+ font_face: "/font/sign/fr_n.font"
+ font_size: &3f0ccccd
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3d4ccccd
+ id: 2648309759
+ area_name: ml5
+ area_idx: nil
+ coords_l: &3f1ce4bc
+ coords_r: &3fe42d90
+ coords_t: &3f904a79
+ coords_b: &3f186fb5
+ z_order: 6
+ tag: ""
+}
+
+sign_template_text : _nameless.858.0b30 {
+ text: "E 5"
+ font_face: "/font/sign/fr_n.font"
+ font_size: &3f0ccccd
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3d4ccccd
+ id: 1796603903
+ area_name: ml5
+ area_idx: nil
+ coords_l: &3b7e0c00
+ coords_r: &3f963a38
+ coords_t: &3f08253c
+ coords_b: &3c94f200
+ z_order: 7
+ tag: ""
+}
+
+sign_template_text : _nameless.857.fc30 {
+ text: "E<sub> </sub>50"
+ font_face: "/font/sign/fr_n.font"
+ font_size: &3f0ccccd
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3d4ccccd
+ id: 295829504
+ area_name: ml5
+ area_idx: nil
+ coords_l: &3f9ebfb1
+ coords_r: &401a3d71
+ coords_t: &3f08253c
+ coords_b: &3c94f200
+ z_order: 8
+ tag: ""
+}
+
+sign_template_image : _nameless.85f.a8b0 {
+ atlas_path: "/def/sign/atlas/arrow_down_hw_fr.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 694550528
+ area_name: ml1
+ area_idx: nil
+ coords_l: &40b3b2e6
+ coords_r: &40dd9e6c
+ coords_t: &3f883507
+ coords_b: &3e657f4c
+ z_order: 9
+ tag: ""
+}
+
+sign_template_text : _nameless.858.0bf0 {
+ text: "BORDEAUX   LE MANS"
+ font_face: "/font/sign/fr_n.font"
+ font_size: &3f333333
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3dcccccd
+ id: 655491072
+ area_name: ml1
+ area_idx: nil
+ coords_l: &35000000
+ coords_r: &4148a3d7
+ coords_t: &403c3c3f
+ coords_b: &3ff8787d
+ z_order: 10
+ tag: ""
+}
+
+sign_template_image : _nameless.85f.8f10 {
+ atlas_path: "/def/sign/atlas/arrow_down_hw_fr.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 1550188543
+ area_name: ml1
+ area_idx: nil
+ coords_l: &3e9e91c8
+ coords_r: &3fcf5286
+ coords_t: &3f883507
+ coords_b: &3e657f4c
+ z_order: 11
+ tag: ""
+}
+
+sign_template_image : _nameless.85f.8a10 {
+ atlas_path: "/def/sign/atlas/arrow_down_hw_fr.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 320602112
+ area_name: ml1
+ area_idx: nil
+ coords_l: &412ebe58
+ coords_r: &4143b41a
+ coords_t: &3f883506
+ coords_b: &3e657f48
+ z_order: 12
+ tag: ""
+}
+
+sign_template_image : _nameless.85f.9370 {
+ atlas_path: "/def/sign/atlas/toll_fr.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 3771072510
+ area_name: ml1
+ area_idx: nil
+ coords_l: &40ace1fa
+ coords_r: &40e46f58
+ coords_t: &3ff0ef2c
+ coords_b: &3f9b436e
+ z_order: 13
+ tag: ""
+}
+
+sign_template_text : _nameless.857.eeb0 {
+ text: "400 m"
+ font_face: "/font/sign/fr_i.font"
+ font_size: &3f333333
+ text_halign: center
+ text_valign: bottom
+ font_color: 16777215
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: &3cf5c28f
+ id: 3108896766
+ area_name: ml1
+ area_idx: nil
+ coords_l: &3fd084a2
+ coords_r: &40b30c31
+ coords_t: &3f861862
+ coords_b: &3e703a3c
+ z_order: 14
+ tag: ""
+}
+
+sign_template_text : _nameless.857.ef70 {
+ text: "400 m"
+ font_face: "/font/sign/fr_i.font"
+ font_size: &3f333333
+ text_halign: center
+ text_valign: bottom
+ font_color: 16777215
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: &3cf5c28f
+ id: 2925527038
+ area_name: ml1
+ area_idx: nil
+ coords_l: &40ddbac1
+ coords_r: &412e52ee
+ coords_t: &3f861862
+ coords_b: &3e703a3c
+ z_order: 15
+ tag: ""
+}
+
+sign_template_image : _nameless.85f.90f0 {
+ atlas_path: "/def/sign/atlas/arrow_right_down_hw_fr.sii"
+ image_idx: 0
+ color: 0
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 3027369982
+ area_name: ml2
+ area_idx: nil
+ coords_l: &406d4338
+ coords_r: &4099c09c
+ coords_t: &3fa533af
+ coords_b: &3e45bd78
+ z_order: 16
+ tag: ""
+}
+
+sign_template_frame : _nameless.865.1d80 {
+ frame_path: "/def/sign/frame/red_sq_fr.sii"
+ color: 16777215
+ opacity: 1
+ id: 2976645118
+ area_name: ml2
+ area_idx: nil
+ coords_l: &3e9b7f50
+ coords_r: &4003b13b
+ coords_t: &3f8f2274
+ coords_b: &3ebe64f2
+ z_order: 17
+ tag: ""
+}
+
+sign_template_text : _nameless.858.02f0 {
+ text: "N<sub> </sub>104"
+ font_face: "/font/sign/fr_n.font"
+ font_size: &3f266666
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3d4ccccd
+ id: 2028732415
+ area_name: ml2
+ area_idx: nil
+ coords_l: &3e9ba168
+ coords_r: &4003acf6
+ coords_t: &3f8f2274
+ coords_b: &3ebe64f2
+ z_order: 18
+ tag: ""
+}
+
+sign_template_text : _nameless.857.f3f0 {
+ text: "400 m"
+ font_face: "/font/sign/fr_i.font"
+ font_size: &3f333333
+ text_halign: right
+ text_valign: center
+ font_color: 0
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: &3cf5c28f
+ id: 1309147136
+ area_name: ml2
+ area_idx: nil
+ coords_l: &400313b2
+ coords_r: &40995480
+ coords_t: &3f9e0748
+ coords_b: &3e703a3c
+ z_order: 19
+ tag: ""
+}
+
+}

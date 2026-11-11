@@ -1,0 +1,64 @@
+SiiNunit
+{
+rim_data : .rim.data {
+
+	# Keep indices and order synced.
+	# By *_wheel_type array are matched indices of all other default_* arrays.
+
+	truck_wheel_types[]: "f"
+	default_truck_tires[]: "/def/vehicle/f_tire/1.sii"
+	default_truck_disc[]: "/def/vehicle/f_disc/front_disc_02_matt_gray.sii"
+	default_truck_hub[]: "/def/vehicle/f_hub/front_hub_01.sii"
+	default_truck_nuts[]: "/def/vehicle/f_nuts/front_nuts_01_steel.sii"
+
+	truck_wheel_types[]: "r"
+	default_truck_tires[]: "/def/vehicle/r_tire/1.sii"
+	default_truck_disc[]: "/def/vehicle/r_disc/rear_disc_01_matt_gray.sii"
+	default_truck_hub[]: "/def/vehicle/r_hub/rear_hub_01.sii"
+	default_truck_nuts[]: "/def/vehicle/r_nuts/rear_nuts_01_steel.sii"
+
+	truck_wheel_types[]: "a"
+	default_truck_tires[]: "/def/vehicle/a_tire/1.sii"
+	default_truck_disc[]: "/def/vehicle/a_disc/front_disc_02_matt_gray.sii"
+	default_truck_hub[]: "/def/vehicle/a_hub/front_hub_01.sii"
+	default_truck_nuts[]: "/def/vehicle/a_nuts/front_nuts_01_steel.sii"
+
+	truck_wheel_types[]: "b"
+	default_truck_tires[]: "/def/vehicle/b_tire/1.sii"
+	default_truck_disc[]: "/def/vehicle/b_disc/rear_disc_01_matt_gray.sii"
+	default_truck_hub[]: "/def/vehicle/b_hub/rear_hub_01.sii"
+	default_truck_nuts[]: "/def/vehicle/b_nuts/rear_nuts_01_steel.sii"
+
+
+	trailer_wheel_types[]: "f"
+	default_trailer_tires[]: "/def/vehicle/trailer_wheel/f_tire/245_70_r17_t.sii"
+	default_trailer_disc[]: "/def/vehicle/trailer_wheel/f_disc/disc_0_01_matt_gray.sii"
+	default_trailer_hub[]: "/def/vehicle/trailer_wheel/f_hub/hub_0_01.sii"
+	default_trailer_nuts[]: "/def/vehicle/trailer_wheel/f_nuts/nuts_steel_0_01.sii"
+
+	trailer_wheel_types[]: "r"
+	default_trailer_tires[]: "/def/vehicle/trailer_wheel/r_tire/385_55_r22_t.sii"
+	default_trailer_disc[]: "/def/vehicle/trailer_wheel/r_disc/disc_0_01_matt_gray.sii"
+	default_trailer_hub[]: "/def/vehicle/trailer_wheel/r_hub/hub_0_01.sii"
+	default_trailer_nuts[]: "/def/vehicle/trailer_wheel/r_nuts/nuts_steel_0_01.sii"
+
+
+	front_rims_conversion[]: "1|front_disc_04|front_hub_06_gray|front_nuts_01_steel|front_hub_cover_01"
+	front_rims_conversion[]: "2|front_disc_05|front_hub_01|front_nuts_01_steel|front_hub_cover_03"
+	front_rims_conversion[]: "3|front_disc_01_matt_gray|front_hub_02_red|front_nuts_01_steel"
+	front_rims_conversion[]: "4|front_disc_03|front_hub_01|front_nuts_02_steel|front_hub_cover_02"
+	front_rims_conversion[]: "5|front_disc_02|front_hub_04|front_nuts_01_steel|front_hub_cover_01"
+	front_rims_conversion[]: "6|front_disc_05|front_hub_06_gray|front_nuts_01_steel"
+	front_rims_conversion[]: "7|front_disc_02|front_hub_01|front_nuts_02_chrome|front_hub_cover_03"
+	front_rims_conversion[]: "8|front_disc_05|front_hub_08|front_nuts_01_steel"
+	front_rims_conversion[]: "steel|front_disc_02_matt_gray|front_hub_01|front_nuts_01_steel"
+	front_rims_conversion[]: "raven.dlc_raven|front_disc_08|front_hub_07|front_nuts_02_legacy"
+
+	rear_rims_conversion[]: "1|rear_disc_01|rear_hub_01|rear_nuts_01_steel"
+	rear_rims_conversion[]: "2|rear_disc_01|rear_hub_01|rear_nuts_02_steel|rear_hub_cover_06"
+	rear_rims_conversion[]: "3|rear_disc_01|rear_hub_01|rear_nuts_01_steel|rear_hub_cover_08"
+	rear_rims_conversion[]: "steel|rear_disc_01_matt_gray|rear_hub_01|rear_nuts_01_steel"
+	rear_rims_conversion[]: "raven.dlc_raven|rear_disc_01_black|rear_hub_03|rear_nuts_02_legacy"
+}
+
+}

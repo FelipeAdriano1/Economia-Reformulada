@@ -1,0 +1,93 @@
+SiiNunit
+{
+sign_template : _nameless.1.1893.d620 {
+ template_name: "small sr_hw exit "
+ model_name: 1456
+ stand_model_name: ""
+ traffic_rule: null
+ boards: 0
+ items: 4
+ items[0]: _nameless.1.18ac.f9b0
+ items[1]: _nameless.1.18a8.c280
+ items[2]: _nameless.1.18a8.cc10
+ items[3]: _nameless.1.18ac.e880
+ dynamic_attributes: 0
+}
+
+sign_template_text : _nameless.1.18ac.f9b0 {
+ text: XXXXXXXX
+ font_face: "/font/sign/no.font"
+ font_size: &3ee66666
+ text_halign: right
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1598291967
+ area_name: ml1
+ area_idx: nil
+ coords_l: 0
+ coords_r: &401eb852
+ coords_t: &3ef5c28f
+ coords_b: &3ca3d70a
+ z_order: 1
+}
+
+sign_template_image : _nameless.1.18a8.c280 {
+ atlas_path: "/def/sign/atlas/route_frame_1_no.sii"
+ image_idx: 0
+ color: nil
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 2716729343
+ area_name: ml1
+ area_idx: nil
+ coords_l: &402a1e85
+ coords_r: &404b8003
+ coords_t: &3ee118b9
+ coords_b: &3d8cc978
+ z_order: 2
+}
+
+sign_template_image : _nameless.1.18a8.cc10 {
+ atlas_path: "/def/sign/atlas/route_frame_2_no.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: true
+ id: 2330591231
+ area_name: ml1
+ area_idx: nil
+ coords_l: &4025279a
+ coords_r: &405036bc
+ coords_t: &3ee13b6d
+ coords_b: &3d876ec4
+ z_order: 3
+}
+
+sign_template_text : _nameless.1.18ac.e880 {
+ text: "E 18"
+ font_face: "/font/sign/no.font"
+ font_size: &3eb33333
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1926627327
+ area_name: ml1
+ area_idx: nil
+ coords_l: &40263f9b
+ coords_r: &404f84fd
+ coords_t: &3ec8f8d2
+ coords_b: &3dd8ec10
+ z_order: 4
+}
+
+}

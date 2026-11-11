@@ -1,0 +1,46 @@
+traffic_vehicle : traffic.tram_t4.ro_cr
+{
+	accessories[]: .tram_t4.ro_cr.chassis
+	accessories[]: .tram_t4.ro_cr.fwheel
+	accessories[]: .tram_t4.ro_cr.rwheel
+
+	max_speed: 65
+
+	vehicle_mass: 21000	# 16t + cca 50 ppl
+	engine_power: 172	# 4x43W
+
+	sound_move[]: "/sound/traffic/tram_1.soundref"
+	sound_horn[]: "/sound/traffic/tram_horn_1.soundref"
+	sound_gears: 1
+
+	spawn_ratio: 0.0
+
+	displacement_limit: 0.0
+
+
+	spawn_condition[]: .traffic.tram_t4.ro_cr.condition.city
+}
+
+vehicle_accessory: .tram_t4.ro_cr.chassis
+{
+	data_path: "/def/vehicle/ai/tram_t4/chassis_ro_cr.sii"
+}
+
+vehicle_wheel_accessory: .tram_t4.ro_cr.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .tram_t4.ro_cr.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+traffic_spawn_condition: .traffic.tram_t4.ro_cr.condition.city
+{
+	 # spawn only near city with specified name
+	 type: city
+	 str_param[]: "craiova"
+}

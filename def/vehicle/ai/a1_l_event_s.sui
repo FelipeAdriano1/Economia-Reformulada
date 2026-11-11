@@ -1,0 +1,32 @@
+traffic_trailer : traffic.a1_l_s.event
+{
+	accessories[]: .a1_l_s.event.chassis
+	accessories[]: .a1_l_s.event.fwheel
+	accessories[]: .a1_l_s.event.rwheel
+
+
+
+
+
+	vehicle_mass: 1000
+
+
+
+}
+
+vehicle_accessory: .a1_l_s.event.chassis
+{
+	data_path: "/def/vehicle/ai/a1_l_event/chassis_s.sii"
+}
+
+vehicle_wheel_accessory: .a1_l_s.event.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_10cm.sii"
+}
+
+vehicle_wheel_accessory: .a1_l_s.event.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/a1_l_r.sii"
+}

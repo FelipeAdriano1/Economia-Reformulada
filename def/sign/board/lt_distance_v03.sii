@@ -1,0 +1,538 @@
+SiiNunit
+{
+sign_board_template : _nameless.4.2dde.8500 {
+ board_name: "lt distance v03"
+ width: &402e147b
+ height: &3f9c28f6
+ model_name: ""
+ items: 23
+ items[0]: _nameless.4.290f.6640
+ items[1]: _nameless.4.290f.79c0
+ items[2]: _nameless.4.2dde.94c0
+ items[3]: _nameless.4.290b.2a10
+ items[4]: _nameless.4.2dde.8620
+ items[5]: _nameless.4.290b.3790
+ items[6]: _nameless.4.290f.6980
+ items[7]: _nameless.4.290f.6710
+ items[8]: _nameless.4.2dde.82c0
+ items[9]: _nameless.4.290b.4a50
+ items[10]: _nameless.4.2dde.9550
+ items[11]: _nameless.4.290b.2dd0
+ items[12]: _nameless.4.290f.6bf0
+ items[13]: _nameless.4.290f.7270
+ items[14]: _nameless.4.2913.0150
+ items[15]: _nameless.4.290f.5e20
+ items[16]: _nameless.4.290b.3850
+ items[17]: _nameless.4.290b.3fd0
+ items[18]: _nameless.4.2913.1550
+ items[19]: _nameless.4.290f.6230
+ items[20]: _nameless.4.2913.0b50
+ items[21]: _nameless.4.290f.6f30
+ items[22]: _nameless.3.e6d9.d200
+ dynamic_attributes: 0
+}
+
+sign_template_mileage : _nameless.4.290f.6640 {
+ target: ""
+ display: name
+ variant_idx: nil
+ show_units: false
+ uppercase: false
+ text: XXXXX
+ font_face: "/font/sign/ru_lt.font"
+ font_size: &3eb33333
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &bca3d70a
+ id: 1042808832
+ area_name: ""
+ area_idx: nil
+ coords_l: &3d5e08a0
+ coords_r: &3fd05d30
+ coords_t: &3f30df6c
+ coords_b: &3ec736ed
+ z_order: 1
+ tag: ""
+}
+
+sign_template_mileage : _nameless.4.290f.79c0 {
+ target: ""
+ display: name
+ variant_idx: nil
+ show_units: false
+ uppercase: false
+ text: XXXXX
+ font_face: "/font/sign/ru_lt.font"
+ font_size: &3eb33333
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &bca3d70a
+ id: 3847880702
+ area_name: ""
+ area_idx: nil
+ coords_l: &3d5e08a0
+ coords_r: &3fd05d30
+ coords_t: &3ee8ba2e
+ coords_b: 0
+ z_order: 2
+ tag: ""
+}
+
+sign_template_frame : _nameless.4.2dde.94c0 {
+ frame_path: "/def/sign/frame/red_rounded_lt.sii"
+ color: 16777215
+ opacity: 1
+ id: 2678718463
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f45033a
+ coords_r: &3fa47219
+ coords_t: &3f8c5296
+ coords_b: &3f4fb958
+ z_order: 3
+ tag: ""
+}
+
+sign_template_text : _nameless.4.290b.2a10 {
+ text: Axx
+ font_face: "/font/sign/ru_lt.font"
+ font_size: &3eb33333
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 4042391550
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f412242
+ coords_r: &3fa66295
+ coords_t: &3f8f6cf6
+ coords_b: &3f498498
+ z_order: 4
+ tag: ""
+}
+
+sign_template_frame : _nameless.4.2dde.8620 {
+ frame_path: "/def/sign/frame/green_rounded_lt.sii"
+ color: 16777215
+ opacity: 1
+ id: 1288437760
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fae3a97
+ coords_r: &3ff31952
+ coords_t: &3f8c5296
+ coords_b: &3f4fb958
+ z_order: 5
+ tag: ""
+}
+
+sign_template_text : _nameless.4.290b.3790 {
+ text: Exx
+ font_face: "/font/sign/ru_lt.font"
+ font_size: &3eb33333
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1492910079
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fac340a
+ coords_r: &3ff51fde
+ coords_t: &3f8f6cf6
+ coords_b: &3f498498
+ z_order: 6
+ tag: ""
+}
+
+sign_template_mileage : _nameless.4.290f.6980 {
+ target: ""
+ display: distance
+ variant_idx: nil
+ show_units: false
+ uppercase: false
+ text: XX
+ font_face: "/font/sign/ru_lt.font"
+ font_size: &3eb33333
+ text_halign: right
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &bca3d70a
+ id: 681050112
+ area_name: ""
+ area_idx: nil
+ coords_l: &4007c7ab
+ coords_r: &402a1b73
+ coords_t: &3f30df6c
+ coords_b: &3ec736ed
+ z_order: 7
+ tag: ""
+}
+
+sign_template_mileage : _nameless.4.290f.6710 {
+ target: ""
+ display: distance
+ variant_idx: nil
+ show_units: false
+ uppercase: false
+ text: XX
+ font_face: "/font/sign/ru_lt.font"
+ font_size: &3eb33333
+ text_halign: right
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &bca3d70a
+ id: 1663565823
+ area_name: ""
+ area_idx: nil
+ coords_l: &4007c7ab
+ coords_r: &402a1b73
+ coords_t: &3ee8ba2e
+ coords_b: 0
+ z_order: 8
+ tag: ""
+}
+
+sign_template_frame : _nameless.4.2dde.82c0 {
+ frame_path: "/def/sign/frame/green_rounded_lt.sii"
+ color: 16777215
+ opacity: 0
+ id: 2778726399
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fac3409
+ coords_r: &4000f656
+ coords_t: &3f8c5296
+ coords_b: &3f4fb958
+ z_order: 9
+ tag: ""
+}
+
+sign_template_text : _nameless.4.290b.4a50 {
+ text: Exxx
+ font_face: "/font/sign/ru_lt.font"
+ font_size: &3eb33333
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 3164864510
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fa9ae9b
+ coords_r: &4002390d
+ coords_t: &3f8f6cf6
+ coords_b: &3f498498
+ z_order: 10
+ tag: ""
+}
+
+sign_template_frame : _nameless.4.2dde.9550 {
+ frame_path: "/def/sign/frame/red_rounded_lt.sii"
+ color: 16777215
+ opacity: 0
+ id: 1035862016
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f32c845
+ coords_r: &3f9b549e
+ coords_t: &3f8c5296
+ coords_b: &3f4fb958
+ z_order: 11
+ tag: ""
+}
+
+sign_template_text : _nameless.4.290b.2dd0 {
+ text: Axx
+ font_face: "/font/sign/ru_lt.font"
+ font_size: &3eb33333
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 3286106110
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f2ee74d
+ coords_r: &3f9d451a
+ coords_t: &3f8f6cf6
+ coords_b: &3f498498
+ z_order: 12
+ tag: ""
+}
+
+sign_template_mileage : _nameless.4.290f.6bf0 {
+ target: ""
+ display: name
+ variant_idx: nil
+ show_units: false
+ uppercase: false
+ text: XXXXX
+ font_face: "/font/sign/ru_lt.font"
+ font_size: &3eb33333
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: &bca3d70a
+ id: 586285056
+ area_name: ""
+ area_idx: nil
+ coords_l: &3ee0ad62
+ coords_r: &400ec4ed
+ coords_t: &3f30df6c
+ coords_b: &3ec736ed
+ z_order: 13
+ tag: ""
+}
+
+sign_template_mileage : _nameless.4.290f.7270 {
+ target: ""
+ display: name
+ variant_idx: nil
+ show_units: false
+ uppercase: false
+ text: XXXXX
+ font_face: "/font/sign/ru_lt.font"
+ font_size: &3eb33333
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: &bca3d70a
+ id: 3904634878
+ area_name: ""
+ area_idx: nil
+ coords_l: &3ee0ad62
+ coords_r: &400ec4ed
+ coords_t: &3ee8ba2e
+ coords_b: 0
+ z_order: 14
+ tag: ""
+}
+
+sign_template_image : _nameless.4.2913.0150 {
+ atlas_path: "/def/sign/atlas/border_pl_lt.sii"
+ image_idx: 0
+ color: nil
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 3879206910
+ area_name: ""
+ area_idx: nil
+ coords_l: &3d93092e
+ coords_r: &3ed20d22
+ coords_t: &3f044445
+ coords_b: &3e86906a
+ z_order: 15
+ tag: ""
+}
+
+sign_template_mileage : _nameless.4.290f.5e20 {
+ target: ""
+ display: distance
+ variant_idx: nil
+ show_units: false
+ uppercase: false
+ text: XX
+ font_face: "/font/sign/ru_lt.font"
+ font_size: &3eb33333
+ text_halign: right
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: &bca3d70a
+ id: 3733454846
+ area_name: ""
+ area_idx: nil
+ coords_l: &4007c7ab
+ coords_r: &402a1b73
+ coords_t: &3f1c39c4
+ coords_b: &3e1d89d8
+ z_order: 16
+ tag: ""
+}
+
+sign_template_text : _nameless.4.290b.3850 {
+ text: XXXXX
+ font_face: "/font/sign/ru_lt.font"
+ font_size: &3eb33333
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: &bca3d70a
+ id: 1347289088
+ area_name: ""
+ area_idx: nil
+ coords_l: &3d5c8dd0
+ coords_r: &3fd01502
+ coords_t: &3ee9ae9b
+ coords_b: 0
+ z_order: 17
+ tag: ""
+}
+
+sign_template_text : _nameless.4.290b.3fd0 {
+ text: XX
+ font_face: "/font/sign/ru_lt.font"
+ font_size: &3eb33333
+ text_halign: right
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: &bca3d70a
+ id: 1214775296
+ area_name: ""
+ area_idx: nil
+ coords_l: &4007e07e
+ coords_r: &402a17a2
+ coords_t: &3ee9ae9b
+ coords_b: 0
+ z_order: 18
+ tag: ""
+}
+
+sign_template_image : _nameless.4.2913.1550 {
+ atlas_path: "/def/sign/atlas/border_ru_lt.sii"
+ image_idx: 0
+ color: nil
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: true
+ id: 2376728575
+ area_name: ""
+ area_idx: nil
+ coords_l: &3d93092e
+ coords_r: &3ed20d22
+ coords_t: &3f044445
+ coords_b: &3e86906a
+ z_order: 19
+ tag: ""
+}
+
+sign_template_mileage : _nameless.4.290f.6230 {
+ target: ""
+ display: name
+ variant_idx: nil
+ show_units: false
+ uppercase: false
+ text: XXXXX
+ font_face: "/font/sign/ru_lt.font"
+ font_size: &3eb33333
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &bd75c28f
+ letter_spacing: &bca3d70a
+ id: 1128398848
+ area_name: ""
+ area_idx: nil
+ coords_l: &3ee0ad62
+ coords_r: &400ec4ed
+ coords_t: &3f30df6c
+ coords_b: 0
+ z_order: 20
+ tag: ""
+}
+
+sign_template_image : _nameless.4.2913.0b50 {
+ atlas_path: "/def/sign/atlas/border_ru_lt.sii"
+ image_idx: 0
+ color: nil
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: true
+ id: 3288727550
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fddddde
+ coords_r: &4004984a
+ coords_t: &3eb72372
+ coords_b: &3dd4ad4a
+ z_order: 21
+ tag: ""
+}
+
+sign_template_mileage : _nameless.4.290f.6f30 {
+ target: ""
+ display: name
+ variant_idx: nil
+ show_units: false
+ uppercase: false
+ text: XXXXX
+ font_face: "/font/sign/ru_lt.font"
+ font_size: &3eb33333
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: &bca3d70a
+ id: 2195980287
+ area_name: ""
+ area_idx: nil
+ coords_l: &3d5e08a0
+ coords_r: &40082192
+ coords_t: &3f1bc16e
+ coords_b: &3e1d915c
+ z_order: 22
+ tag: ""
+}
+
+sign_template_mileage : _nameless.3.e6d9.d200 {
+ target: ""
+ display: name
+ variant_idx: nil
+ show_units: false
+ uppercase: false
+ text: XXXXX
+ font_face: "/font/sign/ru_lt.font"
+ font_size: &3eb33333
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &bd75c28f
+ letter_spacing: &bca3d70a
+ id: 2208432127
+ area_name: ""
+ area_idx: nil
+ coords_l: &3ee0ad62
+ coords_r: &400ec4ed
+ coords_t: &3f1c39c4
+ coords_b: &3e1d89d8
+ z_order: 23
+ tag: ""
+}
+
+}

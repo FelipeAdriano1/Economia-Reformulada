@@ -1,0 +1,173 @@
+SiiNunit
+{
+sign_template : _nameless.454.1980 {
+ template_name: "blue board straight left small"
+ model_name: 1427
+ stand_model_name: ""
+ traffic_rule: null
+ boards: 0
+ items: 8
+ items[0]: _nameless.562.ee60
+ items[1]: _nameless.563.0600
+ items[2]: _nameless.565.2f10
+ items[3]: _nameless.565.22b0
+ items[4]: _nameless.1.0ef0.d650
+ items[5]: _nameless.413.07c0
+ items[6]: _nameless.d0bd.6eb0
+ items[7]: _nameless.f275.47e0
+ dynamic_attributes: 0
+}
+
+sign_template_image : _nameless.562.ee60 {
+ atlas_path: "/def/sign/atlas/arrow_up_shorter_swe.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 1050017792
+ area_name: ml2
+ area_idx: nil
+ coords_l: &40701b47
+ coords_r: &408acc64
+ coords_t: &3fee7331
+ coords_b: &3e5c8a04
+ z_order: 1
+}
+
+sign_template_image : _nameless.563.0600 {
+ atlas_path: "/def/sign/atlas/arrow_right_longer_swe.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: true
+ vflip: false
+ image_overridable: false
+ id: 3743547390
+ area_name: ml2
+ area_idx: nil
+ coords_l: &4046c92a
+ coords_r: &407f056a
+ coords_t: &3fabcd8b
+ coords_b: &3f41a514
+ z_order: 2
+}
+
+sign_template_text : _nameless.565.2f10 {
+ text: KARLSKRONA
+ font_face: "/font/sign/swe.font"
+ font_size: &3f19999a
+ text_halign: right
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 891944960
+ area_name: ml2
+ area_idx: nil
+ coords_l: 0
+ coords_r: &406473c1
+ coords_t: &4024bafd
+ coords_b: &3ffafdc5
+ z_order: 3
+}
+
+sign_template_text : _nameless.565.22b0 {
+ text: KALMAR
+ font_face: "/font/sign/swe.font"
+ font_size: &3f19999a
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1104543744
+ area_name: ml2
+ area_idx: nil
+ coords_l: &3e6bf720
+ coords_r: &406fdc60
+ coords_t: &3f42e4d7
+ coords_b: &3e2e147c
+ z_order: 4
+}
+
+sign_template_image : _nameless.1.0ef0.d650 {
+ atlas_path: "/def/sign/atlas/route_frame_trans1_swe.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 128581632
+ area_name: ml2
+ area_idx: nil
+ coords_l: &401050e5
+ coords_r: &40400002
+ coords_t: &3faaaf6a
+ coords_b: &3f4f4250
+ z_order: 5
+}
+
+sign_template_text : _nameless.413.07c0 {
+ text: 00
+ font_face: "/font/sign/swe.font"
+ font_size: &3ee66666
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3cf5c28f
+ id: 2044985343
+ area_name: ml2
+ area_idx: nil
+ coords_l: &40120f04
+ coords_r: &403dba61
+ coords_t: &3fa86ccf
+ coords_b: &3f559f3f
+ z_order: 6
+}
+
+sign_template_image : _nameless.d0bd.6eb0 {
+ atlas_path: "/def/sign/atlas/route_frame_trans1_swe.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 2264006655
+ area_name: ml2
+ area_idx: nil
+ coords_l: &406a8e53
+ coords_r: &408d1eb8
+ coords_t: &402180a9
+ coords_b: &3ffff312
+ z_order: 7
+}
+
+sign_template_text : _nameless.f275.47e0 {
+ text: 00
+ font_face: "/font/sign/swe.font"
+ font_size: &3ee66666
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3cf5c28f
+ id: 3048472574
+ area_name: ml2
+ area_idx: nil
+ coords_l: &406c4c72
+ coords_r: &408bfbe8
+ coords_t: &40205f5d
+ coords_b: &400190c5
+ z_order: 8
+}
+
+}

@@ -1,0 +1,407 @@
+SiiNunit
+{
+sign_template : _nameless.8a0.4930 {
+ template_name: hw_exit_far_fountain_montpellier_04
+ model_name: 1540
+ stand_model_name: ""
+ traffic_rule: null
+ boards: 0
+ items: 20
+ items[0]: _nameless.891.1920
+ items[1]: _nameless.882.67f0
+ items[2]: _nameless.8a0.5fb0
+ items[3]: _nameless.8a0.4ab0
+ items[4]: _nameless.891.19c0
+ items[5]: _nameless.882.6a30
+ items[6]: _nameless.8a0.4e70
+ items[7]: _nameless.882.6b50
+ items[8]: _nameless.8a0.4f30
+ items[9]: _nameless.8a0.4ff0
+ items[10]: _nameless.8a0.50b0
+ items[11]: _nameless.882.6c70
+ items[12]: _nameless.8a0.5530
+ items[13]: _nameless.882.6be0
+ items[14]: _nameless.8a0.55f0
+ items[15]: _nameless.882.7840
+ items[16]: _nameless.8a0.56b0
+ items[17]: _nameless.882.7060
+ items[18]: _nameless.8a0.6730
+ items[19]: _nameless.8a0.49f0
+ dynamic_attributes: 0
+}
+
+sign_template_image : _nameless.891.1920 {
+ atlas_path: "/def/sign/atlas/double_arrow_fr.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 2262433791
+ area_name: ml1
+ area_idx: nil
+ coords_l: &3eb9f06e
+ coords_r: &3facd801
+ coords_t: &40811814
+ coords_b: &3daf0ab0
+ z_order: 1
+ tag: ""
+}
+
+sign_template_frame : _nameless.882.67f0 {
+ frame_path: "/def/sign/frame/white_sq_fr.sii"
+ color: 16777215
+ opacity: 1
+ id: 1394737152
+ area_name: ml1
+ area_idx: nil
+ coords_l: &3e638e40
+ coords_r: &40962762
+ coords_t: &40bf6396
+ coords_b: &40920d21
+ z_order: 2
+ tag: ""
+}
+
+sign_template_text : _nameless.8a0.5fb0 {
+ text: MONTPELLIER
+ font_face: "/font/sign/fr_i.font"
+ font_size: &3f19999a
+ text_halign: left
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1577320447
+ area_name: ml1
+ area_idx: nil
+ coords_l: &3f961e8a
+ coords_r: &40934db5
+ coords_t: &40c0c1ac
+ coords_b: &40a48e13
+ z_order: 3
+ tag: ""
+}
+
+sign_template_text : _nameless.8a0.4ab0 {
+ text: "M\xc3\x89DITERRAN\xc3\x89E"
+ font_face: "/font/sign/fr_i.font"
+ font_size: &3f19999a
+ text_halign: left
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 3870556158
+ area_name: ml1
+ area_idx: nil
+ coords_l: &3f94c94c
+ coords_r: &40943d44
+ coords_t: &40b3813f
+ coords_b: &408df2e0
+ z_order: 4
+ tag: ""
+}
+
+sign_template_image : _nameless.891.19c0 {
+ atlas_path: "/def/sign/atlas/airport_fr.sii"
+ image_idx: 0
+ color: 0
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 4105306110
+ area_name: ml1
+ area_idx: nil
+ coords_l: &3ecba228
+ coords_r: &3f857fbc
+ coords_t: &40b215fc
+ coords_b: &409d7034
+ z_order: 5
+ tag: ""
+}
+
+sign_template_frame : _nameless.882.6a30 {
+ frame_path: "/def/sign/frame/red_sq_fr.sii"
+ color: 16777215
+ opacity: 1
+ id: 1899757567
+ area_name: ml1
+ area_idx: nil
+ coords_l: &3fc7a738
+ coords_r: &401e4750
+ coords_t: &40644f37
+ coords_b: &4043e857
+ z_order: 6
+ tag: ""
+}
+
+sign_template_text : _nameless.8a0.4e70 {
+ text: "A 9"
+ font_face: "/font/sign/fr_n.font"
+ font_size: &3f000000
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3cf5c28f
+ id: 1950744575
+ area_name: ml1
+ area_idx: nil
+ coords_l: &3fcb3080
+ coords_r: &401cb7ea
+ coords_t: &40622059
+ coords_b: &4046c7b2
+ z_order: 7
+ tag: ""
+}
+
+sign_template_frame : _nameless.882.6b50 {
+ frame_path: "/def/sign/frame/green_sq_fr.sii"
+ color: 16777215
+ opacity: 1
+ id: 3773562878
+ area_name: ml1
+ area_idx: nil
+ coords_l: &40238629
+ coords_r: &406af798
+ coords_t: &406473c8
+ coords_b: &40440cf7
+ z_order: 8
+ tag: ""
+}
+
+sign_template_text : _nameless.8a0.4f30 {
+ text: "E 15"
+ font_face: "/font/sign/fr_n.font"
+ font_size: &3f000000
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3cf5c28f
+ id: 797835264
+ area_name: ml1
+ area_idx: nil
+ coords_l: &40248a82
+ coords_r: &4067ea8a
+ coords_t: &406244e9
+ coords_b: &4046ec52
+ z_order: 9
+ tag: ""
+}
+
+sign_template_text : _nameless.8a0.4ff0 {
+ text: TOULOUSE
+ font_face: "/font/sign/fr_n.font"
+ font_size: &3f333333
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3cf5c28f
+ id: 608960512
+ area_name: ml1
+ area_idx: nil
+ coords_l: &3fc59d0c
+ coords_r: &4098a3d8
+ coords_t: &3f8acd9e
+ coords_b: &3e0f5090
+ z_order: 10
+ tag: ""
+}
+
+sign_template_text : _nameless.8a0.50b0 {
+ text: MARSEILLE
+ font_face: "/font/sign/fr_n.font"
+ font_size: &3f333333
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3cf5c28f
+ id: 1225129984
+ area_name: ml1
+ area_idx: nil
+ coords_l: &3fca793e
+ coords_r: &4098a3d8
+ coords_t: &4044888f
+ coords_b: &400816c4
+ z_order: 11
+ tag: ""
+}
+
+sign_template_frame : _nameless.882.6c70 {
+ frame_path: "/def/sign/frame/green_sq_fr.sii"
+ color: 16777215
+ opacity: 1
+ id: 1667104767
+ area_name: ml1
+ area_idx: nil
+ coords_l: &407093d5
+ coords_r: &409c02a8
+ coords_t: &40647b1e
+ coords_b: &4044144c
+ z_order: 12
+ tag: ""
+}
+
+sign_template_text : _nameless.8a0.5530 {
+ text: "E 80"
+ font_face: "/font/sign/fr_n.font"
+ font_size: &3f000000
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3cf5c28f
+ id: 1185939456
+ area_name: ml1
+ area_idx: nil
+ coords_l: &4071982d
+ coords_r: &409a7c24
+ coords_t: &40624c3e
+ coords_b: &4046f3a8
+ z_order: 13
+ tag: ""
+}
+
+sign_template_frame : _nameless.882.6be0 {
+ frame_path: "/def/sign/frame/red_sq_fr.sii"
+ color: 16777215
+ opacity: 1
+ id: 570556416
+ area_name: ml1
+ area_idx: nil
+ coords_l: &3fc85778
+ coords_r: &401e9f70
+ coords_t: &3fca5196
+ coords_b: &3f88b6b4
+ z_order: 14
+ tag: ""
+}
+
+sign_template_text : _nameless.8a0.55f0 {
+ text: "A 9"
+ font_face: "/font/sign/fr_n.font"
+ font_size: &3f000000
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3cf5c28f
+ id: 721813504
+ area_name: ml1
+ area_idx: nil
+ coords_l: &3fcbe0c0
+ coords_r: &401d100c
+ coords_t: &3fc5e608
+ coords_b: &3f8e879a
+ z_order: 15
+ tag: ""
+}
+
+sign_template_frame : _nameless.882.7840 {
+ frame_path: "/def/sign/frame/green_sq_fr.sii"
+ color: 16777215
+ opacity: 1
+ id: 1047789568
+ area_name: ml1
+ area_idx: nil
+ coords_l: &4023f1df
+ coords_r: &406b634d
+ coords_t: &3fc9b4ac
+ coords_b: &3f8819ed
+ z_order: 16
+ tag: ""
+}
+
+sign_template_text : _nameless.8a0.56b0 {
+ text: "E 15"
+ font_face: "/font/sign/fr_n.font"
+ font_size: &3f000000
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3cf5c28f
+ id: 4204920830
+ area_name: ml1
+ area_idx: nil
+ coords_l: &4024f638
+ coords_r: &40685640
+ coords_t: &3fc5491c
+ coords_b: &3f8dead2
+ z_order: 17
+ tag: ""
+}
+
+sign_template_frame : _nameless.882.7060 {
+ frame_path: "/def/sign/frame/green_sq_fr.sii"
+ color: 16777215
+ opacity: 1
+ id: 3708420094
+ area_name: ml1
+ area_idx: nil
+ coords_l: &4070ff8b
+ coords_r: &409c3884
+ coords_t: &3fc9c386
+ coords_b: &3f8828c7
+ z_order: 18
+ tag: ""
+}
+
+sign_template_text : _nameless.8a0.6730 {
+ text: "E 80"
+ font_face: "/font/sign/fr_n.font"
+ font_size: &3f000000
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3cf5c28f
+ id: 2179203071
+ area_name: ml1
+ area_idx: nil
+ coords_l: &407203e3
+ coords_r: &409ab200
+ coords_t: &3fc557f6
+ coords_b: &3f8df9ac
+ z_order: 19
+ tag: ""
+}
+
+sign_template_text : _nameless.8a0.49f0 {
+ text: "250 m"
+ font_face: "/font/sign/fr_i.font"
+ font_size: &3f333333
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3dcccccd
+ id: 2122579967
+ area_name: ml2
+ area_idx: nil
+ coords_l: 0
+ coords_r: &40a23d71
+ coords_t: &3f4a3d71
+ coords_b: 0
+ z_order: 20
+ tag: ""
+}
+
+}

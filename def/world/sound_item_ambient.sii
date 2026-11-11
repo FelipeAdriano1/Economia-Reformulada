@@ -1,0 +1,525 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+#
+# Item color: 0xAABBGGRR (hexadecimal)
+#	      AA = opacity (max AA = ff - full opacity; min AA = 20 - max. transparency) 
+
+sound_item_data : ambient.def_country
+{
+	name: "default/default country"
+	sound_path: "/sound/world/ambients/default.bank#ambient/default/default_country"
+	max_dist: 70
+	item_color: 0x30808080
+	reverb: reverb.default
+}
+
+sound_item_data : ambient.def_city
+{
+	name: "default/default city"
+	sound_path: "/sound/world/ambients/default.bank#ambient/default/default_city"
+	max_dist: 100
+	item_color: 0x30808080
+	reverb: reverb.default
+}
+
+#-----------------------------------------------------------------------------------------------------------
+#--------------- CITY FOLDER -------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------------------
+
+sound_item_data : ambient.city_enter
+{
+	name: "city/entertainment"
+	sound_path: "/sound/world/ambients/city.bank#ambient/city/entertainment"
+	max_dist: 100
+	item_color: 0x30ed3987
+	reverb: reverb.city_enter
+}
+
+sound_item_data : ambient.city_harbor
+{
+	name: "city/harbor"
+	sound_path: "/sound/world/ambients/city.bank#ambient/city/harbor_1"
+	max_dist: 100
+	item_color: 0x30ed3987
+	reverb: reverb.city_harbor
+}
+
+sound_item_data : ambient.city_harb_2
+{
+	name: "city/harbor_2_horn"
+	sound_path: "/sound/world/ambients/city.bank#ambient/city/harbor_2"
+	max_dist: 100
+	item_color: 0x30ed3987
+	reverb: reverb.city_harbor
+}
+
+sound_item_data : ambient.city_harb_3
+{
+	name: "city/harbor_3"
+	sound_path: "/sound/world/ambients/city.bank#ambient/city/harbor_3"
+	max_dist: 100
+	item_color: 0x30ed3987
+	reverb: reverb.city_harbor
+}
+
+sound_item_data : ambient.city_harb_4
+{
+	name: "city/harbor_4_industry"
+	sound_path: "/sound/world/ambients/city.bank#ambient/city/harbor_4"
+	max_dist: 100
+	item_color: 0x30ed3987
+	reverb: reverb.city_harbor
+}
+
+sound_item_data : ambient.city_indus
+{
+	name: "city/industry"
+	sound_path: "/sound/world/ambients/city.bank#ambient/city/industry"
+	max_dist: 100
+	item_color: 0x30ed3987
+	reverb: reverb.city_indust
+}
+
+sound_item_data : ambient.city_resid
+{
+	name: "city/residental"
+	sound_path: "/sound/world/ambients/city.bank#ambient/city/residental"
+	max_dist: 100
+	item_color: 0x30ed3987
+	reverb: reverb.city_resid
+}
+
+sound_item_data : ambient.city_normal
+{
+	name: "city/normal"
+	sound_path: "/sound/world/ambients/city.bank#ambient/city/normal"
+	max_dist: 100
+	item_color: 0x30ed3987
+	reverb: reverb.city_small
+}
+
+sound_item_data : ambient.city_small
+{
+	name: "city/small"
+	sound_path: "/sound/world/ambients/city.bank#ambient/city/small"
+	max_dist: 100
+	item_color: 0x30ed3987
+	reverb: reverb.city_small
+}
+
+sound_item_data : ambient.city_park_s
+{
+	name: "city/park small"
+	sound_path: "/sound/world/ambients/city.bank#ambient/city/park_small"
+	max_dist: 100
+	item_color: 0x30ed3987
+	reverb: reverb.city_small
+}
+
+sound_item_data : ambient.city_park_m
+{
+	name: "city/park middle"
+	sound_path: "/sound/world/ambients/city.bank#ambient/city/park_middle"
+	max_dist: 100
+	item_color: 0x30ed3987
+	reverb: reverb.city_small
+}
+
+sound_item_data : ambient.city_park_l
+{
+	name: "city/park large"
+	sound_path: "/sound/world/ambients/city.bank#ambient/city/park_large"
+	max_dist: 100
+	item_color: 0x30ed3987
+	reverb: reverb.city_small
+}
+
+sound_item_data : ambient.city_park_n
+{
+	name: "city/park normal"
+	sound_path: "/sound/world/ambients/city.bank#ambient/city/park_normal"
+	max_dist: 100
+	item_color: 0x30ed3987
+	reverb: reverb.city_small
+}
+
+#-----------------------------------------------------------------------------------------------------------
+#--------------- COAST FOLDER ------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------------------
+
+sound_item_data : ambient.coast_ocean
+{
+	name: "coast/ocean"
+	sound_path: "/sound/world/ambients/coast.bank#ambient/coast/coast_ocean"
+	max_dist: 70
+	item_color: 0x30ed8439
+	reverb: reverb.coast
+}
+
+sound_item_data : ambient.coast_sea
+{
+	name: "coast/sea"
+	sound_path: "/sound/world/ambients/coast.bank#ambient/coast/coast_sea"
+	max_dist: 70
+	item_color: 0x30ed8439
+	reverb: reverb.coast
+}
+
+sound_item_data : ambient.coast_rivb1
+{
+	name: "coast/river big 1"
+	sound_path: "/sound/world/ambients/coast.bank#ambient/coast/river_big_1"
+	max_dist: 70
+	item_color: 0x30ed8439
+	reverb: reverb.coast
+}
+
+sound_item_data : ambient.coast_rivb2
+{
+	name: "coast/river big 2"
+	sound_path: "/sound/world/ambients/coast.bank#ambient/coast/river_big_2"
+	max_dist: 70
+	item_color: 0x30ed8439
+	reverb: reverb.coast
+}
+
+sound_item_data : ambient.coast_rivb3
+{
+	name: "coast/river big 3"
+	sound_path: "/sound/world/ambients/coast.bank#ambient/coast/river_big_3"
+	max_dist: 70
+	item_color: 0x30ed8439
+	reverb: reverb.coast
+}
+
+sound_item_data : ambient.coast_rivs1
+{
+	name: "coast/river small 1 with random birds"
+	sound_path: "/sound/world/ambients/coast.bank#ambient/coast/river_small_1_birds"
+	max_dist: 70
+	item_color: 0x30ed8439
+	reverb: reverb.coast
+}
+
+sound_item_data : ambient.coa_rivfo1
+{
+	name: "coast/river in forest temp con"
+	sound_path: "/sound/world/ambients/coast.bank#ambient/coast/river_in_forest_temp_con"
+	max_dist: 70
+	item_color: 0x30ed8439
+	reverb: reverb.forest_big
+}
+
+sound_item_data : ambient.coa_rivfo2
+{
+	name: "coast/river in forest temp dec"
+	sound_path: "/sound/world/ambients/coast.bank#ambient/coast/river_in_forest_temp_dec"
+	max_dist: 70
+	item_color: 0x30ed8439
+	reverb: reverb.forest_big
+}
+
+sound_item_data : ambient.coa_rivme1
+{
+	name: "coast/river in meadow"
+	sound_path: "/sound/world/ambients/coast.bank#ambient/coast/river_in_meadow"
+	max_dist: 70
+	item_color: 0x30ed8439
+	reverb: reverb.forest_big
+}
+
+#-----------------------------------------------------------------------------------------------------------
+#--------------- FIELD FOLDER ------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------------------
+
+sound_item_data : ambient.field_bare
+{
+	name: "field/bare"
+	sound_path: "/sound/world/ambients/field.bank#ambient/field/bare"
+	max_dist: 50
+	item_color: 0x3039eded
+	reverb: reverb.plain
+}
+
+sound_item_data : ambient.field_corn
+{
+	name: "field/corn"
+	sound_path: "/sound/world/ambients/field.bank#ambient/field/corn"
+	max_dist: 50
+	item_color: 0x3039eded
+	reverb: reverb.plain
+}
+
+sound_item_data : ambient.field_grown
+{
+	name: "field/grown"
+	sound_path: "/sound/world/ambients/field.bank#ambient/field/grown"
+	max_dist: 50
+	item_color: 0x3039eded
+	reverb: reverb.plain
+}
+
+#-----------------------------------------------------------------------------------------------------------
+#--------------- FOREST FOLDER -----------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------------------
+
+sound_item_data : ambient.forestxmas
+{
+	name: "forest/cold xmas"
+	sound_path: "/sound/world/ambients/forest.bank#ambient/forest/cold_con"
+	sound_sfx: "/sound/world/ambients/special.bank#sfx/special/xmas_1"
+	sfx_count: 1
+	max_dist: 50
+	item_color: 0x3039ed57
+	reverb: reverb.forest_big
+}
+
+sound_item_data : ambient.forestccon
+{
+	name: "forest/cold con"
+	sound_path: "/sound/world/ambients/forest.bank#ambient/forest/cold_con"
+	sound_sfx: "/sound/world/ambients/forest.bank#sfx/forest/birds_2_eu_temp"
+	sfx_count: 6
+	max_dist: 50
+	item_color: 0x3039ed57
+	reverb: reverb.forest_big
+}
+
+sound_item_data : ambient.forestcdec
+{
+	name: "forest/cold dec"
+	sound_path: "/sound/world/ambients/forest.bank#ambient/forest/cold_dec"
+	sound_sfx: "/sound/world/ambients/forest.bank#sfx/forest/birds_2_eu_temp"
+	sfx_count: 6
+	max_dist: 50
+	item_color: 0x3039ed57
+	reverb: reverb.forest_big
+}
+
+sound_item_data : ambient.foresttcon
+{
+	name: "forest/temp con"
+	sound_path: "/sound/world/ambients/forest.bank#ambient/forest/temp_con"
+	sound_sfx: "/sound/world/ambients/forest.bank#sfx/forest/birds_2_eu_temp"
+	sfx_count: 6
+	max_dist: 50
+	item_color: 0x3039ed57
+	reverb: reverb.forest_big
+}
+
+sound_item_data : ambient.foresttdec
+{
+	name: "forest/temp dec"
+	sound_path: "/sound/world/ambients/forest.bank#ambient/forest/temp_dec"
+	sound_sfx: "/sound/world/ambients/forest.bank#sfx/forest/birds_2_eu_temp"
+	sfx_count: 6
+	max_dist: 50
+	item_color: 0x3039ed57
+	reverb: reverb.forest_big
+}
+
+sound_item_data : ambient.forestwcon
+{
+	name: "forest/warm con 1"
+	sound_path: "/sound/world/ambients/forest.bank#ambient/forest/warm_con"
+	max_dist: 50
+	item_color: 0x3039ed57
+	reverb: reverb.forest_big
+}
+
+sound_item_data : ambient.forestwcon2
+{
+	name: "forest/warm con 2"
+	sound_path: "/sound/world/ambients/forest.bank#ambient/forest/warm_con_2"
+	max_dist: 50
+	item_color: 0x3039ed57
+	reverb: reverb.forest_big
+}
+
+sound_item_data : ambient.forestwdec
+{
+	name: "forest/warm dec 1"
+	sound_path: "/sound/world/ambients/forest.bank#ambient/forest/warm_dec"
+	max_dist: 50
+	item_color: 0x3039ed57
+	reverb: reverb.forest_big
+}
+
+sound_item_data : ambient.forestwdec2
+{
+	name: "forest/warm dec 2"
+	sound_path: "/sound/world/ambients/forest.bank#ambient/forest/warm_dec_2"
+	max_dist: 50
+	item_color: 0x3039ed57
+	reverb: reverb.forest_big
+}
+
+sound_item_data : ambient.foresttmed1
+{
+	name: "forest/temp meadow 1"
+	sound_path: "/sound/world/ambients/forest.bank#ambient/forest/temp_meadow_1"
+	sound_sfx: "/sound/world/ambients/forest.bank#sfx/forest/birds_2_eu_temp"
+	sfx_count: 4
+	max_dist: 50
+	item_color: 0x3039ed57
+	reverb: reverb.forest_big
+}
+sound_item_data : ambient.foresttmed2
+{
+	name: "forest/temp meadow 2"
+	sound_path: "/sound/world/ambients/forest.bank#ambient/forest/temp_meadow_2"
+	sound_sfx: "/sound/world/ambients/forest.bank#sfx/forest/birds_2_eu_temp"
+	sfx_count: 4
+	max_dist: 50
+	item_color: 0x3039ed57
+	reverb: reverb.forest_big
+}
+
+#-----------------------------------------------------------------------------------------------------------
+#--------------- MOUNTAINS FOLDER ---------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------------------
+
+sound_item_data : ambient.mount_hilly
+{
+	name: "mountains/hilly"
+	sound_path: "/sound/world/ambients/mountains.bank#ambient/mountains/hilly"
+	max_dist: 50
+	item_color: 0x30b4ed39
+	reverb: reverb.valley
+}
+
+sound_item_data : ambient.mount_rocky
+{
+	name: "mountains/rocky"
+	sound_path: "/sound/world/ambients/mountains.bank#ambient/mountains/rocky"
+	max_dist: 50
+	item_color: 0x30b4ed39
+	reverb: reverb.valley
+}
+
+sound_item_data : ambient.mount_balkan
+{
+	name: "mountains/balkan"
+	sound_path: "/sound/world/ambients/mountains.bank#ambient/mountains/rocky"
+	max_dist: 50
+	item_color: 0x30b4ed39
+	reverb: reverb.valley
+}
+
+#-----------------------------------------------------------------------------------------------------------
+#--------------- ORCHAD FOLDER ----------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------------------
+
+sound_item_data : ambient.orcha_olive
+{
+	name: "orchad/olive"
+	sound_path: "/sound/world/ambients/orchad.bank#ambient/orchad/olive"
+	max_dist: 50
+	item_color: 0x30ba39ed
+	reverb: reverb.plain
+}
+
+sound_item_data : ambient.orcha_other
+{
+	name: "orchad/other"
+	sound_path: "/sound/world/ambients/orchad.bank#ambient/orchad/other"
+	max_dist: 50
+	item_color: 0x30ba39ed
+	reverb: reverb.plain
+}
+
+sound_item_data : ambient.orcha_vine
+{
+	name: "orchad/vineyard"
+	sound_path: "/sound/world/ambients/orchad.bank#ambient/orchad/vineyard"
+	max_dist: 50
+	item_color: 0x30ba39ed
+	reverb: reverb.plain
+}
+
+#-----------------------------------------------------------------------------------------------------------
+#--------------- PLAIN FOLDER ------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------------------
+
+sound_item_data : ambient.plain_large
+{
+	name: "plain/large"
+	sound_path: "/sound/world/ambients/plain.bank#ambient/plain/large"
+	max_dist: 50
+	item_color: 0x303951ed
+	reverb: reverb.plain
+}
+
+sound_item_data : ambient.plain_norm
+{
+	name: "plain/normal"
+	sound_path: "/sound/world/ambients/plain.bank#ambient/plain/normal"
+	max_dist: 50
+	item_color: 0x303951ed
+	reverb: reverb.plain
+}
+
+sound_item_data : ambient.plain_windb
+{
+	name: "plain/wind big intensity"
+	sound_path: "/sound/world/ambients/plain.bank#ambient/plain/wind_big_1"
+	max_dist: 50
+	item_color: 0x303951ed
+	reverb: reverb.plain
+}
+
+sound_item_data : ambient.plain_windm
+{
+	name: "plain/wind mid intensity"
+	sound_path: "/sound/world/ambients/plain.bank#ambient/plain/wind_mid_1"
+	max_dist: 50
+	item_color: 0x303951ed
+	reverb: reverb.plain
+}
+
+sound_item_data : ambient.plain_xmas
+{
+	name: "plain/wind xmas"
+	sound_path: "/sound/world/ambients/plain.bank#ambient/plain/wind_low_1"
+	sound_sfx: "/sound/world/ambients/special.bank#sfx/special/xmas_1"
+	sfx_count: 1
+	max_dist: 50
+	item_color: 0x303951ed
+	reverb: reverb.plain
+}
+
+sound_item_data : ambient.plain_windl
+{
+	name: "plain/wind low intensity"
+	sound_path: "/sound/world/ambients/plain.bank#ambient/plain/wind_low_1"
+	max_dist: 50
+	item_color: 0x303951ed
+	reverb: reverb.plain
+}
+
+sound_item_data : ambient.plain_l2
+{
+	name: "plain/windy and small insects"
+	sound_path: "/sound/world/ambients/plain.bank#ambient/plain/windy_and_small_insects"
+	max_dist: 50
+	item_color: 0x303951ed
+	reverb: reverb.plain
+}
+
+sound_item_data : ambient.plain_blk1
+{
+	name: "plain/balkan"
+	sound_path: "/sound/world/ambients/plain.bank#ambient/plain/windy_and_small_insects"
+	max_dist: 50
+	item_color: 0x303951ed
+	reverb: reverb.plain
+}
+
+}

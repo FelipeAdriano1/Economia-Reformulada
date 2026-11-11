@@ -1,0 +1,55 @@
+SiiNunit
+{
+sign_template : _nameless.863.de10 {
+ template_name: turn_right_single_green
+ model_name: 1709
+ stand_model_name: ""
+ traffic_rule: null
+ boards: 0
+ items: 2
+ items[0]: _nameless.86b.1ac0
+ items[1]: _nameless.863.c250
+ dynamic_attributes: 0
+}
+
+sign_template_image : _nameless.86b.1ac0 {
+ atlas_path: "/def/sign/atlas/sr_white_fr.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: true
+ id: 1981939711
+ area_name: ml3
+ area_idx: nil
+ coords_l: 0
+ coords_r: &40247ae1
+ coords_t: &3f547ae1
+ coords_b: 0
+ z_order: 1
+ tag: ""
+}
+
+sign_template_text : _nameless.863.c250 {
+ text: XXXXXXXXX
+ font_face: "/font/sign/fr_n.font"
+ font_size: &3ecccccd
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1828192255
+ area_name: ml3
+ area_idx: nil
+ coords_l: &3d447380
+ coords_r: &4017541c
+ coords_t: &3f5074b2
+ coords_b: &3cf47bb0
+ z_order: 2
+ tag: ""
+}
+
+}

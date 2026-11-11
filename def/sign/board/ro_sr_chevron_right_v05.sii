@@ -1,0 +1,56 @@
+SiiNunit
+{
+sign_board_template : _nameless.827.cd90 {
+ board_name: "ro sr chevron right v05"
+ width: &3ffeb852
+ height: &3f35c28f
+ model_name: ""
+ items: 2
+ items[0]: _nameless.843.bca0
+ items[1]: _nameless.843.a4a0
+ dynamic_attributes: 0
+}
+
+sign_template_text : _nameless.843.bca0 {
+ text: XXXXXXXX
+ font_face: "/font/sign/blk_n.font"
+ font_size: &3eb33333
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1609170943
+ area_name: ""
+ area_idx: nil
+ coords_l: &3da66188
+ coords_r: &3ffeb852
+ coords_t: &3f275a54
+ coords_b: &3eb51b0f
+ z_order: 1
+ tag: ""
+}
+
+sign_template_text : _nameless.843.a4a0 {
+ text: XXXXXXXX
+ font_face: "/font/sign/blk_n.font"
+ font_size: &3eb33333
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1643905023
+ area_name: ""
+ area_idx: nil
+ coords_l: &3da66188
+ coords_r: &3ffeb852
+ coords_t: &3eb51b0e
+ coords_b: &3d5c0bb0
+ z_order: 2
+ tag: ""
+}
+
+}

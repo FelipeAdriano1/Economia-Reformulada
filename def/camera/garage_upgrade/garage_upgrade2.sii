@@ -1,0 +1,168 @@
+SiiNunit
+{
+
+cinematic_camera : _nameless.cinematic.camera
+{
+	cameras[]: "_nameless.camera0"
+	cameras[]: "_nameless.camera1"
+	cameras[]: "_nameless.camera2"
+	animations[]: "_nameless.camera.animation.info0"
+	animations[]: "_nameless.camera.animation.info1"
+	animations[]: "_nameless.camera.animation.info2"
+	transitions[]: "_nameless.transition.info0"
+	transitions[]: "_nameless.transition.info1"
+	transitions[]: "_nameless.transition.info2"
+	transitions[]: "_nameless.transition.info3"
+	transitions[]: "_nameless.transition.info4"
+	transitions[]: "_nameless.transition.info5"
+}
+
+orbit_camera : _nameless.camera0
+{
+	name: cameraShape2
+	camera_fov: &4259b9ec
+	roll: &00000000
+}
+
+orbit_camera : _nameless.camera1
+{
+	name: cameraShape4
+	camera_fov: &4259ba99
+	roll: &00000000
+}
+
+orbit_camera : _nameless.camera2
+{
+	name: cameraShape5
+	camera_fov: &4259ba99
+	roll: &00000000
+}
+
+camera_animation_info : _nameless.camera.animation.info0
+{
+	camera_index: 1
+	frame_count: 7
+	frame_duration: &3f855555
+	positions[]: (&c268514e, &418d0a95, &424c9fab)
+	positions[]: (&c2688b0e, &418d0a95, &424c1de0)
+	positions[]: (&c26b2e52, &418d0a95, &4246302d)
+	positions[]: (&c2733b3f, &418d0a95, &4234181c)
+	positions[]: (&c2807b54, &418d0a95, &42153b05)
+	positions[]: (&c2888d6c, &418d0a95, &41e1e756)
+	positions[]: (&c28f6b20, &418d0a95, &41a42d27)
+	positions[]: (&c2937197, &418d0a95, &417ffa0c)
+	aims[]: (&44f6ceef, &c4da2c5e, &c5a55b9e)
+	aims[]: (&44f78197, &c4da2c5e, &c5a4f73b)
+	aims[]: (&44ffaab1, &c4da2c5e, &c5a06163)
+	aims[]: (&450c4958, &c4da2c5e, &c59262c6)
+	aims[]: (&4521873d, &c4da2c5e, &c575078b)
+	aims[]: (&453a7f38, &c4da2c5e, &c53ce92d)
+	aims[]: (&454fbd1d, &c4da2c5e, &c50d2b2c)
+	aims[]: (&455c311d, &c4da2c5e, &c4e25be6)
+}
+
+camera_animation_info : _nameless.camera.animation.info1
+{
+	camera_index: 0
+	frame_count: 9
+	frame_duration: &3f555555
+	positions[]: (&bf866e6a, &41819a37, &42368c17)
+	positions[]: (&c03a6259, &41708d6d, &423952ab)
+	positions[]: (&c098c6be, &415de66b, &423c1940)
+	positions[]: (&c0d45c50, &414b3f6a, &423edfd4)
+	positions[]: (&c107f8f1, &41389868, &4241a669)
+	positions[]: (&c125c3ba, &4125f166, &42446cfd)
+	positions[]: (&c1438e83, &41134a65, &42473392)
+	positions[]: (&c161594c, &4100a363, &4249fa26)
+	positions[]: (&c17f2415, &40dbf8c3, &424cc0bb)
+	positions[]: (&c18e776f, &40b6aac0, &424f874f)
+	aims[]: (&c02503c8, &41805895, &422383b8)
+	aims[]: (&c08e1776, &416e0a28, &42264a4d)
+	aims[]: (&c0c9ad08, &415b6326, &422910e1)
+	aims[]: (&c102a14d, &4148bc25, &422bd776)
+	aims[]: (&c1206c16, &41361523, &422e9e0a)
+	aims[]: (&c13e36df, &41236e21, &4231649f)
+	aims[]: (&c15c01a8, &4110c720, &42342b33)
+	aims[]: (&c179cc71, &40fc403c, &4236f1c8)
+	aims[]: (&c18bcb9d, &40d6f239, &4239b85c)
+	aims[]: (&c19ab101, &40b1a436, &423c7ef1)
+}
+
+camera_animation_info : _nameless.camera.animation.info2
+{
+	camera_index: 2
+	frame_count: 7
+	frame_duration: &3f555555
+	positions[]: (&c1b54ca7, &40f43ad0, &c2340cbf)
+	positions[]: (&c1b4b054, &40f43ad0, &c2340c94)
+	positions[]: (&c1ad8c6b, &40f43ad0, &c2340a9b)
+	positions[]: (&c197c191, &40f43ad0, &c2340495)
+	positions[]: (&c1652b04, &40f43ad0, &c233fa4f)
+	positions[]: (&c10dc7af, &40f43ad0, &c233ee3b)
+	positions[]: (&c086df22, &40f43ad0, &c233e3f5)
+	positions[]: (&bfbecef6, &40f43ad0, &c233ddf0)
+	aims[]: (&c1cd1599, &40e882fa, &c224095c)
+	aims[]: (&c1cc7947, &40e882fa, &c2240931)
+	aims[]: (&c1c5555d, &40e882fa, &c2240738)
+	aims[]: (&c1af8a84, &40e882fa, &c2240132)
+	aims[]: (&c18a5e75, &40e882fa, &c223f6ec)
+	aims[]: (&c13d5994, &40e882fa, &c223ead8)
+	aims[]: (&c0e602ec, &40e882fa, &c223e092)
+	aims[]: (&c08ed787, &40e882fa, &c223da8d)
+}
+
+transition_info : _nameless.transition.info0
+{
+	texture: "/material/ui/white.mat"
+	color: (&00000000, &00000000, &00000000)
+	duration: &3f800000
+	type: 0
+	animation_index: 0
+}
+
+transition_info : _nameless.transition.info1
+{
+	texture: "/material/ui/white.mat"
+	color: (&00000000, &00000000, &00000000)
+	duration: &3f800000
+	type: 1
+	animation_index: 0
+}
+
+transition_info : _nameless.transition.info2
+{
+	texture: "/material/ui/white.mat"
+	color: (&00000000, &00000000, &00000000)
+	duration: &3f800000
+	type: 0
+	animation_index: 1
+}
+
+transition_info : _nameless.transition.info3
+{
+	texture: "/material/ui/white.mat"
+	color: (&00000000, &00000000, &00000000)
+	duration: &3f800000
+	type: 1
+	animation_index: 1
+}
+
+transition_info : _nameless.transition.info4
+{
+	texture: "/material/ui/white.mat"
+	color: (&00000000, &00000000, &00000000)
+	duration: &3f800000
+	type: 0
+	animation_index: 2
+}
+
+transition_info : _nameless.transition.info5
+{
+	texture: "/material/ui/white.mat"
+	color: (&00000000, &00000000, &00000000)
+	duration: &3f800000
+	type: 1
+	animation_index: 2
+}
+
+}

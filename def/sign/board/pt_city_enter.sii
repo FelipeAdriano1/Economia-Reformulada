@@ -1,0 +1,98 @@
+SiiNunit
+{
+sign_board_template : _nameless.8cc.d9c0 {
+ board_name: "pt city enter"
+ width: &40200000
+ height: 1
+ model_name: ""
+ items: 4
+ items[0]: _nameless.8ec.d900
+ items[1]: _nameless.8ec.db40
+ items[2]: _nameless.8ec.dc00
+ items[3]: _nameless.1.72ad.fca0
+ dynamic_attributes: 0
+}
+
+sign_template_text : _nameless.8ec.d900 {
+ text: XXXXXXXX
+ font_face: "/font/sign/pt_nr.font"
+ font_size: &3f000000
+ text_halign: center
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1490681855
+ area_name: ""
+ area_idx: nil
+ coords_l: &3df7bdf0
+ coords_r: &4019a268
+ coords_t: &3f684210
+ coords_b: &3e016058
+ z_order: 1
+ tag: ""
+}
+
+sign_template_text : _nameless.8ec.db40 {
+ text: XXXXXXXX
+ font_face: "/font/sign/pt_nr.font"
+ font_size: &3f000000
+ text_halign: center
+ text_valign: center
+ font_color: 0
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 2326790143
+ area_name: ""
+ area_idx: nil
+ coords_l: &3decbb30
+ coords_r: &40194a52
+ coords_t: &3f660581
+ coords_b: &3f016058
+ z_order: 2
+ tag: ""
+}
+
+sign_template_text : _nameless.8ec.dc00 {
+ text: XXXXXXXX
+ font_face: "/font/sign/pt_nr.font"
+ font_size: &3f000000
+ text_halign: center
+ text_valign: center
+ font_color: 0
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 2115371007
+ area_name: ""
+ area_idx: nil
+ coords_l: &3ddc3710
+ coords_r: &4018c631
+ coords_t: &3f059766
+ coords_b: &3e03c8f4
+ z_order: 3
+ tag: ""
+}
+
+sign_template_image : _nameless.1.72ad.fca0 {
+ atlas_path: "/def/sign/atlas/beja_symbol.sii"
+ image_idx: 0
+ color: 0
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 598474752
+ area_name: ""
+ area_idx: nil
+ coords_l: &3e0a9624
+ coords_r: &3f0c82e3
+ coords_t: &3f6320b9
+ coords_b: &3ef286be
+ z_order: 4
+ tag: ""
+}
+
+}

@@ -1,0 +1,63 @@
+SiiNunit
+{
+force_feedback_data: .ff_data {
+
+	engine_min_rpm: 500.0
+	engine_min_rpm_magnitude: 0.33
+	engine_max_rpm:	1500.0
+	engine_max_rpm_magnitude: 0.25
+	engine_load_magnitude: 1.0
+	engine_period_rpm_multiplier: 0.5
+
+	surface_period: 45000.0
+
+	surface_lf_vibration_magnitude: 0.005
+	surface_lf_vibration_min_value: 0.0
+	surface_lf_vibration_max_value: 0.25
+	surface_hf_vibration_magnitude: 0.25
+	surface_hf_vibration_min_value: 0.0
+	surface_hf_vibration_max_value: 0.3
+	surface_hf_vibration_ratio: 0.1
+	surface_vibration_kick_chance: 0.1
+	surface_vibration_kick_magnitude: 5.0
+	surface_vibration_kick_decay_speed: 15.0
+
+	collision_duration: 210000.0
+	collision_period: 70000.0
+	collision_exponent: 0.3
+
+	collision_vibration_magnitude: 3.0
+	collision_vibration_duration: 500000.0
+
+	bump_duration: 210000.0
+	bump_period: 70000.0
+	bump_min_limit: 0.15
+	bump_max_limit: 4.0
+	bump_exponent: 2.0
+
+	gearbox_grind_magnitude_rpm_range: 900.0
+	gearbox_grind_magnitude_exponent: 0.5
+	gearbox_grind_min_period: 44000.0
+	gearbox_grind_max_period: 350000.0
+	gearbox_grind_period_exp: 0.75
+
+	understeer_min_angle_range: 4.0
+	understeer_max_angle_range: 10.0
+	understeer_min_period: 30000.0
+	understeer_max_period: 80000.0
+
+	bump_vibration_magnitude: 0.1
+	bump_vibration_factor: 1.0
+	bump_vibration_duration: 50000.0
+	bump_vibration_min_limit: 5.0
+	bump_vibration_min_value: 5.0
+	bump_vibration_max_limit: 10.0
+
+	minibump_vibration_magnitude: 4.0
+	minibump_vibration_factor: 0.01
+	minibump_vibration_duration: 25000.0
+	minibump_vibration_min_limit: 0.25
+	minibump_vibration_min_value: 0.0
+	minibump_vibration_max_limit: 0.5
+}
+}

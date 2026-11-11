@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_wheel_data : 4.fwheel
+{
+	name: "@@fwheel_american_dream@@"
+	price: 9300
+	unlock: 23
+	model: "/vehicle/truck/upgrade/wheel/front_4.pmd"
+	icon: "f_wheel_04"
+	part_type: aftermarket
+}
+}

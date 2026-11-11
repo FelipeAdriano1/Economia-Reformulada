@@ -1,0 +1,133 @@
+SiiNunit
+{
+sign_template : _nameless.466.9cc0 {
+ template_name: "sr left right gedser"
+ model_name: 1389
+ stand_model_name: ""
+ traffic_rule: null
+ boards: 0
+ items: 6
+ items[0]: _nameless.58b.1b00
+ items[1]: _nameless.59b.0f30
+ items[2]: _nameless.58b.1f20
+ items[3]: _nameless.59b.1e60
+ items[4]: _nameless.59b.3330
+ items[5]: _nameless.79f.5c40
+ dynamic_attributes: 0
+}
+
+sign_template_text : _nameless.58b.1b00 {
+ text: Centrum
+ font_face: "/font/sign/dk.font"
+ font_size: &3f000000
+ text_halign: left
+ text_valign: center
+ font_color: 255
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1386086400
+ area_name: ml3
+ area_idx: nil
+ coords_l: &3e3b5ec0
+ coords_r: &407ad356
+ coords_t: &3f29f0bf
+ coords_b: 0
+ z_order: 1
+}
+
+sign_template_image : _nameless.59b.0f30 {
+ atlas_path: "/def/sign/atlas/arrow_horizontal_dk.sii"
+ image_idx: 0
+ color: 255
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 576978944
+ area_name: ml3
+ area_idx: nil
+ coords_l: &407ae149
+ coords_r: &408c7ae2
+ coords_t: &3f170a3d
+ coords_b: &3df5c28f
+ z_order: 2
+}
+
+sign_template_text : _nameless.58b.1f20 {
+ text: Centrum
+ font_face: "/font/sign/dk.font"
+ font_size: &3f000000
+ text_halign: left
+ text_valign: center
+ font_color: 255
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 2441609215
+ area_name: ml2
+ area_idx: nil
+ coords_l: &3fdec644
+ coords_r: &408e2965
+ coords_t: &3f28d9df
+ coords_b: 0
+ z_order: 3
+}
+
+sign_template_image : _nameless.59b.1e60 {
+ atlas_path: "/def/sign/atlas/arrow_horizontal_dk.sii"
+ image_idx: 0
+ color: 255
+ opacity: 1
+ hflip: true
+ vflip: false
+ image_overridable: false
+ id: 845545472
+ area_name: ml2
+ area_idx: nil
+ coords_l: &3e19999a
+ coords_r: &3f1eb852
+ coords_t: &3f170a3d
+ coords_b: &3df5c28f
+ z_order: 4
+}
+
+sign_template_image : _nameless.59b.3330 {
+ atlas_path: "/def/sign/atlas/route_frame_green_brk_dk.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: true
+ id: 3588227070
+ area_name: ml2
+ area_idx: nil
+ coords_l: &3f3914c9
+ coords_r: &3fd4dc50
+ coords_t: &3f170a3d
+ coords_b: &3df5c28e
+ z_order: 5
+}
+
+sign_template_text : _nameless.79f.5c40 {
+ text: E47
+ font_face: "/font/sign/dk.font"
+ font_size: &3ecccccd
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3d23d70a
+ id: 3998089214
+ area_name: ml2
+ area_idx: nil
+ coords_l: &3f34b2a8
+ coords_r: &3fd72620
+ coords_t: &3f0b7034
+ coords_b: &3deb4d58
+ z_order: 6
+}
+
+}

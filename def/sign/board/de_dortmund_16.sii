@@ -1,0 +1,376 @@
+SiiNunit
+{
+sign_board_template : _nameless.cd31.c0a0 {
+ board_name: "de dortmund 16"
+ width: &40733333
+ height: &40266666
+ model_name: ""
+ items: 18
+ items[0]: _nameless.3.f3cc.1560
+ items[1]: _nameless.3.f3cb.fee0
+ items[2]: _nameless.4.03fe.bb90
+ items[3]: _nameless.cd31.dc30
+ items[4]: _nameless.4.03fe.bc50
+ items[5]: _nameless.3.f3cb.f940
+ items[6]: _nameless.3.f3cc.0ac0
+ items[7]: _nameless.3.f3cc.0480
+ items[8]: _nameless.3.f3cb.f8a0
+ items[9]: _nameless.3.f3cb.ef40
+ items[10]: _nameless.3.f3cb.f300
+ items[11]: _nameless.4.03fe.a450
+ items[12]: _nameless.3.f3cb.ee00
+ items[13]: _nameless.3.f3cb.f4e0
+ items[14]: _nameless.3.f3cc.0520
+ items[15]: _nameless.3.f3cb.eea0
+ items[16]: _nameless.3.f3cc.0e80
+ items[17]: _nameless.4.03fe.d390
+ dynamic_attributes: 0
+}
+
+sign_template_image : _nameless.3.f3cc.1560 {
+ atlas_path: "/def/sign/atlas/arrow_up_sr_long2_de.sii"
+ image_idx: 0
+ color: 0
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 740294656
+ area_name: ""
+ area_idx: nil
+ coords_l: &3ff62252
+ coords_r: &400d5783
+ coords_t: &3fe174ab
+ coords_b: &3f93edfd
+ z_order: 1
+ tag: ""
+}
+
+sign_template_image : _nameless.3.f3cb.fee0 {
+ atlas_path: "/def/sign/atlas/single_line_swe.sii"
+ image_idx: 0
+ color: 0
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 4158914558
+ area_name: ""
+ area_idx: nil
+ coords_l: &3ff1ea46
+ coords_r: &400e3dc5
+ coords_t: &3fbb1270
+ coords_b: &3b7f6800
+ z_order: 2
+ tag: ""
+}
+
+sign_template_text : _nameless.4.03fe.bb90 {
+ text: "DO-Mitte<br>    <sub scale=0.8> </sub>-Huckarde<br>    <sub scale=0.8> </sub>-Nette"
+ font_face: "/font/sign/de_n.font"
+ font_size: &3e99999a
+ text_halign: left
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &bd23d70a
+ letter_spacing: &3ca3d70a
+ id: 1939079167
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f8dc659
+ coords_r: &403ffb1c
+ coords_t: &40266666
+ coords_b: &3fe37408
+ z_order: 3
+ tag: ""
+}
+
+sign_template_frame : _nameless.cd31.dc30 {
+ frame_path: "/def/sign/frame/frame_white_hu.sii"
+ color: 16777215
+ opacity: 1
+ id: 4026269694
+ area_name: ""
+ area_idx: nil
+ coords_l: &3cb1f6c0
+ coords_r: &3ef3cf21
+ coords_t: &3f79cac4
+ coords_b: &3f34535c
+ z_order: 4
+ tag: ""
+}
+
+sign_template_text : _nameless.4.03fe.bc50 {
+ text: IKA
+ font_face: "/font/sign/de_n.font"
+ font_size: &3e99999a
+ text_halign: left
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &bd4ccccd
+ letter_spacing: 0
+ id: 2268594175
+ area_name: ""
+ area_idx: nil
+ coords_l: &3d515e38
+ coords_r: &3f02b9f4
+ coords_t: &3f7db2f8
+ coords_b: &3f3143d4
+ z_order: 5
+ tag: ""
+}
+
+sign_template_image : _nameless.3.f3cb.f940 {
+ atlas_path: "/def/sign/atlas/cross_orange.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 2097807359
+ area_name: ""
+ area_idx: nil
+ coords_l: &3ff62c6c
+ coords_r: &400bc6ca
+ coords_t: &3fe01235
+ coords_b: &3fbeb10c
+ z_order: 6
+ tag: ""
+}
+
+sign_template_image : _nameless.3.f3cc.0ac0 {
+ atlas_path: "/def/sign/atlas/arrow_right_long_sk.sii"
+ image_idx: 0
+ color: 0
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 2144731135
+ area_name: ""
+ area_idx: nil
+ coords_l: &401ed949
+ coords_r: &40449abf
+ coords_t: &3f24897c
+ coords_b: &3eb20d22
+ z_order: 7
+ tag: ""
+}
+
+sign_template_image : _nameless.3.f3cc.0480 {
+ atlas_path: "/def/sign/atlas/arrow_up_sr_long2_de.sii"
+ image_idx: 0
+ color: 0
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 419168256
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fc834ff
+ coords_r: &3fecc1b3
+ coords_t: &3fe174ab
+ coords_b: &3f93edfd
+ z_order: 8
+ tag: ""
+}
+
+sign_template_image : _nameless.3.f3cb.f8a0 {
+ atlas_path: "/def/sign/atlas/single_line_swe.sii"
+ image_idx: 0
+ color: 0
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 1855324159
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fc3fcf3
+ coords_r: &3fee8e37
+ coords_t: &3fbb1270
+ coords_b: &3b7f6800
+ z_order: 9
+ tag: ""
+}
+
+sign_template_image : _nameless.3.f3cb.ef40 {
+ atlas_path: "/def/sign/atlas/cross_orange.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 512753664
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fc83f19
+ coords_r: &3fe9a041
+ coords_t: &3fe01235
+ coords_b: &3fbeb10c
+ z_order: 10
+ tag: ""
+}
+
+sign_template_image : _nameless.3.f3cb.f300 {
+ atlas_path: "/def/sign/atlas/cross_orange.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 2922512382
+ area_name: ""
+ area_idx: nil
+ coords_l: &40323805
+ coords_r: &40421e73
+ coords_t: &3f1e94e2
+ coords_b: &3ebdf657
+ z_order: 13
+ tag: ""
+}
+
+sign_template_text : _nameless.4.03fe.a450 {
+ text: "DO-Mengede"
+ font_face: "/font/sign/de_n.font"
+ font_size: &3e8f5c29
+ text_halign: left
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &bd23d70a
+ letter_spacing: &3c23d70a
+ id: 4176740350
+ area_name: ""
+ area_idx: nil
+ coords_l: &401a3fe6
+ coords_r: &4072ca66
+ coords_t: &3f854926
+ coords_b: &3f322b23
+ z_order: 11
+ tag: ""
+}
+
+sign_template_image : _nameless.3.f3cb.ee00 {
+ atlas_path: "/def/sign/atlas/single_line_horizontal_swe.sii"
+ image_idx: 0
+ color: 0
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 632553472
+ area_name: ""
+ area_idx: nil
+ coords_l: &40036e80
+ coords_r: &403aae54
+ coords_t: &3f2a3589
+ coords_b: &3ea776bc
+ z_order: 12
+ tag: ""
+}
+
+sign_template_image : _nameless.3.f3cb.f4e0 {
+ atlas_path: "/def/sign/atlas/speed_limit_ro.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 2777546751
+ area_name: ""
+ area_idx: nil
+ coords_l: &40117f15
+ coords_r: &402e0b0d
+ coords_t: &3f382c32
+ coords_b: &3e8bf8a4
+ z_order: 14
+ tag: ""
+}
+
+sign_template_image : _nameless.3.f3cc.0520 {
+ atlas_path: "/def/sign/atlas/vehicle_truck_de.sii"
+ image_idx: 0
+ color: 0
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 3942252542
+ area_name: ""
+ area_idx: nil
+ coords_l: &4016b631
+ coords_r: &4028d3f1
+ coords_t: &3f113202
+ coords_b: &3ed9ed04
+ z_order: 15
+ tag: ""
+}
+
+sign_template_image : _nameless.3.f3cb.eea0 {
+ atlas_path: "/def/sign/atlas/arrow_right_long_sk.sii"
+ image_idx: 0
+ color: 0
+ opacity: 1
+ hflip: true
+ vflip: false
+ image_overridable: false
+ id: 2740846591
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f3151f9
+ coords_r: &3fa42be8
+ coords_t: &3f24897c
+ coords_b: &3eb20d22
+ z_order: 16
+ tag: ""
+}
+
+sign_template_image : _nameless.3.f3cc.0e80 {
+ atlas_path: "/def/sign/atlas/single_line_horizontal_swe.sii"
+ image_idx: 0
+ color: 0
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 3542482942
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f569280
+ coords_r: &3fd9c8e8
+ coords_t: &3f2a3589
+ coords_b: &3ea776bc
+ z_order: 17
+ tag: ""
+}
+
+sign_template_text : _nameless.4.03fe.d390 {
+ text: "DO-Eving<br>     <sub scale=0.3> </sub>-Lindenhorst"
+ font_face: "/font/sign/de_n.font"
+ font_size: &3e8f5c29
+ text_halign: left
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: 0
+ letter_spacing: &3c23d70a
+ id: 308543488
+ area_name: ""
+ area_idx: nil
+ coords_l: &3c6bbe00
+ coords_r: &401a3e9f
+ coords_t: &3fd99833
+ coords_b: &3f5c7732
+ z_order: 18
+ tag: ""
+}
+
+}

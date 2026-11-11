@@ -1,0 +1,186 @@
+SiiNunit
+{
+sign_board_template : _nameless.7b4.6180 {
+ board_name: "es board gijon 8"
+ width: &4051eb85
+ height: &40533333
+ model_name: ibe_16003
+ items: 9
+ items[0]: _nameless.7b4.4f80
+ items[1]: _nameless.7b4.70b0
+ items[2]: _nameless.7c4.8f30
+ items[3]: _nameless.7c4.89f0
+ items[4]: _nameless.7c8.18e0
+ items[5]: _nameless.7c8.1a20
+ items[6]: _nameless.7b4.5d90
+ items[7]: _nameless.7c4.6d70
+ items[8]: _nameless.7c8.2a60
+ dynamic_attributes: 0
+}
+
+sign_template_frame : _nameless.7b4.4f80 {
+ frame_path: "/def/sign/frame/frame_trans_round_es.sii"
+ color: 16777215
+ opacity: 1
+ id: 2515009535
+ area_name: ""
+ area_idx: nil
+ coords_l: &3d124900
+ coords_r: &40500000
+ coords_t: &40503532
+ coords_b: &3cd4c780
+ z_order: 1
+ tag: ""
+}
+
+sign_template_frame : _nameless.7b4.70b0 {
+ frame_path: "/def/sign/frame/frame_trans_es.sii"
+ color: 16777215
+ opacity: 1
+ id: 1351745536
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f67a1ba
+ coords_r: &401860b6
+ coords_t: &40401747
+ coords_b: &40219249
+ z_order: 2
+ tag: ""
+}
+
+sign_template_text : _nameless.7c4.8f30 {
+ text: "GJ-81"
+ font_face: "/font/sign/es_hw.font"
+ font_size: &3f07ae14
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3d23d70a
+ id: 2023358463
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f67a1ba
+ coords_r: &401853b0
+ coords_t: &40401747
+ coords_b: &401f7e56
+ z_order: 3
+ tag: ""
+}
+
+sign_template_text : _nameless.7c4.89f0 {
+ text: GIJON
+ font_face: "/font/sign/es_hw.font"
+ font_size: &3f333333
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3d23d70a
+ id: 675807232
+ area_name: ""
+ area_idx: nil
+ coords_l: 0
+ coords_r: &40298ef6
+ coords_t: &40109c3a
+ coords_b: &3fcad4d9
+ z_order: 4
+ tag: ""
+}
+
+sign_template_image : _nameless.7c8.18e0 {
+ atlas_path: "/def/sign/atlas/center_blue_es.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 709623808
+ area_name: ""
+ area_idx: nil
+ coords_l: &401eb388
+ coords_r: &403b109f
+ coords_t: &400a6c6e
+ coords_b: &3fdc1ead
+ z_order: 5
+ tag: ""
+}
+
+sign_template_image : _nameless.7c8.1a20 {
+ atlas_path: "/def/sign/atlas/arrow_lane_down_es.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 3623747582
+ area_name: ""
+ area_idx: nil
+ coords_l: &3faa3d6a
+ coords_r: &3ffa4436
+ coords_t: &3f2a976e
+ coords_b: &3e6d003a
+ z_order: 6
+ tag: ""
+}
+
+sign_template_frame : _nameless.7b4.5d90 {
+ frame_path: "/def/sign/frame/green_sq_fr.sii"
+ color: 16777215
+ opacity: 1
+ id: 724828160
+ area_name: ""
+ area_idx: nil
+ coords_l: &3e9c4280
+ coords_r: &403f2b39
+ coords_t: &3faa2577
+ coords_b: &3f6c04ff
+ z_order: 7
+ tag: ""
+}
+
+sign_template_text : _nameless.7c4.6d70 {
+ text: "Pza. Humedal"
+ font_face: "/font/sign/es_hw.font"
+ font_size: &3ecccccd
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3d75c28f
+ id: 2729443327
+ area_name: ""
+ area_idx: nil
+ coords_l: 0
+ coords_r: &4051eb85
+ coords_t: &3fa8ba2f
+ coords_b: &3f6a63bd
+ z_order: 8
+ tag: ""
+}
+
+sign_template_image : _nameless.7c8.2a60 {
+ atlas_path: "/def/sign/atlas/cross_orange.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 1026162688
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fb223e3
+ coords_r: &3ff25dbd
+ coords_t: &3f332596
+ coords_b: &3e4ac798
+ z_order: 9
+ tag: ""
+}
+
+}

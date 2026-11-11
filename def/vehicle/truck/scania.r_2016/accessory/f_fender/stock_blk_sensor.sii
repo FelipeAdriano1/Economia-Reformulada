@@ -1,0 +1,36 @@
+SiiNunit
+{
+accessory_addon_data : stock_blk_s.scania.r_2016.f_fender
+{
+	name: "@@fender_plastic_blind_spot_sensor@@"
+	price: 960
+	unlock: 0
+	icon: "truck/scania_2016/accessory/f_fender/stk_blk_s"
+	part_type: factory
+
+	exterior_model: "/vehicle/truck/scania_2016/accessory/f_fender/stk_blk_s.pmd"
+
+	suitable_for[]: "mid_blk.scania.r_2016.f_bumper"
+	suitable_for[]: "mid_nofog.scania.r_2016.f_bumper"
+	suitable_for[]: "mid_p.scania.r_2016.f_bumper"
+	suitable_for[]: "mid_p_nofog.scania.r_2016.f_bumper"
+	suitable_for[]: "low_blk.scania.r_2016.f_bumper"
+	suitable_for[]: "low_nofog.scania.r_2016.f_bumper"
+	suitable_for[]: "low_p.scania.r_2016.f_bumper"
+	suitable_for[]: "low_p_nofog.scania.r_2016.f_bumper"
+	suitable_for[]: "mid_sg.scania.r_2016.f_bumper"
+	suitable_for[]: "mid_sg_nofog.scania.r_2016.f_bumper"
+	suitable_for[]: "low_sg.scania.r_2016.f_bumper"
+	suitable_for[]: "low_sg_nofog.scania.r_2016.f_bumper"
+
+	suitable_for[]: "mid_40mm_p.scania.r_2016.f_bumper"
+	suitable_for[]: "mid_40mm_blk.scania.r_2016.f_bumper"
+	suitable_for[]: "mid_40mm_sg.scania.r_2016.f_bumper"
+
+	suitable_for[]: "low_40mm_p.scania.r_2016.f_bumper"
+	suitable_for[]: "low_40mm_blk.scania.r_2016.f_bumper"
+	suitable_for[]: "low_40mm_sg.scania.r_2016.f_bumper"
+
+	defaults[]: "/def/vehicle/truck/scania.r_2016/accessory/f_fendr_chs/plastic.sii"
+}
+}

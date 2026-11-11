@@ -1,0 +1,214 @@
+SiiNunit
+{
+sign_board_template : _nameless.1.3ee8.1680 {
+ board_name: "nl zaarderheiken 01"
+ width: 4
+ height: 2
+ model_name: lux_5g01t
+ items: 10
+ items[0]: _nameless.f54.2cc0
+ items[1]: _nameless.101c.85f0
+ items[2]: _nameless.f54.2fe0
+ items[3]: _nameless.f54.3800
+ items[4]: _nameless.1.3ee8.1d40
+ items[5]: _nameless.101c.8830
+ items[6]: _nameless.1.3ee8.1dd0
+ items[7]: _nameless.101c.6370
+ items[8]: _nameless.101c.6c70
+ items[9]: _nameless.101c.6df0
+ dynamic_attributes: 0
+}
+
+sign_template_image : _nameless.f54.2cc0 {
+ atlas_path: "/def/sign/atlas/autobahn_nr_de.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 3500802046
+ area_name: ""
+ area_idx: nil
+ coords_l: &4057434c
+ coords_r: &40825ef8
+ coords_t: &4009820e
+ coords_b: &3fda2ad0
+ z_order: 1
+ tag: ""
+}
+
+sign_template_text : _nameless.101c.85f0 {
+ text: 40
+ font_face: "/font/sign/de_n.font"
+ font_size: &3ecccccd
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3ca3d70a
+ id: 2963275774
+ area_name: ""
+ area_idx: nil
+ coords_l: &404f0d25
+ coords_r: &40867a0c
+ coords_t: &4009370c
+ coords_b: &3fd839fe
+ z_order: 2
+ tag: ""
+}
+
+sign_template_image : _nameless.f54.2fe0 {
+ atlas_path: "/def/sign/atlas/arrow_lane_up_nl.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 3977379838
+ area_name: ""
+ area_idx: nil
+ coords_l: &4080f5c1
+ coords_r: &40966667
+ coords_t: &3f6fa1dc
+ coords_b: &3e88397c
+ z_order: 3
+ tag: ""
+}
+
+sign_template_image : _nameless.f54.3800 {
+ atlas_path: "/def/sign/atlas/arrow_lane_up_nl.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 1590034431
+ area_name: ""
+ area_idx: nil
+ coords_l: &3e99999b
+ coords_r: &3f785204
+ coords_t: &3f6fa1dc
+ coords_b: &3e88397c
+ z_order: 4
+ tag: ""
+}
+
+sign_template_frame : _nameless.1.3ee8.1d40 {
+ frame_path: "/def/sign/frame/frame_green_nl.sii"
+ color: 16777215
+ opacity: 1
+ id: 2319712255
+ area_name: ""
+ area_idx: nil
+ coords_l: &40228f59
+ coords_r: &4070a3d3
+ coords_t: &3f58979e
+ coords_b: &3e88397c
+ z_order: 5
+ tag: ""
+}
+
+sign_template_text : _nameless.101c.8830 {
+ text: "E<sub> </sub>34"
+ font_face: "/font/sign/nl_hw_w.font"
+ font_size: &3f000000
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 4033216510
+ area_name: ""
+ area_idx: nil
+ coords_l: &40228f59
+ coords_r: &4070a3d3
+ coords_t: &3f5779c8
+ coords_b: &3e8a7528
+ z_order: 6
+ tag: ""
+}
+
+sign_template_frame : _nameless.1.3ee8.1dd0 {
+ frame_path: "/def/sign/frame/frame_red_nl.sii"
+ color: 16777215
+ opacity: 1
+ id: 1158414336
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fa0b0b8
+ coords_r: &401a3d72
+ coords_t: &3f58979e
+ coords_b: &3e88397c
+ z_order: 7
+ tag: ""
+}
+
+sign_template_text : _nameless.101c.6370 {
+ text: "A<sub> </sub>67"
+ font_face: "/font/sign/nl_hw_w.font"
+ font_size: &3f000000
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1867120639
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fa0b0b8
+ coords_r: &401a3d72
+ coords_t: &3f58979e
+ coords_b: &3e88397c
+ z_order: 8
+ tag: ""
+}
+
+sign_template_text : _nameless.101c.6c70 {
+ text: Venlo
+ font_face: "/font/sign/nl_hw_w.font"
+ font_size: &3f19999a
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 3219259390
+ area_name: ""
+ area_idx: nil
+ coords_l: &3b2b5000
+ coords_r: 5
+ coords_t: &3fd0a3d8
+ coords_b: &3f83d70d
+ z_order: 9
+ tag: ""
+}
+
+sign_template_text : _nameless.101c.6df0 {
+ text: "Duisburg        "
+ font_face: "/font/sign/nl_hw_w.font"
+ font_size: &3f19999a
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 143392768
+ area_name: ""
+ area_idx: nil
+ coords_l: 0
+ coords_r: &409fea96
+ coords_t: &400ea49e
+ coords_b: &3fd07c70
+ z_order: 10
+ tag: ""
+}
+
+}

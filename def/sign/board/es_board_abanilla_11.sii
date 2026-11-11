@@ -1,0 +1,94 @@
+SiiNunit
+{
+sign_board_template : _nameless.7fb.bb20 {
+ board_name: "es board abanilla 11"
+ width: &40433333
+ height: &3fb5c28f
+ model_name: ""
+ items: 4
+ items[0]: _nameless.7fb.b460
+ items[1]: _nameless.804.5e10
+ items[2]: _nameless.804.3b90
+ items[3]: _nameless.804.5390
+ dynamic_attributes: 0
+}
+
+sign_template_frame : _nameless.7fb.b460 {
+ frame_path: "/def/sign/frame/frame_yellow_es.sii"
+ color: 52479
+ opacity: 1
+ id: 3932553214
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f9a7b9c
+ coords_r: &40178a4c
+ coords_t: &3fa2b1c4
+ coords_b: &3f786780
+ z_order: 1
+ tag: ""
+}
+
+sign_template_text : _nameless.804.5e10 {
+ text: "CV-840"
+ font_face: "/font/sign/es_sr.font"
+ font_size: &3e99999a
+ text_halign: center
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 3348627454
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f9e4b02
+ coords_r: &4015a299
+ coords_t: &3fa13769
+ coords_b: &3f7b5c3a
+ z_order: 2
+ tag: ""
+}
+
+sign_template_text : _nameless.804.3b90 {
+ text: "EL PIN\xc3\x93S"
+ font_face: "/font/sign/es_sr.font"
+ font_size: &3ecccccd
+ text_halign: center
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 2353790975
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f000002
+ coords_r: &4041d6ce
+ coords_t: &3f85a54c
+ coords_b: &3eab9fc6
+ z_order: 3
+ tag: ""
+}
+
+sign_template_text : _nameless.804.5390 {
+ text: "El Rodriguillo"
+ font_face: "/font/sign/es_sr.font"
+ font_size: &3e99999a
+ text_halign: center
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 3894411262
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f000002
+ coords_r: &4041d6ce
+ coords_t: &3f11a7b9
+ coords_b: &3bbc5280
+ z_order: 4
+ tag: ""
+}
+
+}

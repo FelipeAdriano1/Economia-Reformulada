@@ -1,0 +1,178 @@
+SiiNunit
+{
+sign_board_template : _nameless.832.7a90 {
+ board_name: "tr hw arm exit left v07"
+ width: &40651eb8
+ height: &405f5c29
+ model_name: ""
+ items: 8
+ items[0]: _nameless.843.1030
+ items[1]: _nameless.839.2410
+ items[2]: _nameless.839.2ad0
+ items[3]: _nameless.839.3a90
+ items[4]: _nameless.843.1fd0
+ items[5]: _nameless.843.1f30
+ items[6]: _nameless.843.2070
+ items[7]: _nameless.843.0130
+ dynamic_attributes: 0
+}
+
+sign_template_image : _nameless.843.1030 {
+ atlas_path: "/def/sign/atlas/arrow_med_exit_tr.sii"
+ image_idx: 0
+ color: 0
+ opacity: 1
+ hflip: true
+ vflip: false
+ image_overridable: false
+ id: 1475346431
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fbb0bc2
+ coords_r: &400798d7
+ coords_t: &3f6d097b
+ coords_b: &3e897b42
+ z_order: 4
+ tag: ""
+}
+
+sign_template_text : _nameless.839.2410 {
+ text: "Bir yere"
+ font_face: "/font/sign/tr_hw.font"
+ font_size: &3f266666
+ text_halign: left
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: -0
+ id: 2127691775
+ area_name: ""
+ area_idx: nil
+ coords_l: &3ea5ed08
+ coords_r: &40617b42
+ coords_t: &404e3ef5
+ coords_b: &40201e5c
+ z_order: 5
+ tag: ""
+}
+
+sign_template_text : _nameless.839.2ad0 {
+ text: "Bir yere"
+ font_face: "/font/sign/tr_hw.font"
+ font_size: &3f266666
+ text_halign: left
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: -0
+ id: 784596992
+ area_name: ""
+ area_idx: nil
+ coords_l: &3ea5ed08
+ coords_r: &40617b42
+ coords_t: &401fb862
+ coords_b: &3fe32f90
+ z_order: 6
+ tag: ""
+}
+
+sign_template_text : _nameless.839.3a90 {
+ text: "Bir yere"
+ font_face: "/font/sign/tr_hw.font"
+ font_size: &3f266666
+ text_halign: left
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: -0
+ id: 3019243518
+ area_name: ""
+ area_idx: nil
+ coords_l: &3ea5ed08
+ coords_r: &40617b42
+ coords_t: &3fe363bd
+ coords_b: &3f872284
+ z_order: 7
+ tag: ""
+}
+
+sign_template_image : _nameless.843.1fd0 {
+ atlas_path: "/def/sign/atlas/arrow_med_turn_tr.sii"
+ image_idx: 0
+ color: 0
+ opacity: 0
+ hflip: true
+ vflip: false
+ image_overridable: true
+ id: 2400845823
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fb734b8
+ coords_r: &4009d33f
+ coords_t: &3f7425ed
+ coords_b: &3e6d0984
+ z_order: 3
+ tag: ""
+}
+
+sign_template_image : _nameless.843.1f30 {
+ atlas_path: "/def/sign/atlas/cross_orange.sii"
+ image_idx: 0
+ color: nil
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 3810656254
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fb3fe96
+ coords_r: &400bdf84
+ coords_t: &3f7f7da6
+ coords_b: &3e41da90
+ z_order: 8
+ tag: ""
+}
+
+sign_template_image : _nameless.843.2070 {
+ atlas_path: "/def/sign/atlas/arrow_med_down_tr.sii"
+ image_idx: 0
+ color: 0
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 3960340478
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fab1445
+ coords_r: &400f9496
+ coords_t: &3f6646d2
+ coords_b: &3e970094
+ z_order: 2
+ tag: ""
+}
+
+sign_template_image : _nameless.843.0130 {
+ atlas_path: "/def/sign/atlas/airport_diagonal_tr.sii"
+ image_idx: 0
+ color: 0
+ opacity: 0
+ hflip: true
+ vflip: false
+ image_overridable: true
+ id: 2159017983
+ area_name: ""
+ area_idx: nil
+ coords_l: &4027a803
+ coords_r: &404ec475
+ coords_t: &404a12f6
+ coords_b: &4022f684
+ z_order: 1
+ tag: ""
+}
+
+}

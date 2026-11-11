@@ -1,0 +1,97 @@
+SiiNunit
+{
+sign_template : _nameless.8a1.4a70 {
+ template_name: str_left_double_white
+ model_name: 1550
+ stand_model_name: ""
+ traffic_rule: null
+ boards: 0
+ items: 4
+ items[0]: _nameless.891.8c20
+ items[1]: _nameless.8a1.2a30
+ items[2]: _nameless.8a1.4830
+ items[3]: _nameless.891.8e00
+ dynamic_attributes: 0
+}
+
+sign_template_image : _nameless.891.8c20 {
+ atlas_path: "/def/sign/atlas/arrow_right_fr.sii"
+ image_idx: 0
+ color: 0
+ opacity: 1
+ hflip: true
+ vflip: false
+ image_overridable: false
+ id: 3952476158
+ area_name: ml4
+ area_idx: nil
+ coords_l: &3da45fd0
+ coords_r: &3f2e19cc
+ coords_t: &3f36fbb4
+ coords_b: &3deb6f1f
+ z_order: 1
+ tag: ""
+}
+
+sign_template_text : _nameless.8a1.2a30 {
+ text: XXXXX
+ font_face: "/font/sign/fr_b.font"
+ font_size: &3f000000
+ text_halign: left
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 2481455103
+ area_name: ml4
+ area_idx: nil
+ coords_l: &3f36f6cc
+ coords_r: &401f6412
+ coords_t: &3f547ae1
+ coords_b: 0
+ z_order: 2
+ tag: ""
+}
+
+sign_template_text : _nameless.8a1.4830 {
+ text: XXXXX
+ font_face: "/font/sign/fr_b.font"
+ font_size: &3f000000
+ text_halign: left
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 3399876606
+ area_name: ml3
+ area_idx: nil
+ coords_l: &3d8e6d40
+ coords_r: &3fef6caa
+ coords_t: &3f547ae1
+ coords_b: 0
+ z_order: 3
+ tag: ""
+}
+
+sign_template_image : _nameless.891.8e00 {
+ atlas_path: "/def/sign/atlas/arrow_straight_fr.sii"
+ image_idx: 0
+ color: 0
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 3887071230
+ area_name: ml3
+ area_idx: nil
+ coords_l: &3ff004e9
+ coords_r: &401e65e8
+ coords_t: &3f36fbb4
+ coords_b: &3deb6f20
+ z_order: 4
+ tag: ""
+}
+
+}

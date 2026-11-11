@@ -1,0 +1,214 @@
+SiiNunit
+{
+sign_board_template : _nameless.783.ece0 {
+ board_name: "fi sr panel cross straight v02"
+ width: &402ccccd
+ height: &3fa66666
+ model_name: ""
+ items: 10
+ items[0]: _nameless.788.5770
+ items[1]: _nameless.784.0120
+ items[2]: _nameless.77a.4700
+ items[3]: _nameless.77a.4660
+ items[4]: _nameless.77a.38a0
+ items[5]: _nameless.77a.3940
+ items[6]: _nameless.77a.2b80
+ items[7]: _nameless.77a.2c20
+ items[8]: _nameless.788.5830
+ items[9]: _nameless.788.6130
+ dynamic_attributes: 0
+}
+
+sign_template_text : _nameless.788.5770 {
+ text: XXXXXX
+ font_face: "/font/sign/fi.font"
+ font_size: &3f266666
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 432668672
+ area_name: ""
+ area_idx: nil
+ coords_l: 0
+ coords_r: &402ccccc
+ coords_t: &3f963bea
+ coords_b: &3f30121e
+ z_order: 2
+ tag: ""
+}
+
+sign_template_frame : _nameless.784.0120 {
+ frame_path: "/def/sign/frame/white_square_fi.sii"
+ color: 16777215
+ opacity: 0
+ id: 4242145278
+ area_name: ""
+ area_idx: nil
+ coords_l: &3e1c55f8
+ coords_r: &40232cf2
+ coords_t: &3f96b163
+ coords_b: &3f30fd80
+ z_order: 1
+ tag: ""
+}
+
+sign_template_image : _nameless.77a.4700 {
+ atlas_path: "/def/sign/atlas/cross_orange.sii"
+ image_idx: 0
+ color: nil
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 208404480
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f91ddf8
+ coords_r: &3fc84162
+ coords_t: &3f1ce069
+ coords_b: &3e11b7d8
+ z_order: 3
+ tag: ""
+}
+
+sign_template_image : _nameless.77a.4660 {
+ atlas_path: "/def/sign/atlas/arrow_up_fi.sii"
+ image_idx: 0
+ color: nil
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 1540882431
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f8ccccd
+ coords_r: &3fcccccd
+ coords_t: &3f2160b0
+ coords_b: &3e0582c4
+ z_order: 4
+ tag: ""
+}
+
+sign_template_image : _nameless.77a.38a0 {
+ atlas_path: "/def/sign/atlas/sec_road_fi.sii"
+ image_idx: 0
+ color: nil
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 1457782783
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fece069
+ coords_r: &4021f551
+ coords_t: &3f2160b0
+ coords_b: &3e0582c4
+ z_order: 5
+ tag: ""
+}
+
+sign_template_image : _nameless.77a.3940 {
+ atlas_path: "/def/sign/atlas/main_road_fi.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: true
+ id: 2929459198
+ area_name: ""
+ area_idx: nil
+ coords_l: &3ff86588
+ coords_r: &401c32c3
+ coords_t: &3f2160b0
+ coords_b: &3e0582c4
+ z_order: 6
+ tag: ""
+}
+
+sign_template_image : _nameless.77a.2b80 {
+ atlas_path: "/def/sign/atlas/arrow_up_fi.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 3476946942
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fa5da54
+ coords_r: &3fe5da54
+ coords_t: &3f2160b0
+ coords_b: &3e0582c4
+ z_order: 7
+ tag: ""
+}
+
+sign_template_image : _nameless.77a.2c20 {
+ atlas_path: "/def/sign/atlas/eu_road_fi.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: true
+ id: 1859911679
+ area_name: ""
+ area_idx: nil
+ coords_l: &3e23aa08
+ coords_r: &3f947545
+ coords_t: &3f2160b0
+ coords_b: &3e0582c4
+ z_order: 8
+ tag: ""
+}
+
+sign_template_text : _nameless.788.5830 {
+ text: 0
+ font_face: "/font/sign/fi.font"
+ font_size: &3f0ccccd
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3cf5c28f
+ id: 2698379263
+ area_name: ""
+ area_idx: nil
+ coords_l: &3ff00142
+ coords_r: &40210a65
+ coords_t: &3f10474a
+ coords_b: &3e49e862
+ z_order: 9
+ tag: ""
+}
+
+sign_template_text : _nameless.788.6130 {
+ text: "E 00"
+ font_face: "/font/sign/fi.font"
+ font_size: &3f0ccccd
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3cf5c28f
+ id: 408682496
+ area_name: ""
+ area_idx: nil
+ coords_l: &3e47b808
+ coords_r: &3f9085d5
+ coords_t: &3f10474a
+ coords_b: &3e49e862
+ z_order: 10
+ tag: ""
+}
+
+}

@@ -1,0 +1,192 @@
+SiiNunit
+{
+sign_board_template : _nameless.8c8.3360 {
+ board_name: "it sr roundabout milano 01"
+ width: &40470a3d
+ height: &40328f5c
+ model_name: ""
+ items: 9
+ items[0]: _nameless.62c.7e90
+ items[1]: _nameless.8cb.1c30
+ items[2]: _nameless.8c8.3c60
+ items[3]: _nameless.8cb.0330
+ items[4]: _nameless.62c.7710
+ items[5]: _nameless.8cb.12d0
+ items[6]: _nameless.62c.77d0
+ items[7]: _nameless.62c.7950
+ items[8]: _nameless.8c8.3d80
+ dynamic_attributes: 0
+}
+
+sign_template_text : _nameless.62c.7e90 {
+ text: INVERUNO
+ font_face: "/font/sign/it_s.font"
+ font_size: &3eb33333
+ text_halign: left
+ text_valign: center
+ font_color: 0
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 2856321023
+ area_name: ""
+ area_idx: nil
+ coords_l: &3e460eb8
+ coords_r: &3fe0ebfa
+ coords_t: &3f93d10a
+ coords_b: &3f3fdfc6
+ z_order: 3
+ tag: ""
+}
+
+sign_template_image : _nameless.8cb.1c30 {
+ atlas_path: "/def/sign/atlas/industrial_it.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: true
+ id: 2405433343
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f4952e4
+ coords_r: &3f908ffc
+ coords_t: &3f45b76e
+ coords_b: &3edbd4b8
+ z_order: 4
+ tag: ""
+}
+
+sign_template_frame : _nameless.8c8.3c60 {
+ frame_path: "/def/sign/frame/white_sq_fr.sii"
+ color: 16777215
+ opacity: 1
+ id: 4094427134
+ area_name: ""
+ area_idx: nil
+ coords_l: &3e29b728
+ coords_r: &3fe3e727
+ coords_t: &3f9dd6b5
+ coords_b: &3ec717ae
+ z_order: 2
+ tag: ""
+}
+
+sign_template_image : _nameless.8cb.0330 {
+ atlas_path: "/def/sign/atlas/arrow_roundabout_up_left_it.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 3794927614
+ area_name: ""
+ area_idx: nil
+ coords_l: &3febf915
+ coords_r: &40378dd9
+ coords_t: &3fc52976
+ coords_b: &3e37fbf0
+ z_order: 5
+ tag: ""
+}
+
+sign_template_text : _nameless.62c.7710 {
+ text: MILANO
+ font_face: "/font/sign/it_n.font"
+ font_size: &3eb33333
+ text_halign: left
+ text_valign: center
+ font_color: 16777215
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3ca3d70a
+ id: 902955008
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f3def7c
+ coords_r: &4039ce73
+ coords_t: &4009a78a
+ coords_b: &3fde0a73
+ z_order: 6
+ tag: ""
+}
+
+sign_template_image : _nameless.8cb.12d0 {
+ atlas_path: "/def/sign/atlas/square_frame_2_it.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 3521380350
+ area_name: ""
+ area_idx: nil
+ coords_l: &3eb3a95c
+ coords_r: &3f2e09b9
+ coords_t: &401eecb2
+ coords_b: &4009df6f
+ z_order: 7
+ tag: ""
+}
+
+sign_template_text : _nameless.62c.77d0 {
+ text: A50
+ font_face: "/font/sign/it_s.font"
+ font_size: &3e23d70a
+ text_halign: center
+ text_valign: center
+ font_color: 16777215
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 1605238783
+ area_name: ""
+ area_idx: nil
+ coords_l: &3eb9e328
+ coords_r: &3f2b4f9d
+ coords_t: &401dc2e5
+ coords_b: &400a021b
+ z_order: 8
+ tag: ""
+}
+
+sign_template_text : _nameless.62c.7950 {
+ text: "tangenziale ovest"
+ font_face: "/font/sign/it_s.font"
+ font_size: &3e8ccccd
+ text_halign: right
+ text_valign: center
+ font_color: 16777215
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: 0
+ id: 4132962302
+ area_name: ""
+ area_idx: nil
+ coords_l: &3e97f2c8
+ coords_r: &403425ed
+ coords_t: &401f6a19
+ coords_b: &40080ec6
+ z_order: 9
+ tag: ""
+}
+
+sign_template_frame : _nameless.8c8.3d80 {
+ frame_path: "/def/sign/frame/green_frame_it.sii"
+ color: 16777215
+ opacity: 1
+ id: 326762496
+ area_name: ""
+ area_idx: nil
+ coords_l: &3e6cd7f0
+ coords_r: &403c845a
+ coords_t: &4026bf90
+ coords_b: &3fd4766c
+ z_order: 1
+ tag: ""
+}
+
+}

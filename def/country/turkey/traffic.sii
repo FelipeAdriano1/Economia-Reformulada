@@ -1,0 +1,128 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+#
+# NOTE: To override a traffic info in your mod, just create a new definition
+# in your definition file (see above) with the same value for 'object' attribute as the one being overridden
+# For each 'object' the LAST LOADED traffic info is used
+#
+
+#################################################
+########### car
+#################################################
+
+country_traffic_info : .country.info.traffic.toyco {
+	object: traffic.toyco
+	spawn_ratio: 1.00
+}
+
+country_traffic_info : .country.info.traffic.clio {
+	object: traffic.clio
+	spawn_ratio: 2.00
+}
+
+country_traffic_info : .country.info.traffic.laguna {
+	object: traffic.laguna
+	spawn_ratio: 1.00
+}
+
+country_traffic_info : .country.info.traffic.megane {
+	object: traffic.megane
+	spawn_ratio: 2.00
+}
+
+country_traffic_info : .country.info.traffic.p_3204.tr {
+	object: traffic.p_3204.tr
+	spawn_ratio: 1.00
+}
+
+country_traffic_info : .country.info.traffic.opalin.tr {
+	object: traffic.opalin.tr
+	spawn_ratio: 1.00
+}
+
+
+#################################################
+########### ambulance
+#################################################
+
+
+country_traffic_info : .country.info.traffic.transit_2016.amb_tr {
+	object: traffic.transit_2016.amb_tr
+	spawn_ratio: 1.00
+}
+
+#################################################
+########### police
+#################################################
+
+
+country_traffic_info : .country.info.traffic.toyco.pol_tr {
+	object: traffic.toyco.pol_tr
+	spawn_ratio: 1.00
+}
+
+
+country_traffic_info : .country.info.traffic.transport_t6.pol_tr_cus {
+	object: traffic.transport_t6.pol_tr_cus
+	spawn_ratio: 1.00
+}
+
+#################################################
+########### train
+#################################################
+
+country_traffic_info : .country.info.traffic.boltron {
+	object: traffic.boltron
+	spawn_ratio: 0.00
+}
+
+country_traffic_info : .country.info.traffic.boltron_a {
+	object: traffic.boltron_a
+	spawn_ratio: 0.00
+}
+
+country_traffic_info : .country.info.traffic.train_te68e {
+	object: traffic.train_te68e
+	spawn_ratio: 1.00
+}
+
+country_traffic_info : .country.info.traffic.train_vltr {
+	object: traffic.train_vltr
+	spawn_ratio: 1.00
+}
+
+#################################################
+########### tram
+#################################################
+
+country_traffic_info : .country.info.traffic.m32000 {
+	object: traffic.m32000
+	spawn_ratio: 1.00
+}
+
+#################################################
+########### Firetruck 
+#################################################
+
+country_traffic_info : .country.info.traffic.dagger.tr
+{
+	object: traffic.dagger.tr
+	spawn_ratio: 1.0
+}
+
+
+country_traffic_info : .country.info.traffic.t815.tr
+{
+	object: traffic.t815.tr
+	spawn_ratio: 1.0
+}
+
+
+}

@@ -1,0 +1,340 @@
+vehicle : start.truck {
+ fuel_relative: 0.498971
+ rheostat_factor: 1.000000
+ user_mirror_rot: 7
+ user_mirror_rot[0]: (1.000000; 0.000000, 0.000000, 0.000000)
+ user_mirror_rot[1]: (1.000000; 0.000000, 0.000000, 0.000000)
+ user_mirror_rot[2]: (1.000000; 0.000000, 0.000000, 0.000000)
+ user_mirror_rot[3]: (1.000000; 0.000000, 0.000000, 0.000000)
+ user_mirror_rot[4]: (1.000000; 0.000000, 0.000000, 0.000000)
+ user_mirror_rot[5]: (1.000000; 0.000000, 0.000000, 0.000000)
+ user_mirror_rot[6]: (1.000000; 0.000000, 0.000000, 0.000000)
+ user_head_offset: (0.000000, 0.000000, 0.000000)
+ user_fov: 0.000000
+ user_wheel_up_down: 0.000000
+ user_wheel_front_back: 0.000000
+ user_mouse_left_right_default: 0.000000
+ user_mouse_up_down_default: 0.000000
+ 
+ accessories[]: _nameless.3ff.0c10
+ accessories[]: _nameless.3ff.0850
+ accessories[]: _nameless.3ff.0150
+ accessories[]: _nameless.3fe.ff50
+ accessories[]: _nameless.5f3.9080
+ accessories[]: _nameless.5f3.88e0
+ accessories[]: _nameless.3ff.0390
+ accessories[]: _nameless.4de.bf00
+ accessories[]: _nameless.4de.c040
+ accessories[]: _nameless.4de.c270
+ accessories[]: _nameless.4de.c450
+ accessories[]: _nameless.4de.c540
+ accessories[]: _nameless.63a.d210
+ accessories[]: _nameless.63a.c720
+ accessories[]: _nameless.63a.c9f0
+ accessories[]: _nameless.60c.b3f0
+ accessories[]: _nameless.63f.0340
+ accessories[]: _nameless.63f.02b0
+ accessories[]: _nameless.63f.0a90
+ accessories[]: _nameless.63f.0220
+ accessories[]: _nameless.63f.0730
+ accessories[]: _nameless.63f.07c0
+ accessories[]: _nameless.4dc.24b0
+ accessories[]: _nameless.63f.0970
+ accessories[]: _nameless.63f.0a00
+ accessories[]: _nameless.63f.0b20
+ accessories[]: _nameless.63f.0bb0
+ accessories[]: _nameless.63f.0c40
+ accessories[]: _nameless.63f.0df0
+ accessories[]: _nameless.63f.0cd0
+ accessories[]: _nameless.63f.0d60
+ accessories[]: _nameless.63f.0e80
+ accessories[]: _nameless.63f.0070
+ accessories[]: _nameless.63f.0100
+ accessories[]: _nameless.63f.0190
+ accessories[]: _nameless.4dc.1b20
+ accessories[]: _nameless.3ff.0ad0
+ accessories[]: _nameless.4dc.2150
+ accessories[]: _nameless.4dc.2660
+ accessories[]: _nameless.4dc.2390
+ accessories[]: _nameless.3ff.0b10
+ 
+ odometer: 0
+ odometer_float_part: 0.028591
+ trip_fuel_l: 0
+ trip_fuel: 0.032878
+ trip_distance_km: 0
+ trip_distance: 16.203678
+ license_plate: "|"
+}
+
+vehicle_accessory : _nameless.3ff.0c10 {
+ wear: 0.000000
+ data_path: "/def/vehicle/truck/man.tgx_euro6/data.sii"
+}
+
+vehicle_accessory : _nameless.3ff.0850 {
+ wear: 0.000000
+ data_path: "/def/vehicle/truck/man.tgx_euro6/cabin/xlx_cab.sii"
+}
+
+vehicle_accessory : _nameless.3ff.0150 {
+ wear: 0.000000
+ data_path: "/def/vehicle/truck/man.tgx_euro6/interior/standard_xlx.sii"
+}
+
+vehicle_accessory : _nameless.3fe.ff50 {
+ wear: 0.000000
+ data_path: "/def/vehicle/truck/man.tgx_euro6/transmission/zf_12as2330td.sii"
+}
+
+vehicle_sound_accessory : _nameless.5f3.9080 {
+ wear: 0.000000
+ data_path: "/def/vehicle/truck/man.tgx_euro6/sound/interior.sii"
+}
+
+vehicle_sound_accessory : _nameless.5f3.88e0 {
+ wear: 0.000000
+ data_path: "/def/vehicle/truck/man.tgx_euro6/sound/exterior.sii"
+}
+
+vehicle_accessory : _nameless.3ff.0390 {
+ wear: 0.000000
+ data_path: "/def/vehicle/truck/man.tgx_euro6/head_light/standard.sii"
+}
+
+vehicle_wheel_accessory : _nameless.4de.bf00 {
+ offset: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ wear: 0.000000
+ data_path: "/def/vehicle/f_tire/1.sii"
+}
+
+vehicle_wheel_accessory : _nameless.4de.c040 {
+ offset: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ wear: 0.000000
+ data_path: "/def/vehicle/f_disc/front_disc_02_matt_gray.sii"
+}
+
+vehicle_wheel_accessory : _nameless.4de.c270 {
+ offset: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ wear: 0.000000
+ data_path: "/def/vehicle/f_hub/front_hub_01.sii"
+}
+
+vehicle_wheel_accessory : _nameless.4de.c450 {
+ offset: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ wear: 0.000000
+ data_path: "/def/vehicle/f_nuts/front_nuts_01_steel.sii"
+}
+
+vehicle_wheel_accessory : _nameless.4de.c540 {
+ offset: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ wear: 0.000000
+ data_path: "/def/vehicle/r_tire/1.sii"
+}
+
+vehicle_wheel_accessory : _nameless.63a.d210 {
+ offset: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ wear: 0.000000
+ data_path: "/def/vehicle/r_disc/rear_disc_01_matt_gray.sii"
+}
+
+vehicle_wheel_accessory : _nameless.63a.c720 {
+ offset: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ wear: 0.000000
+ data_path: "/def/vehicle/r_hub/rear_hub_01.sii"
+}
+
+vehicle_wheel_accessory : _nameless.63a.c9f0 {
+ offset: 0
+ paint_color: (1.000000, 1.000000, 1.000000)
+ wear: 0.000000
+ data_path: "/def/vehicle/r_nuts/rear_nuts_01_steel.sii"
+}
+
+vehicle_paint_job_accessory : _nameless.60c.b3f0 {
+ mask_r_color: (1.000000, 0.000000, 0.000000)
+ mask_g_color: (0.000000, 1.000000, 0.000000)
+ mask_b_color: (0.000000, 0.000000, 1.000000)
+ base_color: (0.3662, 0.3662, 0.3662)
+ flake_color: (0.9129, 0.8712, 0.9129)
+ flip_color: (0.056889, 0.054340, 0.049557)
+ data_path: "/def/vehicle/truck/man.tgx_euro6/paint_job/man_9036_m.sii"
+}
+
+vehicle_addon_accessory : _nameless.63f.0340 {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0.000000
+ data_path: "/def/vehicle/truck/man.tgx_euro6/accessory/doorhndl/stock.sii"
+}
+
+vehicle_addon_accessory : _nameless.63f.02b0 {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0.000000
+ data_path: "/def/vehicle/truck/man.tgx_euro6/accessory/mirror/stock.sii"
+}
+
+vehicle_addon_accessory : _nameless.63f.0a90 {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0.000000
+ data_path: "/def/vehicle/truck/man.tgx_euro6/accessory/doorstep/shape1.sii"
+}
+
+vehicle_addon_accessory : _nameless.63f.0220 {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0.000000
+ data_path: "/def/vehicle/truck/man.tgx_euro6/accessory/sunshld/stock_xlx.sii"
+}
+
+vehicle_addon_accessory : _nameless.63f.0730 {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0.000000
+ data_path: "/def/vehicle/truck/man.tgx_euro6/accessory/f_mirror/stock.sii"
+}
+
+vehicle_addon_accessory : _nameless.63f.07c0 {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0.000000
+ data_path: "/def/vehicle/truck/man.tgx_euro6/accessory/s_mirror/stock.sii"
+}
+
+vehicle_addon_accessory : _nameless.63f.0970 {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0.000000
+ data_path: "/def/vehicle/truck/man.tgx_euro6/accessory/steering_w/standard.sii"
+}
+
+vehicle_addon_accessory : _nameless.63f.0a00 {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0.000000
+ data_path: "/def/vehicle/truck/man.tgx_euro6/accessory/cor_def/stock.sii"
+}
+
+vehicle_addon_accessory : _nameless.63f.0b20 {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0.000000
+ data_path: "/def/vehicle/truck/man.tgx_euro6/accessory/f_logo/stock.sii"
+}
+
+vehicle_addon_accessory : _nameless.63f.0bb0 {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0.000000
+ data_path: "/def/vehicle/truck/man.tgx_euro6/accessory/f_intake_cab/stock.sii"
+}
+
+vehicle_addon_accessory : _nameless.63f.0c40 {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0.000000
+ data_path: "/def/vehicle/truck/man.tgx_euro6/accessory/f_intake_bar/stock.sii"
+}
+
+vehicle_addon_accessory : _nameless.63f.0df0 {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0.000000
+ data_path: "/def/vehicle/truck/man.tgx_euro6/accessory/f_wnd_frame/stock.sii"
+}
+
+vehicle_addon_accessory : _nameless.63f.0cd0 {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0.000000
+ data_path: "/def/vehicle/truck/man.tgx_euro6/accessory/f_light_chs/stock.sii"
+}
+
+vehicle_addon_accessory : _nameless.63f.0d60 {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0.000000
+ data_path: "/def/vehicle/truck/man.tgx_euro6/accessory/f_bumper/stock.sii"
+}
+
+vehicle_addon_accessory : _nameless.63f.0e80 {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0.000000
+ data_path: "/def/vehicle/truck/man.tgx_euro6/accessory/f_fender_cab/stock.sii"
+}
+
+vehicle_addon_accessory : _nameless.63f.0070 {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0.000000
+ data_path: "/def/vehicle/truck/man.tgx_euro6/accessory/f_fender_chs/stock.sii"
+}
+
+vehicle_addon_accessory : _nameless.63f.0100 {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0.000000
+ data_path: "/def/vehicle/truck/man.tgx_euro6/accessory/s_strip/stock.sii"
+}
+
+vehicle_addon_accessory : _nameless.63f.0190 {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0.000000
+ data_path: "/def/vehicle/truck/man.tgx_euro6/accessory/s_panel/stock.sii"
+}
+
+vehicle_addon_accessory : _nameless.4dc.1b20 {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0.000000
+ data_path: "/def/vehicle/truck/man.tgx_euro6/accessory/sideskirt/stock_default.sii"
+}
+
+vehicle_accessory : _nameless.3ff.0ad0 {
+ wear: 0.000000
+ data_path: "/def/vehicle/truck/man.tgx_euro6/chassis/4x2.sii"
+}
+
+vehicle_addon_accessory : _nameless.4dc.2150 {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0.000000
+ data_path: "/def/vehicle/truck/man.tgx_euro6/accessory/r_fender/stock_4x2.sii"
+}
+
+vehicle_addon_accessory : _nameless.4dc.2660 {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0.000000
+ data_path: "/def/vehicle/truck/man.tgx_euro6/accessory/trlr_cables/stock.sii"
+}
+
+vehicle_addon_accessory : _nameless.4dc.2390 {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0.000000
+ data_path: "/def/vehicle/truck/man.tgx_euro6/badge_a/badge_18xx.sii"
+}
+
+vehicle_accessory : _nameless.3ff.0b10 {
+ wear: 0.000000
+ data_path: "/def/vehicle/truck/man.tgx_euro6/engine/d3876_382.sii"
+}
+
+vehicle_addon_accessory : _nameless.4dc.24b0 {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0.000000
+ data_path: "/def/vehicle/truck/man.tgx_euro6/badge_b/badge_xx400.sii"
+}

@@ -1,0 +1,16 @@
+SiiNunit
+{
+accessory_addon_data : 8x4_bl.scania.s_2016.sideskirt
+{
+	name: "@@sideskirt_plastic@@"
+	price: 15600
+	unlock: 10
+	part_type: factory
+
+	icon: "truck/scania_2016/accessory/sideskirt/ss_8x4_bl"
+
+	exterior_model: "/vehicle/truck/scania_2016/accessory/sideskirt/ss_8x4_bl.pmd"
+
+	suitable_for[]: "8x4.scania.s_2016.chassis"
+}
+}

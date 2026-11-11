@@ -1,0 +1,620 @@
+SiiNunit
+{
+sign_board_template : _nameless.784.2250 {
+ board_name: "fi hw2 panel straight green v01"
+ width: 6
+ height: &40100000
+ model_name: ""
+ items: 29
+ items[0]: _nameless.788.e230
+ items[1]: _nameless.77a.bbe0
+ items[2]: _nameless.789.07b0
+ items[3]: _nameless.788.e3b0
+ items[4]: _nameless.77a.9b60
+ items[5]: _nameless.788.f4f0
+ items[6]: _nameless.77a.ac40
+ items[7]: _nameless.788.f5b0
+ items[8]: _nameless.788.f970
+ items[9]: _nameless.789.0870
+ items[10]: _nameless.77a.b780
+ items[11]: _nameless.789.0570
+ items[12]: _nameless.788.ff70
+ items[13]: _nameless.77a.bb40
+ items[14]: _nameless.77a.ad80
+ items[15]: _nameless.77a.ae20
+ items[16]: _nameless.788.e770
+ items[17]: _nameless.77a.be60
+ items[18]: _nameless.77a.9de0
+ items[19]: _nameless.789.0c30
+ items[20]: _nameless.77a.b140
+ items[21]: _nameless.788.fa30
+ items[22]: _nameless.77a.a7e0
+ items[23]: _nameless.788.ed70
+ items[24]: _nameless.77a.9e80
+ items[25]: _nameless.788.e8f0
+ items[26]: _nameless.77a.a2e0
+ items[27]: _nameless.77a.9980
+ items[28]: _nameless.1.b735.9ba0
+ dynamic_attributes: 0
+}
+
+sign_template_text : _nameless.788.e230 {
+ text: "E 00"
+ font_face: "/font/sign/fi.font"
+ font_size: &3f266666
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: &3ca3d70a
+ id: 2736127999
+ area_name: ""
+ area_idx: nil
+ coords_l: &3e84d1a0
+ coords_r: &3fb0fdd6
+ coords_t: &3fe381e7
+ coords_b: &3fa962ff
+ z_order: 16
+ tag: ""
+}
+
+sign_template_image : _nameless.77a.bbe0 {
+ atlas_path: "/def/sign/atlas/eu_road_fi.sii"
+ image_idx: 0
+ color: nil
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 1290534912
+ area_name: ""
+ area_idx: nil
+ coords_l: &3e60f240
+ coords_r: &3fb5b7e6
+ coords_t: &3fecd8db
+ coords_b: &3fa00c0d
+ z_order: 17
+ tag: ""
+}
+
+sign_template_text : _nameless.789.07b0 {
+ text: XXXXXXXX
+ font_face: "/font/sign/fi.font"
+ font_size: &3f266666
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3ca3d70a
+ id: 12845056
+ area_name: ""
+ area_idx: nil
+ coords_l: &35000000
+ coords_r: 6
+ coords_t: &400ccccd
+ coords_b: &3fc66667
+ z_order: 18
+ tag: ""
+}
+
+sign_template_text : _nameless.788.e3b0 {
+ text: XXXXXXXX
+ font_face: "/font/sign/fi.font"
+ font_size: &3f266666
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3ca3d70a
+ id: 1971847167
+ area_name: ""
+ area_idx: nil
+ coords_l: &35000000
+ coords_r: 6
+ coords_t: &3fc3d708
+ coords_b: &3f6147aa
+ z_order: 19
+ tag: ""
+}
+
+sign_template_image : _nameless.77a.9b60 {
+ atlas_path: "/def/sign/atlas/main_road_fi.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: true
+ id: 4181983230
+ area_name: ""
+ area_idx: nil
+ coords_l: &4006eff2
+ coords_r: &402d5658
+ coords_t: &3f4ce4e2
+ coords_b: &3e4d2d1e
+ z_order: 20
+ tag: ""
+}
+
+sign_template_text : _nameless.788.f4f0 {
+ text: 0
+ font_face: "/font/sign/fi.font"
+ font_size: &3f266666
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3ca3d70a
+ id: 2404384767
+ area_name: ""
+ area_idx: nil
+ coords_l: &40084845
+ coords_r: &402b4564
+ coords_t: &3f3a36fc
+ coords_b: &3e8bf258
+ z_order: 21
+ tag: ""
+}
+
+sign_template_image : _nameless.77a.ac40 {
+ atlas_path: "/def/sign/atlas/eu_road_fi.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: true
+ id: 2471231487
+ area_name: ""
+ area_idx: nil
+ coords_l: &402d6b4b
+ coords_r: &407a3815
+ coords_t: &3f4ce4e2
+ coords_b: &3e4d2d20
+ z_order: 22
+ tag: ""
+}
+
+sign_template_text : _nameless.788.f5b0 {
+ text: "E 00"
+ font_face: "/font/sign/fi.font"
+ font_size: &3f266666
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 1
+ line_spacing: &3e4ccccd
+ letter_spacing: &3ca3d70a
+ id: 929038336
+ area_name: ""
+ area_idx: nil
+ coords_l: &402ff65b
+ coords_r: &4077db0d
+ coords_t: &3f3a36fc
+ coords_b: &3e8bf258
+ z_order: 23
+ tag: ""
+}
+
+sign_template_text : _nameless.788.f970 {
+ text: XXXXXXX
+ font_face: "/font/sign/fi.font"
+ font_size: &3f266666
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: &3ca3d70a
+ id: 3018457086
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fc8253c
+ coords_r: &40b592b2
+ coords_t: &400ccccd
+ coords_b: &3fc66667
+ z_order: 24
+ tag: ""
+}
+
+sign_template_text : _nameless.789.0870 {
+ text: XXXXXXX
+ font_face: "/font/sign/fi.font"
+ font_size: &3f266666
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: &3ca3d70a
+ id: 425328640
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fc8253c
+ coords_r: &40b592b2
+ coords_t: &3fc3d708
+ coords_b: &3f6147aa
+ z_order: 25
+ tag: ""
+}
+
+sign_template_image : _nameless.77a.b780 {
+ atlas_path: "/def/sign/atlas/cross_orange.sii"
+ image_idx: 0
+ color: nil
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 2545680383
+ area_name: ""
+ area_idx: nil
+ coords_l: &3ed5692e
+ coords_r: &3f888d80
+ coords_t: &3f511afe
+ coords_b: &3e6754b8
+ z_order: 28
+ tag: ""
+}
+
+sign_template_text : _nameless.789.0570 {
+ text: XXXXXXXX
+ font_face: "/font/sign/fi.font"
+ font_size: &3f266666
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: &3ca3d70a
+ id: 3947888638
+ area_name: ""
+ area_idx: nil
+ coords_l: &35000000
+ coords_r: 6
+ coords_t: &4005c0b8
+ coords_b: &3f7ae144
+ z_order: 15
+ tag: ""
+}
+
+sign_template_text : _nameless.788.ff70 {
+ text: XXXXXXX
+ font_face: "/font/sign/fi.font"
+ font_size: &3f266666
+ text_halign: left
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: &3ca3d70a
+ id: 2661548031
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fc8253c
+ coords_r: &40b592b2
+ coords_t: &4005c0b8
+ coords_b: &3f7ae144
+ z_order: 14
+ tag: ""
+}
+
+sign_template_image : _nameless.77a.bb40 {
+ atlas_path: "/def/sign/atlas/arrow_up_fi.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 1047920640
+ area_name: ""
+ area_idx: nil
+ coords_l: &3ecccccf
+ coords_r: &3f89999e
+ coords_t: &3f5b88fc
+ coords_b: &3e3af0be
+ z_order: 26
+ tag: ""
+}
+
+sign_template_image : _nameless.77a.ad80 {
+ atlas_path: "/def/sign/atlas/arrow_up_fi.sii"
+ image_idx: 0
+ color: nil
+ opacity: 1
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 3312451582
+ area_name: ""
+ area_idx: nil
+ coords_l: &409d999a
+ coords_r: &40b33334
+ coords_t: &3f5b88fc
+ coords_b: &3e3af0be
+ z_order: 27
+ tag: ""
+}
+
+sign_template_image : _nameless.77a.ae20 {
+ atlas_path: "/def/sign/atlas/main_road_fi.sii"
+ image_idx: 0
+ color: nil
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: true
+ id: 4154982398
+ area_name: ""
+ area_idx: nil
+ coords_l: &402dfa2d
+ coords_r: &40546093
+ coords_t: &3f4ce4e2
+ coords_b: &3e4d2d1e
+ z_order: 12
+ tag: ""
+}
+
+sign_template_text : _nameless.788.e770 {
+ text: 0
+ font_face: "/font/sign/fi.font"
+ font_size: &3f266666
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: &3ca3d70a
+ id: 4179623934
+ area_name: ""
+ area_idx: nil
+ coords_l: &402678cf
+ coords_r: &40592b26
+ coords_t: &3f3a36fc
+ coords_b: &3e8bf258
+ z_order: 13
+ tag: ""
+}
+
+sign_template_image : _nameless.77a.be60 {
+ atlas_path: "/def/sign/atlas/sec_road_fi.sii"
+ image_idx: 0
+ color: nil
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: true
+ id: 3565551614
+ area_name: ""
+ area_idx: nil
+ coords_l: &4025be0c
+ coords_r: &4059e08b
+ coords_t: &3f4cf5a1
+ coords_b: &3e471220
+ z_order: 11
+ tag: ""
+}
+
+sign_template_image : _nameless.77a.9de0 {
+ atlas_path: "/def/sign/atlas/main_road_fi.sii"
+ image_idx: 0
+ color: nil
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: true
+ id: 3469737982
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fe25ac8
+ coords_r: &401793ca
+ coords_t: &3f4ce4e2
+ coords_b: &3e4d2d20
+ z_order: 4
+ tag: ""
+}
+
+sign_template_text : _nameless.789.0c30 {
+ text: 9
+ font_face: "/font/sign/fi.font"
+ font_size: &3f266666
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: &3ca3d70a
+ id: 348651520
+ area_name: ""
+ area_idx: nil
+ coords_l: &3fe50b6e
+ coords_r: &401582d6
+ coords_t: &3f3a36fc
+ coords_b: &3e8bf258
+ z_order: 8
+ tag: ""
+}
+
+sign_template_image : _nameless.77a.b140 {
+ atlas_path: "/def/sign/atlas/eu_road_fi.sii"
+ image_idx: 0
+ color: nil
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: true
+ id: 1272971264
+ area_name: ""
+ area_idx: nil
+ coords_l: &401b7fc7
+ coords_r: &40684c92
+ coords_t: &3f4ce4e2
+ coords_b: &3e4d2d20
+ z_order: 5
+ tag: ""
+}
+
+sign_template_text : _nameless.788.fa30 {
+ text: "E 12"
+ font_face: "/font/sign/fi.font"
+ font_size: &3f266666
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: &3ca3d70a
+ id: 2692349951
+ area_name: ""
+ area_idx: nil
+ coords_l: &401e0ad7
+ coords_r: &4065ef88
+ coords_t: &3f3a36fc
+ coords_b: &3e8bf258
+ z_order: 9
+ tag: ""
+}
+
+sign_template_image : _nameless.77a.a7e0 {
+ atlas_path: "/def/sign/atlas/main_road_fi.sii"
+ image_idx: 0
+ color: nil
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: true
+ id: 2503213055
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f8ddfec
+ coords_r: &3fdaacb8
+ coords_t: &3f4ce4e2
+ coords_b: &3e4d2d20
+ z_order: 3
+ tag: ""
+}
+
+sign_template_text : _nameless.788.ed70 {
+ text: 3
+ font_face: "/font/sign/fi.font"
+ font_size: &3f266666
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: &3ca3d70a
+ id: 2607153151
+ area_name: ""
+ area_idx: nil
+ coords_l: &3f909092
+ coords_r: &3fd68ad0
+ coords_t: &3f3a36fc
+ coords_b: &3e8bf258
+ z_order: 7
+ tag: ""
+}
+
+sign_template_image : _nameless.77a.9e80 {
+ atlas_path: "/def/sign/atlas/eu_road_fi.sii"
+ image_idx: 0
+ color: nil
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: true
+ id: 2375548927
+ area_name: ""
+ area_idx: nil
+ coords_l: &406b7fc6
+ coords_r: &409c2646
+ coords_t: &3f4ce4e2
+ coords_b: &3e4d2d20
+ z_order: 6
+ tag: ""
+}
+
+sign_template_text : _nameless.788.e8f0 {
+ text: "E 63"
+ font_face: "/font/sign/fi.font"
+ font_size: &3f266666
+ text_halign: center
+ text_valign: center
+ font_color: nil
+ font_opacity: 0
+ line_spacing: &3e4ccccd
+ letter_spacing: &3ca3d70a
+ id: 2109997055
+ area_name: ""
+ area_idx: nil
+ coords_l: &406e0ad6
+ coords_r: &409af7c0
+ coords_t: &3f3a36fc
+ coords_b: &3e8bf258
+ z_order: 10
+ tag: ""
+}
+
+sign_template_image : _nameless.77a.a2e0 {
+ atlas_path: "/def/sign/atlas/arrow_up_fi.sii"
+ image_idx: 0
+ color: nil
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 1695023103
+ area_name: ""
+ area_idx: nil
+ coords_l: &3e4cccce
+ coords_r: &3f600008
+ coords_t: &3f5b88fc
+ coords_b: &3e3af0be
+ z_order: 2
+ tag: ""
+}
+
+sign_template_image : _nameless.77a.9980 {
+ atlas_path: "/def/sign/atlas/arrow_up_fi.sii"
+ image_idx: 0
+ color: nil
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 2053636095
+ area_name: ""
+ area_idx: nil
+ coords_l: &40a40000
+ coords_r: &40b9999a
+ coords_t: &3f5b88fc
+ coords_b: &3e3af0be
+ z_order: 1
+ tag: ""
+}
+
+sign_template_image : _nameless.1.b735.9ba0 {
+ atlas_path: "/def/sign/atlas/cross_orange.sii"
+ image_idx: 0
+ color: nil
+ opacity: 0
+ hflip: false
+ vflip: false
+ image_overridable: false
+ id: 3198812158
+ area_name: ""
+ area_idx: nil
+ coords_l: &409e4c51
+ coords_r: &40b3191d
+ coords_t: &3f511afe
+ coords_b: &3e6754b8
+ z_order: 29
+ tag: ""
+}
+
+}

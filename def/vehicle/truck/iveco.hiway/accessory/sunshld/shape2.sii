@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_addon_data: shape2.iveco.hiway.sunshld
+{
+	name: "@@sunshld_samurai@@"
+	price: 2250
+	unlock: 5
+	icon: "sunshield_02"
+
+	exterior_model: "/vehicle/truck/upgrade/sunshield/iveco_hiway/sunshield_02.pmd"
+	interior_model: "/vehicle/truck/upgrade/sunshield/iveco_hiway/sunshield_02.pmd"
+}
+}
