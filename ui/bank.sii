@@ -1,0 +1,612 @@
+SiiNunit
+{
+ui_blend_window : _nameless.012f28841 {
+ blend_x_shift: 0
+ blend_y_shift: 0
+ window_handler: _nameless.012f28840
+ clip_children: true
+ keep_aspect: center
+ user_string_data: ""
+ first_direction_focus_id: 0
+ fitting: false
+ my_children: 9
+ my_children[0]: _nameless._.bcg
+ my_children[1]: _nameless._.loan.offers.headline
+ my_children[2]: _nameless._.loan.offers
+ my_children[3]: _nameless._.active.loans.overview.headline
+ my_children[4]: _nameless._.balance.group
+ my_children[5]: _nameless._.loans.group
+ my_children[6]: _nameless._.overview.header.group
+ my_children[7]: _nameless._.overview.group
+ my_children[8]: _nameless._.total.group
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 900
+ coords_b: 0
+ area_l: 0
+ area_r: 1440
+ area_t: 900
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+bank_hdl : _nameless.012f28840 {
+ window_link: _nameless.012f28841
+}
+
+ui::text_common : _nameless._.bcg {
+ value: "@@clr_bg_main@@"
+ look_template: txt.window.bcg_rect4
+ text: ""
+ coords_l: 7
+ coords_r: 1433
+ coords_t: 850
+ coords_b: 80
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.012f28841
+}
+
+ui::text_common : _nameless._.loan.offers.headline {
+ value: "@@bank_h1@@"
+ look_template: txt.normal.left
+ text: ""
+ coords_l: 265
+ coords_r: 1175
+ coords_t: 770
+ coords_b: 742
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.012f28841
+}
+
+ui::button_row : _nameless._.loan.offers {
+ row_align: left
+ label_indent: 0
+ item_distance: 10
+ min_item_width: 0
+ button_size_type: fixed
+ value_list: "11 000|@@bank_offer_installment@@~~25 000|@@bank_offer_installment@@~~65 000|@@bank_offer_installment@@~~80 000|@@bank_offer_installment@@~~110 000|@@bank_offer_installment@@"
+ id_list: "101~~102~~103~~104~~105"
+ width_list: "180~~180~~180~~180~~180" #	150
+ list_delimiter: "~~"
+ look_template_list: ""
+ look_template: btn.bank.new_loan
+ button_type: normal
+ button_tab_base: -1
+ p_pml_as_reference: false
+ use_blend_buttons: false
+ fitting: false
+ my_children: 0
+ coords_l: 245
+ coords_r: 1195
+ coords_t: 742
+ coords_b: 642
+ area_l: 245
+ area_r: 1195
+ area_t: 742
+ area_b: 642
+ id: 100
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.012f28841
+}
+
+ui::text_common : _nameless._.active.loans.overview.headline {
+ value: "@@bank_h2@@"
+ look_template: txt.normal.left
+ text: ""
+ coords_l: 265
+ coords_r: 1175
+ coords_t: 592
+ coords_b: 562
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.012f28841
+}
+
+ui::group : _nameless._.balance.group {
+ fitting: false
+ my_children: 2
+ my_children[0]: _nameless.2b5.0ab0
+ my_children[1]: _nameless._.money.label
+ coords_l: 245
+ coords_r: 1195
+ coords_t: 830
+ coords_b: 782
+ area_l: 245
+ area_r: 1195
+ area_t: 830
+ area_b: 782
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.012f28841
+}
+
+ui::text_common : _nameless.2b5.0ab0 {
+ value: "@@clr_bg_dark@@"
+ look_template: txt.background.flat
+ text: ""
+ coords_l: 245
+ coords_r: 1195
+ coords_t: 830
+ coords_b: 782
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.balance.group
+}
+
+ui::text_common : _nameless._.money.label {
+ value: "@@bank_money@@"
+ look_template: txt.big.center
+ text: ""
+ coords_l: 245
+ coords_r: 1195
+ coords_t: 830
+ coords_b: 782
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 500
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.balance.group
+}
+
+ui::group : _nameless._.loans.group {
+ fitting: false
+ my_children: 3
+ my_children[0]: _nameless._.loans.bcg
+ my_children[1]: _nameless._.active.loans.label
+ my_children[2]: _nameless._.credit.label
+ coords_l: 245
+ coords_r: 1195
+ coords_t: 632
+ coords_b: 602
+ area_l: 245
+ area_r: 1195
+ area_t: 632
+ area_b: 602
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.012f28841
+}
+
+ui::text_common : _nameless._.loans.bcg {
+ value: "@@clr_table_bg_light@@"
+ look_template: txt.background.flat
+ text: ""
+ coords_l: 245
+ coords_r: 1195
+ coords_t: 632
+ coords_b: 602
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.loans.group
+}
+
+ui::text_common : _nameless._.active.loans.label {
+ value: "@@bank_active_loans@@"
+ look_template: txt.normal.left
+ text: ""
+ coords_l: 265
+ coords_r: 595
+ coords_t: 632
+ coords_b: 602
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 201
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.loans.group
+}
+
+ui::text_common : _nameless._.credit.label {
+ value: "@@bank_credit@@"
+ look_template: txt.normal.left
+ text: ""
+ coords_l: 515
+ coords_r: 845
+ coords_t: 632
+ coords_b: 602
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 202
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.loans.group
+}
+
+ui::group : _nameless._.overview.header.group {
+ fitting: false
+ my_children: 6
+ my_children[0]: _nameless._.overview.header.bcg
+ my_children[1]: _nameless._.loan
+ my_children[2]: _nameless._.left
+ my_children[3]: _nameless._.duration
+ my_children[4]: _nameless._.interest
+ my_children[5]: _nameless._.installment
+ coords_l: 245
+ coords_r: 1195
+ coords_t: 562
+ coords_b: 532
+ area_l: 245
+ area_r: 1195
+ area_t: 562
+ area_b: 532
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.012f28841
+}
+
+ui::text_common : _nameless._.overview.header.bcg {
+ value: "@@clr_bg_dark@@"
+ look_template: txt.background.flat
+ text: ""
+ coords_l: 245
+ coords_r: 1195
+ coords_t: 562
+ coords_b: 532
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.overview.header.group
+}
+
+ui::text_common : _nameless._.loan {
+ value: "@@bank_loan_amount@@"
+ look_template: txt.normal.left
+ text: ""
+ coords_l: 265
+ coords_r: 402
+ coords_t: 562
+ coords_b: 532
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.overview.header.group
+}
+
+ui::text_common : _nameless._.left {
+ value: "@@bank_loan_current@@"
+ look_template: txt.normal.left
+ text: ""
+ coords_l: 395
+ coords_r: 525
+ coords_t: 562
+ coords_b: 532
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.overview.header.group
+}
+
+ui::text_common : _nameless._.duration {
+ value: "@@bank_loan_time@@"
+ look_template: txt.normal.left
+ text: ""
+ coords_l: 545
+ coords_r: 695
+ coords_t: 562
+ coords_b: 532
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.overview.header.group
+}
+
+ui::text_common : _nameless._.interest {
+ value: "@@bank_loan_intrate@@"
+ look_template: txt.normal.left
+ text: ""
+ coords_l: 720
+ coords_r: 856
+ coords_t: 562
+ coords_b: 532
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.overview.header.group
+}
+
+ui::text_common : _nameless._.installment {
+ value: "@@bank_loan_installment@@"
+ look_template: txt.normal.left
+ text: ""
+ coords_l: 905
+ coords_r: 989
+ coords_t: 562
+ coords_b: 532
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.overview.header.group
+}
+
+ui::group : _nameless._.overview.group {
+ fitting: true
+ my_children: 3
+ my_children[0]: _nameless._.loan.list.group
+ my_children[1]: _nameless._.loan.list.obscurer
+ my_children[2]: _nameless._.table
+ coords_l: 245
+ coords_r: 1195
+ coords_t: 527
+ coords_b: 164
+ area_l: 245
+ area_r: 1195
+ area_t: 527
+ area_b: 164
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.012f28841
+}
+
+ui::list_common : _nameless._.loan.list.group {
+ look_template: btn.bank.loan_list
+ use_blend_buttons: false
+ multi_column: false
+ slider_management: true
+ item_height: 30
+ item_width: 828
+ item_gap: 3
+ max_list_height: 0
+ n_pml: ""
+ s_pml: ""
+ p_pml: ""
+ d_pml: ""
+ fitting: false
+ my_children: 1
+ my_children[0]: _nameless.012f288413
+ coords_l: 245
+ coords_r: 1195
+ coords_t: 527
+ coords_b: 200
+ area_l: 245
+ area_r: 1195
+ area_t: 527
+ area_b: 200
+ id: 300
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.overview.group
+}
+
+ui::slider_common : _nameless.012f288413 {
+ value: ""
+ look_template: sld.slider4
+ n_background: ""
+ s_background: ""
+ d_background: ""
+ s_pml: ""
+ n_pml: ""
+ p_pml: ""
+ d_pml: ""
+ gamepad_s_pml: ""
+ gamepad_n_pml: ""
+ gamepad_p_pml: ""
+ gamepad_d_pml: ""
+ n_property: ""
+ d_property: ""
+ action_on_drag: true
+ tick: 1
+ margin: 2
+ dynamic_handle: false
+ minimal_handle_size: 0
+ move_to_point: false
+ coords_l: 1195
+ coords_r: 1222
+ coords_t: 527
+ coords_b: 200
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.loan.list.group
+}
+
+ui::text : _nameless._.loan.list.obscurer {
+ text: ""
+ coords_l: 245
+ coords_r: 1035
+ coords_t: 527
+ coords_b: 200
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 390
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.overview.group
+}
+
+ui::text_table_common : _nameless._.table {
+ row_height: 63
+ col_widths: "787|160"
+ h_cellspacing: 3
+ v_cellspacing: 3
+ value: "@@clr_table_bg_light@@|@@clr_table_bg_dark@@"
+ look_template: txt.table.singlecell.interl
+ text: ""
+ coords_l: 245
+ coords_r: 1195
+ coords_t: 527
+ coords_b: 164
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.overview.group
+}
+
+ui::group : _nameless._.total.group {
+ fitting: true
+ my_children: 3
+ my_children[0]: _nameless._.total.headline
+ my_children[1]: _nameless._.total.values
+ my_children[2]: _nameless._.total
+ coords_l: 245
+ coords_r: 1195
+ coords_t: 190
+ coords_b: 130
+ area_l: 245
+ area_r: 1195
+ area_t: 190
+ area_b: 130
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.012f28841
+}
+
+ui::text_common : _nameless._.total.headline {
+ value: "@@bank_total@@"
+ look_template: txt.normal.left
+ text: ""
+ coords_l: 265
+ coords_r: 1175
+ coords_t: 190
+ coords_b: 160
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.total.group
+}
+
+ui::text_common : _nameless._.total.values {
+ value: "300 000|200 000|20 000"
+ look_template: txt.bank.total
+ text: ""
+ coords_l: 265
+ coords_r: 1175
+ coords_t: 160
+ coords_b: 130
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 400
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.total.group
+}
+
+ui::text_common : _nameless._.total {
+ value: "@@clr_table_bg_light@@"
+ look_template: txt.window.bcg_rect
+ text: ""
+ coords_l: 245
+ coords_r: 1195
+ coords_t: 160
+ coords_b: 130
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.total.group
+}
+
+}

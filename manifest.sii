@@ -3,9 +3,10 @@ SiiNunit
 mod_package : .package_name
 {
     package_version: "1.0"
-    display_name: "Banco Realista"
+    display_name: "Economia Reformulada"
     author: "Felipe"
-    category[]: "gameplay"
+    category[]: "economy"
     description_file: "description.txt"
+	compatible_versions[]: "1.62.*"
 }
 }
