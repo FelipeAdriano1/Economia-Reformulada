@@ -1,7 +1,0 @@
-SiiNunit
-{
-accessory_wheel_data : incentro.fwheel
-{
-	model: "/vehicle/wheel/incentro/wheel.pmd"
-}
-}

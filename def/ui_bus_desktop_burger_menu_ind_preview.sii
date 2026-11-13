@@ -1,5 +1,0 @@
-SiiNunit
-{
-@include "ui_bus_index_preview_config.sui"
-@include "ui_bus_quit_config.sui"
-}

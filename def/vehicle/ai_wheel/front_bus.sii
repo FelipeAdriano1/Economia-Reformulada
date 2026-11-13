@@ -1,9 +1,0 @@
-SiiNunit
-{
-accessory_wheel_data : bus_opalin.fwheel
-{
-	model: "/vehicle/wheel/bus/bus.pmd"
-}
-}
-
-

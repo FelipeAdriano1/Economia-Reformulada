@@ -1,6 +1,0 @@
-company_permanent: company.permanent.cgla
-{
-	name: "CGLA"
-	sort_name: "cgla"
-	trailer_look: cgla
-}

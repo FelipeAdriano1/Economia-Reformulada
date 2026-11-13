@@ -1,54 +1,61 @@
 SiiNunit
 {
-#	ARQUIVO MOD !!!!!!!!!
+
 bank_data : bank.data.storage
 {
-	min_after_loan_repay:	0
+	min_after_loan_repay:	5
 
-	loan_offers[]: bank.data.loan1
-	loan_offers[]: bank.data.loan2
-	loan_offers[]: bank.data.loan3
-	loan_offers[]: bank.data.loan4
-	loan_offers[]: bank.data.loan5
+	loan_offers[]:	bank.data.loan1
+	loan_offers[]:	bank.data.loan2
+	loan_offers[]:	bank.data.loan3
+	loan_offers[]:	bank.data.loan4
+	loan_offers[]:	bank.data.loan5
+	loan_offers[]:	bank.data.loan6
 
 	overdraft_duration:	7	# days
-	overdraft_warn_day:	2	# starting on 3rd day
-
+	overdraft_warn_day:	1	# starting on 2nd day
 }
 
 bank_loan_data: bank.data.loan1
 {
-	amount: 11000
-	interest_rate: 0.25 # 25 %
-	duration: 4			# in weeks
+	amount:	33000
+	interest_rate:	0.15	# 15 %
+	duration:	11		# in weeks
 }
 
 bank_loan_data: bank.data.loan2
 {
-	amount: 25000
-	interest_rate: 0.19	# 19 %
-	duration: 5			# in weeks
+	amount:	70000
+	interest_rate:	0.21	# 21 %
+	duration:	16		# in weeks
 }
 
 bank_loan_data: bank.data.loan3
 {
-	amount: 65000
-	interest_rate: 0.19	# 19 %
-	duration: 10		# in weeks
+	amount:	81000
+	interest_rate:	0.25	# 25 %
+	duration:	15		# in weeks
 }
 
 bank_loan_data: bank.data.loan4
 {
-	amount: 80000
-	interest_rate: 0.23	# 23 %
-	duration: 12		# in weeks
+	amount:	190000
+	interest_rate:	0.20	# 20 %
+	duration:	28		# in weeks
 }
 
 bank_loan_data: bank.data.loan5
 {
-	amount: 110000
-	interest_rate: 0.21	# 21 %
-	duration: 16		# in weeks
+	amount:	394000
+	interest_rate:	0.15	# 15 %
+	duration:	48		# in weeks
+}
+
+bank_loan_data: bank.data.loan6
+{
+	amount:	985000
+	interest_rate:	0.22	# 22 %
+	duration:	104		# in weeks
 }
 
 }

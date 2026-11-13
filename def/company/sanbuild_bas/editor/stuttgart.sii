@@ -1,7 +1,0 @@
-SiiNunit
-{
-company_def : .stuttgart {
- city: stuttgart
- prefab: d_con_1a001
-}
-}

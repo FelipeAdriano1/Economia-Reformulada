@@ -1,9 +1,0 @@
-SiiNunit
-{
-accessory_wheel_data : huracan.rwheel
-{
-	model: "/vehicle/wheel/car/huracan/lambowheel.pmd"
-}
-}
-
-

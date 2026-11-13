@@ -1,7 +1,0 @@
-SiiNunit
-{
-company_def : .antwerp {
- city: antwerp
- prefab: de_2x005
-}
-}

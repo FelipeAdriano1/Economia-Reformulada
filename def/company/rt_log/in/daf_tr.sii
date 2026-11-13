@@ -1,6 +1,0 @@
-SiiNunit
-{
-cargo_def : .daf_tr {
- cargo: "cargo.daf_tr"
-}
-}

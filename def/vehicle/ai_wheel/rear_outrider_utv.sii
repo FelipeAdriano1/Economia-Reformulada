@@ -1,9 +1,0 @@
-SiiNunit
-{
-accessory_wheel_data : outrider_utv.rwheel
-{
-	model: "/vehicle/wheel/car/outrider_utv/outrider_utv.pmd"
-}
-}
-
-

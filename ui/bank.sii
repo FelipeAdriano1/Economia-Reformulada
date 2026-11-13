@@ -76,15 +76,16 @@ ui::text_common : _nameless._.loan.offers.headline {
  my_parent: _nameless.012f28841
 }
 
+
 ui::button_row : _nameless._.loan.offers {
  row_align: left
  label_indent: 0
- item_distance: 10
+ item_distance: 6
  min_item_width: 0
  button_size_type: fixed
- value_list: "11 000|@@bank_offer_installment@@~~25 000|@@bank_offer_installment@@~~65 000|@@bank_offer_installment@@~~80 000|@@bank_offer_installment@@~~110 000|@@bank_offer_installment@@"
- id_list: "101~~102~~103~~104~~105"
- width_list: "180~~180~~180~~180~~180" #	150
+ value_list: "33 000|@@bank_offer_installment@@~~70 000|@@bank_offer_installment@@~~81 000|@@bank_offer_installment@@~~190 000|@@bank_offer_installment@@~~394 000|@@bank_offer_installment@@~~985 000|@@bank_offer_installment@@"
+ id_list: "101~~102~~103~~104~~105~~106"
+ width_list: "150~~150~~150~~150~~150~~150"
  list_delimiter: "~~"
  look_template_list: ""
  look_template: btn.bank.new_loan
@@ -108,6 +109,7 @@ ui::button_row : _nameless._.loan.offers {
  pointer: -1
  my_parent: _nameless.012f28841
 }
+
 
 ui::text_common : _nameless._.active.loans.overview.headline {
  value: "@@bank_h2@@"

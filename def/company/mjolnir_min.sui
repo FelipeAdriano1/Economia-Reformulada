@@ -1,6 +1,0 @@
-company_permanent: company.permanent.mjolnir_min
-{
-	name: "Mjölnir Mining"
-	sort_name: "mjolnir mining"
-	trailer_look: plain
-}

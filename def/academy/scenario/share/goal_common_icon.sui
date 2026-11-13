@@ -1,5 +1,0 @@
-
-
-	text: 		"@@aca_goal_img@@ $NAME$||goal_neutral|"
-	text_success: 	"@@aca_goal_img@@ $NAME$||goal_success|"
-	text_failure: 	"@@aca_goal_img@@ $NAME$||goal_failure|"

@@ -1,8 +1,0 @@
-SiiNunit
-{
-
-model_def : busprop01 {
-model_desc: "/model/passenger/props/props01_bus_station.pmd"
-}
-
-}

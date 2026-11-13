@@ -1,6 +1,0 @@
-company_permanent: company.permanent.dfh
-{
-	name: "Deutsche Frachthäfen"
-	sort_name: "deutsche frachthafen"
-	trailer_look: plain
-}
